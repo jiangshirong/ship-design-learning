@@ -1,0 +1,302 @@
+{
+  "schema_version": 2,
+  "extent": [
+    1140,
+    1395
+  ],
+  "groups": [],
+  "nodes": [
+    {
+      "id": "basics",
+      "course": "basics",
+      "step": "basics:opening",
+      "title": {
+        "zh": "先认识一艘船",
+        "ru": "Знако́мство с су́дном"
+      },
+      "assignment": "",
+      "subject": {
+        "zh": "",
+        "ru": ""
+      },
+      "position": [
+        420,
+        85
+      ]
+    },
+    {
+      "id": "foundation",
+      "course": "foundation",
+      "step": "foundation:opening",
+      "title": {
+        "zh": "基础题",
+        "ru": "Зада́чи"
+      },
+      "assignment": "1p",
+      "subject": {
+        "zh": "独立题目",
+        "ru": "Незави́симые зада́чи"
+      },
+      "position": [
+        420,
+        260
+      ]
+    },
+    {
+      "id": "load",
+      "course": "load",
+      "step": "load:opening",
+      "title": {
+        "zh": "载荷与重心",
+        "ru": "Нагру́зка и центр тя́жести"
+      },
+      "assignment": "1p",
+      "subject": {
+        "zh": "四货舱多用途船",
+        "ru": "Многоцеле́вое, 4 трю́ма"
+      },
+      "position": [
+        420,
+        435
+      ]
+    },
+    {
+      "id": "mass",
+      "course": "mass",
+      "step": "mass:opening",
+      "title": {
+        "zh": "排水量估算",
+        "ru": "Водоизмеще́ние"
+      },
+      "assignment": "2a",
+      "subject": {
+        "zh": "Т2 油船",
+        "ru": "Та́нкер Т2"
+      },
+      "position": [
+        420,
+        610
+      ]
+    },
+    {
+      "id": "dimensions",
+      "course": "dimensions",
+      "step": "dimensions:opening",
+      "title": {
+        "zh": "主尺度设计",
+        "ru": "Гла́вные размере́ния"
+      },
+      "assignment": "2p",
+      "subject": {
+        "zh": "Т2 油船",
+        "ru": "Та́нкер Т2"
+      },
+      "position": [
+        420,
+        785
+      ]
+    },
+    {
+      "id": "supplement",
+      "course": "supplement",
+      "step": "supplement:opening",
+      "title": {
+        "zh": "补充理解",
+        "ru": "Дополне́ния"
+      },
+      "assignment": "",
+      "subject": {
+        "zh": "",
+        "ru": ""
+      },
+      "position": [
+        880,
+        785
+      ]
+    },
+    {
+      "id": "bulkheads",
+      "course": "bulkheads",
+      "step": "",
+      "title": {
+        "zh": "舱壁布置",
+        "ru": "Расстано́вка перебо́рок"
+      },
+      "assignment": "6a",
+      "subject": {
+        "zh": "Т2 · 189.13 m",
+        "ru": "Т2 · 189.13 м"
+      },
+      "position": [
+        420,
+        1310
+      ]
+    },
+    {
+      "id": "approximation2",
+      "course": "approximation2",
+      "step": "",
+      "title": {
+        "zh": "第二次近似",
+        "ru": "Второ́е приближе́ние"
+      },
+      "assignment": "4a",
+      "subject": {
+        "zh": "Т2",
+        "ru": "Т2"
+      },
+      "position": [
+        420,
+        960
+      ]
+    },
+    {
+      "id": "approximation3",
+      "course": "approximation3",
+      "step": "",
+      "title": {
+        "zh": "第三次近似",
+        "ru": "Тре́тье приближе́ние"
+      },
+      "assignment": "5a",
+      "subject": {
+        "zh": "Т2",
+        "ru": "Т2"
+      },
+      "position": [
+        420,
+        1135
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "basics",
+      "to": "foundation",
+      "kind": "chapter_branch",
+      "route": [
+        [
+          420,
+          133
+        ],
+        [
+          420,
+          212
+        ]
+      ]
+    },
+    {
+      "from": "foundation",
+      "to": "load",
+      "kind": "chapter_branch",
+      "route": [
+        [
+          420,
+          308
+        ],
+        [
+          420,
+          387
+        ]
+      ]
+    },
+    {
+      "from": "load",
+      "to": "mass",
+      "kind": "chapter_branch",
+      "route": [
+        [
+          420,
+          483
+        ],
+        [
+          420,
+          562
+        ]
+      ]
+    },
+    {
+      "from": "mass",
+      "to": "dimensions",
+      "kind": "chapter_branch",
+      "route": [
+        [
+          420,
+          658
+        ],
+        [
+          420,
+          737
+        ]
+      ]
+    },
+    {
+      "from": "mass",
+      "to": "supplement",
+      "kind": "chapter_branch",
+      "route": [
+        [
+          420,
+          658
+        ],
+        [
+          420,
+          695
+        ],
+        [
+          880,
+          695
+        ],
+        [
+          880,
+          737
+        ]
+      ]
+    },
+    {
+      "from": "dimensions",
+      "to": "approximation2",
+      "kind": "recommended",
+      "route": [
+        [
+          420,
+          833
+        ],
+        [
+          420,
+          912
+        ]
+      ]
+    },
+    {
+      "from": "approximation2",
+      "to": "approximation3",
+      "kind": "recommended",
+      "route": [
+        [
+          420,
+          1008
+        ],
+        [
+          420,
+          1087
+        ]
+      ]
+    },
+    {
+      "from": "approximation3",
+      "to": "bulkheads",
+      "kind": "recommended",
+      "route": [
+        [
+          420,
+          1183
+        ],
+        [
+          420,
+          1262
+        ]
+      ]
+    }
+  ]
+}

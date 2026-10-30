@@ -1,0 +1,2600 @@
+{
+  "P12_T01:change": {
+    "zh": [
+      {
+        "tex": "D=\\sum P_i",
+        "linear": "D=\\sum P_i"
+      },
+      {
+        "tex": "x_g=\\frac{\\sum P_i x_i}{D}",
+        "linear": "x_g=\\frac{\\sum P_i x_i}{D}"
+      },
+      {
+        "tex": "z_g=\\frac{\\sum P_i z_i}{D}",
+        "linear": "z_g=\\frac{\\sum P_i z_i}{D}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=\\sum P_i",
+        "linear": "D=\\sum P_i"
+      },
+      {
+        "tex": "x_g=\\frac{\\sum P_i x_i}{D}",
+        "linear": "x_g=\\frac{\\sum P_i x_i}{D}"
+      },
+      {
+        "tex": "z_g=\\frac{\\sum P_i z_i}{D}",
+        "linear": "z_g=\\frac{\\sum P_i z_i}{D}"
+      }
+    ]
+  },
+  "P12_T14:change": {
+    "zh": [
+      {
+        "tex": "D=@ex_D@\\,\\mathrm{t}",
+        "linear": "D=@ex_D@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "z_g=@ex_zg@\\,\\mathrm{m}",
+        "linear": "z_g=@ex_zg@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=@ex_D@\\,\\mathrm{t}",
+        "linear": "D=@ex_D@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "z_g=@ex_zg@\\,\\mathrm{m}",
+        "linear": "z_g=@ex_zg@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_T23:change": {
+    "zh": [
+      {
+        "tex": "D=@ex_D@\\,\\mathrm{t}",
+        "linear": "D=@ex_D@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_g=@ex_xg@\\,\\mathrm{m}",
+        "linear": "x_g=@ex_xg@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=@ex_D@\\,\\mathrm{t}",
+        "linear": "D=@ex_D@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_g=@ex_xg@\\,\\mathrm{m}",
+        "linear": "x_g=@ex_xg@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_T03:change": {
+    "zh": [
+      {
+        "tex": "W=\\int A(x)\\,dx",
+        "linear": "W=\\int A(x)\\,dx"
+      },
+      {
+        "tex": "x_c=\\frac{\\int xA(x)\\,dx}{W}",
+        "linear": "x_c=\\frac{\\int xA(x)\\,dx}{W}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "W=\\int A(x)\\,dx",
+        "linear": "W=\\int A(x)\\,dx"
+      },
+      {
+        "tex": "x_c=\\frac{\\int xA(x)\\,dx}{W}",
+        "linear": "x_c=\\frac{\\int xA(x)\\,dx}{W}"
+      }
+    ]
+  },
+  "P12_T08:change": {
+    "zh": [
+      {
+        "tex": "\\tau=\\frac{2\\pi k_{eff}}{\\sqrt{gh}}",
+        "linear": "\\tau=\\frac{2\\pi k_{eff}}{\\sqrt{gh}}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\tau=\\frac{2\\pi k_{eff}}{\\sqrt{gh}}",
+        "linear": "\\tau=\\frac{2\\pi k_{eff}}{\\sqrt{gh}}"
+      }
+    ]
+  },
+  "P12_T20:change": {
+    "zh": [
+      {
+        "tex": "h=z_c+\\frac{I_x}{\\nabla}-z_g",
+        "linear": "h=z_c+\\frac{I_x}{\\nabla}-z_g"
+      },
+      {
+        "tex": "\\Delta h=\\Delta z_c+\\Delta\\!\\left(\\frac{I_x}{\\nabla}\\right)-\\Delta z_g",
+        "linear": "\\Delta h=\\Delta z_c+\\Delta\\!\\left(\\frac{I_x}{\\nabla}\\right)-\\Delta z_g"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h=z_c+\\frac{I_x}{\\nabla}-z_g",
+        "linear": "h=z_c+\\frac{I_x}{\\nabla}-z_g"
+      },
+      {
+        "tex": "\\Delta h=\\Delta z_c+\\Delta\\!\\left(\\frac{I_x}{\\nabla}\\right)-\\Delta z_g",
+        "linear": "\\Delta h=\\Delta z_c+\\Delta\\!\\left(\\frac{I_x}{\\nabla}\\right)-\\Delta z_g"
+      }
+    ]
+  },
+  "P12_C01:row0": {
+    "zh": [
+      {
+        "tex": "P_{0}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{0}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{0}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{0}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C01:row1": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{гр}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{гр}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{гр}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{гр}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C01:row2": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C01:sum": {
+    "zh": [
+      {
+        "tex": "D=P_{0}+P_{\\mathrm{гр}}",
+        "linear": "D=P_{0}+P_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+50",
+        "linear": "\\quad+50"
+      },
+      {
+        "tex": "=1150\\,\\mathrm{t}",
+        "linear": "=1150\\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=P_{0}+P_{\\mathrm{гр}}",
+        "linear": "D=P_{0}+P_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+50",
+        "linear": "\\quad+50"
+      },
+      {
+        "tex": "=1150\\,\\mathrm{t}",
+        "linear": "=1150\\,\\mathrm{t}"
+      }
+    ]
+  },
+  "P12_C02:row0": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{hull}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{hull}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{hull}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{hull}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C02:row1": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{equipment}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{equipment}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 10=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 10=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{equipment}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{equipment}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 10=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=@ex_item_mass@\\cdot 10=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C02:row2": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{plant}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{plant}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{plant}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{plant}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C02:row3": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{systems}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{systems}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=@ex_item_mass@\\cdot 85=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=@ex_item_mass@\\cdot 85=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{systems}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{systems}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=@ex_item_mass@\\cdot 85=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=@ex_item_mass@\\cdot 85=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=@ex_item_mass@\\cdot 5=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C02:row4": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{navigation}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{navigation}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 18=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 18=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{navigation}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{navigation}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 35=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 18=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=@ex_item_mass@\\cdot 18=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C02:row5": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{ballast}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{ballast}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 1=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 1=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{ballast}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{ballast}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 90=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 1=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=@ex_item_mass@\\cdot 1=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C02:sum": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}",
+        "linear": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=600+100",
+        "linear": "=600+100"
+      },
+      {
+        "tex": "\\quad+150+50",
+        "linear": "\\quad+150+50"
+      },
+      {
+        "tex": "\\quad+10+90",
+        "linear": "\\quad+10+90"
+      },
+      {
+        "tex": "=1000\\,\\mathrm{t}",
+        "linear": "=1000\\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}",
+        "linear": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=600+100",
+        "linear": "=600+100"
+      },
+      {
+        "tex": "\\quad+150+50",
+        "linear": "\\quad+150+50"
+      },
+      {
+        "tex": "\\quad+10+90",
+        "linear": "\\quad+10+90"
+      },
+      {
+        "tex": "=1000\\,\\mathrm{t}",
+        "linear": "=1000\\,\\mathrm{t}"
+      }
+    ]
+  },
+  "P12_C03:row0": {
+    "zh": [
+      {
+        "tex": "P_{0}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{0}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{0}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{0}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=@ex_item_mass@\\cdot 95=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=@ex_item_mass@\\cdot 6=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C03:row1": {
+    "zh": [
+      {
+        "tex": "P_{1}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{1}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}",
+        "linear": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{1}x_{1}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}x_{1}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{1}z_{1}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}z_{1}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{1}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{1}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}",
+        "linear": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{1}x_{1}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}x_{1}=@ex_item_mass@\\cdot 140=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{1}z_{1}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}z_{1}=@ex_item_mass@\\cdot 4=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C03:row2": {
+    "zh": [
+      {
+        "tex": "P_{2}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{2}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}",
+        "linear": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{2}x_{2}=@ex_item_mass@\\cdot 70=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}x_{2}=@ex_item_mass@\\cdot 70=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{2}z_{2}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}z_{2}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{2}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{2}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}",
+        "linear": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{2}x_{2}=@ex_item_mass@\\cdot 70=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}x_{2}=@ex_item_mass@\\cdot 70=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{2}z_{2}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}z_{2}=@ex_item_mass@\\cdot 3=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C03:row3": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=@ex_item_mass@\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=@ex_item_mass@\\cdot 60=@ex_item_mx@\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=@ex_item_mass@\\cdot 2=@ex_item_mz@\\,\\mathrm{t\\,m}"
+      }
+    ]
+  },
+  "P12_C03:sum": {
+    "zh": [
+      {
+        "tex": "D=P_{0}+P_{1}",
+        "linear": "D=P_{0}+P_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+200+50",
+        "linear": "\\quad+200+50"
+      },
+      {
+        "tex": "=1350\\,\\mathrm{t}",
+        "linear": "=1350\\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=P_{0}+P_{1}",
+        "linear": "D=P_{0}+P_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+200+50",
+        "linear": "\\quad+200+50"
+      },
+      {
+        "tex": "=1350\\,\\mathrm{t}",
+        "linear": "=1350\\,\\mathrm{t}"
+      }
+    ]
+  },
+  "P12_C04:sum": {
+    "zh": [
+      {
+        "tex": "S=n_{\\mathrm{seat}}\\mathrm{Х}",
+        "linear": "S=n_{\\mathrm{seat}}\\mathrm{Х}"
+      },
+      {
+        "tex": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}",
+        "linear": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "S=n_{\\mathrm{seat}}\\mathrm{Х}",
+        "linear": "S=n_{\\mathrm{seat}}\\mathrm{Х}"
+      },
+      {
+        "tex": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}",
+        "linear": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}"
+      }
+    ]
+  },
+  "P12_D01:lengths": {
+    "zh": [
+      {
+        "tex": "L=150\\,\\mathrm m",
+        "linear": "L=150\\,\\mathrm m"
+      },
+      {
+        "tex": "l_{\\mathrm{н}}=0.35L=52.5\\,\\mathrm m",
+        "linear": "l_{\\mathrm{н}}=0.35L=52.5\\,\\mathrm m"
+      },
+      {
+        "tex": "l_{\\mathrm{к}}=0.40L=60\\,\\mathrm m",
+        "linear": "l_{\\mathrm{к}}=0.40L=60\\,\\mathrm m"
+      },
+      {
+        "tex": "l_{\\mathrm{ц}}=0.25L=37.5\\,\\mathrm m",
+        "linear": "l_{\\mathrm{ц}}=0.25L=37.5\\,\\mathrm m"
+      },
+      {
+        "tex": "52.5+60+37.5=150\\,\\mathrm m",
+        "linear": "52.5+60+37.5=150\\,\\mathrm m"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L=150\\,\\mathrm m",
+        "linear": "L=150\\,\\mathrm m"
+      },
+      {
+        "tex": "l_{\\mathrm{н}}=0.35L=52.5\\,\\mathrm m",
+        "linear": "l_{\\mathrm{н}}=0.35L=52.5\\,\\mathrm m"
+      },
+      {
+        "tex": "l_{\\mathrm{к}}=0.40L=60\\,\\mathrm m",
+        "linear": "l_{\\mathrm{к}}=0.40L=60\\,\\mathrm m"
+      },
+      {
+        "tex": "l_{\\mathrm{ц}}=0.25L=37.5\\,\\mathrm m",
+        "linear": "l_{\\mathrm{ц}}=0.25L=37.5\\,\\mathrm m"
+      },
+      {
+        "tex": "52.5+60+37.5=150\\,\\mathrm m",
+        "linear": "52.5+60+37.5=150\\,\\mathrm m"
+      }
+    ]
+  },
+  "P12_C01:solution": {
+    "zh": [
+      {
+        "tex": "P_{0}=1000\\,\\mathrm{t}",
+        "linear": "P_{0}=1000\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}=100\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{гр}}=100\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=100\\cdot 140=14000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=100\\cdot 140=14000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=100\\cdot 4=400\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=100\\cdot 4=400\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "D=P_{0}+P_{\\mathrm{гр}}",
+        "linear": "D=P_{0}+P_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+50",
+        "linear": "\\quad+50"
+      },
+      {
+        "tex": "=1150\\,\\mathrm{t}",
+        "linear": "=1150\\,\\mathrm{t}"
+      },
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+3000",
+        "linear": "\\quad+3000"
+      },
+      {
+        "tex": "=112000\\,\\mathrm{t\\,m}",
+        "linear": "=112000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}",
+        "linear": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}"
+      },
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+100",
+        "linear": "\\quad+100"
+      },
+      {
+        "tex": "=6500\\,\\mathrm{t\\,m}",
+        "linear": "=6500\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}",
+        "linear": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=97.3913-95=2.3913\\,\\mathrm{m}",
+        "linear": "=97.3913-95=2.3913\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.6522-6=-0.3478\\,\\mathrm{m}",
+        "linear": "=5.6522-6=-0.3478\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{0}=1000\\,\\mathrm{t}",
+        "linear": "P_{0}=1000\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}=100\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{гр}}=100\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{гр}}=140\\,\\mathrm{m},\\quad z_{\\mathrm{гр}}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=100\\cdot 140=14000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}x_{\\mathrm{гр}}=100\\cdot 140=14000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=100\\cdot 4=400\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{гр}}z_{\\mathrm{гр}}=100\\cdot 4=400\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "D=P_{0}+P_{\\mathrm{гр}}",
+        "linear": "D=P_{0}+P_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+50",
+        "linear": "\\quad+50"
+      },
+      {
+        "tex": "=1150\\,\\mathrm{t}",
+        "linear": "=1150\\,\\mathrm{t}"
+      },
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+3000",
+        "linear": "\\quad+3000"
+      },
+      {
+        "tex": "=112000\\,\\mathrm{t\\,m}",
+        "linear": "=112000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}",
+        "linear": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}"
+      },
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+100",
+        "linear": "\\quad+100"
+      },
+      {
+        "tex": "=6500\\,\\mathrm{t\\,m}",
+        "linear": "=6500\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}",
+        "linear": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=97.3913-95=2.3913\\,\\mathrm{m}",
+        "linear": "=97.3913-95=2.3913\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.6522-6=-0.3478\\,\\mathrm{m}",
+        "linear": "=5.6522-6=-0.3478\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C01:xsum": {
+    "zh": [
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+3000",
+        "linear": "\\quad+3000"
+      },
+      {
+        "tex": "=112000\\,\\mathrm{t\\,m}",
+        "linear": "=112000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}",
+        "linear": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{\\mathrm{гр}}x_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+3000",
+        "linear": "\\quad+3000"
+      },
+      {
+        "tex": "=112000\\,\\mathrm{t\\,m}",
+        "linear": "=112000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}",
+        "linear": "=\\frac{112000}{1150}=97.3913\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C01:zsum": {
+    "zh": [
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+100",
+        "linear": "\\quad+100"
+      },
+      {
+        "tex": "=6500\\,\\mathrm{t\\,m}",
+        "linear": "=6500\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}",
+        "linear": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{\\mathrm{гр}}z_{\\mathrm{гр}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+100",
+        "linear": "\\quad+100"
+      },
+      {
+        "tex": "=6500\\,\\mathrm{t\\,m}",
+        "linear": "=6500\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}",
+        "linear": "=\\frac{6500}{1150}=5.6522\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C02:solution": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{hull}}=600\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{hull}}=600\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=600\\cdot 95=57000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=600\\cdot 95=57000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=600\\cdot 5=3000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=600\\cdot 5=3000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}=100\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{equipment}}=100\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=100\\cdot 90=9000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=100\\cdot 90=9000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=100\\cdot 10=1000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=100\\cdot 10=1000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}=150\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{plant}}=150\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=150\\cdot 35=5250\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=150\\cdot 35=5250\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=150\\cdot 3=450\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=150\\cdot 3=450\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}=50\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{systems}}=50\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=50\\cdot 85=4250\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=50\\cdot 85=4250\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=50\\cdot 5=250\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=50\\cdot 5=250\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}=10\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{navigation}}=10\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=10\\cdot 35=350\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=10\\cdot 35=350\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=10\\cdot 18=180\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=10\\cdot 18=180\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}=90\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{ballast}}=90\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=90\\cdot 90=8100\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=90\\cdot 90=8100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=90\\cdot 1=90\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=90\\cdot 1=90\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}",
+        "linear": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=600+100",
+        "linear": "=600+100"
+      },
+      {
+        "tex": "\\quad+150+50",
+        "linear": "\\quad+150+50"
+      },
+      {
+        "tex": "\\quad+10+90",
+        "linear": "\\quad+10+90"
+      },
+      {
+        "tex": "=1000\\,\\mathrm{t}",
+        "linear": "=1000\\,\\mathrm{t}"
+      },
+      {
+        "tex": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=57000+9000",
+        "linear": "=57000+9000"
+      },
+      {
+        "tex": "\\quad+5250+4250",
+        "linear": "\\quad+5250+4250"
+      },
+      {
+        "tex": "\\quad+350+8100",
+        "linear": "\\quad+350+8100"
+      },
+      {
+        "tex": "=83950\\,\\mathrm{t\\,m}",
+        "linear": "=83950\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}",
+        "linear": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}",
+        "linear": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}"
+      },
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=3000+1000",
+        "linear": "=3000+1000"
+      },
+      {
+        "tex": "\\quad+450+250",
+        "linear": "\\quad+450+250"
+      },
+      {
+        "tex": "\\quad+180+90",
+        "linear": "\\quad+180+90"
+      },
+      {
+        "tex": "=4970\\,\\mathrm{t\\,m}",
+        "linear": "=4970\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}",
+        "linear": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}",
+        "linear": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{hull}}=600\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{hull}}=600\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{hull}}=95\\,\\mathrm{m},\\quad z_{\\mathrm{hull}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=600\\cdot 95=57000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}x_{\\mathrm{hull}}=600\\cdot 95=57000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=600\\cdot 5=3000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{hull}}z_{\\mathrm{hull}}=600\\cdot 5=3000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}=100\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{equipment}}=100\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{equipment}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{equipment}}=10\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=100\\cdot 90=9000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}=100\\cdot 90=9000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=100\\cdot 10=1000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}=100\\cdot 10=1000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}=150\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{plant}}=150\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{plant}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{plant}}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=150\\cdot 35=5250\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}x_{\\mathrm{plant}}=150\\cdot 35=5250\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=150\\cdot 3=450\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{plant}}z_{\\mathrm{plant}}=150\\cdot 3=450\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}=50\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{systems}}=50\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{systems}}=85\\,\\mathrm{m},\\quad z_{\\mathrm{systems}}=5\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=50\\cdot 85=4250\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}x_{\\mathrm{systems}}=50\\cdot 85=4250\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=50\\cdot 5=250\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{systems}}z_{\\mathrm{systems}}=50\\cdot 5=250\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}=10\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{navigation}}=10\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{navigation}}=35\\,\\mathrm{m},\\quad z_{\\mathrm{navigation}}=18\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=10\\cdot 35=350\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}=10\\cdot 35=350\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=10\\cdot 18=180\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}=10\\cdot 18=180\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}=90\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{ballast}}=90\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{ballast}}=90\\,\\mathrm{m},\\quad z_{\\mathrm{ballast}}=1\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=90\\cdot 90=8100\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}=90\\cdot 90=8100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=90\\cdot 1=90\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}=90\\cdot 1=90\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}",
+        "linear": "P_{\\mathrm{пор}}=P_{\\mathrm{hull}}+P_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}+P_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=600+100",
+        "linear": "=600+100"
+      },
+      {
+        "tex": "\\quad+150+50",
+        "linear": "\\quad+150+50"
+      },
+      {
+        "tex": "\\quad+10+90",
+        "linear": "\\quad+10+90"
+      },
+      {
+        "tex": "=1000\\,\\mathrm{t}",
+        "linear": "=1000\\,\\mathrm{t}"
+      },
+      {
+        "tex": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=57000+9000",
+        "linear": "=57000+9000"
+      },
+      {
+        "tex": "\\quad+5250+4250",
+        "linear": "\\quad+5250+4250"
+      },
+      {
+        "tex": "\\quad+350+8100",
+        "linear": "\\quad+350+8100"
+      },
+      {
+        "tex": "=83950\\,\\mathrm{t\\,m}",
+        "linear": "=83950\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}",
+        "linear": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}",
+        "linear": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}"
+      },
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=3000+1000",
+        "linear": "=3000+1000"
+      },
+      {
+        "tex": "\\quad+450+250",
+        "linear": "\\quad+450+250"
+      },
+      {
+        "tex": "\\quad+180+90",
+        "linear": "\\quad+180+90"
+      },
+      {
+        "tex": "=4970\\,\\mathrm{t\\,m}",
+        "linear": "=4970\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}",
+        "linear": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}",
+        "linear": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C02:xsum": {
+    "zh": [
+      {
+        "tex": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=57000+9000",
+        "linear": "=57000+9000"
+      },
+      {
+        "tex": "\\quad+5250+4250",
+        "linear": "\\quad+5250+4250"
+      },
+      {
+        "tex": "\\quad+350+8100",
+        "linear": "\\quad+350+8100"
+      },
+      {
+        "tex": "=83950\\,\\mathrm{t\\,m}",
+        "linear": "=83950\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}",
+        "linear": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}",
+        "linear": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{long}}=P_{\\mathrm{hull}}x_{\\mathrm{hull}}+P_{\\mathrm{equipment}}x_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}x_{\\mathrm{plant}}+P_{\\mathrm{systems}}x_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}x_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}x_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=57000+9000",
+        "linear": "=57000+9000"
+      },
+      {
+        "tex": "\\quad+5250+4250",
+        "linear": "\\quad+5250+4250"
+      },
+      {
+        "tex": "\\quad+350+8100",
+        "linear": "\\quad+350+8100"
+      },
+      {
+        "tex": "=83950\\,\\mathrm{t\\,m}",
+        "linear": "=83950\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}",
+        "linear": "x_{\\mathrm{пор}}=\\frac{M_{\\mathrm{long}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}",
+        "linear": "=\\frac{83950}{1000}=83.9500\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C02:zsum": {
+    "zh": [
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=3000+1000",
+        "linear": "=3000+1000"
+      },
+      {
+        "tex": "\\quad+450+250",
+        "linear": "\\quad+450+250"
+      },
+      {
+        "tex": "\\quad+180+90",
+        "linear": "\\quad+180+90"
+      },
+      {
+        "tex": "=4970\\,\\mathrm{t\\,m}",
+        "linear": "=4970\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}",
+        "linear": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}",
+        "linear": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}",
+        "linear": "M_{\\mathrm{vert}}=P_{\\mathrm{hull}}z_{\\mathrm{hull}}+P_{\\mathrm{equipment}}z_{\\mathrm{equipment}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}",
+        "linear": "\\quad+P_{\\mathrm{plant}}z_{\\mathrm{plant}}+P_{\\mathrm{systems}}z_{\\mathrm{systems}}"
+      },
+      {
+        "tex": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}",
+        "linear": "\\quad+P_{\\mathrm{navigation}}z_{\\mathrm{navigation}}+P_{\\mathrm{ballast}}z_{\\mathrm{ballast}}"
+      },
+      {
+        "tex": "=3000+1000",
+        "linear": "=3000+1000"
+      },
+      {
+        "tex": "\\quad+450+250",
+        "linear": "\\quad+450+250"
+      },
+      {
+        "tex": "\\quad+180+90",
+        "linear": "\\quad+180+90"
+      },
+      {
+        "tex": "=4970\\,\\mathrm{t\\,m}",
+        "linear": "=4970\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}",
+        "linear": "z_{\\mathrm{пор}}=\\frac{M_{\\mathrm{vert}}}{P_{\\mathrm{пор}}}"
+      },
+      {
+        "tex": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}",
+        "linear": "=\\frac{4970}{1000}=4.9700\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C03:solution": {
+    "zh": [
+      {
+        "tex": "P_{0}=1000\\,\\mathrm{t}",
+        "linear": "P_{0}=1000\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{1}=100\\,\\mathrm{t}",
+        "linear": "P_{1}=100\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}",
+        "linear": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{1}x_{1}=100\\cdot 140=14000\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}x_{1}=100\\cdot 140=14000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{1}z_{1}=100\\cdot 4=400\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}z_{1}=100\\cdot 4=400\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{2}=200\\,\\mathrm{t}",
+        "linear": "P_{2}=200\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}",
+        "linear": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{2}x_{2}=200\\cdot 70=14000\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}x_{2}=200\\cdot 70=14000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{2}z_{2}=200\\cdot 3=600\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}z_{2}=200\\cdot 3=600\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "D=P_{0}+P_{1}",
+        "linear": "D=P_{0}+P_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+200+50",
+        "linear": "\\quad+200+50"
+      },
+      {
+        "tex": "=1350\\,\\mathrm{t}",
+        "linear": "=1350\\,\\mathrm{t}"
+      },
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+14000+3000",
+        "linear": "\\quad+14000+3000"
+      },
+      {
+        "tex": "=126000\\,\\mathrm{t\\,m}",
+        "linear": "=126000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}",
+        "linear": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}"
+      },
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+600+100",
+        "linear": "\\quad+600+100"
+      },
+      {
+        "tex": "=7100\\,\\mathrm{t\\,m}",
+        "linear": "=7100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}",
+        "linear": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=93.3333-95=-1.6667\\,\\mathrm{m}",
+        "linear": "=93.3333-95=-1.6667\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.2593-6=-0.7407\\,\\mathrm{m}",
+        "linear": "=5.2593-6=-0.7407\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{0}=1000\\,\\mathrm{t}",
+        "linear": "P_{0}=1000\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}",
+        "linear": "x_{0}=95\\,\\mathrm{m},\\quad z_{0}=6\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}x_{0}=1000\\cdot 95=95000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}",
+        "linear": "P_{0}z_{0}=1000\\cdot 6=6000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{1}=100\\,\\mathrm{t}",
+        "linear": "P_{1}=100\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}",
+        "linear": "x_{1}=140\\,\\mathrm{m},\\quad z_{1}=4\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{1}x_{1}=100\\cdot 140=14000\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}x_{1}=100\\cdot 140=14000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{1}z_{1}=100\\cdot 4=400\\,\\mathrm{t\\,m}",
+        "linear": "P_{1}z_{1}=100\\cdot 4=400\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{2}=200\\,\\mathrm{t}",
+        "linear": "P_{2}=200\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}",
+        "linear": "x_{2}=70\\,\\mathrm{m},\\quad z_{2}=3\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{2}x_{2}=200\\cdot 70=14000\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}x_{2}=200\\cdot 70=14000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{2}z_{2}=200\\cdot 3=600\\,\\mathrm{t\\,m}",
+        "linear": "P_{2}z_{2}=200\\cdot 3=600\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{зап}}=50\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}",
+        "linear": "x_{\\mathrm{зап}}=60\\,\\mathrm{m},\\quad z_{\\mathrm{зап}}=2\\,\\mathrm{m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}x_{\\mathrm{зап}}=50\\cdot 60=3000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}",
+        "linear": "P_{\\mathrm{зап}}z_{\\mathrm{зап}}=50\\cdot 2=100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "D=P_{0}+P_{1}",
+        "linear": "D=P_{0}+P_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}+P_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}+P_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=1000+100",
+        "linear": "=1000+100"
+      },
+      {
+        "tex": "\\quad+200+50",
+        "linear": "\\quad+200+50"
+      },
+      {
+        "tex": "=1350\\,\\mathrm{t}",
+        "linear": "=1350\\,\\mathrm{t}"
+      },
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+14000+3000",
+        "linear": "\\quad+14000+3000"
+      },
+      {
+        "tex": "=126000\\,\\mathrm{t\\,m}",
+        "linear": "=126000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}",
+        "linear": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}"
+      },
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+600+100",
+        "linear": "\\quad+600+100"
+      },
+      {
+        "tex": "=7100\\,\\mathrm{t\\,m}",
+        "linear": "=7100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}",
+        "linear": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=93.3333-95=-1.6667\\,\\mathrm{m}",
+        "linear": "=93.3333-95=-1.6667\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.2593-6=-0.7407\\,\\mathrm{m}",
+        "linear": "=5.2593-6=-0.7407\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C03:xsum": {
+    "zh": [
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+14000+3000",
+        "linear": "\\quad+14000+3000"
+      },
+      {
+        "tex": "=126000\\,\\mathrm{t\\,m}",
+        "linear": "=126000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}",
+        "linear": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}",
+        "linear": "M_{\\mathrm{long}}=P_{0}x_{0}+P_{1}x_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}x_{2}+P_{\\mathrm{зап}}x_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=95000+14000",
+        "linear": "=95000+14000"
+      },
+      {
+        "tex": "\\quad+14000+3000",
+        "linear": "\\quad+14000+3000"
+      },
+      {
+        "tex": "=126000\\,\\mathrm{t\\,m}",
+        "linear": "=126000\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "x_g=\\frac{M_{\\mathrm{long}}}{D}",
+        "linear": "x_g=\\frac{M_{\\mathrm{long}}}{D}"
+      },
+      {
+        "tex": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}",
+        "linear": "=\\frac{126000}{1350}=93.3333\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C03:zsum": {
+    "zh": [
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+600+100",
+        "linear": "\\quad+600+100"
+      },
+      {
+        "tex": "=7100\\,\\mathrm{t\\,m}",
+        "linear": "=7100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}",
+        "linear": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}",
+        "linear": "M_{\\mathrm{vert}}=P_{0}z_{0}+P_{1}z_{1}"
+      },
+      {
+        "tex": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}",
+        "linear": "\\quad+P_{2}z_{2}+P_{\\mathrm{зап}}z_{\\mathrm{зап}}"
+      },
+      {
+        "tex": "=6000+400",
+        "linear": "=6000+400"
+      },
+      {
+        "tex": "\\quad+600+100",
+        "linear": "\\quad+600+100"
+      },
+      {
+        "tex": "=7100\\,\\mathrm{t\\,m}",
+        "linear": "=7100\\,\\mathrm{t\\,m}"
+      },
+      {
+        "tex": "z_g=\\frac{M_{\\mathrm{vert}}}{D}",
+        "linear": "z_g=\\frac{M_{\\mathrm{vert}}}{D}"
+      },
+      {
+        "tex": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}",
+        "linear": "=\\frac{7100}{1350}=5.2593\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P13_Q08:formulas": {
+    "zh": [
+      {
+        "tex": "\\eta_{\\mathrm{н}}=\\frac{1}{1-\\frac{\\partial F}{\\partial D}}",
+        "linear": "\\eta_{\\mathrm{н}}=\\frac{1}{1-\\frac{\\partial F}{\\partial D}}"
+      },
+      {
+        "tex": "0<\\frac{\\partial F}{\\partial D}<1\\;\\Longrightarrow\\;\\eta_{\\mathrm{н}}>1",
+        "linear": "0<\\frac{\\partial F}{\\partial D}<1\\;\\Longrightarrow\\;\\eta_{\\mathrm{н}}>1"
+      },
+      {
+        "tex": "dD=\\eta_{\\mathrm{н}}\\left([dF]^*+dP\\right)",
+        "linear": "dD=\\eta_{\\mathrm{н}}\\left([dF]^*+dP\\right)"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\eta_{\\mathrm{н}}=\\frac{1}{1-\\frac{\\partial F}{\\partial D}}",
+        "linear": "\\eta_{\\mathrm{н}}=\\frac{1}{1-\\frac{\\partial F}{\\partial D}}"
+      },
+      {
+        "tex": "0<\\frac{\\partial F}{\\partial D}<1\\;\\Longrightarrow\\;\\eta_{\\mathrm{н}}>1",
+        "linear": "0<\\frac{\\partial F}{\\partial D}<1\\;\\Longrightarrow\\;\\eta_{\\mathrm{н}}>1"
+      },
+      {
+        "tex": "dD=\\eta_{\\mathrm{н}}\\left([dF]^*+dP\\right)",
+        "linear": "dD=\\eta_{\\mathrm{н}}\\left([dF]^*+dP\\right)"
+      }
+    ]
+  },
+  "P13_Q09:formulas": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D",
+        "linear": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D"
+      },
+      {
+        "tex": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N",
+        "linear": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D",
+        "linear": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D"
+      },
+      {
+        "tex": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N",
+        "linear": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N"
+      }
+    ]
+  },
+  "P13_Q13:formulas": {
+    "zh": [
+      {
+        "tex": "N_{\\mathrm{гл}}\\geq1.15N_{\\mathrm{тр}}",
+        "linear": "N_{\\mathrm{гл}}\\geq1.15N_{\\mathrm{тр}}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "N_{\\mathrm{гл}}\\geq1.15N_{\\mathrm{тр}}",
+        "linear": "N_{\\mathrm{гл}}\\geq1.15N_{\\mathrm{тр}}"
+      }
+    ]
+  },
+  "P13_Q17:formulas": {
+    "zh": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      },
+      {
+        "tex": "r=\\frac{I_x}{\\nabla}",
+        "linear": "r=\\frac{I_x}{\\nabla}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      },
+      {
+        "tex": "r=\\frac{I_x}{\\nabla}",
+        "linear": "r=\\frac{I_x}{\\nabla}"
+      }
+    ]
+  },
+  "P13_Q26:formulas": {
+    "zh": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      }
+    ]
+  },
+  "P13_Q29:formulas": {
+    "zh": [
+      {
+        "tex": "h(T)=z_c(T)+r(T)-z_g",
+        "linear": "h(T)=z_c(T)+r(T)-z_g"
+      },
+      {
+        "tex": "r(T)=\\frac{I_x(T)}{\\nabla(T)}",
+        "linear": "r(T)=\\frac{I_x(T)}{\\nabla(T)}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h(T)=z_c(T)+r(T)-z_g",
+        "linear": "h(T)=z_c(T)+r(T)-z_g"
+      },
+      {
+        "tex": "r(T)=\\frac{I_x(T)}{\\nabla(T)}",
+        "linear": "r(T)=\\frac{I_x(T)}{\\nabla(T)}"
+      }
+    ]
+  },
+  "P13_Q30:formulas": {
+    "zh": [
+      {
+        "tex": "V=\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}A(x)\\,dx",
+        "linear": "V=\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}A(x)\\,dx"
+      },
+      {
+        "tex": "x_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}xA(x)\\,dx}{V}",
+        "linear": "x_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}xA(x)\\,dx}{V}"
+      },
+      {
+        "tex": "z_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}z_{\\mathrm{A}}(x)A(x)\\,dx}{V}",
+        "linear": "z_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}z_{\\mathrm{A}}(x)A(x)\\,dx}{V}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "V=\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}A(x)\\,dx",
+        "linear": "V=\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}A(x)\\,dx"
+      },
+      {
+        "tex": "x_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}xA(x)\\,dx}{V}",
+        "linear": "x_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}xA(x)\\,dx}{V}"
+      },
+      {
+        "tex": "z_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}z_{\\mathrm{A}}(x)A(x)\\,dx}{V}",
+        "linear": "z_c=\\frac{\\int_{x_{\\mathrm{a}}}^{x_{\\mathrm{b}}}z_{\\mathrm{A}}(x)A(x)\\,dx}{V}"
+      }
+    ]
+  },
+  "P12_C01:compare": {
+    "zh": [
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=97.3913-95=2.3913\\,\\mathrm{m}",
+        "linear": "=97.3913-95=2.3913\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.6522-6=-0.3478\\,\\mathrm{m}",
+        "linear": "=5.6522-6=-0.3478\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=97.3913-95=2.3913\\,\\mathrm{m}",
+        "linear": "=97.3913-95=2.3913\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.6522-6=-0.3478\\,\\mathrm{m}",
+        "linear": "=5.6522-6=-0.3478\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C03:compare": {
+    "zh": [
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=93.3333-95=-1.6667\\,\\mathrm{m}",
+        "linear": "=93.3333-95=-1.6667\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.2593-6=-0.7407\\,\\mathrm{m}",
+        "linear": "=5.2593-6=-0.7407\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\Delta x_g=x_g-x_0",
+        "linear": "\\Delta x_g=x_g-x_0"
+      },
+      {
+        "tex": "=93.3333-95=-1.6667\\,\\mathrm{m}",
+        "linear": "=93.3333-95=-1.6667\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\Delta z_g=z_g-z_0",
+        "linear": "\\Delta z_g=z_g-z_0"
+      },
+      {
+        "tex": "=5.2593-6=-0.7407\\,\\mathrm{m}",
+        "linear": "=5.2593-6=-0.7407\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "P12_C04:goal": {
+    "zh": [
+      {
+        "tex": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}",
+        "linear": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}"
+      },
+      {
+        "tex": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}",
+        "linear": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}",
+        "linear": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}"
+      },
+      {
+        "tex": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}",
+        "linear": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}"
+      }
+    ]
+  },
+  "P12_C04:solution": {
+    "zh": [
+      {
+        "tex": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}",
+        "linear": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}"
+      },
+      {
+        "tex": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}",
+        "linear": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}"
+      },
+      {
+        "tex": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}",
+        "linear": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}"
+      },
+      {
+        "tex": "S=n_{\\mathrm{seat}}\\mathrm{Х}=Nq_{\\mathrm{share}}\\mathrm{Х}",
+        "linear": "S=n_{\\mathrm{seat}}\\mathrm{Х}=Nq_{\\mathrm{share}}\\mathrm{Х}"
+      },
+      {
+        "tex": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}",
+        "linear": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}"
+      },
+      {
+        "tex": "=24\\cdot\\frac{1}{2}=12",
+        "linear": "=24\\cdot\\frac{1}{2}=12"
+      },
+      {
+        "tex": "S=n_{\\mathrm{seat}}\\mathrm{Х}",
+        "linear": "S=n_{\\mathrm{seat}}\\mathrm{Х}"
+      },
+      {
+        "tex": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}",
+        "linear": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}",
+        "linear": "N=24,\\quad q_{\\mathrm{share}}=\\frac{1}{2}"
+      },
+      {
+        "tex": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}",
+        "linear": "\\mathrm{Х}=1.2\\,\\mathrm{m^2}"
+      },
+      {
+        "tex": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}",
+        "linear": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}"
+      },
+      {
+        "tex": "S=n_{\\mathrm{seat}}\\mathrm{Х}=Nq_{\\mathrm{share}}\\mathrm{Х}",
+        "linear": "S=n_{\\mathrm{seat}}\\mathrm{Х}=Nq_{\\mathrm{share}}\\mathrm{Х}"
+      },
+      {
+        "tex": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}",
+        "linear": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}"
+      },
+      {
+        "tex": "=24\\cdot\\frac{1}{2}=12",
+        "linear": "=24\\cdot\\frac{1}{2}=12"
+      },
+      {
+        "tex": "S=n_{\\mathrm{seat}}\\mathrm{Х}",
+        "linear": "S=n_{\\mathrm{seat}}\\mathrm{Х}"
+      },
+      {
+        "tex": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}",
+        "linear": "=12\\cdot1.2=14.4\\,\\mathrm{m^2}"
+      }
+    ]
+  },
+  "P12_C04:seats": {
+    "zh": [
+      {
+        "tex": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}",
+        "linear": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}"
+      },
+      {
+        "tex": "=24\\cdot\\frac{1}{2}=12",
+        "linear": "=24\\cdot\\frac{1}{2}=12"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}",
+        "linear": "n_{\\mathrm{seat}}=Nq_{\\mathrm{share}}"
+      },
+      {
+        "tex": "=24\\cdot\\frac{1}{2}=12",
+        "linear": "=24\\cdot\\frac{1}{2}=12"
+      }
+    ]
+  }
+}

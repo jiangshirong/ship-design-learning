@@ -1,0 +1,8 @@
+{
+  "kind": "Bundled steel coils",
+  "source": "tools/build_cargo.py",
+  "reference_origin": "Assignment cargo centre in metres; visual shape does not determine mass or CG",
+  "mass_t": 100,
+  "appearance_only": true,
+  "assignment_does_not_specify_cargo_type": true
+}

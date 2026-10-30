@@ -1,0 +1,4610 @@
+{
+  "sample:known": {
+    "zh": [],
+    "ru": []
+  },
+  "sample:given": {
+    "zh": [
+      {
+        "linear": "p = 100 t",
+        "tex": "p = 100 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z₁ = 17.9 m",
+        "tex": "z _{1} = 17.9 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "z₂ = 17.9 − 6 = 11.9 m",
+        "tex": "z _{2} = 17.9 - 6 = 11.9 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "D = 20616 t",
+        "tex": "D = 20616 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "p = 100 t",
+        "tex": "p = 100 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z₁ = 17.9 m",
+        "tex": "z _{1} = 17.9 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "z₂ = 17.9 − 6 = 11.9 m",
+        "tex": "z _{2} = 17.9 - 6 = 11.9 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "D = 20616 t",
+        "tex": "D = 20616 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "sample:weighted": {
+    "zh": [
+      {
+        "linear": "zG = Σ(Pᵢzᵢ) / D",
+        "tex": "z_G = \\frac{\\sum  \\left(P _{i} z _{i}\\right)}{D}"
+      },
+      {
+        "linear": "p / D = 100 / 20616 ≈ 0.0048506",
+        "tex": "\\frac{p}{D} = \\frac{100}{20616} \\approx 0.0048506"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "zG = Σ(Pᵢzᵢ) / D",
+        "tex": "z_G = \\frac{\\sum  \\left(P _{i} z _{i}\\right)}{D}"
+      },
+      {
+        "linear": "p / D = 100 / 20616 ≈ 0.0048506",
+        "tex": "\\frac{p}{D} = \\frac{100}{20616} \\approx 0.0048506"
+      }
+    ]
+  },
+  "sample:moment": {
+    "zh": [
+      {
+        "linear": "ΔM_z = pz₂ − pz₁ = p(z₂ − z₁)",
+        "tex": "\\Delta  M _{z} = p z _{2} - p z _{1} = p \\left(z _{2} - z _{1}\\right)"
+      },
+      {
+        "linear": "ΔM_z = 100 × (11.9 − 17.9) = −600 t·m",
+        "tex": "\\Delta  M _{z} = 100 \\cdot \\left(11.9 - 17.9\\right) = - 600 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "ΔM_z = pz₂ − pz₁ = p(z₂ − z₁)",
+        "tex": "\\Delta  M _{z} = p z _{2} - p z _{1} = p \\left(z _{2} - z _{1}\\right)"
+      },
+      {
+        "linear": "ΔM_z = 100 × (11.9 − 17.9) = −600 t·m",
+        "tex": "\\Delta  M _{z} = 100 \\cdot \\left(11.9 - 17.9\\right) = - 600 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      }
+    ]
+  },
+  "sample:before": {
+    "zh": [
+      {
+        "linear": "zG₁ = 140879.07 / 20616 = 6.8334822 m",
+        "tex": "z_{G,1} = \\frac{140879.07}{20616} = 6.8334822 \\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "zG₁ = 140879.07 / 20616 = 6.8334822 m",
+        "tex": "z_{G,1} = \\frac{140879.07}{20616} = 6.8334822 \\,\\mathrm{m}"
+      }
+    ]
+  },
+  "sample:move": {
+    "zh": [
+      {
+        "linear": "Δz = @move_z@ m",
+        "tex": "\\Delta  z = @move_z@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = @MZ@ t·m",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = @MZ@ \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "zG = @zG@ m",
+        "tex": "z_G = @zG@ \\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Δz = @move_z@ m",
+        "tex": "\\Delta  z = @move_z@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = @MZ@ t·m",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = @MZ@ \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "zG = @zG@ m",
+        "tex": "z_G = @zG@ \\,\\mathrm{m}"
+      }
+    ]
+  },
+  "sample:result": {
+    "zh": [
+      {
+        "linear": "ΔzG = ΔM_z / D = pΔz / D",
+        "tex": "\\Delta  z_G = \\frac{\\Delta  M _{z}}{D} = \\frac{p \\Delta  z}{D}"
+      },
+      {
+        "linear": "ΔzG = −600 / 20616 = −0.0291036 m",
+        "tex": "\\Delta  z_G = \\frac{- 600}{20616} = - 0.0291036 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "−0.0291036 m ≈ −2.91 cm",
+        "tex": "- 0.0291036 \\,\\mathrm{m} \\approx - 2.91 \\,\\mathrm{cm}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "ΔzG = ΔM_z / D = pΔz / D",
+        "tex": "\\Delta  z_G = \\frac{\\Delta  M _{z}}{D} = \\frac{p \\Delta  z}{D}"
+      },
+      {
+        "linear": "ΔzG = −600 / 20616 = −0.0291036 m",
+        "tex": "\\Delta  z_G = \\frac{- 600}{20616} = - 0.0291036 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "−0.0291036 m ≈ −2.91 cm",
+        "tex": "- 0.0291036 \\,\\mathrm{m} \\approx - 2.91 \\,\\mathrm{cm}"
+      }
+    ]
+  },
+  "sample:check": {
+    "zh": [
+      {
+        "linear": "zG₂ = 6.8334822 − 0.0291036 ≈ 6.8043786 m",
+        "tex": "z_{G,2} = 6.8334822 - 0.0291036 \\approx 6.8043786 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "D₂ = D₁ = 20616 t",
+        "tex": "D _{2} = D _{1} = 20616 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "zG₂ = 6.8334822 − 0.0291036 ≈ 6.8043786 m",
+        "tex": "z_{G,2} = 6.8334822 - 0.0291036 \\approx 6.8043786 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "D₂ = D₁ = 20616 t",
+        "tex": "D _{2} = D _{1} = 20616 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "parts:direction": {
+    "zh": [],
+    "ru": []
+  },
+  "parts:hull": {
+    "zh": [],
+    "ru": []
+  },
+  "parts:deck": {
+    "zh": [],
+    "ru": []
+  },
+  "parts:compartments": {
+    "zh": [],
+    "ru": []
+  },
+  "baseline:reference": {
+    "zh": [],
+    "ru": []
+  },
+  "baseline:draft": {
+    "zh": [],
+    "ru": []
+  },
+  "baseline:depth": {
+    "zh": [],
+    "ru": []
+  },
+  "dimensions:show": {
+    "zh": [],
+    "ru": []
+  },
+  "dimensions:draft": {
+    "zh": [],
+    "ru": []
+  },
+  "mass-volume:archimedes": {
+    "zh": [
+      {
+        "linear": "Dg = ρg∇",
+        "tex": "D g = \\rho  g \\nabla "
+      },
+      {
+        "linear": "D = ρ∇",
+        "tex": "D = \\rho  \\nabla "
+      },
+      {
+        "linear": "ρ = 1.025 t/m³",
+        "tex": "\\rho  = 1.025 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Dg = ρg∇",
+        "tex": "D g = \\rho  g \\nabla "
+      },
+      {
+        "linear": "D = ρ∇",
+        "tex": "D = \\rho  \\nabla "
+      },
+      {
+        "linear": "ρ = 1.025 t/m³",
+        "tex": "\\rho  = 1.025 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      }
+    ]
+  },
+  "mass-volume:definition": {
+    "zh": [
+      {
+        "linear": "D = Dпор + DW",
+        "tex": "D = D_{\\mathrm{пор}} + D W"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D = Dпор + DW",
+        "tex": "D = D_{\\mathrm{пор}} + D W"
+      }
+    ]
+  },
+  "mass-volume:units": {
+    "zh": [
+      {
+        "linear": "Pгр [t]",
+        "tex": "P_{\\mathrm{гр}}\\quad\\left[\\,\\mathrm{t}\\right]"
+      },
+      {
+        "linear": "Wгр [m³]",
+        "tex": "W_{\\mathrm{гр}}\\quad\\left[\\,\\mathrm{m}^{3}\\right]"
+      },
+      {
+        "linear": "μ = W / P [m³/t]",
+        "tex": "\\mu  = \\frac{W}{P}\\quad\\left[\\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}\\right]"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pгр [t]",
+        "tex": "P_{\\mathrm{гр}}\\quad\\left[\\,\\mathrm{t}\\right]"
+      },
+      {
+        "linear": "Wгр [m³]",
+        "tex": "W_{\\mathrm{гр}}\\quad\\left[\\,\\mathrm{m}^{3}\\right]"
+      },
+      {
+        "linear": "μ = W / P [m³/t]",
+        "tex": "\\mu  = \\frac{W}{P}\\quad\\left[\\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}\\right]"
+      }
+    ]
+  },
+  "stability:centres": {
+    "zh": [],
+    "ru": []
+  },
+  "stability:gm": {
+    "zh": [
+      {
+        "linear": "GM = KB + BM − KG",
+        "tex": "G M = K B + B M - K G"
+      },
+      {
+        "linear": "BM = I / ∇",
+        "tex": "B M = \\frac{I}{\\nabla }"
+      },
+      {
+        "linear": "GM > 0",
+        "tex": "G M > 0"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "GM = KB + BM − KG",
+        "tex": "G M = K B + B M - K G"
+      },
+      {
+        "linear": "BM = I / ∇",
+        "tex": "B M = \\frac{I}{\\nabla }"
+      },
+      {
+        "linear": "GM > 0",
+        "tex": "G M > 0"
+      }
+    ]
+  },
+  "stability:method": {
+    "zh": [],
+    "ru": []
+  },
+  "fullness:ratio": {
+    "zh": [
+      {
+        "linear": "δ = ∇ / (LBT)",
+        "tex": "\\delta  = \\frac{\\nabla }{L B T}"
+      },
+      {
+        "linear": "α = S / (LB)",
+        "tex": "\\alpha  = \\frac{S}{L B}"
+      },
+      {
+        "linear": "β = Aм / (BT)",
+        "tex": "\\beta  = \\frac{A_{\\mathrm{м}}}{B T}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "δ = ∇ / (LBT)",
+        "tex": "\\delta  = \\frac{\\nabla }{L B T}"
+      },
+      {
+        "linear": "α = S / (LB)",
+        "tex": "\\alpha  = \\frac{S}{L B}"
+      },
+      {
+        "linear": "β = Aм / (BT)",
+        "tex": "\\beta  = \\frac{A_{\\mathrm{м}}}{B T}"
+      }
+    ]
+  },
+  "fullness:derived": {
+    "zh": [
+      {
+        "linear": "φ = ∇ / (AмL) = δ / β",
+        "tex": "\\varphi  = \\frac{\\nabla }{A_{\\mathrm{м}} L} = \\frac{\\delta }{\\beta }"
+      },
+      {
+        "linear": "χ = ∇ / (ST) = δ / α",
+        "tex": "\\chi  = \\frac{\\nabla }{S T} = \\frac{\\delta }{\\alpha }"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "φ = ∇ / (AмL) = δ / β",
+        "tex": "\\varphi  = \\frac{\\nabla }{A_{\\mathrm{м}} L} = \\frac{\\delta }{\\beta }"
+      },
+      {
+        "linear": "χ = ∇ / (ST) = δ / α",
+        "tex": "\\chi  = \\frac{\\nabla }{S T} = \\frac{\\delta }{\\alpha }"
+      }
+    ]
+  },
+  "fullness:example": {
+    "zh": [
+      {
+        "linear": "Aм = 45 m²",
+        "tex": "A_{\\mathrm{м}} = 45 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "B = 15 m",
+        "tex": "B = 15 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = 5 m",
+        "tex": "T = 5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "BT = 15 × 5 = 75 m²",
+        "tex": "B T = 15 \\cdot 5 = 75 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "β = 45 / 75 = 0.6",
+        "tex": "\\beta  = \\frac{45}{75} = 0.6"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Aм = 45 m²",
+        "tex": "A_{\\mathrm{м}} = 45 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "B = 15 m",
+        "tex": "B = 15 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = 5 m",
+        "tex": "T = 5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "BT = 15 × 5 = 75 m²",
+        "tex": "B T = 15 \\cdot 5 = 75 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "β = 45 / 75 = 0.6",
+        "tex": "\\beta  = \\frac{45}{75} = 0.6"
+      }
+    ]
+  },
+  "fullness:checks": {
+    "zh": [
+      {
+        "linear": "9000 / (60 × 120) = 1.25",
+        "tex": "\\frac{9000}{60 \\cdot 120} = 1.25"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "9000 / (60 × 120) = 1.25",
+        "tex": "\\frac{9000}{60 \\cdot 120} = 1.25"
+      }
+    ]
+  },
+  "cargo:limits": {
+    "zh": [
+      {
+        "linear": "Q₂ ≤ Pгр − Q₁",
+        "tex": "Q _{2} \\le P_{\\mathrm{гр}} - Q _{1}"
+      },
+      {
+        "linear": "μ₁Q₁ + μ₂Q₂ ≤ W",
+        "tex": "\\mu  _{1} Q _{1} + \\mu  _{2} Q _{2} \\le W"
+      },
+      {
+        "linear": "Q₂ = min(Pгр − Q₁, (W − μ₁Q₁)/μ₂)",
+        "tex": "Q _{2} = \\min \\left(P_{\\mathrm{гр}} - Q _{1},\\;\\frac{W - \\mu  _{1} Q _{1}}{\\mu  _{2}}\\right)"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Q₂ ≤ Pгр − Q₁",
+        "tex": "Q _{2} \\le P_{\\mathrm{гр}} - Q _{1}"
+      },
+      {
+        "linear": "μ₁Q₁ + μ₂Q₂ ≤ W",
+        "tex": "\\mu  _{1} Q _{1} + \\mu  _{2} Q _{2} \\le W"
+      },
+      {
+        "linear": "Q₂ = min(Pгр − Q₁, (W − μ₁Q₁)/μ₂)",
+        "tex": "Q _{2} = \\min \\left(P_{\\mathrm{гр}} - Q _{1},\\;\\frac{W - \\mu  _{1} Q _{1}}{\\mu  _{2}}\\right)"
+      }
+    ]
+  },
+  "cargo:substitution": {
+    "zh": [
+      {
+        "linear": "Pгр = 15950 t",
+        "tex": "P_{\\mathrm{гр}} = 15950 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "W = 20640 m³",
+        "tex": "W = 20640 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "Q₁ = 10950 t",
+        "tex": "Q _{1} = 10950 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "μ₁ = 1.32 m³/t",
+        "tex": "\\mu  _{1} = 1.32 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}"
+      },
+      {
+        "linear": "μ₂ = 1.21 m³/t",
+        "tex": "\\mu  _{2} = 1.21 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}"
+      },
+      {
+        "linear": "15950 − 10950 = 5000 t",
+        "tex": "15950 - 10950 = 5000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "10950 × 1.32 = 14454 m³",
+        "tex": "10950 \\cdot 1.32 = 14454 \\,\\mathrm{m}^{3}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pгр = 15950 t",
+        "tex": "P_{\\mathrm{гр}} = 15950 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "W = 20640 m³",
+        "tex": "W = 20640 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "Q₁ = 10950 t",
+        "tex": "Q _{1} = 10950 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "μ₁ = 1.32 m³/t",
+        "tex": "\\mu  _{1} = 1.32 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}"
+      },
+      {
+        "linear": "μ₂ = 1.21 m³/t",
+        "tex": "\\mu  _{2} = 1.21 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}"
+      },
+      {
+        "linear": "15950 − 10950 = 5000 t",
+        "tex": "15950 - 10950 = 5000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "10950 × 1.32 = 14454 m³",
+        "tex": "10950 \\cdot 1.32 = 14454 \\,\\mathrm{m}^{3}"
+      }
+    ]
+  },
+  "cargo:answer": {
+    "zh": [
+      {
+        "linear": "Wrest = 20640 − 14454 = 6186 m³",
+        "tex": "W_{\\mathrm{rest}} = 20640 - 14454 = 6186 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "6186 / 1.21 = 5112.3967 t",
+        "tex": "\\frac{6186}{1.21} = 5112.3967 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Q₂ = min(5000, 5112.3967) = 5000 t",
+        "tex": "Q _{2} = \\min \\left(5000,\\;5112.3967\\right) = 5000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "6186 − 5000 × 1.21 = 136 m³",
+        "tex": "6186 - 5000 \\cdot 1.21 = 136 \\,\\mathrm{m}^{3}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Wrest = 20640 − 14454 = 6186 m³",
+        "tex": "W_{\\mathrm{rest}} = 20640 - 14454 = 6186 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "6186 / 1.21 = 5112.3967 t",
+        "tex": "\\frac{6186}{1.21} = 5112.3967 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Q₂ = min(5000, 5112.3967) = 5000 t",
+        "tex": "Q _{2} = \\min \\left(5000,\\;5112.3967\\right) = 5000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "6186 − 5000 × 1.21 = 136 m³",
+        "tex": "6186 - 5000 \\cdot 1.21 = 136 \\,\\mathrm{m}^{3}"
+      }
+    ]
+  },
+  "cargo:other": {
+    "zh": [
+      {
+        "linear": "W = 23160 m³",
+        "tex": "W = 23160 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "μ = 1.65 m³/t",
+        "tex": "\\mu  = 1.65 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}"
+      },
+      {
+        "linear": "Pгр = 18630 t",
+        "tex": "P_{\\mathrm{гр}} = 18630 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Q = min(18630, 23160/1.65) = 14036.3636 t",
+        "tex": "Q = \\min \\left(18630,\\;\\frac{23160}{1.65}\\right) = 14036.3636 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "18630 − 14036.3636 = 4593.6364 t",
+        "tex": "18630 - 14036.3636 = 4593.6364 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "W = 23160 m³",
+        "tex": "W = 23160 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "μ = 1.65 m³/t",
+        "tex": "\\mu  = 1.65 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}"
+      },
+      {
+        "linear": "Pгр = 18630 t",
+        "tex": "P_{\\mathrm{гр}} = 18630 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Q = min(18630, 23160/1.65) = 14036.3636 t",
+        "tex": "Q = \\min \\left(18630,\\;\\frac{23160}{1.65}\\right) = 14036.3636 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "18630 − 14036.3636 = 4593.6364 t",
+        "tex": "18630 - 14036.3636 = 4593.6364 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "trim:sign": {
+    "zh": [
+      {
+        "linear": "d = Tн − Tк",
+        "tex": "d = T_{\\mathrm{н}} - T_{\\mathrm{к}}"
+      },
+      {
+        "linear": "d = +2.80 m",
+        "tex": "d = + 2.80 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Tк = 3.50 m",
+        "tex": "T_{\\mathrm{к}} = 3.50 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Tн = 3.50 + 2.80 = 6.30 m",
+        "tex": "T_{\\mathrm{н}} = 3.50 + 2.80 = 6.30 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Tср = (6.30 + 3.50)/2 = 4.90 m",
+        "tex": "T_{\\mathrm{ср}} = \\frac{6.30 + 3.50}{2} = 4.90 \\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "d = Tн − Tк",
+        "tex": "d = T_{\\mathrm{н}} - T_{\\mathrm{к}}"
+      },
+      {
+        "linear": "d = +2.80 m",
+        "tex": "d = + 2.80 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Tк = 3.50 m",
+        "tex": "T_{\\mathrm{к}} = 3.50 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Tн = 3.50 + 2.80 = 6.30 m",
+        "tex": "T_{\\mathrm{н}} = 3.50 + 2.80 = 6.30 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Tср = (6.30 + 3.50)/2 = 4.90 m",
+        "tex": "T_{\\mathrm{ср}} = \\frac{6.30 + 3.50}{2} = 4.90 \\,\\mathrm{m}"
+      }
+    ]
+  },
+  "reserve:volume": {
+    "zh": [
+      {
+        "linear": "H = 10 m",
+        "tex": "H = 10 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = 7.5 m",
+        "tex": "T = 7.5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Sвод = 2000 m²",
+        "tex": "S_{\\mathrm{вод}} = 2000 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "Sпал = 2120 m²",
+        "tex": "S_{\\mathrm{пал}} = 2120 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "Vreserve = (2000 + 2120)/2 × (10 − 7.5) = 5150 m³",
+        "tex": "V_{\\mathrm{reserve}} = \\frac{2000 + 2120}{2} \\cdot \\left(10 - 7.5\\right) = 5150 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "5150 / 12000 × 100% = 42.9167%",
+        "tex": "\\frac{5150}{12000} \\cdot 100 \\% = 42.9167 \\%"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "H = 10 m",
+        "tex": "H = 10 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = 7.5 m",
+        "tex": "T = 7.5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "Sвод = 2000 m²",
+        "tex": "S_{\\mathrm{вод}} = 2000 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "Sпал = 2120 m²",
+        "tex": "S_{\\mathrm{пал}} = 2120 \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "Vreserve = (2000 + 2120)/2 × (10 − 7.5) = 5150 m³",
+        "tex": "V_{\\mathrm{reserve}} = \\frac{2000 + 2120}{2} \\cdot \\left(10 - 7.5\\right) = 5150 \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "5150 / 12000 × 100% = 42.9167%",
+        "tex": "\\frac{5150}{12000} \\cdot 100 \\% = 42.9167 \\%"
+      }
+    ]
+  },
+  "ost-method:purpose": {
+    "zh": [],
+    "ru": []
+  },
+  "ost-method:tree": {
+    "zh": [
+      {
+        "linear": "04 → 0403",
+        "tex": "04 \\longrightarrow 0403"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "04 → 0403",
+        "tex": "04 \\longrightarrow 0403"
+      }
+    ]
+  },
+  "ost-item-1:meaning": {
+    "zh": [
+      {
+        "linear": "P = 182.29 t",
+        "tex": "P = 182.29 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 182.29 t",
+        "tex": "P = 182.29 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-2:meaning": {
+    "zh": [
+      {
+        "linear": "P = 15.60 t",
+        "tex": "P = 15.60 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 15.60 t",
+        "tex": "P = 15.60 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-3:meaning": {
+    "zh": [
+      {
+        "linear": "P = 14.75 t",
+        "tex": "P = 14.75 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 14.75 t",
+        "tex": "P = 14.75 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-4:meaning": {
+    "zh": [
+      {
+        "linear": "P = 3.79 t",
+        "tex": "P = 3.79 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 3.79 t",
+        "tex": "P = 3.79 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-5:meaning": {
+    "zh": [
+      {
+        "linear": "P = 4.35 t",
+        "tex": "P = 4.35 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 4.35 t",
+        "tex": "P = 4.35 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-6:meaning": {
+    "zh": [
+      {
+        "linear": "P = 2341.00 t",
+        "tex": "P = 2341.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 2341.00 t",
+        "tex": "P = 2341.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-7:meaning": {
+    "zh": [
+      {
+        "linear": "P = 3440.00 t",
+        "tex": "P = 3440.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 3440.00 t",
+        "tex": "P = 3440.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-8:meaning": {
+    "zh": [
+      {
+        "linear": "P = 3446.50 t",
+        "tex": "P = 3446.50 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 3446.50 t",
+        "tex": "P = 3446.50 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-9:meaning": {
+    "zh": [
+      {
+        "linear": "P = 721.18 t",
+        "tex": "P = 721.18 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 721.18 t",
+        "tex": "P = 721.18 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-10:meaning": {
+    "zh": [
+      {
+        "linear": "P = 197.28 t",
+        "tex": "P = 197.28 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 197.28 t",
+        "tex": "P = 197.28 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-11:meaning": {
+    "zh": [
+      {
+        "linear": "P = 145.81 t",
+        "tex": "P = 145.81 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 145.81 t",
+        "tex": "P = 145.81 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-12:meaning": {
+    "zh": [
+      {
+        "linear": "P = 171.00 t",
+        "tex": "P = 171.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 171.00 t",
+        "tex": "P = 171.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-13:meaning": {
+    "zh": [
+      {
+        "linear": "P = 30.12 t",
+        "tex": "P = 30.12 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 30.12 t",
+        "tex": "P = 30.12 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-14:meaning": {
+    "zh": [
+      {
+        "linear": "P = 63.38 t",
+        "tex": "P = 63.38 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 63.38 t",
+        "tex": "P = 63.38 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-15:meaning": {
+    "zh": [
+      {
+        "linear": "P = 25.60 t",
+        "tex": "P = 25.60 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 25.60 t",
+        "tex": "P = 25.60 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-16:meaning": {
+    "zh": [
+      {
+        "linear": "P = 3568.61 t",
+        "tex": "P = 3568.61 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 3568.61 t",
+        "tex": "P = 3568.61 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-17:meaning": {
+    "zh": [
+      {
+        "linear": "P = 5.74 t",
+        "tex": "P = 5.74 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 5.74 t",
+        "tex": "P = 5.74 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-18:meaning": {
+    "zh": [
+      {
+        "linear": "P = 51.37 t",
+        "tex": "P = 51.37 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 51.37 t",
+        "tex": "P = 51.37 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-19:meaning": {
+    "zh": [
+      {
+        "linear": "P = 613.32 t",
+        "tex": "P = 613.32 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 613.32 t",
+        "tex": "P = 613.32 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-20:meaning": {
+    "zh": [
+      {
+        "linear": "P = 30.00 t",
+        "tex": "P = 30.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 30.00 t",
+        "tex": "P = 30.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-21:meaning": {
+    "zh": [
+      {
+        "linear": "P = 17.75 t",
+        "tex": "P = 17.75 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 17.75 t",
+        "tex": "P = 17.75 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-22:meaning": {
+    "zh": [
+      {
+        "linear": "P = 48.40 t",
+        "tex": "P = 48.40 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 48.40 t",
+        "tex": "P = 48.40 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-23:meaning": {
+    "zh": [
+      {
+        "linear": "P = 34.99 t",
+        "tex": "P = 34.99 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 34.99 t",
+        "tex": "P = 34.99 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-24:meaning": {
+    "zh": [
+      {
+        "linear": "P = 2.00 t",
+        "tex": "P = 2.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 2.00 t",
+        "tex": "P = 2.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-25:meaning": {
+    "zh": [
+      {
+        "linear": "P = 114.79 t",
+        "tex": "P = 114.79 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 114.79 t",
+        "tex": "P = 114.79 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-26:meaning": {
+    "zh": [
+      {
+        "linear": "P = 5.00 t",
+        "tex": "P = 5.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 5.00 t",
+        "tex": "P = 5.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-27:meaning": {
+    "zh": [
+      {
+        "linear": "P = 23.28 t",
+        "tex": "P = 23.28 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 23.28 t",
+        "tex": "P = 23.28 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-28:meaning": {
+    "zh": [
+      {
+        "linear": "P = 30.00 t",
+        "tex": "P = 30.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 30.00 t",
+        "tex": "P = 30.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-29:meaning": {
+    "zh": [
+      {
+        "linear": "P = 6.80 t",
+        "tex": "P = 6.80 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 6.80 t",
+        "tex": "P = 6.80 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-30:meaning": {
+    "zh": [
+      {
+        "linear": "P = 5.00 t",
+        "tex": "P = 5.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 5.00 t",
+        "tex": "P = 5.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-31:meaning": {
+    "zh": [
+      {
+        "linear": "P = 25.90 t",
+        "tex": "P = 25.90 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 25.90 t",
+        "tex": "P = 25.90 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-32:meaning": {
+    "zh": [
+      {
+        "linear": "P = 2.50 t",
+        "tex": "P = 2.50 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 2.50 t",
+        "tex": "P = 2.50 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-33:meaning": {
+    "zh": [
+      {
+        "linear": "P = 23.00 t",
+        "tex": "P = 23.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 23.00 t",
+        "tex": "P = 23.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-34:meaning": {
+    "zh": [
+      {
+        "linear": "P = 10.20 t",
+        "tex": "P = 10.20 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 10.20 t",
+        "tex": "P = 10.20 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-35:meaning": {
+    "zh": [
+      {
+        "linear": "P = 16.70 t",
+        "tex": "P = 16.70 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 16.70 t",
+        "tex": "P = 16.70 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-36:meaning": {
+    "zh": [
+      {
+        "linear": "P = 20.00 t",
+        "tex": "P = 20.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 20.00 t",
+        "tex": "P = 20.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-37:meaning": {
+    "zh": [
+      {
+        "linear": "P = 797.75 t",
+        "tex": "P = 797.75 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 797.75 t",
+        "tex": "P = 797.75 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-38:meaning": {
+    "zh": [
+      {
+        "linear": "P = 37.50 t",
+        "tex": "P = 37.50 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 37.50 t",
+        "tex": "P = 37.50 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-39:meaning": {
+    "zh": [
+      {
+        "linear": "P = 121.50 t",
+        "tex": "P = 121.50 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 121.50 t",
+        "tex": "P = 121.50 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-40:meaning": {
+    "zh": [
+      {
+        "linear": "P = 12.50 t",
+        "tex": "P = 12.50 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 12.50 t",
+        "tex": "P = 12.50 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-41:meaning": {
+    "zh": [
+      {
+        "linear": "P = 19.00 t",
+        "tex": "P = 19.00 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 19.00 t",
+        "tex": "P = 19.00 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-42:meaning": {
+    "zh": [
+      {
+        "linear": "P = 1.99 t",
+        "tex": "P = 1.99 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 1.99 t",
+        "tex": "P = 1.99 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-item-43:meaning": {
+    "zh": [
+      {
+        "linear": "P = 45.80 t",
+        "tex": "P = 45.80 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 45.80 t",
+        "tex": "P = 45.80 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "ost-sum:total": {
+    "zh": [
+      {
+        "linear": "ΣP = 16494.04 t",
+        "tex": "\\sum  P = 16494.04 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "ΣP = 16494.04 t",
+        "tex": "\\sum  P = 16494.04 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "load-definition:definition": {
+    "zh": [
+      {
+        "linear": "M_z = Σ(Pᵢzᵢ)",
+        "tex": "M _{z} = \\sum  \\left(P _{i} z _{i}\\right)"
+      },
+      {
+        "linear": "M_x = Σ(Pᵢxᵢ)",
+        "tex": "M _{x} = \\sum  \\left(P _{i} x _{i}\\right)"
+      },
+      {
+        "linear": "zG = M_z / ΣP",
+        "tex": "z_G = \\frac{M _{z}}{\\sum  P}"
+      },
+      {
+        "linear": "xG = M_x / ΣP",
+        "tex": "x_G = \\frac{M _{x}}{\\sum  P}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "M_z = Σ(Pᵢzᵢ)",
+        "tex": "M _{z} = \\sum  \\left(P _{i} z _{i}\\right)"
+      },
+      {
+        "linear": "M_x = Σ(Pᵢxᵢ)",
+        "tex": "M _{x} = \\sum  \\left(P _{i} x _{i}\\right)"
+      },
+      {
+        "linear": "zG = M_z / ΣP",
+        "tex": "z_G = \\frac{M _{z}}{\\sum  P}"
+      },
+      {
+        "linear": "xG = M_x / ΣP",
+        "tex": "x_G = \\frac{M _{x}}{\\sum  P}"
+      }
+    ]
+  },
+  "load-definition:coordinates": {
+    "zh": [],
+    "ru": []
+  },
+  "load-fuel:0": {
+    "zh": [
+      {
+        "linear": "P = 250 t",
+        "tex": "P = 250 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 97 m",
+        "tex": "x = 97 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 250 × 0.58 = 145 t·m",
+        "tex": "P \\cdot z = 250 \\cdot 0.58 = 145 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 250 × 97 = 24250 t·m",
+        "tex": "P \\cdot x = 250 \\cdot 97 = 24250 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 250 t",
+        "tex": "\\sum  P = 250 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 145",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 145"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 24250",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 24250"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 250 t",
+        "tex": "P = 250 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 97 m",
+        "tex": "x = 97 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 250 × 0.58 = 145 t·m",
+        "tex": "P \\cdot z = 250 \\cdot 0.58 = 145 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 250 × 97 = 24250 t·m",
+        "tex": "P \\cdot x = 250 \\cdot 97 = 24250 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 250 t",
+        "tex": "\\sum  P = 250 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 145",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 145"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 24250",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 24250"
+      }
+    ]
+  },
+  "load-fuel:1": {
+    "zh": [
+      {
+        "linear": "P = 160 t",
+        "tex": "P = 160 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67 m",
+        "tex": "x = 67 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 160 × 0.58 = 92.8 t·m",
+        "tex": "P \\cdot z = 160 \\cdot 0.58 = 92.8 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 160 × 67 = 10720 t·m",
+        "tex": "P \\cdot x = 160 \\cdot 67 = 10720 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 410 t",
+        "tex": "\\sum  P = 410 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 237.8",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 237.8"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 34970",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 34970"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 160 t",
+        "tex": "P = 160 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67 m",
+        "tex": "x = 67 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 160 × 0.58 = 92.8 t·m",
+        "tex": "P \\cdot z = 160 \\cdot 0.58 = 92.8 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 160 × 67 = 10720 t·m",
+        "tex": "P \\cdot x = 160 \\cdot 67 = 10720 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 410 t",
+        "tex": "\\sum  P = 410 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 237.8",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 237.8"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 34970",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 34970"
+      }
+    ]
+  },
+  "load-fuel:2": {
+    "zh": [
+      {
+        "linear": "P = 160 t",
+        "tex": "P = 160 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67 m",
+        "tex": "x = 67 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 160 × 0.58 = 92.8 t·m",
+        "tex": "P \\cdot z = 160 \\cdot 0.58 = 92.8 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 160 × 67 = 10720 t·m",
+        "tex": "P \\cdot x = 160 \\cdot 67 = 10720 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 570 t",
+        "tex": "\\sum  P = 570 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 330.6",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 330.6"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 45690",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 45690"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 160 t",
+        "tex": "P = 160 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67 m",
+        "tex": "x = 67 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 160 × 0.58 = 92.8 t·m",
+        "tex": "P \\cdot z = 160 \\cdot 0.58 = 92.8 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 160 × 67 = 10720 t·m",
+        "tex": "P \\cdot x = 160 \\cdot 67 = 10720 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 570 t",
+        "tex": "\\sum  P = 570 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 330.6",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 330.6"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 45690",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 45690"
+      }
+    ]
+  },
+  "load-fuel:3": {
+    "zh": [
+      {
+        "linear": "P = 150 t",
+        "tex": "P = 150 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67 m",
+        "tex": "x = 67 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 150 × 0.58 = 87 t·m",
+        "tex": "P \\cdot z = 150 \\cdot 0.58 = 87 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 150 × 67 = 10050 t·m",
+        "tex": "P \\cdot x = 150 \\cdot 67 = 10050 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 720 t",
+        "tex": "\\sum  P = 720 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 417.6",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 417.6"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 55740",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 55740"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 150 t",
+        "tex": "P = 150 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67 m",
+        "tex": "x = 67 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 150 × 0.58 = 87 t·m",
+        "tex": "P \\cdot z = 150 \\cdot 0.58 = 87 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 150 × 67 = 10050 t·m",
+        "tex": "P \\cdot x = 150 \\cdot 67 = 10050 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 720 t",
+        "tex": "\\sum  P = 720 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 417.6",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 417.6"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 55740",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 55740"
+      }
+    ]
+  },
+  "load-fuel:4": {
+    "zh": [
+      {
+        "linear": "P = 175 t",
+        "tex": "P = 175 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 41.5 m",
+        "tex": "x = 41.5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 175 × 0.58 = 101.5 t·m",
+        "tex": "P \\cdot z = 175 \\cdot 0.58 = 101.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 175 × 41.5 = 7262.5 t·m",
+        "tex": "P \\cdot x = 175 \\cdot 41.5 = 7262.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 895 t",
+        "tex": "\\sum  P = 895 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 519.1",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 519.1"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 63002.5",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 63002.5"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 175 t",
+        "tex": "P = 175 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.58 m",
+        "tex": "z = 0.58 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 41.5 m",
+        "tex": "x = 41.5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 175 × 0.58 = 101.5 t·m",
+        "tex": "P \\cdot z = 175 \\cdot 0.58 = 101.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 175 × 41.5 = 7262.5 t·m",
+        "tex": "P \\cdot x = 175 \\cdot 41.5 = 7262.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 895 t",
+        "tex": "\\sum  P = 895 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 519.1",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 519.1"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 63002.5",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 63002.5"
+      }
+    ]
+  },
+  "load-fuel:5": {
+    "zh": [
+      {
+        "linear": "P = 55 t",
+        "tex": "P = 55 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 7.15 m",
+        "tex": "z = 7.15 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 24.1 m",
+        "tex": "x = 24.1 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 55 × 7.15 = 393.25 t·m",
+        "tex": "P \\cdot z = 55 \\cdot 7.15 = 393.25 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 55 × 24.1 = 1325.5 t·m",
+        "tex": "P \\cdot x = 55 \\cdot 24.1 = 1325.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 950 t",
+        "tex": "\\sum  P = 950 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 912.35",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 912.35"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 64328",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 64328"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 55 t",
+        "tex": "P = 55 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 7.15 m",
+        "tex": "z = 7.15 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 24.1 m",
+        "tex": "x = 24.1 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 55 × 7.15 = 393.25 t·m",
+        "tex": "P \\cdot z = 55 \\cdot 7.15 = 393.25 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 55 × 24.1 = 1325.5 t·m",
+        "tex": "P \\cdot x = 55 \\cdot 24.1 = 1325.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 950 t",
+        "tex": "\\sum  P = 950 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 912.35",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 912.35"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 64328",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 64328"
+      }
+    ]
+  },
+  "load-fuel:6": {
+    "zh": [
+      {
+        "linear": "P = 57 t",
+        "tex": "P = 57 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.75 m",
+        "tex": "z = 10.75 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 25.5 m",
+        "tex": "x = 25.5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 57 × 10.75 = 612.75 t·m",
+        "tex": "P \\cdot z = 57 \\cdot 10.75 = 612.75 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 57 × 25.5 = 1453.5 t·m",
+        "tex": "P \\cdot x = 57 \\cdot 25.5 = 1453.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 1007 t",
+        "tex": "\\sum  P = 1007 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 1525.1",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 1525.1"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 65781.5",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 65781.5"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 57 t",
+        "tex": "P = 57 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.75 m",
+        "tex": "z = 10.75 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 25.5 m",
+        "tex": "x = 25.5 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 57 × 10.75 = 612.75 t·m",
+        "tex": "P \\cdot z = 57 \\cdot 10.75 = 612.75 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 57 × 25.5 = 1453.5 t·m",
+        "tex": "P \\cdot x = 57 \\cdot 25.5 = 1453.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 1007 t",
+        "tex": "\\sum  P = 1007 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 1525.1",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 1525.1"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 65781.5",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 65781.5"
+      }
+    ]
+  },
+  "load-fuel:7": {
+    "zh": [
+      {
+        "linear": "P = 30 t",
+        "tex": "P = 30 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 6.8 m",
+        "tex": "z = 6.8 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 28.95 m",
+        "tex": "x = 28.95 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 30 × 6.8 = 204 t·m",
+        "tex": "P \\cdot z = 30 \\cdot 6.8 = 204 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 30 × 28.95 = 868.5 t·m",
+        "tex": "P \\cdot x = 30 \\cdot 28.95 = 868.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 1037 t",
+        "tex": "\\sum  P = 1037 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 1729.1",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 1729.1"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 66650",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 66650"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 30 t",
+        "tex": "P = 30 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 6.8 m",
+        "tex": "z = 6.8 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 28.95 m",
+        "tex": "x = 28.95 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 30 × 6.8 = 204 t·m",
+        "tex": "P \\cdot z = 30 \\cdot 6.8 = 204 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 30 × 28.95 = 868.5 t·m",
+        "tex": "P \\cdot x = 30 \\cdot 28.95 = 868.5 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 1037 t",
+        "tex": "\\sum  P = 1037 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 1729.1",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 1729.1"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 66650",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 66650"
+      }
+    ]
+  },
+  "load-fuel:8": {
+    "zh": [
+      {
+        "linear": "P = 32 t",
+        "tex": "P = 32 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 9.95 m",
+        "tex": "z = 9.95 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 28.95 m",
+        "tex": "x = 28.95 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 32 × 9.95 = 318.4 t·m",
+        "tex": "P \\cdot z = 32 \\cdot 9.95 = 318.4 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 32 × 28.95 = 926.4 t·m",
+        "tex": "P \\cdot x = 32 \\cdot 28.95 = 926.4 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 1069 t",
+        "tex": "\\sum  P = 1069 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 2047.5",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 2047.5"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 67576.4",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 67576.4"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 32 t",
+        "tex": "P = 32 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 9.95 m",
+        "tex": "z = 9.95 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 28.95 m",
+        "tex": "x = 28.95 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 32 × 9.95 = 318.4 t·m",
+        "tex": "P \\cdot z = 32 \\cdot 9.95 = 318.4 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 32 × 28.95 = 926.4 t·m",
+        "tex": "P \\cdot x = 32 \\cdot 28.95 = 926.4 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 1069 t",
+        "tex": "\\sum  P = 1069 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 2047.5",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 2047.5"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 67576.4",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 67576.4"
+      }
+    ]
+  },
+  "load-fuel:combine": {
+    "zh": [
+      {
+        "linear": "Pт = 1069 t",
+        "tex": "P_{\\mathrm{т}} = 1069 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "zт = 2047.5 / 1069 = 1.9153414406 m",
+        "tex": "z_{\\mathrm{т}} = \\frac{2047.5}{1069} = 1.9153414406 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "xт = 67576.4 / 1069 = 63.2145930776 m",
+        "tex": "x_{\\mathrm{т}} = \\frac{67576.4}{1069} = 63.2145930776 \\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pт = 1069 t",
+        "tex": "P_{\\mathrm{т}} = 1069 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "zт = 2047.5 / 1069 = 1.9153414406 m",
+        "tex": "z_{\\mathrm{т}} = \\frac{2047.5}{1069} = 1.9153414406 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "xт = 67576.4 / 1069 = 63.2145930776 m",
+        "tex": "x_{\\mathrm{т}} = \\frac{67576.4}{1069} = 63.2145930776 \\,\\mathrm{m}"
+      }
+    ]
+  },
+  "load-ship:0": {
+    "zh": [
+      {
+        "linear": "P = 5120 t",
+        "tex": "P = 5120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.450000 m",
+        "tex": "z = 10.450000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 62.850000 m",
+        "tex": "x = 62.850000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 5120 × 10.450000 = 53504.0000 t·m",
+        "tex": "P \\cdot z = 5120 \\cdot 10.450000 = 53504.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 5120 × 62.850000 = 321792.0000 t·m",
+        "tex": "P \\cdot x = 5120 \\cdot 62.850000 = 321792.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 5120 t",
+        "tex": "\\sum  P = 5120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 53504.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 53504.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 321792.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 321792.0000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 5120 t",
+        "tex": "P = 5120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.450000 m",
+        "tex": "z = 10.450000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 62.850000 m",
+        "tex": "x = 62.850000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 5120 × 10.450000 = 53504.0000 t·m",
+        "tex": "P \\cdot z = 5120 \\cdot 10.450000 = 53504.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 5120 × 62.850000 = 321792.0000 t·m",
+        "tex": "P \\cdot x = 5120 \\cdot 62.850000 = 321792.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 5120 t",
+        "tex": "\\sum  P = 5120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 53504.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 53504.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 321792.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 321792.0000"
+      }
+    ]
+  },
+  "load-ship:1": {
+    "zh": [
+      {
+        "linear": "P = 3000 t",
+        "tex": "P = 3000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 5.390000 m",
+        "tex": "z = 5.390000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 121.330000 m",
+        "tex": "x = 121.330000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 3000 × 5.390000 = 16170.0000 t·m",
+        "tex": "P \\cdot z = 3000 \\cdot 5.390000 = 16170.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 3000 × 121.330000 = 363990.0000 t·m",
+        "tex": "P \\cdot x = 3000 \\cdot 121.330000 = 363990.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 8120 t",
+        "tex": "\\sum  P = 8120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 69674.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 69674.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 685782.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 685782.0000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 3000 t",
+        "tex": "P = 3000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 5.390000 m",
+        "tex": "z = 5.390000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 121.330000 m",
+        "tex": "x = 121.330000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 3000 × 5.390000 = 16170.0000 t·m",
+        "tex": "P \\cdot z = 3000 \\cdot 5.390000 = 16170.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 3000 × 121.330000 = 363990.0000 t·m",
+        "tex": "P \\cdot x = 3000 \\cdot 121.330000 = 363990.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 8120 t",
+        "tex": "\\sum  P = 8120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 69674.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 69674.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 685782.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 685782.0000"
+      }
+    ]
+  },
+  "load-ship:2": {
+    "zh": [
+      {
+        "linear": "P = 4000 t",
+        "tex": "P = 4000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 6.020000 m",
+        "tex": "z = 6.020000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 97.000000 m",
+        "tex": "x = 97.000000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 4000 × 6.020000 = 24080.0000 t·m",
+        "tex": "P \\cdot z = 4000 \\cdot 6.020000 = 24080.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 4000 × 97.000000 = 388000.0000 t·m",
+        "tex": "P \\cdot x = 4000 \\cdot 97.000000 = 388000.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 12120 t",
+        "tex": "\\sum  P = 12120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 93754.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 93754.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1073782.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1073782.0000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 4000 t",
+        "tex": "P = 4000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 6.020000 m",
+        "tex": "z = 6.020000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 97.000000 m",
+        "tex": "x = 97.000000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 4000 × 6.020000 = 24080.0000 t·m",
+        "tex": "P \\cdot z = 4000 \\cdot 6.020000 = 24080.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 4000 × 97.000000 = 388000.0000 t·m",
+        "tex": "P \\cdot x = 4000 \\cdot 97.000000 = 388000.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 12120 t",
+        "tex": "\\sum  P = 12120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 93754.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 93754.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1073782.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1073782.0000"
+      }
+    ]
+  },
+  "load-ship:3": {
+    "zh": [
+      {
+        "linear": "P = 4000 t",
+        "tex": "P = 4000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 6.150000 m",
+        "tex": "z = 6.150000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67.000000 m",
+        "tex": "x = 67.000000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 4000 × 6.150000 = 24600.0000 t·m",
+        "tex": "P \\cdot z = 4000 \\cdot 6.150000 = 24600.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 4000 × 67.000000 = 268000.0000 t·m",
+        "tex": "P \\cdot x = 4000 \\cdot 67.000000 = 268000.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 16120 t",
+        "tex": "\\sum  P = 16120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 118354.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 118354.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1341782.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1341782.0000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 4000 t",
+        "tex": "P = 4000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 6.150000 m",
+        "tex": "z = 6.150000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 67.000000 m",
+        "tex": "x = 67.000000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 4000 × 6.150000 = 24600.0000 t·m",
+        "tex": "P \\cdot z = 4000 \\cdot 6.150000 = 24600.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 4000 × 67.000000 = 268000.0000 t·m",
+        "tex": "P \\cdot x = 4000 \\cdot 67.000000 = 268000.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 16120 t",
+        "tex": "\\sum  P = 16120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 118354.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 118354.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1341782.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1341782.0000"
+      }
+    ]
+  },
+  "load-ship:4": {
+    "zh": [
+      {
+        "linear": "P = 3000 t",
+        "tex": "P = 3000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 5.220000 m",
+        "tex": "z = 5.220000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 41.500000 m",
+        "tex": "x = 41.500000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 3000 × 5.220000 = 15660.0000 t·m",
+        "tex": "P \\cdot z = 3000 \\cdot 5.220000 = 15660.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 3000 × 41.500000 = 124500.0000 t·m",
+        "tex": "P \\cdot x = 3000 \\cdot 41.500000 = 124500.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 19120 t",
+        "tex": "\\sum  P = 19120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 134014.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 134014.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1466282.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1466282.0000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 3000 t",
+        "tex": "P = 3000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 5.220000 m",
+        "tex": "z = 5.220000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 41.500000 m",
+        "tex": "x = 41.500000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 3000 × 5.220000 = 15660.0000 t·m",
+        "tex": "P \\cdot z = 3000 \\cdot 5.220000 = 15660.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 3000 × 41.500000 = 124500.0000 t·m",
+        "tex": "P \\cdot x = 3000 \\cdot 41.500000 = 124500.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 19120 t",
+        "tex": "\\sum  P = 19120 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 134014.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 134014.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1466282.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1466282.0000"
+      }
+    ]
+  },
+  "load-ship:5": {
+    "zh": [
+      {
+        "linear": "P = 100 t",
+        "tex": "P = 100 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 17.900000 m",
+        "tex": "z = 17.900000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 79.400000 m",
+        "tex": "x = 79.400000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 100 × 17.900000 = 1790.0000 t·m",
+        "tex": "P \\cdot z = 100 \\cdot 17.900000 = 1790.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 100 × 79.400000 = 7940.0000 t·m",
+        "tex": "P \\cdot x = 100 \\cdot 79.400000 = 7940.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 19220 t",
+        "tex": "\\sum  P = 19220 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 135804.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 135804.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1474222.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1474222.0000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 100 t",
+        "tex": "P = 100 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 17.900000 m",
+        "tex": "z = 17.900000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 79.400000 m",
+        "tex": "x = 79.400000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 100 × 17.900000 = 1790.0000 t·m",
+        "tex": "P \\cdot z = 100 \\cdot 17.900000 = 1790.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 100 × 79.400000 = 7940.0000 t·m",
+        "tex": "P \\cdot x = 100 \\cdot 79.400000 = 7940.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 19220 t",
+        "tex": "\\sum  P = 19220 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 135804.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 135804.0000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1474222.0000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1474222.0000"
+      }
+    ]
+  },
+  "load-ship:6": {
+    "zh": [
+      {
+        "linear": "P = 1069 t",
+        "tex": "P = 1069 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 1.915341 m",
+        "tex": "z = 1.915341 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 63.214593 m",
+        "tex": "x = 63.214593 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 1069 × 1.915341 = 2047.5000 t·m",
+        "tex": "P \\cdot z = 1069 \\cdot 1.915341 = 2047.5000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 1069 × 63.214593 = 67576.4000 t·m",
+        "tex": "P \\cdot x = 1069 \\cdot 63.214593 = 67576.4000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20289 t",
+        "tex": "\\sum  P = 20289 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 137851.5000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 137851.5000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1541798.4000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1541798.4000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 1069 t",
+        "tex": "P = 1069 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 1.915341 m",
+        "tex": "z = 1.915341 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 63.214593 m",
+        "tex": "x = 63.214593 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 1069 × 1.915341 = 2047.5000 t·m",
+        "tex": "P \\cdot z = 1069 \\cdot 1.915341 = 2047.5000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 1069 × 63.214593 = 67576.4000 t·m",
+        "tex": "P \\cdot x = 1069 \\cdot 63.214593 = 67576.4000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20289 t",
+        "tex": "\\sum  P = 20289 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 137851.5000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 137851.5000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1541798.4000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1541798.4000"
+      }
+    ]
+  },
+  "load-ship:7": {
+    "zh": [
+      {
+        "linear": "P = 200 t",
+        "tex": "P = 200 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 9.150000 m",
+        "tex": "z = 9.150000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 12.840000 m",
+        "tex": "x = 12.840000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 200 × 9.150000 = 1830.0000 t·m",
+        "tex": "P \\cdot z = 200 \\cdot 9.150000 = 1830.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 200 × 12.840000 = 2568.0000 t·m",
+        "tex": "P \\cdot x = 200 \\cdot 12.840000 = 2568.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20489 t",
+        "tex": "\\sum  P = 20489 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 139681.5000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 139681.5000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1544366.4000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1544366.4000"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 200 t",
+        "tex": "P = 200 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 9.150000 m",
+        "tex": "z = 9.150000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 12.840000 m",
+        "tex": "x = 12.840000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 200 × 9.150000 = 1830.0000 t·m",
+        "tex": "P \\cdot z = 200 \\cdot 9.150000 = 1830.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 200 × 12.840000 = 2568.0000 t·m",
+        "tex": "P \\cdot x = 200 \\cdot 12.840000 = 2568.0000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20489 t",
+        "tex": "\\sum  P = 20489 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 139681.5000",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 139681.5000"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1544366.4000",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1544366.4000"
+      }
+    ]
+  },
+  "load-ship:8": {
+    "zh": [
+      {
+        "linear": "P = 66 t",
+        "tex": "P = 66 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.180000 m",
+        "tex": "z = 10.180000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 24.010000 m",
+        "tex": "x = 24.010000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 66 × 10.180000 = 671.8800 t·m",
+        "tex": "P \\cdot z = 66 \\cdot 10.180000 = 671.8800 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 66 × 24.010000 = 1584.6600 t·m",
+        "tex": "P \\cdot x = 66 \\cdot 24.010000 = 1584.6600 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20555 t",
+        "tex": "\\sum  P = 20555 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140353.3800",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140353.3800"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1545951.0600",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1545951.0600"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 66 t",
+        "tex": "P = 66 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.180000 m",
+        "tex": "z = 10.180000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 24.010000 m",
+        "tex": "x = 24.010000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 66 × 10.180000 = 671.8800 t·m",
+        "tex": "P \\cdot z = 66 \\cdot 10.180000 = 671.8800 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 66 × 24.010000 = 1584.6600 t·m",
+        "tex": "P \\cdot x = 66 \\cdot 24.010000 = 1584.6600 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20555 t",
+        "tex": "\\sum  P = 20555 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140353.3800",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140353.3800"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1545951.0600",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1545951.0600"
+      }
+    ]
+  },
+  "load-ship:9": {
+    "zh": [
+      {
+        "linear": "P = 23 t",
+        "tex": "P = 23 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.750000 m",
+        "tex": "z = 0.750000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 17.830000 m",
+        "tex": "x = 17.830000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 23 × 0.750000 = 17.2500 t·m",
+        "tex": "P \\cdot z = 23 \\cdot 0.750000 = 17.2500 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 23 × 17.830000 = 410.0900 t·m",
+        "tex": "P \\cdot x = 23 \\cdot 17.830000 = 410.0900 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20578 t",
+        "tex": "\\sum  P = 20578 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140370.6300",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140370.6300"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1546361.1500",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1546361.1500"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 23 t",
+        "tex": "P = 23 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 0.750000 m",
+        "tex": "z = 0.750000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 17.830000 m",
+        "tex": "x = 17.830000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 23 × 0.750000 = 17.2500 t·m",
+        "tex": "P \\cdot z = 23 \\cdot 0.750000 = 17.2500 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 23 × 17.830000 = 410.0900 t·m",
+        "tex": "P \\cdot x = 23 \\cdot 17.830000 = 410.0900 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20578 t",
+        "tex": "\\sum  P = 20578 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140370.6300",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140370.6300"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1546361.1500",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1546361.1500"
+      }
+    ]
+  },
+  "load-ship:10": {
+    "zh": [
+      {
+        "linear": "P = 18 t",
+        "tex": "P = 18 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 12.180000 m",
+        "tex": "z = 12.180000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 15.660000 m",
+        "tex": "x = 15.660000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 18 × 12.180000 = 219.2400 t·m",
+        "tex": "P \\cdot z = 18 \\cdot 12.180000 = 219.2400 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 18 × 15.660000 = 281.8800 t·m",
+        "tex": "P \\cdot x = 18 \\cdot 15.660000 = 281.8800 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20596 t",
+        "tex": "\\sum  P = 20596 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140589.8700",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140589.8700"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1546643.0300",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1546643.0300"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 18 t",
+        "tex": "P = 18 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 12.180000 m",
+        "tex": "z = 12.180000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 15.660000 m",
+        "tex": "x = 15.660000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 18 × 12.180000 = 219.2400 t·m",
+        "tex": "P \\cdot z = 18 \\cdot 12.180000 = 219.2400 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 18 × 15.660000 = 281.8800 t·m",
+        "tex": "P \\cdot x = 18 \\cdot 15.660000 = 281.8800 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20596 t",
+        "tex": "\\sum  P = 20596 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140589.8700",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140589.8700"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1546643.0300",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1546643.0300"
+      }
+    ]
+  },
+  "load-ship:11": {
+    "zh": [
+      {
+        "linear": "P = 5 t",
+        "tex": "P = 5 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.770000 m",
+        "tex": "z = 10.770000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 139.080000 m",
+        "tex": "x = 139.080000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 5 × 10.770000 = 53.8500 t·m",
+        "tex": "P \\cdot z = 5 \\cdot 10.770000 = 53.8500 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 5 × 139.080000 = 695.4000 t·m",
+        "tex": "P \\cdot x = 5 \\cdot 139.080000 = 695.4000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20601 t",
+        "tex": "\\sum  P = 20601 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140643.7200",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140643.7200"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1547338.4300",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1547338.4300"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 5 t",
+        "tex": "P = 5 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 10.770000 m",
+        "tex": "z = 10.770000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 139.080000 m",
+        "tex": "x = 139.080000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 5 × 10.770000 = 53.8500 t·m",
+        "tex": "P \\cdot z = 5 \\cdot 10.770000 = 53.8500 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 5 × 139.080000 = 695.4000 t·m",
+        "tex": "P \\cdot x = 5 \\cdot 139.080000 = 695.4000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20601 t",
+        "tex": "\\sum  P = 20601 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140643.7200",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140643.7200"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1547338.4300",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1547338.4300"
+      }
+    ]
+  },
+  "load-ship:12": {
+    "zh": [
+      {
+        "linear": "P = 15 t",
+        "tex": "P = 15 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 15.690000 m",
+        "tex": "z = 15.690000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 20.640000 m",
+        "tex": "x = 20.640000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 15 × 15.690000 = 235.3500 t·m",
+        "tex": "P \\cdot z = 15 \\cdot 15.690000 = 235.3500 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 15 × 20.640000 = 309.6000 t·m",
+        "tex": "P \\cdot x = 15 \\cdot 20.640000 = 309.6000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20616 t",
+        "tex": "\\sum  P = 20616 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140879.0700",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140879.0700"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1547648.0300",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1547648.0300"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "P = 15 t",
+        "tex": "P = 15 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "z = 15.690000 m",
+        "tex": "z = 15.690000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "x = 20.640000 m",
+        "tex": "x = 20.640000 \\,\\mathrm{m}"
+      },
+      {
+        "linear": "P · z = 15 × 15.690000 = 235.3500 t·m",
+        "tex": "P \\cdot z = 15 \\cdot 15.690000 = 235.3500 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "P · x = 15 × 20.640000 = 309.6000 t·m",
+        "tex": "P \\cdot x = 15 \\cdot 20.640000 = 309.6000 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "ΣP = 20616 t",
+        "tex": "\\sum  P = 20616 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Σ(Pᵢ·zᵢ) = 140879.0700",
+        "tex": "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = 140879.0700"
+      },
+      {
+        "linear": "Σ(Pᵢ·xᵢ) = 1547648.0300",
+        "tex": "\\sum  \\left(P _{i} \\cdot x _{i}\\right) = 1547648.0300"
+      }
+    ]
+  },
+  "load-centre:answer": {
+    "zh": [
+      {
+        "linear": "D = 20616 t",
+        "tex": "D = 20616 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "zG = 140879.07 / 20616 = @zG@ m",
+        "tex": "z_G = \\frac{140879.07}{20616} = @zG@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "xG = 1547648.03 / 20616 = @xG@ m",
+        "tex": "x_G = \\frac{1547648.03}{20616} = @xG@ \\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D = 20616 t",
+        "tex": "D = 20616 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "zG = 140879.07 / 20616 = @zG@ m",
+        "tex": "z_G = \\frac{140879.07}{20616} = @zG@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "xG = 1547648.03 / 20616 = @xG@ m",
+        "tex": "x_G = \\frac{1547648.03}{20616} = @xG@ \\,\\mathrm{m}"
+      }
+    ]
+  },
+  "load-centre:free": {
+    "zh": [
+      {
+        "linear": "ΣFSM = 420+340+340+300+295+11+12+8+8 = 1734 t·m",
+        "tex": "\\sum  \\mathrm{FSM} = 420 + 340 + 340 + 300 + 295 + 11 + 12 + 8 + 8 = 1734 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "Δh = 1734 / 20616 = @free_correction@ m",
+        "tex": "\\Delta  h = \\frac{1734}{20616} = @free_correction@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "GMcorrected = GM − Δh",
+        "tex": "GM_{\\mathrm{corr}} = G M - \\Delta  h"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "ΣFSM = 420+340+340+300+295+11+12+8+8 = 1734 t·m",
+        "tex": "\\sum  \\mathrm{FSM} = 420 + 340 + 340 + 300 + 295 + 11 + 12 + 8 + 8 = 1734 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      },
+      {
+        "linear": "Δh = 1734 / 20616 = @free_correction@ m",
+        "tex": "\\Delta  h = \\frac{1734}{20616} = @free_correction@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "GMcorrected = GM − Δh",
+        "tex": "GM_{\\mathrm{corr}} = G M - \\Delta  h"
+      }
+    ]
+  },
+  "load-centre:move": {
+    "zh": [
+      {
+        "linear": "ΔzG = p(z₂ − z₁)/D",
+        "tex": "\\Delta  z_G = \\frac{p \\left(z _{2} - z _{1}\\right)}{D}"
+      },
+      {
+        "linear": "zG,new = (D·zG + p·z)/(D+p)",
+        "tex": "z_{G,\\mathrm{new}} = \\frac{D \\cdot z_G + p \\cdot z}{D + p}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "ΔzG = p(z₂ − z₁)/D",
+        "tex": "\\Delta  z_G = \\frac{p \\left(z _{2} - z _{1}\\right)}{D}"
+      },
+      {
+        "linear": "zG,new = (D·zG + p·z)/(D+p)",
+        "tex": "z_{G,\\mathrm{new}} = \\frac{D \\cdot z_G + p \\cdot z}{D + p}"
+      }
+    ]
+  },
+  "t2-input:new": {
+    "zh": [
+      {
+        "linear": "Pгр = 30700 t",
+        "tex": "P_{\\mathrm{гр}} = 30700 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "v = 15.9 kn",
+        "tex": "v = 15.9 \\,\\mathrm{kn}"
+      },
+      {
+        "linear": "R = 5500 n mile",
+        "tex": "R = 5500 \\,\\mathrm{nmi}"
+      },
+      {
+        "linear": "n = 20",
+        "tex": "n = 20"
+      },
+      {
+        "linear": "tп = 35 d",
+        "tex": "t_{\\mathrm{п}} = 35 \\,\\mathrm{d}"
+      },
+      {
+        "linear": "tв = 20 d",
+        "tex": "t_{\\mathrm{в}} = 20 \\,\\mathrm{d}"
+      },
+      {
+        "linear": "ρгр = 0.9 t/m³",
+        "tex": "\\rho_{\\mathrm{гр}} = 0.9 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pгр = 30700 t",
+        "tex": "P_{\\mathrm{гр}} = 30700 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "v = 15.9 kn",
+        "tex": "v = 15.9 \\,\\mathrm{kn}"
+      },
+      {
+        "linear": "R = 5500 n mile",
+        "tex": "R = 5500 \\,\\mathrm{nmi}"
+      },
+      {
+        "linear": "n = 20",
+        "tex": "n = 20"
+      },
+      {
+        "linear": "tп = 35 d",
+        "tex": "t_{\\mathrm{п}} = 35 \\,\\mathrm{d}"
+      },
+      {
+        "linear": "tв = 20 d",
+        "tex": "t_{\\mathrm{в}} = 20 \\,\\mathrm{d}"
+      },
+      {
+        "linear": "ρгр = 0.9 t/m³",
+        "tex": "\\rho_{\\mathrm{гр}} = 0.9 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      }
+    ]
+  },
+  "t2-input:prototype": {
+    "zh": [
+      {
+        "linear": "D₀ = 27590 t",
+        "tex": "D _{0} = 27590 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "v₀ = 15 kn",
+        "tex": "v _{0} = 15 \\,\\mathrm{kn}"
+      },
+      {
+        "linear": "R₀ = 5000 n mile",
+        "tex": "R _{0} = 5000 \\,\\mathrm{nmi}"
+      },
+      {
+        "linear": "N₀ = 8580 kW",
+        "tex": "N _{0} = 8580 \\,\\mathrm{kW}"
+      },
+      {
+        "linear": "Pк₀ = 6720",
+        "tex": "P_{\\mathrm{к},0} = 6720"
+      },
+      {
+        "linear": "Pэ₀ = 720",
+        "tex": "P_{\\mathrm{э},0} = 720"
+      },
+      {
+        "linear": "Pт₀ = 690",
+        "tex": "P_{\\mathrm{т},0} = 690"
+      },
+      {
+        "linear": "Pз₀ = 140",
+        "tex": "P_{\\mathrm{з},0} = 140"
+      },
+      {
+        "linear": "Pсн₀ = 175",
+        "tex": "P_{\\mathrm{сн},0} = 175"
+      },
+      {
+        "linear": "Pгр₀ = 19145",
+        "tex": "P_{\\mathrm{гр},0} = 19145"
+      },
+      {
+        "linear": "6720 + 720 + 690 + 140 + 175 + 19145 = 27590 t",
+        "tex": "6720 + 720 + 690 + 140 + 175 + 19145 = 27590 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D₀ = 27590 t",
+        "tex": "D _{0} = 27590 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "v₀ = 15 kn",
+        "tex": "v _{0} = 15 \\,\\mathrm{kn}"
+      },
+      {
+        "linear": "R₀ = 5000 n mile",
+        "tex": "R _{0} = 5000 \\,\\mathrm{nmi}"
+      },
+      {
+        "linear": "N₀ = 8580 kW",
+        "tex": "N _{0} = 8580 \\,\\mathrm{kW}"
+      },
+      {
+        "linear": "Pк₀ = 6720",
+        "tex": "P_{\\mathrm{к},0} = 6720"
+      },
+      {
+        "linear": "Pэ₀ = 720",
+        "tex": "P_{\\mathrm{э},0} = 720"
+      },
+      {
+        "linear": "Pт₀ = 690",
+        "tex": "P_{\\mathrm{т},0} = 690"
+      },
+      {
+        "linear": "Pз₀ = 140",
+        "tex": "P_{\\mathrm{з},0} = 140"
+      },
+      {
+        "linear": "Pсн₀ = 175",
+        "tex": "P_{\\mathrm{сн},0} = 175"
+      },
+      {
+        "linear": "Pгр₀ = 19145",
+        "tex": "P_{\\mathrm{гр},0} = 19145"
+      },
+      {
+        "linear": "6720 + 720 + 690 + 140 + 175 + 19145 = 27590 t",
+        "tex": "6720 + 720 + 690 + 140 + 175 + 19145 = 27590 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-supply:people": {
+    "zh": [
+      {
+        "linear": "0.12 t/person × 20 = 2.4 t",
+        "tex": "0.12 \\,\\frac{\\mathrm{t}}{\\mathrm{person}} \\cdot 20 = 2.4 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "0.12 t/person × 20 = 2.4 t",
+        "tex": "0.12 \\,\\frac{\\mathrm{t}}{\\mathrm{person}} \\cdot 20 = 2.4 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-supply:food": {
+    "zh": [
+      {
+        "linear": "0.003 × 20 × 35 = 2.1 t",
+        "tex": "0.003 \\cdot 20 \\cdot 35 = 2.1 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "0.003 × 20 × 35 = 2.1 t",
+        "tex": "0.003 \\cdot 20 \\cdot 35 = 2.1 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-supply:water": {
+    "zh": [
+      {
+        "linear": "0.15 × 20 × 20 = 60 t",
+        "tex": "0.15 \\cdot 20 \\cdot 20 = 60 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "0.15 × 20 × 20 = 60 t",
+        "tex": "0.15 \\cdot 20 \\cdot 20 = 60 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-supply:inventory": {
+    "zh": [
+      {
+        "linear": "Pсн = 2.4 + 2.1 + 60 + 20 = @supply@ t",
+        "tex": "P_{\\mathrm{сн}} = 2.4 + 2.1 + 60 + 20 = @supply@ \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pсн = 2.4 + 2.1 + 60 + 20 = @supply@ t",
+        "tex": "P_{\\mathrm{сн}} = 2.4 + 2.1 + 60 + 20 = @supply@ \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-coefficients:hull": {
+    "zh": [
+      {
+        "linear": "pк = 6720 / 27590 = @pk@",
+        "tex": "p_{\\mathrm{к}} = \\frac{6720}{27590} = @pk@"
+      },
+      {
+        "linear": "Pк = pкD",
+        "tex": "P_{\\mathrm{к}} = p_{\\mathrm{к}} D"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "pк = 6720 / 27590 = @pk@",
+        "tex": "p_{\\mathrm{к}} = \\frac{6720}{27590} = @pk@"
+      },
+      {
+        "linear": "Pк = pкD",
+        "tex": "P_{\\mathrm{к}} = p_{\\mathrm{к}} D"
+      }
+    ]
+  },
+  "t2-coefficients:power": {
+    "zh": [
+      {
+        "linear": "pэ = 720 / 8580 = @pe@ t/kW",
+        "tex": "p_{\\mathrm{э}} = \\frac{720}{8580} = @pe@ \\,\\frac{\\mathrm{t}}{\\mathrm{kW}}"
+      },
+      {
+        "linear": "Pэ = pэN",
+        "tex": "P_{\\mathrm{э}} = p_{\\mathrm{э}} N"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "pэ = 720 / 8580 = @pe@ t/kW",
+        "tex": "p_{\\mathrm{э}} = \\frac{720}{8580} = @pe@ \\,\\frac{\\mathrm{t}}{\\mathrm{kW}}"
+      },
+      {
+        "linear": "Pэ = pэN",
+        "tex": "P_{\\mathrm{э}} = p_{\\mathrm{э}} N"
+      }
+    ]
+  },
+  "t2-coefficients:fuel": {
+    "zh": [
+      {
+        "linear": "t = R/v [h]",
+        "tex": "t = \\frac{R}{v}\\quad\\left[\\,\\mathrm{h}\\right]"
+      },
+      {
+        "linear": "pт = 690 × 15 / (8580 × 5000) = @pfcoef@ t/(kW·h)",
+        "tex": "p_{\\mathrm{т}} = \\frac{690 \\cdot 15}{8580 \\cdot 5000} = @pfcoef@ \\,\\frac{\\mathrm{t}}{\\mathrm{kW}\\cdot\\mathrm{h}}"
+      },
+      {
+        "linear": "Pт = pтNR/v",
+        "tex": "P_{\\mathrm{т}} = \\frac{p_{\\mathrm{т}} N R}{v}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "t = R/v [h]",
+        "tex": "t = \\frac{R}{v}\\quad\\left[\\,\\mathrm{h}\\right]"
+      },
+      {
+        "linear": "pт = 690 × 15 / (8580 × 5000) = @pfcoef@ t/(kW·h)",
+        "tex": "p_{\\mathrm{т}} = \\frac{690 \\cdot 15}{8580 \\cdot 5000} = @pfcoef@ \\,\\frac{\\mathrm{t}}{\\mathrm{kW}\\cdot\\mathrm{h}}"
+      },
+      {
+        "linear": "Pт = pтNR/v",
+        "tex": "P_{\\mathrm{т}} = \\frac{p_{\\mathrm{т}} N R}{v}"
+      }
+    ]
+  },
+  "t2-coefficients:admiralty": {
+    "zh": [
+      {
+        "linear": "C = 27590^(2/3) × 15³ / 8580 = @C@",
+        "tex": "C = \\frac{27590 ^{\\frac{2}{3}} \\cdot 15 ^{3}}{8580} = @C@"
+      },
+      {
+        "linear": "N = D^(2/3) v³ / C",
+        "tex": "N = \\frac{D ^{\\frac{2}{3}} v ^{3}}{C}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "C = 27590^(2/3) × 15³ / 8580 = @C@",
+        "tex": "C = \\frac{27590 ^{\\frac{2}{3}} \\cdot 15 ^{3}}{8580} = @C@"
+      },
+      {
+        "linear": "N = D^(2/3) v³ / C",
+        "tex": "N = \\frac{D ^{\\frac{2}{3}} v ^{3}}{C}"
+      }
+    ]
+  },
+  "t2-equation:balance": {
+    "zh": [
+      {
+        "linear": "D = Pк + Pэ + Pт + Pз + Pсн + Pгр",
+        "tex": "D = P_{\\mathrm{к}} + P_{\\mathrm{э}} + P_{\\mathrm{т}} + P_{\\mathrm{з}} + P_{\\mathrm{сн}} + P_{\\mathrm{гр}}"
+      },
+      {
+        "linear": "Pз = 0.01D",
+        "tex": "P_{\\mathrm{з}} = 0.01 D"
+      },
+      {
+        "linear": "Pсн + Pгр = @c@ t",
+        "tex": "P_{\\mathrm{сн}} + P_{\\mathrm{гр}} = @c@ \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D = Pк + Pэ + Pт + Pз + Pсн + Pгр",
+        "tex": "D = P_{\\mathrm{к}} + P_{\\mathrm{э}} + P_{\\mathrm{т}} + P_{\\mathrm{з}} + P_{\\mathrm{сн}} + P_{\\mathrm{гр}}"
+      },
+      {
+        "linear": "Pз = 0.01D",
+        "tex": "P_{\\mathrm{з}} = 0.01 D"
+      },
+      {
+        "linear": "Pсн + Pгр = @c@ t",
+        "tex": "P_{\\mathrm{сн}} + P_{\\mathrm{гр}} = @c@ \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-equation:replace": {
+    "zh": [
+      {
+        "linear": "Pк = pкD",
+        "tex": "P_{\\mathrm{к}} = p_{\\mathrm{к}} D"
+      },
+      {
+        "linear": "Pэ = (pэv³/C) D^(2/3)",
+        "tex": "P_{\\mathrm{э}} = \\left(\\frac{p_{\\mathrm{э}} v ^{3}}{C}\\right) D ^{\\frac{2}{3}}"
+      },
+      {
+        "linear": "Pт = (pтRv²/C) D^(2/3)",
+        "tex": "P_{\\mathrm{т}} = \\left(\\frac{p_{\\mathrm{т}} R v ^{2}}{C}\\right) D ^{\\frac{2}{3}}"
+      },
+      {
+        "linear": "D = pкD + [(pэv³+pтRv²)/C]D^(2/3) + 0.01D + @c@",
+        "tex": "D = p_{\\mathrm{к}} D + \\left[\\frac{p_{\\mathrm{э}} v ^{3} + p_{\\mathrm{т}} R v ^{2}}{C}\\right] D ^{\\frac{2}{3}} + 0.01 D + @c@"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pк = pкD",
+        "tex": "P_{\\mathrm{к}} = p_{\\mathrm{к}} D"
+      },
+      {
+        "linear": "Pэ = (pэv³/C) D^(2/3)",
+        "tex": "P_{\\mathrm{э}} = \\left(\\frac{p_{\\mathrm{э}} v ^{3}}{C}\\right) D ^{\\frac{2}{3}}"
+      },
+      {
+        "linear": "Pт = (pтRv²/C) D^(2/3)",
+        "tex": "P_{\\mathrm{т}} = \\left(\\frac{p_{\\mathrm{т}} R v ^{2}}{C}\\right) D ^{\\frac{2}{3}}"
+      },
+      {
+        "linear": "D = pкD + [(pэv³+pтRv²)/C]D^(2/3) + 0.01D + @c@",
+        "tex": "D = p_{\\mathrm{к}} D + \\left[\\frac{p_{\\mathrm{э}} v ^{3} + p_{\\mathrm{т}} R v ^{2}}{C}\\right] D ^{\\frac{2}{3}} + 0.01 D + @c@"
+      }
+    ]
+  },
+  "t2-equation:collect": {
+    "zh": [
+      {
+        "linear": "a = 1 − pк − 0.01 = @a@",
+        "tex": "a = 1 - p_{\\mathrm{к}} - 0.01 = @a@"
+      },
+      {
+        "linear": "b = (pэv³ + pтRv²)/C = @b@",
+        "tex": "b = \\frac{p_{\\mathrm{э}} v ^{3} + p_{\\mathrm{т}} R v ^{2}}{C} = @b@"
+      },
+      {
+        "linear": "c = Pсн + Pгр = @c@",
+        "tex": "c = P_{\\mathrm{сн}} + P_{\\mathrm{гр}} = @c@"
+      },
+      {
+        "linear": "aD − bD^(2/3) − c = 0",
+        "tex": "a D - b D ^{\\frac{2}{3}} - c = 0"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "a = 1 − pк − 0.01 = @a@",
+        "tex": "a = 1 - p_{\\mathrm{к}} - 0.01 = @a@"
+      },
+      {
+        "linear": "b = (pэv³ + pтRv²)/C = @b@",
+        "tex": "b = \\frac{p_{\\mathrm{э}} v ^{3} + p_{\\mathrm{т}} R v ^{2}}{C} = @b@"
+      },
+      {
+        "linear": "c = Pсн + Pгр = @c@",
+        "tex": "c = P_{\\mathrm{сн}} + P_{\\mathrm{гр}} = @c@"
+      },
+      {
+        "linear": "aD − bD^(2/3) − c = 0",
+        "tex": "a D - b D ^{\\frac{2}{3}} - c = 0"
+      }
+    ]
+  },
+  "t2-root:substitute": {
+    "zh": [
+      {
+        "linear": "D = X³",
+        "tex": "D = X ^{3}"
+      },
+      {
+        "linear": "D^(2/3) = X²",
+        "tex": "D ^{\\frac{2}{3}} = X ^{2}"
+      },
+      {
+        "linear": "f(X) = aX³ − bX² − c",
+        "tex": "f \\left(X\\right) = a X ^{3} - b X ^{2} - c"
+      },
+      {
+        "linear": "f′(X) = 3aX² − 2bX",
+        "tex": "f ' \\left(X\\right) = 3 a X ^{2} - 2 b X"
+      },
+      {
+        "linear": "Xnew = X − f(X)/f′(X)",
+        "tex": "X_{\\mathrm{new}} = X - \\frac{f \\left(X\\right)}{f ' \\left(X\\right)}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D = X³",
+        "tex": "D = X ^{3}"
+      },
+      {
+        "linear": "D^(2/3) = X²",
+        "tex": "D ^{\\frac{2}{3}} = X ^{2}"
+      },
+      {
+        "linear": "f(X) = aX³ − bX² − c",
+        "tex": "f \\left(X\\right) = a X ^{3} - b X ^{2} - c"
+      },
+      {
+        "linear": "f′(X) = 3aX² − 2bX",
+        "tex": "f ' \\left(X\\right) = 3 a X ^{2} - 2 b X"
+      },
+      {
+        "linear": "Xnew = X − f(X)/f′(X)",
+        "tex": "X_{\\mathrm{new}} = X - \\frac{f \\left(X\\right)}{f ' \\left(X\\right)}"
+      }
+    ]
+  },
+  "t2-root:iteration0": {
+    "zh": [
+      {
+        "linear": "X = 35.000000000000",
+        "tex": "X = 35.000000000000"
+      },
+      {
+        "linear": "D = X³ = 42875.000000000 t",
+        "tex": "D = X ^{3} = 42875.000000000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = -1075.824406",
+        "tex": "f \\left(X\\right) = - 1075.824406"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "X = 35.000000000000",
+        "tex": "X = 35.000000000000"
+      },
+      {
+        "linear": "D = X³ = 42875.000000000 t",
+        "tex": "D = X ^{3} = 42875.000000000 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = -1075.824406",
+        "tex": "f \\left(X\\right) = - 1075.824406"
+      }
+    ]
+  },
+  "t2-root:iteration1": {
+    "zh": [
+      {
+        "linear": "X = 35.411874548315",
+        "tex": "X = 35.411874548315"
+      },
+      {
+        "linear": "D = X³ = 44406.521103295 t",
+        "tex": "D = X ^{3} = 44406.521103295 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = 13.03005735",
+        "tex": "f \\left(X\\right) = 13.03005735"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "X = 35.411874548315",
+        "tex": "X = 35.411874548315"
+      },
+      {
+        "linear": "D = X³ = 44406.521103295 t",
+        "tex": "D = X ^{3} = 44406.521103295 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = 13.03005735",
+        "tex": "f \\left(X\\right) = 13.03005735"
+      }
+    ]
+  },
+  "t2-root:iteration2": {
+    "zh": [
+      {
+        "linear": "X = 35.407004260294",
+        "tex": "X = 35.407004260294"
+      },
+      {
+        "linear": "D = X³ = 44388.201586970 t",
+        "tex": "D = X ^{3} = 44388.201586970 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = 0.001836403302",
+        "tex": "f \\left(X\\right) = 0.001836403302"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "X = 35.407004260294",
+        "tex": "X = 35.407004260294"
+      },
+      {
+        "linear": "D = X³ = 44388.201586970 t",
+        "tex": "D = X ^{3} = 44388.201586970 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = 0.001836403302",
+        "tex": "f \\left(X\\right) = 0.001836403302"
+      }
+    ]
+  },
+  "t2-root:iteration3": {
+    "zh": [
+      {
+        "linear": "X = 35.407003573702",
+        "tex": "X = 35.407003573702"
+      },
+      {
+        "linear": "D = X³ = 44388.199004719 t",
+        "tex": "D = X ^{3} = 44388.199004719 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = 3.637978807e-11",
+        "tex": "f \\left(X\\right) = 3.637978807\\times10^{-11}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "X = 35.407003573702",
+        "tex": "X = 35.407003573702"
+      },
+      {
+        "linear": "D = X³ = 44388.199004719 t",
+        "tex": "D = X ^{3} = 44388.199004719 \\,\\mathrm{t}"
+      },
+      {
+        "linear": "f(X) = 3.637978807e-11",
+        "tex": "f \\left(X\\right) = 3.637978807\\times10^{-11}"
+      }
+    ]
+  },
+  "t2-root:positive": {
+    "zh": [
+      {
+        "linear": "f(0) = −c < 0",
+        "tex": "f \\left(0\\right) = - c < 0"
+      },
+      {
+        "linear": "f′(X) = X(3aX−2b)",
+        "tex": "f ' \\left(X\\right) = X \\left(3 a X - 2 b\\right)"
+      },
+      {
+        "linear": "X > 2b/(3a) → f′(X) > 0",
+        "tex": "X > \\frac{2 b}{3 a} \\longrightarrow f ' \\left(X\\right) > 0"
+      },
+      {
+        "linear": "Dexact = @D_exact@ t",
+        "tex": "D_{\\mathrm{exact}} = @D_exact@ \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "f(0) = −c < 0",
+        "tex": "f \\left(0\\right) = - c < 0"
+      },
+      {
+        "linear": "f′(X) = X(3aX−2b)",
+        "tex": "f ' \\left(X\\right) = X \\left(3 a X - 2 b\\right)"
+      },
+      {
+        "linear": "X > 2b/(3a) → f′(X) > 0",
+        "tex": "X > \\frac{2 b}{3 a} \\longrightarrow f ' \\left(X\\right) > 0"
+      },
+      {
+        "linear": "Dexact = @D_exact@ t",
+        "tex": "D_{\\mathrm{exact}} = @D_exact@ \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-back:rounded": {
+    "zh": [
+      {
+        "linear": "N = 44388^(2/3) × 15.9³ / @C@ = @N@ kW",
+        "tex": "N = \\frac{44388 ^{\\frac{2}{3}} \\cdot 15.9 ^{3}}{@C@} = @N@ \\,\\mathrm{kW}"
+      },
+      {
+        "linear": "Pк = @pk@ × 44388 = @mass0@ t",
+        "tex": "P_{\\mathrm{к}} = @pk@ \\cdot 44388 = @mass0@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pэ = @pe@ × @N@ = @mass1@ t",
+        "tex": "P_{\\mathrm{э}} = @pe@ \\cdot @N@ = @mass1@ \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "N = 44388^(2/3) × 15.9³ / @C@ = @N@ kW",
+        "tex": "N = \\frac{44388 ^{\\frac{2}{3}} \\cdot 15.9 ^{3}}{@C@} = @N@ \\,\\mathrm{kW}"
+      },
+      {
+        "linear": "Pк = @pk@ × 44388 = @mass0@ t",
+        "tex": "P_{\\mathrm{к}} = @pk@ \\cdot 44388 = @mass0@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pэ = @pe@ × @N@ = @mass1@ t",
+        "tex": "P_{\\mathrm{э}} = @pe@ \\cdot @N@ = @mass1@ \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "t2-back:remaining": {
+    "zh": [
+      {
+        "linear": "Pт = pт × N × 5500 / 15.9 = @mass2@ t",
+        "tex": "P_{\\mathrm{т}} = \\frac{p_{\\mathrm{т}} \\cdot N \\cdot 5500}{15.9} = @mass2@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pз = 0.01 × 44388 = @mass3@ t",
+        "tex": "P_{\\mathrm{з}} = 0.01 \\cdot 44388 = @mass3@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pсн = @mass4@ t",
+        "tex": "P_{\\mathrm{сн}} = @mass4@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pгр = @mass5@ t",
+        "tex": "P_{\\mathrm{гр}} = @mass5@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "ΣP = @mass_sum@ t",
+        "tex": "\\sum  P = @mass_sum@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "ΣP − D = @mass_error@ t",
+        "tex": "\\sum  P - D = @mass_error@ \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pт = pт × N × 5500 / 15.9 = @mass2@ t",
+        "tex": "P_{\\mathrm{т}} = \\frac{p_{\\mathrm{т}} \\cdot N \\cdot 5500}{15.9} = @mass2@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pз = 0.01 × 44388 = @mass3@ t",
+        "tex": "P_{\\mathrm{з}} = 0.01 \\cdot 44388 = @mass3@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pсн = @mass4@ t",
+        "tex": "P_{\\mathrm{сн}} = @mass4@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "Pгр = @mass5@ t",
+        "tex": "P_{\\mathrm{гр}} = @mass5@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "ΣP = @mass_sum@ t",
+        "tex": "\\sum  P = @mass_sum@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "ΣP − D = @mass_error@ t",
+        "tex": "\\sum  P - D = @mass_error@ \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "dim-length:length": {
+    "zh": [
+      {
+        "linear": "ℓ = 2.13 × 15.9^(1/3) = @ell@",
+        "tex": "\\ell  = 2.13 \\cdot 15.9 ^{\\frac{1}{3}} = @ell@"
+      },
+      {
+        "linear": "L = ℓ D^(1/3) = @L@ m",
+        "tex": "L = \\ell  D ^{\\frac{1}{3}} = @L@ \\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "ℓ = 2.13 × 15.9^(1/3) = @ell@",
+        "tex": "\\ell  = 2.13 \\cdot 15.9 ^{\\frac{1}{3}} = @ell@"
+      },
+      {
+        "linear": "L = ℓ D^(1/3) = @L@ m",
+        "tex": "L = \\ell  D ^{\\frac{1}{3}} = @L@ \\,\\mathrm{m}"
+      }
+    ]
+  },
+  "dim-length:froude": {
+    "zh": [
+      {
+        "linear": "v [m/s] = 0.514 × 15.9 = 8.1726",
+        "tex": "v \\left[\\,\\frac{\\mathrm{m}}{\\mathrm{s}}\\right] = 0.514 \\cdot 15.9 = 8.1726"
+      },
+      {
+        "linear": "Fr = 0.514 × 15.9 / √(9.81 × @L@) = @Fr@",
+        "tex": "\\mathrm{Fr} = \\frac{0.514 \\cdot 15.9}{\\sqrt{9.81 \\cdot @L@}} = @Fr@"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "v [m/s] = 0.514 × 15.9 = 8.1726",
+        "tex": "v \\left[\\,\\frac{\\mathrm{m}}{\\mathrm{s}}\\right] = 0.514 \\cdot 15.9 = 8.1726"
+      },
+      {
+        "linear": "Fr = 0.514 × 15.9 / √(9.81 × @L@) = @Fr@",
+        "tex": "\\mathrm{Fr} = \\frac{0.514 \\cdot 15.9}{\\sqrt{9.81 \\cdot @L@}} = @Fr@"
+      }
+    ]
+  },
+  "dim-length:fullness": {
+    "zh": [
+      {
+        "linear": "δ = 1.05 − 1.4Fr = @delta@",
+        "tex": "\\delta  = 1.05 - 1.4 \\mathrm{Fr} = @delta@"
+      },
+      {
+        "linear": "α = 0.96√δ = @alpha@",
+        "tex": "\\alpha  = 0.96 \\sqrt{\\delta } = @alpha@"
+      },
+      {
+        "linear": "δпп = δ + 0.035 = @delta_pp@",
+        "tex": "\\delta_{\\mathrm{пп}} = \\delta  + 0.035 = @delta_pp@"
+      },
+      {
+        "linear": "ζ = 8.31 / 13.4 = @zeta@",
+        "tex": "\\zeta  = \\frac{8.31}{13.4} = @zeta@"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "δ = 1.05 − 1.4Fr = @delta@",
+        "tex": "\\delta  = 1.05 - 1.4 \\mathrm{Fr} = @delta@"
+      },
+      {
+        "linear": "α = 0.96√δ = @alpha@",
+        "tex": "\\alpha  = 0.96 \\sqrt{\\delta } = @alpha@"
+      },
+      {
+        "linear": "δпп = δ + 0.035 = @delta_pp@",
+        "tex": "\\delta_{\\mathrm{пп}} = \\delta  + 0.035 = @delta_pp@"
+      },
+      {
+        "linear": "ζ = 8.31 / 13.4 = @zeta@",
+        "tex": "\\zeta  = \\frac{8.31}{13.4} = @zeta@"
+      }
+    ]
+  },
+  "dim-volume:cargo": {
+    "zh": [
+      {
+        "linear": "ρгр = 0.9 t/m³",
+        "tex": "\\rho_{\\mathrm{гр}} = 0.9 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      },
+      {
+        "linear": "Wгр = 1.04 × 30700 / 0.9 = @Wcargo@ m³",
+        "tex": "W_{\\mathrm{гр}} = \\frac{1.04 \\cdot 30700}{0.9} = @Wcargo@ \\,\\mathrm{m}^{3}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "ρгр = 0.9 t/m³",
+        "tex": "\\rho_{\\mathrm{гр}} = 0.9 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      },
+      {
+        "linear": "Wгр = 1.04 × 30700 / 0.9 = @Wcargo@ m³",
+        "tex": "W_{\\mathrm{гр}} = \\frac{1.04 \\cdot 30700}{0.9} = @Wcargo@ \\,\\mathrm{m}^{3}"
+      }
+    ]
+  },
+  "dim-volume:engine": {
+    "zh": [
+      {
+        "linear": "μэ = 4715 / 8580 = 0.5495337995 m³/kW",
+        "tex": "\\mu_{\\mathrm{э}} = \\frac{4715}{8580} = 0.5495337995 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{kW}}"
+      },
+      {
+        "linear": "Wэ = μэ × @N@ = @Wpower@ m³",
+        "tex": "W_{\\mathrm{э}} = \\mu_{\\mathrm{э}} \\cdot @N@ = @Wpower@ \\,\\mathrm{m}^{3}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "μэ = 4715 / 8580 = 0.5495337995 m³/kW",
+        "tex": "\\mu_{\\mathrm{э}} = \\frac{4715}{8580} = 0.5495337995 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{kW}}"
+      },
+      {
+        "linear": "Wэ = μэ × @N@ = @Wpower@ m³",
+        "tex": "W_{\\mathrm{э}} = \\mu_{\\mathrm{э}} \\cdot @N@ = @Wpower@ \\,\\mathrm{m}^{3}"
+      }
+    ]
+  },
+  "dim-volume:fuelwater": {
+    "zh": [
+      {
+        "linear": "Wт = @mass2@ / 0.85 = @Wfuel@ m³",
+        "tex": "W_{\\mathrm{т}} = \\frac{@mass2@}{0.85} = @Wfuel@ \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "Wв = 60 / 1 = 60 m³",
+        "tex": "W_{\\mathrm{в}} = \\frac{60}{1} = 60 \\,\\mathrm{m}^{3}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Wт = @mass2@ / 0.85 = @Wfuel@ m³",
+        "tex": "W_{\\mathrm{т}} = \\frac{@mass2@}{0.85} = @Wfuel@ \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "Wв = 60 / 1 = 60 m³",
+        "tex": "W_{\\mathrm{в}} = \\frac{60}{1} = 60 \\,\\mathrm{m}^{3}"
+      }
+    ]
+  },
+  "dim-volume:ballast": {
+    "zh": [
+      {
+        "linear": "Wб = 0.38 × @Wcargo@ = @Wballast@ m³",
+        "tex": "W_{\\mathrm{б}} = 0.38 \\cdot @Wcargo@ = @Wballast@ \\,\\mathrm{m}^{3}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Wб = 0.38 × @Wcargo@ = @Wballast@ m³",
+        "tex": "W_{\\mathrm{б}} = 0.38 \\cdot @Wcargo@ = @Wballast@ \\,\\mathrm{m}^{3}"
+      }
+    ]
+  },
+  "dim-volume:total": {
+    "zh": [
+      {
+        "linear": "WΣ = Wгр + Wэ + Wт + Wв + Wб",
+        "tex": "W_{\\Sigma} = W_{\\mathrm{гр}} + W_{\\mathrm{э}} + W_{\\mathrm{т}} + W_{\\mathrm{в}} + W_{\\mathrm{б}}"
+      },
+      {
+        "linear": "Wreq = 1.06 WΣ = @Wreq@ m³",
+        "tex": "W_{\\mathrm{req}} = 1.06 W_{\\Sigma} = @Wreq@ \\,\\mathrm{m}^{3}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "WΣ = Wгр + Wэ + Wт + Wв + Wб",
+        "tex": "W_{\\Sigma} = W_{\\mathrm{гр}} + W_{\\mathrm{э}} + W_{\\mathrm{т}} + W_{\\mathrm{в}} + W_{\\mathrm{б}}"
+      },
+      {
+        "linear": "Wreq = 1.06 WΣ = @Wreq@ m³",
+        "tex": "W_{\\mathrm{req}} = 1.06 W_{\\Sigma} = @Wreq@ \\,\\mathrm{m}^{3}"
+      }
+    ]
+  },
+  "dim-equations:floatation": {
+    "zh": [
+      {
+        "linear": "D = kD ρ δ LBT",
+        "tex": "D = k_D \\rho  \\delta  L B T"
+      },
+      {
+        "linear": "kD = 1.005",
+        "tex": "k_D = 1.005"
+      },
+      {
+        "linear": "ρ = 1.025 t/m³",
+        "tex": "\\rho  = 1.025 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      },
+      {
+        "linear": "BT = D/(kDρδL) = @U@ m²",
+        "tex": "B T = \\frac{D}{k_D \\rho  \\delta  L} = @U@ \\,\\mathrm{m}^{2}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D = kD ρ δ LBT",
+        "tex": "D = k_D \\rho  \\delta  L B T"
+      },
+      {
+        "linear": "kD = 1.005",
+        "tex": "k_D = 1.005"
+      },
+      {
+        "linear": "ρ = 1.025 t/m³",
+        "tex": "\\rho  = 1.025 \\,\\frac{\\mathrm{t}}{\\mathrm{m}^{3}}"
+      },
+      {
+        "linear": "BT = D/(kDρδL) = @U@ m²",
+        "tex": "B T = \\frac{D}{k_D \\rho  \\delta  L} = @U@ \\,\\mathrm{m}^{2}"
+      }
+    ]
+  },
+  "dim-equations:capacity": {
+    "zh": [
+      {
+        "linear": "δпп LBH = Wreq",
+        "tex": "\\delta_{\\mathrm{пп}} L B H = W_{\\mathrm{req}}"
+      },
+      {
+        "linear": "BH = Wreq/(δппL) = @V@ m²",
+        "tex": "B H = \\frac{W_{\\mathrm{req}}}{\\delta_{\\mathrm{пп}} L} = @V@ \\,\\mathrm{m}^{2}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "δпп LBH = Wreq",
+        "tex": "\\delta_{\\mathrm{пп}} L B H = W_{\\mathrm{req}}"
+      },
+      {
+        "linear": "BH = Wreq/(δппL) = @V@ m²",
+        "tex": "B H = \\frac{W_{\\mathrm{req}}}{\\delta_{\\mathrm{пп}} L} = @V@ \\,\\mathrm{m}^{2}"
+      }
+    ]
+  },
+  "dim-equations:stability": {
+    "zh": [
+      {
+        "linear": "h/B = 0.06",
+        "tex": "\\frac{h}{B} = 0.06"
+      },
+      {
+        "linear": "h = 0.5√(α/δ)T + (0.0862α²/δ)B²/T − ζH",
+        "tex": "h = 0.5 \\sqrt{\\frac{\\alpha }{\\delta }} T + \\frac{\\left(\\frac{0.0862 \\alpha  ^{2}}{\\delta }\\right) B ^{2}}{T} - \\zeta  H"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "h/B = 0.06",
+        "tex": "\\frac{h}{B} = 0.06"
+      },
+      {
+        "linear": "h = 0.5√(α/δ)T + (0.0862α²/δ)B²/T − ζH",
+        "tex": "h = 0.5 \\sqrt{\\frac{\\alpha }{\\delta }} T + \\frac{\\left(\\frac{0.0862 \\alpha  ^{2}}{\\delta }\\right) B ^{2}}{T} - \\zeta  H"
+      }
+    ]
+  },
+  "dim-eliminate:uv": {
+    "zh": [
+      {
+        "linear": "U = @U@ m²",
+        "tex": "U = @U@ \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "J = @V@ m²",
+        "tex": "J = @V@ \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "T = U/B",
+        "tex": "T = \\frac{U}{B}"
+      },
+      {
+        "linear": "H = J/B",
+        "tex": "H = \\frac{J}{B}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "U = @U@ m²",
+        "tex": "U = @U@ \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "J = @V@ m²",
+        "tex": "J = @V@ \\,\\mathrm{m}^{2}"
+      },
+      {
+        "linear": "T = U/B",
+        "tex": "T = \\frac{U}{B}"
+      },
+      {
+        "linear": "H = J/B",
+        "tex": "H = \\frac{J}{B}"
+      }
+    ]
+  },
+  "dim-eliminate:aq": {
+    "zh": [
+      {
+        "linear": "A = 0.5√(α/δ) = @A@",
+        "tex": "A = 0.5 \\sqrt{\\frac{\\alpha }{\\delta }} = @A@"
+      },
+      {
+        "linear": "Q = 0.0862α²/δ = @Q@",
+        "tex": "Q = \\frac{0.0862 \\alpha  ^{2}}{\\delta } = @Q@"
+      },
+      {
+        "linear": "h = AT + QB²/T − ζH",
+        "tex": "h = A T + \\frac{Q B ^{2}}{T} - \\zeta  H"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "A = 0.5√(α/δ) = @A@",
+        "tex": "A = 0.5 \\sqrt{\\frac{\\alpha }{\\delta }} = @A@"
+      },
+      {
+        "linear": "Q = 0.0862α²/δ = @Q@",
+        "tex": "Q = \\frac{0.0862 \\alpha  ^{2}}{\\delta } = @Q@"
+      },
+      {
+        "linear": "h = AT + QB²/T − ζH",
+        "tex": "h = A T + \\frac{Q B ^{2}}{T} - \\zeta  H"
+      }
+    ]
+  },
+  "dim-eliminate:replace": {
+    "zh": [
+      {
+        "linear": "0.06B = AU/B + QB³/U − ζJ/B",
+        "tex": "0.06 B = \\frac{A U}{B} + \\frac{Q B ^{3}}{U} - \\frac{\\zeta  J}{B}"
+      },
+      {
+        "linear": "0.06B² = AU + QB⁴/U − ζJ",
+        "tex": "0.06 B ^{2} = A U + \\frac{Q B ^{4}}{U} - \\zeta  J"
+      },
+      {
+        "linear": "(Q/U)B⁴ − 0.06B² + (AU−ζJ) = 0",
+        "tex": "\\left(\\frac{Q}{U}\\right) B ^{4} - 0.06 B ^{2} + \\left(A U - \\zeta  J\\right) = 0"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "0.06B = AU/B + QB³/U − ζJ/B",
+        "tex": "0.06 B = \\frac{A U}{B} + \\frac{Q B ^{3}}{U} - \\frac{\\zeta  J}{B}"
+      },
+      {
+        "linear": "0.06B² = AU + QB⁴/U − ζJ",
+        "tex": "0.06 B ^{2} = A U + \\frac{Q B ^{4}}{U} - \\zeta  J"
+      },
+      {
+        "linear": "(Q/U)B⁴ − 0.06B² + (AU−ζJ) = 0",
+        "tex": "\\left(\\frac{Q}{U}\\right) B ^{4} - 0.06 B ^{2} + \\left(A U - \\zeta  J\\right) = 0"
+      }
+    ]
+  },
+  "dim-eliminate:quadratic": {
+    "zh": [
+      {
+        "linear": "q = Q/U = @q@",
+        "tex": "q = \\frac{Q}{U} = @q@"
+      },
+      {
+        "linear": "cB = AU − ζJ = @cc@",
+        "tex": "c_B = A U - \\zeta  J = @cc@"
+      },
+      {
+        "linear": "qy² − 0.06y + cB = 0",
+        "tex": "q y ^{2} - 0.06 y + c_B = 0"
+      },
+      {
+        "linear": "Δ = 0.06² − 4qcB = @disc@",
+        "tex": "\\Delta  = 0.06 ^{2} - 4 q c_B = @disc@"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "q = Q/U = @q@",
+        "tex": "q = \\frac{Q}{U} = @q@"
+      },
+      {
+        "linear": "cB = AU − ζJ = @cc@",
+        "tex": "c_B = A U - \\zeta  J = @cc@"
+      },
+      {
+        "linear": "qy² − 0.06y + cB = 0",
+        "tex": "q y ^{2} - 0.06 y + c_B = 0"
+      },
+      {
+        "linear": "Δ = 0.06² − 4qcB = @disc@",
+        "tex": "\\Delta  = 0.06 ^{2} - 4 q c_B = @disc@"
+      }
+    ]
+  },
+  "dim-eliminate:root": {
+    "zh": [
+      {
+        "linear": "y = (0.06 + √Δ)/(2q) = @y@",
+        "tex": "y = \\frac{0.06 + \\sqrt{\\Delta }}{2 q} = @y@"
+      },
+      {
+        "linear": "B = √y = @B@ m",
+        "tex": "B = \\sqrt{y} = @B@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = U/B = @T@ m",
+        "tex": "T = \\frac{U}{B} = @T@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H = J/B = @H@ m",
+        "tex": "H = \\frac{J}{B} = @H@ \\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "y = (0.06 + √Δ)/(2q) = @y@",
+        "tex": "y = \\frac{0.06 + \\sqrt{\\Delta }}{2 q} = @y@"
+      },
+      {
+        "linear": "B = √y = @B@ m",
+        "tex": "B = \\sqrt{y} = @B@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = U/B = @T@ m",
+        "tex": "T = \\frac{U}{B} = @T@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H = J/B = @H@ m",
+        "tex": "H = \\frac{J}{B} = @H@ \\,\\mathrm{m}"
+      }
+    ]
+  },
+  "dim-check:sizes": {
+    "zh": [
+      {
+        "linear": "L = @L@ m",
+        "tex": "L = @L@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "B = @B@ m",
+        "tex": "B = @B@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = @T@ m",
+        "tex": "T = @T@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H = @H@ m",
+        "tex": "H = @H@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H − T = @freeboard@ m",
+        "tex": "H - T = @freeboard@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "h = 0.06B = @GM@ m",
+        "tex": "h = 0.06 B = @GM@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H/T = @H_T@ ≥ 1.25",
+        "tex": "\\frac{H}{T} = @H_T@ \\ge 1.25"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "L = @L@ m",
+        "tex": "L = @L@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "B = @B@ m",
+        "tex": "B = @B@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "T = @T@ m",
+        "tex": "T = @T@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H = @H@ m",
+        "tex": "H = @H@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H − T = @freeboard@ m",
+        "tex": "H - T = @freeboard@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "h = 0.06B = @GM@ m",
+        "tex": "h = 0.06 B = @GM@ \\,\\mathrm{m}"
+      },
+      {
+        "linear": "H/T = @H_T@ ≥ 1.25",
+        "tex": "\\frac{H}{T} = @H_T@ \\ge 1.25"
+      }
+    ]
+  },
+  "dim-check:residual": {
+    "zh": [
+      {
+        "linear": "kDρδLBT − D = @residual_float@ t",
+        "tex": "k_D \\rho  \\delta  L B T - D = @residual_float@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "δппLBH − Wreq = @residual_volume@ m³",
+        "tex": "\\delta_{\\mathrm{пп}} L B H - W_{\\mathrm{req}} = @residual_volume@ \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "(AT + QB²/T − ζH)/B − 0.06 = @residual_stability@",
+        "tex": "\\frac{A T + \\frac{Q B ^{2}}{T} - \\zeta  H}{B} - 0.06 = @residual_stability@"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "kDρδLBT − D = @residual_float@ t",
+        "tex": "k_D \\rho  \\delta  L B T - D = @residual_float@ \\,\\mathrm{t}"
+      },
+      {
+        "linear": "δппLBH − Wreq = @residual_volume@ m³",
+        "tex": "\\delta_{\\mathrm{пп}} L B H - W_{\\mathrm{req}} = @residual_volume@ \\,\\mathrm{m}^{3}"
+      },
+      {
+        "linear": "(AT + QB²/T − ζH)/B − 0.06 = @residual_stability@",
+        "tex": "\\frac{A T + \\frac{Q B ^{2}}{T} - \\zeta  H}{B} - 0.06 = @residual_stability@"
+      }
+    ]
+  },
+  "norman-derive:difference": {
+    "zh": [],
+    "ru": []
+  },
+  "norman-derive:differentiate": {
+    "zh": [
+      {
+        "linear": "D = F(D, θ) + P",
+        "tex": "D = F \\left(D,\\;\\theta \\right) + P"
+      },
+      {
+        "linear": "dD = F_D dD + dF* + dP",
+        "tex": "d D = F _{D} d D + d F ^{*} + d P"
+      },
+      {
+        "linear": "(1 − F_D)dD = dF* + dP",
+        "tex": "\\left(1 - F _{D}\\right) d D = d F ^{*} + d P"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D = F(D, θ) + P",
+        "tex": "D = F \\left(D,\\;\\theta \\right) + P"
+      },
+      {
+        "linear": "dD = F_D dD + dF* + dP",
+        "tex": "d D = F _{D} d D + d F ^{*} + d P"
+      },
+      {
+        "linear": "(1 − F_D)dD = dF* + dP",
+        "tex": "\\left(1 - F _{D}\\right) d D = d F ^{*} + d P"
+      }
+    ]
+  },
+  "norman-derive:eta": {
+    "zh": [
+      {
+        "linear": "η = 1/(1 − F_D)",
+        "tex": "\\eta  = \\frac{1}{1 - F _{D}}"
+      },
+      {
+        "linear": "dD = η(dF* + dP)",
+        "tex": "d D = \\eta  \\left(d F ^{*} + d P\\right)"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "η = 1/(1 − F_D)",
+        "tex": "\\eta  = \\frac{1}{1 - F _{D}}"
+      },
+      {
+        "linear": "dD = η(dF* + dP)",
+        "tex": "d D = \\eta  \\left(d F ^{*} + d P\\right)"
+      }
+    ]
+  },
+  "norman-apply:derivative": {
+    "zh": [
+      {
+        "linear": "F_D = Pк/D + 2Pэ/(3D) + 2Pт/(3D) + Pз/D",
+        "tex": "F _{D} = \\frac{P_{\\mathrm{к}}}{D} + \\frac{2 P_{\\mathrm{э}}}{3 D} + \\frac{2 P_{\\mathrm{т}}}{3 D} + \\frac{P_{\\mathrm{з}}}{D}"
+      },
+      {
+        "linear": "η = @eta@",
+        "tex": "\\eta  = @eta@"
+      },
+      {
+        "linear": "dP = 100 t → dD ≈ η × 100 ≈ 140.6146 t",
+        "tex": "d P = 100 \\,\\mathrm{t} \\longrightarrow d D \\approx \\eta  \\cdot 100 \\approx 140.6146 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "F_D = Pк/D + 2Pэ/(3D) + 2Pт/(3D) + Pз/D",
+        "tex": "F _{D} = \\frac{P_{\\mathrm{к}}}{D} + \\frac{2 P_{\\mathrm{э}}}{3 D} + \\frac{2 P_{\\mathrm{т}}}{3 D} + \\frac{P_{\\mathrm{з}}}{D}"
+      },
+      {
+        "linear": "η = @eta@",
+        "tex": "\\eta  = @eta@"
+      },
+      {
+        "linear": "dP = 100 t → dD ≈ η × 100 ≈ 140.6146 t",
+        "tex": "d P = 100 \\,\\mathrm{t} \\longrightarrow d D \\approx \\eta  \\cdot 100 \\approx 140.6146 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "norman-apply:direct": {
+    "zh": [
+      {
+        "linear": "N ∝ D^(2/3)v³",
+        "tex": "N \\propto D ^{\\frac{2}{3}} v ^{3}"
+      },
+      {
+        "linear": "Pт ∝ D^(2/3)Rv²",
+        "tex": "P_{\\mathrm{т}} \\propto D ^{\\frac{2}{3}} R v ^{2}"
+      },
+      {
+        "linear": "dF* = D dpк + D dpз",
+        "tex": "d F ^{*} = D d p_{\\mathrm{к}} + D d p_{\\mathrm{з}}"
+      },
+      {
+        "linear": "+ Pэ(dpэ/pэ + 3dv/v − dC/C)",
+        "tex": "+ P_{\\mathrm{э}} \\left(\\frac{d p_{\\mathrm{э}}}{p_{\\mathrm{э}}} + \\frac{3 d v}{v} - \\frac{d C}{C}\\right)"
+      },
+      {
+        "linear": "+ Pт(dpт/pт + dR/R + 2dv/v − dC/C)",
+        "tex": "+ P_{\\mathrm{т}} \\left(\\frac{d p_{\\mathrm{т}}}{p_{\\mathrm{т}}} + \\frac{d R}{R} + \\frac{2 d v}{v} - \\frac{d C}{C}\\right)"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "N ∝ D^(2/3)v³",
+        "tex": "N \\propto D ^{\\frac{2}{3}} v ^{3}"
+      },
+      {
+        "linear": "Pт ∝ D^(2/3)Rv²",
+        "tex": "P_{\\mathrm{т}} \\propto D ^{\\frac{2}{3}} R v ^{2}"
+      },
+      {
+        "linear": "dF* = D dpк + D dpз",
+        "tex": "d F ^{*} = D d p_{\\mathrm{к}} + D d p_{\\mathrm{з}}"
+      },
+      {
+        "linear": "+ Pэ(dpэ/pэ + 3dv/v − dC/C)",
+        "tex": "+ P_{\\mathrm{э}} \\left(\\frac{d p_{\\mathrm{э}}}{p_{\\mathrm{э}}} + \\frac{3 d v}{v} - \\frac{d C}{C}\\right)"
+      },
+      {
+        "linear": "+ Pт(dpт/pт + dR/R + 2dv/v − dC/C)",
+        "tex": "+ P_{\\mathrm{т}} \\left(\\frac{d p_{\\mathrm{т}}}{p_{\\mathrm{т}}} + \\frac{d R}{R} + \\frac{2 d v}{v} - \\frac{d C}{C}\\right)"
+      }
+    ]
+  },
+  "norman-apply:limits": {
+    "zh": [
+      {
+        "linear": "(44388 − 27590)/27590 × 100% = 60.8844%",
+        "tex": "\\frac{44388 - 27590}{27590} \\cdot 100 \\% = 60.8844 \\%"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "(44388 − 27590)/27590 × 100% = 60.8844%",
+        "tex": "\\frac{44388 - 27590}{27590} \\cdot 100 \\% = 60.8844 \\%"
+      }
+    ]
+  },
+  "_concept/area": {
+    "zh": [
+      {
+        "linear": "Aм",
+        "tex": "A_{\\mathrm{м}}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Aм",
+        "tex": "A_{\\mathrm{м}}"
+      }
+    ]
+  },
+  "_concept/fullness": {
+    "zh": [
+      {
+        "linear": "β = Aм / (B · T)",
+        "tex": "\\beta  = \\frac{A_{\\mathrm{м}}}{B \\cdot T}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "β = Aм / (B · T)",
+        "tex": "\\beta  = \\frac{A_{\\mathrm{м}}}{B \\cdot T}"
+      }
+    ]
+  },
+  "_concept/cargo": {
+    "zh": [
+      {
+        "linear": "6186 m³ / 1.21 m³/t = 5112.40 t",
+        "tex": "\\frac{6186 \\,\\mathrm{m}^{3}}{1.21 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}} = 5112.40 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "6186 m³ / 1.21 m³/t = 5112.40 t",
+        "tex": "\\frac{6186 \\,\\mathrm{m}^{3}}{1.21 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}} = 5112.40 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "_concept/root": {
+    "zh": [
+      {
+        "linear": "f(X) = aX³ − bX² − c",
+        "tex": "f \\left(X\\right) = a X ^{3} - b X ^{2} - c"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "f(X) = aX³ − bX² − c",
+        "tex": "f \\left(X\\right) = a X ^{3} - b X ^{2} - c"
+      }
+    ]
+  },
+  "_concept/mass0": {
+    "zh": [
+      {
+        "linear": "Pк = pкD",
+        "tex": "P_{\\mathrm{к}} = p_{\\mathrm{к}} D"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pк = pкD",
+        "tex": "P_{\\mathrm{к}} = p_{\\mathrm{к}} D"
+      }
+    ]
+  },
+  "_concept/mass1": {
+    "zh": [
+      {
+        "linear": "Pэ = pэN",
+        "tex": "P_{\\mathrm{э}} = p_{\\mathrm{э}} N"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pэ = pэN",
+        "tex": "P_{\\mathrm{э}} = p_{\\mathrm{э}} N"
+      }
+    ]
+  },
+  "_concept/mass2": {
+    "zh": [
+      {
+        "linear": "Pт = pтNR/v",
+        "tex": "P_{\\mathrm{т}} = \\frac{p_{\\mathrm{т}} N R}{v}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pт = pтNR/v",
+        "tex": "P_{\\mathrm{т}} = \\frac{p_{\\mathrm{т}} N R}{v}"
+      }
+    ]
+  },
+  "_concept/mass3": {
+    "zh": [
+      {
+        "linear": "Pз = 0.01D",
+        "tex": "P_{\\mathrm{з}} = 0.01 D"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pз = 0.01D",
+        "tex": "P_{\\mathrm{з}} = 0.01 D"
+      }
+    ]
+  },
+  "_concept/mass4": {
+    "zh": [
+      {
+        "linear": "Pсн = 84.5 t",
+        "tex": "P_{\\mathrm{сн}} = 84.5 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pсн = 84.5 t",
+        "tex": "P_{\\mathrm{сн}} = 84.5 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "_concept/mass5": {
+    "zh": [
+      {
+        "linear": "Pгр = 30700 t",
+        "tex": "P_{\\mathrm{гр}} = 30700 \\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Pгр = 30700 t",
+        "tex": "P_{\\mathrm{гр}} = 30700 \\,\\mathrm{t}"
+      }
+    ]
+  },
+  "_concept/mass_total": {
+    "zh": [
+      {
+        "linear": "D = Pк + Pэ + Pт + Pз + Pсн + Pгр",
+        "tex": "D = P_{\\mathrm{к}} + P_{\\mathrm{э}} + P_{\\mathrm{т}} + P_{\\mathrm{з}} + P_{\\mathrm{сн}} + P_{\\mathrm{гр}}"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "D = Pк + Pэ + Pт + Pз + Pсн + Pгр",
+        "tex": "D = P_{\\mathrm{к}} + P_{\\mathrm{э}} + P_{\\mathrm{т}} + P_{\\mathrm{з}} + P_{\\mathrm{сн}} + P_{\\mathrm{гр}}"
+      }
+    ]
+  },
+  "_concept/stability": {
+    "zh": [
+      {
+        "linear": "GM = KB + BM − KG",
+        "tex": "G M = K B + B M - K G"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "GM = KB + BM − KG",
+        "tex": "G M = K B + B M - K G"
+      }
+    ]
+  },
+  "_concept/volume": {
+    "zh": [
+      {
+        "linear": "Wreq = 1.06 · ΣW",
+        "tex": "W_{\\mathrm{req}} = 1.06 \\cdot \\sum  W"
+      }
+    ],
+    "ru": [
+      {
+        "linear": "Wreq = 1.06 · ΣW",
+        "tex": "W_{\\mathrm{req}} = 1.06 \\cdot \\sum  W"
+      }
+    ]
+  }
+}

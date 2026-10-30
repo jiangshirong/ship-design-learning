@@ -1,0 +1,5457 @@
+[
+  {
+    "id": "P12_design",
+    "title": {
+      "zh": "设计任务与母型",
+      "ru": "Прое́кт и прототи́п"
+    },
+    "goal": {
+      "zh": "看懂母型提供什么，以及新船为什么仍要重新设计。",
+      "ru": "Поймём связь фо́рмы, ма́ссы и тре́бований."
+    },
+    "initial": {
+      "topic": "exam12",
+      "qid": "P12_T01",
+      "phase": "overview",
+      "concept": "prototype",
+      "progress": 0.0,
+      "load": 0.0,
+      "cargo_x": 112.0,
+      "cargo_z": 5.0,
+      "flood": 0.0,
+      "room": 0.0,
+      "heel": 0.0,
+      "zg": 8.7,
+      "scale_l": 1.0,
+      "scale_b": 1.0,
+      "scale_t": 1.0,
+      "bilge": 0.0,
+      "bulb": 0.0,
+      "lines": 0.0,
+      "station": 0.0,
+      "speed": 0.0,
+      "roof": 0.0,
+      "cut": 0.0,
+      "depth": 0.0,
+      "forecastle": 0.0,
+      "scan": 0.0,
+      "shift": 0.0,
+      "image_index": 0,
+      "axis": 0.0,
+      "row_index": 0,
+      "drawing": false,
+      "section_height": -1.0
+    },
+    "groups": [
+      {
+        "id": "foundation",
+        "title": {
+          "zh": "基础",
+          "ru": "Осно́ва"
+        },
+        "beats": [
+          {
+            "id": "P12_design:intro",
+            "text": "看懂母型提供什么，以及新船为什么仍要重新设计。",
+            "words": {
+              "zh": "看懂母型提供什么，以及新船为什么仍要重新设计。",
+              "ru": "Поймём, как испо́льзовать прототи́п для но́вого прое́кта."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "prototype",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_design:foundation_end",
+            "text": "先把任务要求与母型已有数据分开。",
+            "words": {
+              "zh": "先把任务要求与母型已有数据分开。",
+              "ru": "Снача́ла отдели́м тре́бования от да́нных прототи́па."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0,
+                "roof": 0.0,
+                "heel": 0.0
+              },
+              "duration": 3.0
+            },
+            "start_params": {
+              "concept": "prototype",
+              "heel": 0.0,
+              "roof": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_T02",
+        "title": {
+          "zh": "近似与母型",
+          "ru": "Вопро́с 2"
+        },
+        "beats": [
+          {
+            "id": "P12_T02:object",
+            "text": "母型提供一个已知的设计状态。",
+            "words": {
+              "zh": "母型提供一个已知的设计状态。",
+              "ru": "Сравни́м но́вое су́дно с прототи́пом."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T02",
+              "phase": "overview",
+              "concept": "prototype",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T02:change",
+            "text": "微分近似描述附近的变化；差异过大时不能照搬。",
+            "words": {
+              "zh": "微分近似描述附近的变化；差异过大时不能照搬。",
+              "ru": "Измене́ния должны́ быть малы́ми."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scale_l": 1.15,
+                "scale_b": 1.1
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T02:answer",
+            "text": "微分方程描述母型附近的小幅变化。",
+            "words": {
+              "ru": "Дифференциа́льное уравне́ние опи́сывает ма́лые измене́ния о́коло прототи́па.",
+              "zh": "微分方程描述母型附近的小幅变化。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T09",
+        "title": {
+          "zh": "逆向设计",
+          "ru": "Вопро́с 9"
+        },
+        "beats": [
+          {
+            "id": "P12_T09:object",
+            "text": "先给出载货、航速及航区要求。",
+            "words": {
+              "zh": "先给出载货、航速及航区要求。",
+              "ru": "Снача́ла за́даны тре́бования, пото́м выбира́ем фо́рму."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T09",
+              "phase": "overview",
+              "concept": "inverse",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T09:change",
+            "text": "改变尺寸和形状，寻找满足要求的方案。",
+            "words": {
+              "zh": "改变尺寸和形状，寻找满足要求的方案。",
+              "ru": "По тре́бованиям выбира́ют разме́ры и фо́рму."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scale_l": 1.1,
+                "scale_b": 1.1
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T09:answer",
+            "text": "正问题是由给定船型求性能；设计则先给定性能要求，再反求合适的船型、尺度和设备，因此是逆问题。",
+            "words": {
+              "ru": "В прямо́й зада́че по за́данной фо́рме нахо́дят ка́чества су́дна.",
+              "zh": "正问题是由给定船型求性能；设计则先给定性能要求，再反求合适的船型、尺度和设备，因此是逆问题。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T15",
+        "title": {
+          "zh": "质量系数",
+          "ru": "Вопро́с 15"
+        },
+        "beats": [
+          {
+            "id": "P12_T15:object",
+            "text": "质量系数来自特定船型、尺度和设备。",
+            "words": {
+              "zh": "质量系数来自特定船型、尺度和设备。",
+              "ru": "Сравни́м но́вое су́дно с прототи́пом."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T15",
+              "phase": "overview",
+              "concept": "prototype",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T15:change",
+            "text": "相同系数不能保证适用于差异很大的船。",
+            "words": {
+              "zh": "相同系数不能保证适用于差异很大的船。",
+              "ru": "Измери́тели зави́сят от ти́па и разме́ров су́дна."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scale_l": 1.15,
+                "scale_b": 1.1
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T15:answer",
+            "text": "接近母型的尺寸、结构和设备与新船相似，因此其质量系数更有适用依据。",
+            "words": {
+              "ru": "У бли́зкого прототи́па разме́ры, констру́кция и обору́дование схо́дны с но́вым су́дном, поэ́тому его́ измери́тели примени́мее.",
+              "zh": "接近母型的尺寸、结构和设备与新船相似，因此其质量系数更有适用依据。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T17",
+        "title": {
+          "zh": "母型不是答案",
+          "ru": "Вопро́с 17"
+        },
+        "beats": [
+          {
+            "id": "P12_T17:object",
+            "text": "母型提供已有尺寸、质量和布置。",
+            "words": {
+              "zh": "母型提供已有尺寸、质量和布置。",
+              "ru": "Сравни́м но́вое су́дно с прототи́пом."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T17",
+              "phase": "overview",
+              "concept": "prototype",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T17:change",
+            "text": "新任务改变后，仍需重新计算和校核。",
+            "words": {
+              "zh": "新任务改变后，仍需重新计算和校核。",
+              "ru": "У но́вого су́дна други́е тре́бования."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scale_l": 1.15,
+                "scale_b": 1.1
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T17:answer",
+            "text": "一艘母型通常不能满足新船的全部要求，借来的方案仍需协调、调整并通过计算验证。",
+            "words": {
+              "ru": "Оди́н прототи́п обы́чно не выполня́ет все тре́бования к но́вому су́дну.",
+              "zh": "一艘母型通常不能满足新船的全部要求，借来的方案仍需协调、调整并通过计算验证。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T25",
+        "title": {
+          "zh": "尺度权衡",
+          "ru": "Вопро́с 25"
+        },
+        "beats": [
+          {
+            "id": "P12_T25:object",
+            "text": "增加船宽会同时改变水线面和舱容。",
+            "words": {
+              "zh": "增加船宽会同时改变水线面和舱容。",
+              "ru": "Измени́м ширину́ и прове́рим други́е ка́чества."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T25",
+              "phase": "overview",
+              "concept": "tradeoff",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T25:change",
+            "text": "满足某个要求后，还要复核其他性能。",
+            "words": {
+              "zh": "满足某个要求后，还要复核其他性能。",
+              "ru": "Разме́ры влия́ют на все э́ти ка́чества."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scale_b": 1.2
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T25:answer",
+            "text": "主尺度同时影响阻力、舱容和稳性；一项改善可能使另一项变差，因此须兼顾三者。",
+            "words": {
+              "ru": "Разме́ры одновре́менно влия́ют на сопротивле́ние, вмести́мость и осто́йчивость.",
+              "zh": "主尺度同时影响阻力、舱容和稳性；一项改善可能使另一项变差，因此须兼顾三者。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      "P12_T02",
+      "P12_T09",
+      "P12_T15",
+      "P12_T17",
+      "P12_T25",
+      "P13_Q11",
+      "P13_Q23"
+    ],
+    "question_targets": {
+      "P12_T02": "P12_T02:object",
+      "P12_T09": "P12_T09:object",
+      "P12_T15": "P12_T15:object",
+      "P12_T17": "P12_T17:object",
+      "P12_T25": "P12_T25:object"
+    },
+    "foundation_end": "P12_design:foundation_end",
+    "characters_per_second": 28
+  },
+  {
+    "id": "P13_approximation",
+    "title": {
+      "zh": "近似计算与迭代修正",
+      "ru": "Приближения и уточне́ние прое́кта"
+    },
+    "goal": {
+      "zh": "理解为什么从排水量起步，以及质量、功率和尺度为什么需要反复校核。",
+      "ru": "Поймём, заче́м уточня́ть ма́ссу, мо́щность и разме́ры."
+    },
+    "questions": [
+      "P13_Q02",
+      "P13_Q08",
+      "P13_Q09",
+      "P13_Q13",
+      "P13_Q14",
+      "P13_Q18",
+      "P13_Q19",
+      "P13_Q27"
+    ],
+    "groups": [],
+    "question_targets": {},
+    "animation_available": false
+  },
+  {
+    "id": "P12_loads",
+    "title": {
+      "zh": "载荷、重心与船舶姿态",
+      "ru": "Ма́ссы и це́нтр масс"
+    },
+    "goal": {
+      "zh": "算清总质量和两个重心坐标，再判断还缺哪些浮态资料。",
+      "ru": "Поймём связь фо́рмы, ма́ссы и тре́бований."
+    },
+    "initial": {
+      "topic": "exam12",
+      "qid": "P12_T01",
+      "phase": "overview",
+      "concept": "prototype",
+      "progress": 0.0,
+      "load": 0.0,
+      "cargo_x": 112.0,
+      "cargo_z": 5.0,
+      "flood": 0.0,
+      "room": 0.0,
+      "heel": 0.0,
+      "zg": 8.7,
+      "scale_l": 1.0,
+      "scale_b": 1.0,
+      "scale_t": 1.0,
+      "bilge": 0.0,
+      "bulb": 0.0,
+      "lines": 0.0,
+      "station": 0.0,
+      "speed": 0.0,
+      "roof": 0.0,
+      "cut": 0.0,
+      "depth": 0.0,
+      "forecastle": 0.0,
+      "scan": 0.0,
+      "shift": 0.0,
+      "image_index": 0,
+      "axis": 0.0,
+      "row_index": 0,
+      "drawing": false,
+      "section_height": -1.0
+    },
+    "groups": [
+      {
+        "id": "foundation",
+        "title": {
+          "zh": "基础",
+          "ru": "Осно́ва"
+        },
+        "beats": [
+          {
+            "id": "P12_loads:intro",
+            "text": "算清总质量和两个重心坐标，再判断还缺哪些浮态资料。",
+            "words": {
+              "zh": "算清总质量和两个重心坐标，再判断还缺哪些浮态资料。",
+              "ru": "Найдём ма́ссу и две координа́ты це́нтра масс."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_loads:foundation_end",
+            "text": "演示坐标：x从艉垂线量起，z从基线量起。",
+            "words": {
+              "zh": "演示坐标：x从艉垂线量起，z从基线量起。",
+              "ru": "В при́мере: x от кормово́го перпендикуля́ра, z от основно́й пло́скости."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0,
+                "roof": 0.0,
+                "heel": 0.0
+              },
+              "duration": 3.0
+            },
+            "start_params": {
+              "concept": "load",
+              "heel": 0.0,
+              "roof": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_T01",
+        "title": {
+          "zh": "质量与位置",
+          "ru": "Вопро́с 1"
+        },
+        "beats": [
+          {
+            "id": "P12_T01:object",
+            "text": "先看全船总质量与重心G。",
+            "words": {
+              "zh": "先看全船总质量与重心G。",
+              "ru": "Смо́трим на ма́ссу и положе́ние гру́за."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T01:change",
+            "text": "总质量相同，货物位置不同，重心仍会改变。",
+            "words": {
+              "zh": "总质量相同，货物位置不同，重心仍会改变。",
+              "ru": "Ну́жны координа́ты це́нтра масс."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "load": 1.0,
+                "cargo_z": 11.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            },
+            "source_rule": {
+              "kind": "formula",
+              "teacher_reference": "1p/Modul_2.docx"
+            },
+            "source_rows": {
+              "0": {
+                "kind": "formula",
+                "teacher_reference": "1p/Modul_2.docx"
+              },
+              "1": {
+                "kind": "formula",
+                "teacher_reference": "1p/Modul_2.docx"
+              },
+              "2": {
+                "kind": "formula",
+                "teacher_reference": "1p/Modul_2.docx"
+              }
+            }
+          },
+          {
+            "id": "P12_T01:answer",
+            "text": "相同排水量可以对应不同的质量分布。",
+            "words": {
+              "ru": "Одина́ковое водоизмеще́ние мо́жет соотве́тствовать ра́зному распределе́нию масс.",
+              "zh": "相同排水量可以对应不同的质量分布。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T14",
+        "title": {
+          "zh": "总质量不足",
+          "ru": "Вопро́с 14"
+        },
+        "beats": [
+          {
+            "id": "P12_T14:object",
+            "text": "保持货物质量不变。",
+            "words": {
+              "zh": "保持货物质量不变。",
+              "ru": "Смо́трим на ма́ссу и положе́ние гру́за."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T14",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 1.0,
+              "cargo_x": 112.0,
+              "cargo_z": 3.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T14:change",
+            "text": "将货物上移后，竖向重心升高。",
+            "words": {
+              "zh": "将货物上移后，竖向重心升高。",
+              "ru": "Ва́жно и распределе́ние масс."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "load": 1.0,
+                "cargo_z": 11.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T14:answer",
+            "text": "总质量相同，货物分布不同，重心、浮态、稳性和船体受力仍可能不同。",
+            "words": {
+              "ru": "При одина́ковой о́бщей ма́ссе ра́зное распределе́ние гру́за меня́ет це́нтр масс, поса́дку, осто́йчивость и нагру́зки на ко́рпус.",
+              "zh": "总质量相同，货物分布不同，重心、浮态、稳性和船体受力仍可能不同。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T23",
+        "title": {
+          "zh": "纵向质量分布",
+          "ru": "Вопро́с 23"
+        },
+        "beats": [
+          {
+            "id": "P12_T23:object",
+            "text": "同样的货物分别放在中部和艏部。",
+            "words": {
+              "zh": "同样的货物分别放在中部和艏部。",
+              "ru": "Перемести́м груз к носу́."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T23",
+              "phase": "overview",
+              "concept": "longitudinal",
+              "progress": 0.0,
+              "load": 1.0,
+              "cargo_x": 70.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T23:change",
+            "text": "纵向重心及局部载荷改变；还需与沿船长的浮力分布比较。",
+            "words": {
+              "zh": "纵向重心及局部载荷改变；还需与沿船长的浮力分布比较。",
+              "ru": "Она́ влия́ет на диффере́нт и продо́льную про́чность."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "load": 1.0,
+                "cargo_x": 150.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T23:answer",
+            "text": "质量分布决定纵向重心，并影响纵倾。",
+            "words": {
+              "ru": "Распределе́ние масс определя́ет x_g и влия́ет на диффере́нт.",
+              "zh": "质量分布决定纵向重心，并影响纵倾。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_C01",
+        "title": {
+          "zh": "计算1",
+          "ru": "Зада́ча 1"
+        },
+        "beats": [
+          {
+            "id": "P12_C01:goal",
+            "text": "先列已知量，再按本题要求计算。",
+            "words": {
+              "zh": "先列已知量，再按本题要求计算。",
+              "ru": "Сумми́руем ма́ссы; ка́ждый моме́нт де́лим на о́бщую ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C01",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "record_text": {
+              "zh": "计算1 · 独立演示算例",
+              "ru": "Уче́бный приме́р 1"
+            }
+          },
+          {
+            "id": "P12_C01:row0",
+            "text": "空船1000吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "空船1000吨，分别计算纵向矩和竖向矩。",
+              "ru": "Су́дно порожнём: ма́сса 1000 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C01",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 95,
+              "cargo_z": 6,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.3333333333333333
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "空船",
+              "ru": "Су́дно порожнём"
+            }
+          },
+          {
+            "id": "P12_C01:row1",
+            "text": "货物100吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "货物100吨，分别计算纵向矩和竖向矩。",
+              "ru": "Груз: ма́сса 100 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C01",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.3333333333333333,
+              "cargo_x": 140,
+              "cargo_z": 4,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 1,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.6666666666666666
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "货物",
+              "ru": "Груз"
+            }
+          },
+          {
+            "id": "P12_C01:row2",
+            "text": "储备50吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "储备50吨，分别计算纵向矩和竖向矩。",
+              "ru": "Запа́сы: ма́сса 50 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C01",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.6666666666666666,
+              "cargo_x": 60,
+              "cargo_z": 2,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 2,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "储备",
+              "ru": "Запа́сы"
+            }
+          },
+          {
+            "id": "P12_C01:sum",
+            "text": "分别得到纵向重心和竖向重心。",
+            "words": {
+              "zh": "先把各项质量相加，得到总质量。",
+              "ru": "Снача́ла сумми́руем ма́ссы."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "load": 1.0,
+                "progress": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "演示算例汇总",
+              "ru": "Сумми́руем ма́ссы; ка́ждый моме́нт де́лим на о́бщую ма́ссу."
+            },
+            "start_params": {
+              "load": 1.0
+            }
+          },
+          {
+            "id": "P12_C01:xsum",
+            "text": "纵向总矩除以总质量，得到纵向重心坐标。",
+            "words": {
+              "zh": "纵向总矩除以总质量，得到纵向重心坐标。",
+              "ru": "Продо́льный моме́нт де́лим на ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "axis": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "纵向重心",
+              "ru": "Продо́льный моме́нт де́лим на ма́ссу."
+            }
+          },
+          {
+            "id": "P12_C01:zsum",
+            "text": "竖向总矩除以总质量，得到重心高度。",
+            "words": {
+              "zh": "竖向总矩除以总质量，得到重心高度。",
+              "ru": "Вертика́льный моме́нт де́лим на ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "axis": 2.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "重心高度",
+              "ru": "Вертика́льный моме́нт де́лим на ма́ссу."
+            }
+          },
+          {
+            "id": "P12_C01:compare",
+            "text": "本算例重心向艏移2.3913米、降低0.3478米；仅比较重心移动，艏倾趋势增强，初稳性增强。",
+            "words": {
+              "zh": "本算例重心向艏移2.3913米、降低0.3478米；仅比较重心移动，艏倾趋势增强，初稳性增强。",
+              "ru": "В приме́ре це́нтр масс смеща́ется к носу́ и ни́же. При про́чих ра́вных нача́льная осто́йчивость бо́льше."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "record_text": {
+              "zh": "装载前后比较",
+              "ru": "Сравни́м координа́ты це́нтра масс"
+            },
+            "start_params": {
+              "load": 1.0,
+              "axis": 2.0
+            }
+          },
+          {
+            "id": "P12_C01:answer",
+            "text": "单独比较重心移动、其余条件不变时：纵向重心向艏移动，产生艏倾趋势；向艉移动，产生艉倾趋势。重心降低，初稳性增强；重心升高，初稳性减弱。",
+            "words": {
+              "ru": "При про́чих ра́вных: це́нтр масс смеща́ется к носу́ — диффере́нт на нос, к корме́ — на корму́. Це́нтр масс ни́же — нача́льная осто́йчивость бо́льше; вы́ше — ме́ньше.",
+              "zh": "单独比较重心移动、其余条件不变时：纵向重心向艏移动，产生艏倾趋势；向艉移动，产生艉倾趋势。重心降低，初稳性增强；重心升高，初稳性减弱。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_C02",
+        "title": {
+          "zh": "计算2",
+          "ru": "Зада́ча 2"
+        },
+        "beats": [
+          {
+            "id": "P12_C02:goal",
+            "text": "先列已知量，再按本题要求计算。",
+            "words": {
+              "zh": "先列已知量，再按本题要求计算。",
+              "ru": "Сумми́руем ма́ссы; ка́ждый моме́нт де́лим на о́бщую ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C02",
+              "phase": "overview",
+              "concept": "lightship",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "record_text": {
+              "zh": "计算2 · 独立演示算例",
+              "ru": "Уче́бный приме́р 2"
+            }
+          },
+          {
+            "id": "P12_C02:select",
+            "text": "货物、航次燃油、食品淡水和船员不属于空船质量。",
+            "words": {
+              "zh": "货物、航次燃油、食品淡水和船员不属于空船质量。",
+              "ru": "Груз, расхо́дуемые запа́сы и экипа́ж не вхо́дят в ма́ссу порожнём."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "cut": 1.0,
+                "room": 3.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_C02:row0",
+            "text": "钢船体600吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "钢船体600吨，分别计算纵向矩和竖向矩。",
+              "ru": "Ко́рпус: ма́сса 600 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C02",
+              "phase": "overview",
+              "concept": "lightship",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 95,
+              "cargo_z": 5,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.16666666666666666
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "钢船体",
+              "ru": "Ко́рпус"
+            }
+          },
+          {
+            "id": "P12_C02:row1",
+            "text": "船体设备100吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "船体设备100吨，分别计算纵向矩和竖向矩。",
+              "ru": "Обору́дование ко́рпуса: ма́сса 100 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C02",
+              "phase": "overview",
+              "concept": "lightship",
+              "progress": 0.0,
+              "load": 0.16666666666666666,
+              "cargo_x": 90,
+              "cargo_z": 10,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 1,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.3333333333333333
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "船体设备",
+              "ru": "Обору́дование ко́рпуса"
+            }
+          },
+          {
+            "id": "P12_C02:row2",
+            "text": "动力装置150吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "动力装置150吨，分别计算纵向矩和竖向矩。",
+              "ru": "Судова́я энергети́ческая устано́вка: ма́сса 150 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C02",
+              "phase": "overview",
+              "concept": "lightship",
+              "progress": 0.0,
+              "load": 0.3333333333333333,
+              "cargo_x": 35,
+              "cargo_z": 3,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 2,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.5
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "动力装置",
+              "ru": "Судова́я энергети́ческая устано́вка"
+            }
+          },
+          {
+            "id": "P12_C02:row3",
+            "text": "系统50吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "系统50吨，分别计算纵向矩和竖向矩。",
+              "ru": "Систе́мы: ма́сса 50 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C02",
+              "phase": "overview",
+              "concept": "lightship",
+              "progress": 0.0,
+              "load": 0.5,
+              "cargo_x": 85,
+              "cargo_z": 5,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 3,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.6666666666666666
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "系统",
+              "ru": "Систе́мы"
+            }
+          },
+          {
+            "id": "P12_C02:row4",
+            "text": "导航设备10吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "导航设备10吨，分别计算纵向矩和竖向矩。",
+              "ru": "Навигацио́нное вооруже́ние: ма́сса 10 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C02",
+              "phase": "overview",
+              "concept": "lightship",
+              "progress": 0.0,
+              "load": 0.6666666666666666,
+              "cargo_x": 35,
+              "cargo_z": 18,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 4,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.8333333333333334
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "导航设备",
+              "ru": "Навигацио́нное вооруже́ние"
+            }
+          },
+          {
+            "id": "P12_C02:row5",
+            "text": "永久压载90吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "永久压载90吨，分别计算纵向矩和竖向矩。",
+              "ru": "Постоя́нный балла́ст: ма́сса 90 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C02",
+              "phase": "overview",
+              "concept": "lightship",
+              "progress": 0.0,
+              "load": 0.8333333333333334,
+              "cargo_x": 90,
+              "cargo_z": 1,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 5,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "永久压载",
+              "ru": "Постоя́нный балла́ст"
+            }
+          },
+          {
+            "id": "P12_C02:sum",
+            "text": "分别得到纵向重心和竖向重心。",
+            "words": {
+              "zh": "先把各项质量相加，得到总质量。",
+              "ru": "Снача́ла сумми́руем ма́ссы."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "load": 1.0,
+                "progress": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "演示算例汇总",
+              "ru": "Сумми́руем ма́ссы; ка́ждый моме́нт де́лим на о́бщую ма́ссу."
+            },
+            "start_params": {
+              "load": 1.0,
+              "concept": "lightship"
+            }
+          },
+          {
+            "id": "P12_C02:xsum",
+            "text": "纵向总矩除以总质量，得到纵向重心坐标。",
+            "words": {
+              "zh": "纵向总矩除以总质量，得到纵向重心坐标。",
+              "ru": "Продо́льный моме́нт де́лим на ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "axis": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "纵向重心",
+              "ru": "Продо́льный моме́нт де́лим на ма́ссу."
+            }
+          },
+          {
+            "id": "P12_C02:zsum",
+            "text": "竖向总矩除以总质量，得到重心高度。",
+            "words": {
+              "zh": "竖向总矩除以总质量，得到重心高度。",
+              "ru": "Вертика́льный моме́нт де́лим на ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "axis": 2.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "重心高度",
+              "ru": "Вертика́льный моме́нт де́лим на ма́ссу."
+            }
+          },
+          {
+            "id": "P12_C02:answer",
+            "text": "空船包括船体、设备、动力装置、系统、导航设备和永久压载。",
+            "words": {
+              "zh": "空船包括船体、设备、动力装置、系统、导航设备和永久压载。",
+              "ru": "В ма́ссу су́дна порожнём вхо́дят ко́рпус, обору́дование, устано́вка, систе́мы, навигацио́нное вооруже́ние и постоя́нный балла́ст."
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_C03",
+        "title": {
+          "zh": "计算3",
+          "ru": "Зада́ча 3"
+        },
+        "beats": [
+          {
+            "id": "P12_C03:goal",
+            "text": "先列已知量，再按本题要求计算。",
+            "words": {
+              "zh": "先列已知量，再按本题要求计算。",
+              "ru": "Сумми́руем ма́ссы; ка́ждый моме́нт де́лим на о́бщую ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C03",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "record_text": {
+              "zh": "计算3 · 独立演示算例",
+              "ru": "Уче́бный приме́р 3"
+            }
+          },
+          {
+            "id": "P12_C03:row0",
+            "text": "空船1000吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "空船1000吨，分别计算纵向矩和竖向矩。",
+              "ru": "Су́дно порожнём: ма́сса 1000 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C03",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 95,
+              "cargo_z": 6,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.25
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "空船",
+              "ru": "Су́дно порожнём"
+            }
+          },
+          {
+            "id": "P12_C03:row1",
+            "text": "货物1100吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "货物1100吨，分别计算纵向矩和竖向矩。",
+              "ru": "Груз 1: ма́сса 100 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C03",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.25,
+              "cargo_x": 140,
+              "cargo_z": 4,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 1,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.5
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "货物1",
+              "ru": "Груз 1"
+            }
+          },
+          {
+            "id": "P12_C03:row2",
+            "text": "货物2200吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "货物2200吨，分别计算纵向矩和竖向矩。",
+              "ru": "Груз 2: ма́сса 200 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C03",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.5,
+              "cargo_x": 70,
+              "cargo_z": 3,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 2,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 0.75
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "货物2",
+              "ru": "Груз 2"
+            }
+          },
+          {
+            "id": "P12_C03:row3",
+            "text": "储备50吨，分别计算纵向矩和竖向矩。",
+            "words": {
+              "zh": "储备50吨，分别计算纵向矩和竖向矩。",
+              "ru": "Запа́сы: ма́сса 50 т; счита́ем продо́льный и вертика́льный моме́нты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C03",
+              "phase": "overview",
+              "concept": "load",
+              "progress": 0.0,
+              "load": 0.75,
+              "cargo_x": 60,
+              "cargo_z": 2,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 3,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "load": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "储备",
+              "ru": "Запа́сы"
+            }
+          },
+          {
+            "id": "P12_C03:sum",
+            "text": "分别得到纵向重心和竖向重心。",
+            "words": {
+              "zh": "先把各项质量相加，得到总质量。",
+              "ru": "Снача́ла сумми́руем ма́ссы."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "load": 1.0,
+                "progress": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "演示算例汇总",
+              "ru": "Сумми́руем ма́ссы; ка́ждый моме́нт де́лим на о́бщую ма́ссу."
+            },
+            "start_params": {
+              "load": 1.0
+            }
+          },
+          {
+            "id": "P12_C03:xsum",
+            "text": "纵向总矩除以总质量，得到纵向重心坐标。",
+            "words": {
+              "zh": "纵向总矩除以总质量，得到纵向重心坐标。",
+              "ru": "Продо́льный моме́нт де́лим на ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "axis": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "纵向重心",
+              "ru": "Продо́льный моме́нт де́лим на ма́ссу."
+            }
+          },
+          {
+            "id": "P12_C03:zsum",
+            "text": "竖向总矩除以总质量，得到重心高度。",
+            "words": {
+              "zh": "竖向总矩除以总质量，得到重心高度。",
+              "ru": "Вертика́льный моме́нт де́лим на ма́ссу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "axis": 2.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "重心高度",
+              "ru": "Вертика́льный моме́нт де́лим на ма́ссу."
+            }
+          },
+          {
+            "id": "P12_C03:compare",
+            "text": "本算例重心向艉移1.6667米、降低0.7407米；仅比较重心移动，艉倾趋势增强，初稳性增强。",
+            "words": {
+              "zh": "本算例重心向艉移1.6667米、降低0.7407米；仅比较重心移动，艉倾趋势增强，初稳性增强。",
+              "ru": "В приме́ре це́нтр масс смеща́ется к корме́ и ни́же. При про́чих ра́вных нача́льная осто́йчивость бо́льше."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "record_text": {
+              "zh": "装载前后比较",
+              "ru": "Сравни́м координа́ты це́нтра масс"
+            },
+            "start_params": {
+              "load": 1.0,
+              "axis": 2.0
+            }
+          },
+          {
+            "id": "P12_C03:answer",
+            "text": "单独比较重心移动、其余条件不变时：纵向重心向艏移动，产生艏倾趋势；向艉移动，产生艉倾趋势。重心降低，初稳性增强；重心升高，初稳性减弱。",
+            "words": {
+              "ru": "При про́чих ра́вных: це́нтр масс смеща́ется к носу́ — диффере́нт на нос, к корме́ — на корму́. Це́нтр масс ни́же — нача́льная осто́йчивость бо́льше; вы́ше — ме́ньше.",
+              "zh": "单独比较重心移动、其余条件不变时：纵向重心向艏移动，产生艏倾趋势；向艉移动，产生艉倾趋势。重心降低，初稳性增强；重心升高，初稳性减弱。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      "P12_T01",
+      "P12_T14",
+      "P12_T23",
+      "P12_C01",
+      "P12_C02",
+      "P12_C03",
+      "P13_Q07",
+      "P13_Q10",
+      "P13_Q25"
+    ],
+    "question_targets": {
+      "P12_T01": "P12_T01:object",
+      "P12_T14": "P12_T14:object",
+      "P12_T23": "P12_T23:object",
+      "P12_C01": "P12_C01:goal",
+      "P12_C02": "P12_C02:goal",
+      "P12_C03": "P12_C03:goal"
+    },
+    "foundation_end": "P12_loads:foundation_end",
+    "characters_per_second": 28
+  },
+  {
+    "id": "P12_volume",
+    "title": {
+      "zh": "型线、舱容与容积计算",
+      "ru": "Фо́рма и вмести́мость"
+    },
+    "goal": {
+      "zh": "把三维形状、图纸和容积计算对应起来。",
+      "ru": "Поймём связь фо́рмы, ма́ссы и тре́бований."
+    },
+    "initial": {
+      "topic": "exam12",
+      "qid": "P12_T01",
+      "phase": "overview",
+      "concept": "prototype",
+      "progress": 0.0,
+      "load": 0.0,
+      "cargo_x": 112.0,
+      "cargo_z": 5.0,
+      "flood": 0.0,
+      "room": 0.0,
+      "heel": 0.0,
+      "zg": 8.7,
+      "scale_l": 1.0,
+      "scale_b": 1.0,
+      "scale_t": 1.0,
+      "bilge": 0.0,
+      "bulb": 0.0,
+      "lines": 0.0,
+      "station": 0.0,
+      "speed": 0.0,
+      "roof": 0.0,
+      "cut": 0.0,
+      "depth": 0.0,
+      "forecastle": 0.0,
+      "scan": 0.0,
+      "shift": 0.0,
+      "image_index": 0,
+      "axis": 0.0,
+      "row_index": 0,
+      "drawing": false,
+      "section_height": -1.0
+    },
+    "groups": [
+      {
+        "id": "foundation",
+        "title": {
+          "zh": "基础",
+          "ru": "Осно́ва"
+        },
+        "beats": [
+          {
+            "id": "P12_volume:intro",
+            "text": "把三维形状、图纸和容积计算对应起来。",
+            "words": {
+              "zh": "把三维形状、图纸和容积计算对应起来。",
+              "ru": "Свя́жем фо́рму ко́рпуса, чертёж и объём."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "sections",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_volume:foundation_end",
+            "text": "同一个船体，在图纸上有三个投影。",
+            "words": {
+              "zh": "同一个船体，在图纸上有三个投影。",
+              "ru": "Оди́н ко́рпус име́ет три прое́кции."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0,
+                "roof": 0.0,
+                "heel": 0.0
+              },
+              "duration": 3.0
+            },
+            "start_params": {
+              "concept": "lines",
+              "heel": 0.0,
+              "roof": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_T03",
+        "title": {
+          "zh": "容积曲线",
+          "ru": "Вопро́с 3"
+        },
+        "beats": [
+          {
+            "id": "P12_T03:object",
+            "text": "沿船长截取横剖面，每处得到一个面积。",
+            "words": {
+              "zh": "沿船长截取横剖面，每处得到一个面积。",
+              "ru": "Пока́жем пло́щади сече́ний по длине́."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T03",
+              "phase": "overview",
+              "concept": "sections",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T03:change",
+            "text": "同样的面积可以处于不同高度，曲线无法区分。",
+            "words": {
+              "zh": "同样的面积可以处于不同高度，曲线无法区分。",
+              "ru": "Она́ пока́зывает объём по длине́, но не по высоте́."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scan": 1.0,
+                "station": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            },
+            "source_rule": {
+              "kind": "formula",
+              "teacher_reference": "5p/Modul_5. Виды вместимости.docx"
+            },
+            "source_rows": {
+              "0": {
+                "kind": "formula",
+                "teacher_reference": "5p/Modul_5. Виды вместимости.docx"
+              },
+              "1": {
+                "kind": "formula",
+                "teacher_reference": "5p/Modul_5. Виды вместимости.docx"
+              }
+            }
+          },
+          {
+            "id": "P12_T03:height",
+            "text": "同一个舱室上移，横剖面积不变；容积曲线没有记录这次高度变化。",
+            "words": {
+              "zh": "同一个舱室上移，横剖面积不变；容积曲线没有记录这次高度变化。",
+              "ru": "Перемести́м отсе́к вверх: пло́щадь се́чения не изме́нится."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "section_height": 0.0,
+              "scan": 0.5
+            },
+            "action": {
+              "params": {
+                "section_height": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T03:answer",
+            "text": "容积曲线给出沿船长的截面积，积分可求体积和纵向体积矩，因此能求x_c。",
+            "words": {
+              "ru": "Эпю́ра даёт пло́щади сече́ний по длине́.",
+              "zh": "容积曲线给出沿船长的截面积，积分可求体积和纵向体积矩，因此能求x_c。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T11",
+        "title": {
+          "zh": "实际舱容",
+          "ru": "Вопро́с 11"
+        },
+        "beats": [
+          {
+            "id": "P12_T11:object",
+            "text": "先观察由理论边界围成的液舱。",
+            "words": {
+              "zh": "先观察由理论边界围成的液舱。",
+              "ru": "Пока́жем грани́цы цисте́рны и ко́нструкции внутри́."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T11",
+              "phase": "overview",
+              "concept": "tank",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T11:change",
+            "text": "扣除舱内结构及不能利用的空间，才得到实际舱容。",
+            "words": {
+              "zh": "扣除舱内结构及不能利用的空间，才得到实际舱容。",
+              "ru": "Часть объёма за́нята констру́кциями; ну́жен свобо́дный объём."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "cut": 1.0,
+                "load": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T11:answer",
+            "text": "理论空间中有部分被构件占据；残液、空气囊及热膨胀留空也占用空间，因此实际可利用舱容更小。",
+            "words": {
+              "ru": "Часть теорети́ческого объёма занима́ют ко́нструкции; часть не испо́льзуется из-за неудаля́емых оста́тков, возду́шных мешко́в и запа́са на теплово́е расшире́ние.",
+              "zh": "理论空间中有部分被构件占据；残液、空气囊及热膨胀留空也占用空间，因此实际可利用舱容更小。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T24",
+        "title": {
+          "zh": "增大型深",
+          "ru": "Вопро́с 24"
+        },
+        "beats": [
+          {
+            "id": "P12_T24:object",
+            "text": "这种货物每吨需要较大的空间。",
+            "words": {
+              "zh": "这种货物每吨需要较大的空间。",
+              "ru": "Подни́мем па́лубу при той же оса́дке."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T24",
+              "phase": "overview",
+              "concept": "depth",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T24:change",
+            "text": "保持水下尺度的比较中，提高甲板可以增加舱容。",
+            "words": {
+              "zh": "保持水下尺度的比较中，提高甲板可以增加舱容。",
+              "ru": "Бо́льше вмести́мость без увеличе́ния дли́ны и ширины́."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "depth": 3.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T24:answer",
+            "text": "这类货物每吨需要较多空间。",
+            "words": {
+              "ru": "Тако́му гру́зу ну́жно мно́го ме́ста на то́нну.",
+              "zh": "这类货物每吨需要较多空间。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T31",
+        "title": {
+          "zh": "三投影",
+          "ru": "Вопро́с 31"
+        },
+        "beats": [
+          {
+            "id": "P12_T31:object",
+            "text": "从侧面、上方和端部分别观察同一船体。",
+            "words": {
+              "zh": "从侧面、上方和端部分别观察同一船体。",
+              "ru": "Посмо́трим на ко́рпус с трёх сторо́н."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T31",
+              "phase": "drawing",
+              "concept": "lines",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T31:change",
+            "text": "同一个空间点，在三个投影中相互对应。",
+            "words": {
+              "zh": "同一个空间点，在三个投影中相互对应。",
+              "ru": "Одна́ прое́кция не пока́зывает всю фо́рму ко́рпуса."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "lines": 1.0,
+                "station": 1.0,
+                "scan": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T31:answer",
+            "text": "一个投影会隐藏一个空间坐标。",
+            "words": {
+              "ru": "Одна́ прое́кция скрыва́ет одну́ простра́нственную координа́ту.",
+              "zh": "一个投影会隐藏一个空间坐标。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_D01",
+        "title": {
+          "zh": "型线图题",
+          "ru": "Три прое́кции"
+        },
+        "beats": [
+          {
+            "id": "P12_D01:object",
+            "text": "同一船体投影到三个平面。",
+            "words": {
+              "zh": "同一船体投影到三个平面。",
+              "ru": "Три прое́кции одного́ ко́рпуса."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_D01",
+              "phase": "drawing",
+              "concept": "lines",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": true,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "lines": 1.0,
+                "station": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_D01:lengths",
+            "text": "150米按题给比例分为52.5、60和37.5米。",
+            "words": {
+              "zh": "150米按题给比例分为52.5、60和37.5米。",
+              "ru": "Нос 52,5; корма́ 60; вста́вка 37,5 ме́тра."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scan": 1.0,
+                "progress": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "题给长度与比例",
+              "ru": "Нос 52,5; корма́ 60; вста́вка 37,5 ме́тра."
+            },
+            "source_rule": {
+              "kind": "given",
+              "teacher_reference": "12p/pictures_for_exam.docx"
+            },
+            "source_rows": {
+              "0": {
+                "kind": "given",
+                "teacher_reference": "12p/pictures_for_exam.docx"
+              }
+            }
+          },
+          {
+            "id": "P12_D01:sum",
+            "text": "三段相加150米；平行中体横剖面保持相同。",
+            "words": {
+              "zh": "三段相加150米；平行中体横剖面保持相同。",
+              "ru": "Су́мма длин равна́ 150 ме́трам."
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      "P12_T03",
+      "P12_T11",
+      "P12_T24",
+      "P12_T31",
+      "P12_D01",
+      "P13_Q01",
+      "P13_Q05",
+      "P13_Q06",
+      "P13_Q12",
+      "P13_Q20",
+      "P13_Q22",
+      "P13_Q28"
+    ],
+    "question_targets": {
+      "P12_T03": "P12_T03:object",
+      "P12_T11": "P12_T11:object",
+      "P12_T24": "P12_T24:object",
+      "P12_T31": "P12_T31:object",
+      "P12_D01": "P12_D01:object"
+    },
+    "foundation_end": "P12_volume:foundation_end",
+    "characters_per_second": 28
+  },
+  {
+    "id": "P12_resistance",
+    "title": {
+      "zh": "船型、航速与阻力",
+      "ru": "Фо́рма и сопротивле́ние"
+    },
+    "goal": {
+      "zh": "看懂船型和航速怎样共同影响阻力。",
+      "ru": "Поймём связь фо́рмы, ма́ссы и тре́бований."
+    },
+    "initial": {
+      "topic": "exam12",
+      "qid": "P12_T01",
+      "phase": "overview",
+      "concept": "prototype",
+      "progress": 0.0,
+      "load": 0.0,
+      "cargo_x": 112.0,
+      "cargo_z": 5.0,
+      "flood": 0.0,
+      "room": 0.0,
+      "heel": 0.0,
+      "zg": 8.7,
+      "scale_l": 1.0,
+      "scale_b": 1.0,
+      "scale_t": 1.0,
+      "bilge": 0.0,
+      "bulb": 0.0,
+      "lines": 0.0,
+      "station": 0.0,
+      "speed": 0.0,
+      "roof": 0.0,
+      "cut": 0.0,
+      "depth": 0.0,
+      "forecastle": 0.0,
+      "scan": 0.0,
+      "shift": 0.0,
+      "image_index": 0,
+      "axis": 0.0,
+      "row_index": 0,
+      "drawing": false,
+      "section_height": -1.0
+    },
+    "groups": [
+      {
+        "id": "foundation",
+        "title": {
+          "zh": "基础",
+          "ru": "Осно́ва"
+        },
+        "beats": [
+          {
+            "id": "P12_resistance:intro",
+            "text": "看懂船型和航速怎样共同影响阻力。",
+            "words": {
+              "zh": "看懂船型和航速怎样共同影响阻力。",
+              "ru": "Поймём влия́ние фо́рмы и ско́рости на сопротивле́ние."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "resistance",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_resistance:foundation_end",
+            "text": "船体排开水，形状和航速共同影响阻力。",
+            "words": {
+              "zh": "船体排开水，形状和航速共同影响阻力。",
+              "ru": "Фо́рма и ско́рость влия́ют на сопротивле́ние."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0,
+                "roof": 0.0,
+                "heel": 0.0
+              },
+              "duration": 3.0
+            },
+            "start_params": {
+              "concept": "resistance",
+              "heel": 0.0,
+              "roof": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_T07",
+        "title": {
+          "zh": "丰满与阻力",
+          "ru": "Вопро́с 7"
+        },
+        "beats": [
+          {
+            "id": "P12_T07:object",
+            "text": "同尺度下，丰满船体提供更多水下体积。",
+            "words": {
+              "zh": "同尺度下，丰满船体提供更多水下体积。",
+              "ru": "Измени́м полноту́ ко́рпуса при тех же разме́рах."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T07",
+              "phase": "overview",
+              "concept": "resistance",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T07:change",
+            "text": "较高航速下，过于丰满的形状会增加兴波阻力。",
+            "words": {
+              "zh": "较高航速下，过于丰满的形状会增加兴波阻力。",
+              "ru": "Си́льно растёт волново́е сопротивле́ние."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "bilge": 1.0,
+                "speed": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T07:answer",
+            "text": "丰满艏部更强地扰动水流，在较高相对航速下可能显著增加兴波阻力。",
+            "words": {
+              "ru": "По́лный нос сильне́е возмуща́ет во́ду; при высо́кой относи́тельной ско́рости волново́е сопротивле́ние мо́жет ре́зко возрасти́.",
+              "zh": "丰满艏部更强地扰动水流，在较高相对航速下可能显著增加兴波阻力。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T16",
+        "title": {
+          "zh": "球鼻艏匹配",
+          "ru": "Вопро́с 16"
+        },
+        "beats": [
+          {
+            "id": "P12_T16:object",
+            "text": "球鼻艏和船体各自改变附近波形。",
+            "words": {
+              "zh": "球鼻艏和船体各自改变附近波形。",
+              "ru": "Найдём бульб ни́же ватерли́нии."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T16",
+              "phase": "bulb",
+              "concept": "bulb",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T16:change",
+            "text": "航速和浸深改变后，原有的有利匹配可能减弱。",
+            "words": {
+              "zh": "航速和浸深改变后，原有的有利匹配可能减弱。",
+              "ru": "Ну́жно благоприя́тное взаимоде́йствие волн ко́рпуса и бу́льба."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "bulb": 1.0,
+                "speed": 0.35
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T16:answer",
+            "text": "航速改变波长，吃水改变球鼻艏浸深；偏离设计工况会破坏波系匹配，使减阻收益下降。",
+            "words": {
+              "ru": "Ско́рость меня́ет длину́ волн, а оса́дка — погруже́ние бу́льба.",
+              "zh": "航速改变波长，吃水改变球鼻艏浸深；偏离设计工况会破坏波系匹配，使减阻收益下降。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T22",
+        "title": {
+          "zh": "球鼻艏与船速",
+          "ru": "Вопро́с 22"
+        },
+        "beats": [
+          {
+            "id": "P12_T22:object",
+            "text": "先观察球鼻艏的位置和浸深。",
+            "words": {
+              "zh": "先观察球鼻艏的位置和浸深。",
+              "ru": "Найдём бульб ни́же ватерли́нии."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T22",
+              "phase": "bulb",
+              "concept": "bulb",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 1.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 1.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T22:change",
+            "text": "原题的绝对说法不普遍成立：部分低速丰满船也采用球鼻艏。",
+            "words": {
+              "zh": "原题的绝对说法不普遍成立：部分低速丰满船也采用球鼻艏。",
+              "ru": "Бульб уменьша́ет сопротивле́ние при подхо́дящих ско́рости и оса́дке."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "bulb": 1.0,
+                "speed": 0.35
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T22:answer",
+            "text": "相对航速较高时，兴波阻力较显著。",
+            "words": {
+              "zh": "相对航速较高时，兴波阻力较显著。",
+              "ru": "При бо́льшей относи́тельной ско́рости волново́е сопротивле́ние суще́ственно."
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T26",
+        "title": {
+          "zh": "船宽的影响",
+          "ru": "Вопро́с 26"
+        },
+        "beats": [
+          {
+            "id": "P12_T26:object",
+            "text": "在固定比较条件下增加船宽。",
+            "words": {
+              "zh": "在固定比较条件下增加船宽。",
+              "ru": "Увели́чим ширину́ при той же оса́дке."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T26",
+              "phase": "overview",
+              "concept": "breadth",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T26:change",
+            "text": "水线面惯性矩通常增大；阻力变化需结合航速和船型。",
+            "words": {
+              "zh": "水线面惯性矩通常增大；阻力变化需结合航速和船型。",
+              "ru": "Расту́т моме́нт ине́рции ватерли́нии и сопротивле́ние."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "scale_b": 1.2,
+                "speed": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T26:answer",
+            "text": "保持船长、吃水和相似横剖面，加宽会增大横稳心半径，重心高度不变时初稳性提高。",
+            "words": {
+              "ru": "При той же длине́, оса́дке и подо́бных сече́ниях больша́я ширина́ увеличи́вает метацентри́ческий ра́диус; при том же G нача́льная осто́йчивость растёт.",
+              "zh": "保持船长、吃水和相似横剖面，加宽会增大横稳心半径，重心高度不变时初稳性提高。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_F05",
+        "title": {
+          "zh": "阻力组成",
+          "ru": "Рису́нок 5"
+        },
+        "beats": [
+          {
+            "id": "P12_F05:object",
+            "text": "比较不同Fr下的阻力比例；这不是本船实测值。",
+            "words": {
+              "zh": "比较不同Fr下的阻力比例；这不是本船实测值。",
+              "ru": "Измени́м полноту́ ко́рпуса при тех же разме́рах."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_F05",
+              "phase": "overview",
+              "concept": "resistance",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 9,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "bilge": 1.0,
+                "speed": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_F05:identify",
+            "text": "将图上的区域对应到船上。",
+            "words": {
+              "zh": "将图上的区域对应到船上。",
+              "ru": "Сравни́м рису́нок и ко́рпус."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0
+              },
+              "duration": 3.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_F06",
+        "title": {
+          "zh": "浮心与艏艉丰满程度",
+          "ru": "Рису́нок 6"
+        },
+        "beats": [
+          {
+            "id": "P12_F06:object",
+            "text": "识别ЦВ（浮心），比较艏艉容积分配与纵向浮心位置。",
+            "words": {
+              "zh": "图中的ЦВ指浮心；比较艏艉丰满程度。",
+              "ru": "ЦВ — це́нтр величины́. Сравни́м полноту́ оконе́чностей."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_F06",
+              "phase": "overview",
+              "concept": "lcb",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 10,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "shift": 1.0,
+                "progress": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_F06:identify",
+            "text": "将图上的区域对应到船上。",
+            "words": {
+              "zh": "把容积移向艉部，纵向浮心也向艉移动。",
+              "ru": "Объём в корме́ перемеща́ет це́нтр величины́ наза́д."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "shift": -1.0,
+                "progress": 1.0
+              },
+              "duration": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "questions": [
+      "P12_T07",
+      "P12_T16",
+      "P12_T22",
+      "P12_T26",
+      "P12_F05",
+      "P12_F06",
+      "P13_Q03",
+      "P13_Q04"
+    ],
+    "question_targets": {
+      "P12_T07": "P12_T07:object",
+      "P12_T16": "P12_T16:object",
+      "P12_T22": "P12_T22:object",
+      "P12_T26": "P12_T26:object",
+      "P12_F05": "P12_F05:object",
+      "P12_F06": "P12_F06:object"
+    },
+    "foundation_end": "P12_resistance:foundation_end",
+    "characters_per_second": 28
+  },
+  {
+    "id": "P12_stability",
+    "title": {
+      "zh": "稳性、横摇与事故状态",
+      "ru": "Осто́йчивость и ка́чка"
+    },
+    "goal": {
+      "zh": "区分小角度、横摇、大角度和事故状态的稳性。",
+      "ru": "Поймём связь фо́рмы, ма́ссы и тре́бований."
+    },
+    "initial": {
+      "topic": "exam12",
+      "qid": "P12_T01",
+      "phase": "overview",
+      "concept": "prototype",
+      "progress": 0.0,
+      "load": 0.0,
+      "cargo_x": 112.0,
+      "cargo_z": 5.0,
+      "flood": 0.0,
+      "room": 0.0,
+      "heel": 0.0,
+      "zg": 8.7,
+      "scale_l": 1.0,
+      "scale_b": 1.0,
+      "scale_t": 1.0,
+      "bilge": 0.0,
+      "bulb": 0.0,
+      "lines": 0.0,
+      "station": 0.0,
+      "speed": 0.0,
+      "roof": 0.0,
+      "cut": 0.0,
+      "depth": 0.0,
+      "forecastle": 0.0,
+      "scan": 0.0,
+      "shift": 0.0,
+      "image_index": 0,
+      "axis": 0.0,
+      "row_index": 0,
+      "drawing": false,
+      "section_height": -1.0
+    },
+    "groups": [
+      {
+        "id": "foundation",
+        "title": {
+          "zh": "基础",
+          "ru": "Осно́ва"
+        },
+        "beats": [
+          {
+            "id": "P12_stability:intro",
+            "text": "区分小角度、横摇、大角度和事故状态的稳性。",
+            "words": {
+              "zh": "区分小角度、横摇、大角度和事故状态的稳性。",
+              "ru": "Поймём осто́йчивость, ка́чку и поврежде́ния."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "roll",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_stability:foundation_end",
+            "text": "G受重力，C受浮力；两条竖直作用线之间形成力臂。",
+            "words": {
+              "zh": "G受重力，C受浮力；两条竖直作用线之间形成力臂。",
+              "ru": "Вес де́йствует че́рез G, си́ла плаву́чести — че́рез C."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0,
+                "roof": 0.0,
+                "heel": 6.0
+              },
+              "duration": 3.0
+            },
+            "start_params": {
+              "concept": "stability",
+              "heel": 0.0,
+              "roof": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_T08",
+        "title": {
+          "zh": "稳性上限",
+          "ru": "Вопро́с 8"
+        },
+        "beats": [
+          {
+            "id": "P12_T08:object",
+            "text": "同初始摇幅下比较两种重心高度。",
+            "words": {
+              "zh": "同初始摇幅下比较两种重心高度。",
+              "ru": "Нача́льный у́гол одина́ковый; ра́диус ине́рции постоя́нный."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T08",
+              "phase": "overview",
+              "concept": "roll",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T08:change",
+            "text": "固定等效回转半径时，初稳性高越大，周期越短。",
+            "words": {
+              "zh": "固定等效回转半径时，初稳性高越大，周期越短。",
+              "ru": "При большо́й высоте́ h ка́чка сли́шком ре́зкая."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "zg": 7.5,
+                "heel": 12.0,
+                "progress": 1.0
+              },
+              "duration": 12.0
+            },
+            "source_rule": {
+              "kind": "formula",
+              "teacher_reference": "6p/Modul_9. Обеспечение остойчивости.docx"
+            },
+            "source_rows": {
+              "0": {
+                "kind": "formula",
+                "teacher_reference": "6p/Modul_9. Обеспечение остойчивости.docx"
+              }
+            }
+          },
+          {
+            "id": "P12_T08:answer",
+            "text": "初稳性高越大，复原力矩越强。",
+            "words": {
+              "ru": "Больша́я метацентри́ческая высота́ уси́ливает возвраща́ющий моме́нт.",
+              "zh": "初稳性高越大，复原力矩越强。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T18",
+        "title": {
+          "zh": "事故校核情景",
+          "ru": "Вопро́с 18"
+        },
+        "beats": [
+          {
+            "id": "P12_T18:object",
+            "text": "分别观察中部、端部和偏舷舱室进水。",
+            "words": {
+              "zh": "分别观察中部、端部和偏舷舱室进水。",
+              "ru": "Сравни́м положе́ние зато́пленных отсе́ков."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T18",
+              "phase": "overview",
+              "concept": "damage",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T18:change",
+            "text": "容积、纵向位置和不对称性影响不同；应分别筛选不利情景。",
+            "words": {
+              "zh": "端部进水更易引起纵倾；随后比较中部。",
+              "ru": "Затопле́ние оконе́чности опа́сно больши́м диффере́нтом."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "cut": 1.0,
+                "flood": 1.0,
+                "shift": 0.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T18:midship",
+            "text": "改为中部宽舱：重点检查有效水线面惯性矩的损失。",
+            "words": {
+              "zh": "改为中部宽舱：重点检查有效水线面惯性矩的损失。",
+              "ru": "В середи́не важна́ поте́ря моме́нта ине́рции ватерли́нии."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "shift": 0.5
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T18:answer",
+            "text": "事故浮性关注进水造成的下沉和纵倾，取决于进水舱的容积和位置。",
+            "words": {
+              "ru": "Для плаву́чести опа́сны большо́е погруже́ние и диффере́нт, зави́сящие от объёма и положе́ния затопле́нных отсе́ков.",
+              "zh": "事故浮性关注进水造成的下沉和纵倾，取决于进水舱的容积和位置。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T20",
+        "title": {
+          "zh": "固定排水量法",
+          "ru": "Вопро́с 20"
+        },
+        "beats": [
+          {
+            "id": "P12_T20:object",
+            "text": "此方法不把自由连通海水作为新增船重。",
+            "words": {
+              "zh": "此方法不把自由连通海水作为新增船重。",
+              "ru": "В э́том ме́тоде ма́сса су́дна постоя́нна."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T20",
+              "phase": "overview",
+              "concept": "waterplane",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.5,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T20:change",
+            "text": "去掉进水区域的有效浮力后，重新计算浮心和水线面惯性矩。",
+            "words": {
+              "zh": "去掉进水区域的有效浮力后，重新计算浮心和水线面惯性矩。",
+              "ru": "Ма́сса постоя́нна; меня́ются действу́ющая ватерли́ния и це́нтр величины́."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "flood": 1.0,
+                "cut": 1.0,
+                "shift": 0.5
+              },
+              "duration": 3.0
+            },
+            "source_rule": {
+              "kind": "formula",
+              "teacher_reference": "5p/Modul_7. Непотопляемость.docx"
+            },
+            "source_rows": {
+              "0": {
+                "kind": "formula",
+                "teacher_reference": "5p/Modul_7. Непотопляемость.docx"
+              },
+              "1": {
+                "kind": "formula",
+                "teacher_reference": "5p/Modul_7. Непотопляемость.docx"
+              }
+            }
+          },
+          {
+            "id": "P12_T20:answer",
+            "text": "该方法不把连通海水再加到船重上，而是扣除进水区域的有效浮力空间。",
+            "words": {
+              "ru": "Ме́тод не добавля́ет сообща́ющуюся с мо́рем во́ду к ма́ссе су́дна, а исключа́ет затопле́нный объём из создаю́щего плаву́честь.",
+              "zh": "该方法不把连通海水再加到船重上，而是扣除进水区域的有效浮力空间。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T27",
+        "title": {
+          "zh": "h不代表全部稳性",
+          "ru": "Вопро́с 27"
+        },
+        "beats": [
+          {
+            "id": "P12_T27:object",
+            "text": "h描述接近正浮时的恢复关系。",
+            "words": {
+              "zh": "h描述接近正浮时的恢复关系。",
+              "ru": "Снача́ла посмо́трим на ма́лый у́гол кре́на."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T27",
+              "phase": "overview",
+              "concept": "stability",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T27:change",
+            "text": "大倾角还要看最大力臂、正稳性范围和进水开口。",
+            "words": {
+              "zh": "大倾角还要看最大力臂、正稳性范围和进水开口。",
+              "ru": "Нужна́ диагра́мма осто́йчивости на больши́х угла́х."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "heel": 100.0
+              },
+              "duration": 6.0
+            }
+          },
+          {
+            "id": "P12_T27:answer",
+            "text": "初稳性高只描述小角度稳性。",
+            "words": {
+              "ru": "Метацентри́ческая высота́ характеризу́ет то́лько нача́льную осто́йчивость.",
+              "zh": "初稳性高只描述小角度稳性。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_F02",
+        "title": {
+          "zh": "稳性曲线",
+          "ru": "Рису́нок 2"
+        },
+        "beats": [
+          {
+            "id": "P12_F02:object",
+            "text": "识别初始斜率、最大力臂和正稳性区末端。",
+            "words": {
+              "zh": "识别初始斜率、最大力臂和正稳性区末端。",
+              "ru": "Снача́ла посмо́трим на ма́лый у́гол кре́на."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_F02",
+              "phase": "overview",
+              "concept": "stability",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 2,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "heel": 100.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_F02:identify",
+            "text": "将图上的区域对应到船上。",
+            "words": {
+              "zh": "将图上的区域对应到船上。",
+              "ru": "Сравни́м рису́нок и ко́рпус."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_F02:raise_g",
+            "text": "上移G，同一倾角下的复原力臂减小。",
+            "words": {
+              "zh": "上移G，同一倾角下的复原力臂减小。",
+              "ru": "Подни́мем G: плечо́ уменьша́ется."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "image_index": 5,
+              "heel": 35.0
+            },
+            "action": {
+              "params": {
+                "zg": 10.2
+              },
+              "duration": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "questions": [
+      "P12_T08",
+      "P12_T18",
+      "P12_T20",
+      "P12_T27",
+      "P12_F02",
+      "P13_Q17",
+      "P13_Q26",
+      "P13_Q29"
+    ],
+    "question_targets": {
+      "P12_T08": "P12_T08:object",
+      "P12_T18": "P12_T18:object",
+      "P12_T20": "P12_T20:object",
+      "P12_T27": "P12_T27:object",
+      "P12_F02": "P12_F02:object"
+    },
+    "foundation_end": "P12_stability:foundation_end",
+    "characters_per_second": 28
+  },
+  {
+    "id": "P12_reserve",
+    "title": {
+      "zh": "储备浮力与防进水结构",
+      "ru": "Плаву́честь и защи́та"
+    },
+    "goal": {
+      "zh": "看懂哪些空间提供储备浮力，哪些结构限制进水。",
+      "ru": "Поймём связь фо́рмы, ма́ссы и тре́бований."
+    },
+    "initial": {
+      "topic": "exam12",
+      "qid": "P12_T01",
+      "phase": "overview",
+      "concept": "prototype",
+      "progress": 0.0,
+      "load": 0.0,
+      "cargo_x": 112.0,
+      "cargo_z": 5.0,
+      "flood": 0.0,
+      "room": 0.0,
+      "heel": 0.0,
+      "zg": 8.7,
+      "scale_l": 1.0,
+      "scale_b": 1.0,
+      "scale_t": 1.0,
+      "bilge": 0.0,
+      "bulb": 0.0,
+      "lines": 0.0,
+      "station": 0.0,
+      "speed": 0.0,
+      "roof": 0.0,
+      "cut": 0.0,
+      "depth": 0.0,
+      "forecastle": 0.0,
+      "scan": 0.0,
+      "shift": 0.0,
+      "image_index": 0,
+      "axis": 0.0,
+      "row_index": 0,
+      "drawing": false,
+      "section_height": -1.0
+    },
+    "groups": [
+      {
+        "id": "foundation",
+        "title": {
+          "zh": "基础",
+          "ru": "Осно́ва"
+        },
+        "beats": [
+          {
+            "id": "P12_reserve:intro",
+            "text": "看懂哪些空间提供储备浮力，哪些结构限制进水。",
+            "words": {
+              "zh": "看懂哪些空间提供储备浮力，哪些结构限制进水。",
+              "ru": "Найдём запа́с плаву́чести и защи́ту от воды́."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "reserve",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_reserve:foundation_end",
+            "text": "先找到水线，再区分水上封闭空间与水下部分。",
+            "words": {
+              "zh": "先找到水线，再区分水上封闭空间与水下部分。",
+              "ru": "Найдём ватерли́нию и закры́тый объём вы́ше неё."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0,
+                "roof": 0.0,
+                "heel": 0.0
+              },
+              "duration": 3.0
+            },
+            "start_params": {
+              "concept": "reserve",
+              "heel": 0.0,
+              "roof": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_T05",
+        "title": {
+          "zh": "储备浮力",
+          "ru": "Вопро́с 5"
+        },
+        "beats": [
+          {
+            "id": "P12_T05:object",
+            "text": "水线以下的体积支撑当前船重。",
+            "words": {
+              "zh": "水线以下的体积支撑当前船重。",
+              "ru": "Найдём ватерли́нию и закры́тый объём вы́ше неё."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T05",
+              "phase": "overview",
+              "concept": "reserve",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T05:change",
+            "text": "水线上方的水密空间提供继续浸入的余量。",
+            "words": {
+              "zh": "水线上方的水密空间提供继续浸入的余量。",
+              "ru": "Объём водонепроница́емой ча́сти су́дна вы́ше ватерли́нии."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "depth": 2.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T05:answer",
+            "text": "储备浮力对应当前水线以上的水密船体容积，包括封闭水密上层建筑的容积。",
+            "words": {
+              "ru": "Запа́с плаву́чести — водонепроница́емый объём ко́рпуса вы́ше действу́ющей ватерли́нии, включа́я закры́тые водонепроница́емые надстро́йки.",
+              "zh": "储备浮力对应当前水线以上的水密船体容积，包括封闭水密上层建筑的容积。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T10",
+        "title": {
+          "zh": "浮力不等于不沉性",
+          "ru": "Вопро́с 10"
+        },
+        "beats": [
+          {
+            "id": "P12_T10:object",
+            "text": "破口让水进入一个舱室。",
+            "words": {
+              "zh": "破口让水进入一个舱室。",
+              "ru": "Вода́ поступа́ет че́рез повре́ждённую обши́вку."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T10",
+              "phase": "overview",
+              "concept": "flood",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T10:change",
+            "text": "水密舱壁限制蔓延；剩余浮力和稳性还要校核。",
+            "words": {
+              "zh": "水密舱壁限制蔓延；剩余浮力和稳性还要校核。",
+              "ru": "Ну́жны водонепроница́емые отсе́ки и осто́йчивость."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "flood": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T10:answer",
+            "text": "缺少水密分隔时，进水可能不断扩散，耗尽储备浮力；船还可能在浮性完全丧失前先倾覆。",
+            "words": {
+              "ru": "Без водонепроница́емого деле́ния вода́ мо́жет распространи́ться и израсхо́довать запа́с плаву́чести.",
+              "zh": "缺少水密分隔时，进水可能不断扩散，耗尽储备浮力；船还可能在浮性完全丧失前先倾覆。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T12",
+        "title": {
+          "zh": "干舷与事故",
+          "ru": "Вопро́с 12"
+        },
+        "beats": [
+          {
+            "id": "P12_T12:object",
+            "text": "干舷描述甲板边缘高于水线的距离。",
+            "words": {
+              "zh": "干舷描述甲板边缘高于水线的距离。",
+              "ru": "Вода́ поступа́ет че́рез повре́ждённую обши́вку."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T12",
+              "phase": "overview",
+              "concept": "flood",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T12:change",
+            "text": "它不表示所有开口水密，也不能阻止破舱进水。",
+            "words": {
+              "zh": "它不表示所有开口水密，也不能阻止破舱进水。",
+              "ru": "Вода́ мо́жет затопи́ть отсе́ки; возмо́жна поте́ря осто́йчивости."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "flood": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T12:answer",
+            "text": "干舷不保证船体和开口水密。",
+            "words": {
+              "ru": "Надво́дный борт не гаранти́рует водонепроница́емость.",
+              "zh": "干舷不保证船体和开口水密。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T21",
+        "title": {
+          "zh": "艏楼长度",
+          "ru": "Вопро́с 21"
+        },
+        "beats": [
+          {
+            "id": "P12_T21:object",
+            "text": "抬高艏部甲板，让迎浪更难越过。",
+            "words": {
+              "zh": "抬高艏部甲板，让迎浪更难越过。",
+              "ru": "Подни́мем носову́ю па́лубу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T21",
+              "phase": "overview",
+              "concept": "forecastle",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T21:change",
+            "text": "延长艏楼，扩大较高甲板覆盖范围；效果还与航速和海况有关。",
+            "words": {
+              "zh": "延长艏楼，扩大较高甲板覆盖范围；效果还与航速和海况有关。",
+              "ru": "Бак защища́ет па́лубу; длинне́е бак — бо́льше защищённая часть."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "forecastle": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T21:answer",
+            "text": "艏楼抬高艏部甲板，使波浪更难越上甲板。",
+            "words": {
+              "ru": "Бак повыша́ет носову́ю па́лубу и затрудня́ет залива́ние.",
+              "zh": "艏楼抬高艏部甲板，使波浪更难越上甲板。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T28",
+        "title": {
+          "zh": "双层结构",
+          "ru": "Вопро́с 28"
+        },
+        "beats": [
+          {
+            "id": "P12_T28:object",
+            "text": "剖开外板，找到内底和内舷。",
+            "words": {
+              "zh": "剖开外板，找到内底和内舷。",
+              "ru": "Пока́жем нару́жное и внутре́ннее дно."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T28",
+              "phase": "overview",
+              "concept": "double",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T28:change",
+            "text": "外板破损时，完整的内层结构限制水进入其他舱室。",
+            "words": {
+              "zh": "外板破损时，完整的内层结构限制水进入其他舱室。",
+              "ru": "Что́бы ограни́чить затопле́ние при поврежде́нии нару́жной обши́вки."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "cut": 1.0,
+                "flood": 0.5
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T28:answer",
+            "text": "仅外板破损时，内层结构可把水限制在双层底或双舷侧内，保护主要舱室与货物。",
+            "words": {
+              "ru": "При поврежде́нии то́лько нару́жной обши́вки вну́тренняя оболо́чка ограни́чивает во́ду простра́нством двойно́го дна и́ли бо́рта.",
+              "zh": "仅外板破损时，内层结构可把水限制在双层底或双舷侧内，保护主要舱室与货物。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T32",
+        "title": {
+          "zh": "干舷与上层建筑",
+          "ru": "Вопро́с 32"
+        },
+        "beats": [
+          {
+            "id": "P12_T32:object",
+            "text": "干舷是水线到干舷甲板的高度。",
+            "words": {
+              "zh": "干舷是水线到干舷甲板的高度。",
+              "ru": "Найдём ватерли́нию и закры́тый объём вы́ше неё."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T32",
+              "phase": "overview",
+              "concept": "reserve",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T32:change",
+            "text": "上层建筑在甲板之上，不能把两个高度混为一谈。",
+            "words": {
+              "zh": "上层建筑在甲板之上，不能把两个高度混为一谈。",
+              "ru": "Высоту́ надстро́йки определя́ют её назначе́ние и тре́бования."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "depth": 2.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T32:answer",
+            "text": "干舷量到甲板，上层建筑高度则从甲板向上量。",
+            "words": {
+              "ru": "Надво́дный борт измеря́ют до па́лубы, а высоту́ надстро́йки — над ней.",
+              "zh": "干舷量到甲板，上层建筑高度则从甲板向上量。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      "P12_T05",
+      "P12_T10",
+      "P12_T12",
+      "P12_T21",
+      "P12_T28",
+      "P12_T32",
+      "P13_Q21",
+      "P13_Q24"
+    ],
+    "question_targets": {
+      "P12_T05": "P12_T05:object",
+      "P12_T10": "P12_T10:object",
+      "P12_T12": "P12_T12:object",
+      "P12_T21": "P12_T21:object",
+      "P12_T28": "P12_T28:object",
+      "P12_T32": "P12_T32:object"
+    },
+    "foundation_end": "P12_reserve:foundation_end",
+    "characters_per_second": 28
+  },
+  {
+    "id": "P12_arrangement",
+    "title": {
+      "zh": "总布置与船员生活区",
+      "ru": "О́бщее расположе́ние"
+    },
+    "goal": {
+      "zh": "把舱室用途、通道和卫生关系落实到船内位置。",
+      "ru": "Поймём связь фо́рмы, ма́ссы и тре́бований."
+    },
+    "initial": {
+      "topic": "exam12",
+      "qid": "P12_T01",
+      "phase": "overview",
+      "concept": "prototype",
+      "progress": 0.0,
+      "load": 0.0,
+      "cargo_x": 112.0,
+      "cargo_z": 5.0,
+      "flood": 0.0,
+      "room": 0.0,
+      "heel": 0.0,
+      "zg": 8.7,
+      "scale_l": 1.0,
+      "scale_b": 1.0,
+      "scale_t": 1.0,
+      "bilge": 0.0,
+      "bulb": 0.0,
+      "lines": 0.0,
+      "station": 0.0,
+      "speed": 0.0,
+      "roof": 0.0,
+      "cut": 0.0,
+      "depth": 0.0,
+      "forecastle": 0.0,
+      "scan": 0.0,
+      "shift": 0.0,
+      "image_index": 0,
+      "axis": 0.0,
+      "row_index": 0,
+      "drawing": false,
+      "section_height": -1.0
+    },
+    "groups": [
+      {
+        "id": "foundation",
+        "title": {
+          "zh": "基础",
+          "ru": "Осно́ва"
+        },
+        "beats": [
+          {
+            "id": "P12_arrangement:intro",
+            "text": "把舱室用途、通道和卫生关系落实到船内位置。",
+            "words": {
+              "zh": "把舱室用途、通道和卫生关系落实到船内位置。",
+              "ru": "Размести́м помеще́ния, обору́дование и прохо́ды."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T01",
+              "phase": "overview",
+              "concept": "rooms",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_arrangement:foundation_end",
+            "text": "舱室有用途，通道把它们联系起来。",
+            "words": {
+              "zh": "舱室有用途，通道把它们联系起来。",
+              "ru": "Помеще́ния свя́заны прохо́дами."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0,
+                "roof": 1.0,
+                "heel": 0.0
+              },
+              "duration": 3.0
+            },
+            "start_params": {
+              "concept": "rooms",
+              "heel": 0.0,
+              "roof": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_T04",
+        "title": {
+          "zh": "布置的联系",
+          "ru": "Вопро́с 4"
+        },
+        "beats": [
+          {
+            "id": "P12_T04:object",
+            "text": "厨房、餐厅和食品库通过通道联系。",
+            "words": {
+              "zh": "厨房、餐厅和食品库通过通道联系。",
+              "ru": "Пока́жем помеще́ния и прохо́ды."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T04",
+              "phase": "overview",
+              "concept": "rooms",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 1.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T04:change",
+            "text": "移动一个舱室会改变通行与卫生关系。",
+            "words": {
+              "zh": "沿通道联系食品库、厨房和餐厅，布置不能任意割裂这些联系。",
+              "ru": "Свя́жем кладову́ю, ка́мбуз и столо́вую прохо́дами."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "room": 1.0,
+                "roof": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T04:answer",
+            "text": "舱室的用途、通道和人员活动相互关联，布置必须满足这些联系及卫生要求。",
+            "words": {
+              "ru": "Помеще́ния свя́заны назначе́нием, прохо́дами и рабо́той люде́й.",
+              "zh": "舱室的用途、通道和人员活动相互关联，布置必须满足这些联系及卫生要求。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T06",
+        "title": {
+          "zh": "厨房与卫生区",
+          "ru": "Вопро́с 6"
+        },
+        "beats": [
+          {
+            "id": "P12_T06:object",
+            "text": "分别找到厨房和卫生区。",
+            "words": {
+              "zh": "分别找到厨房和卫生区。",
+              "ru": "Найдём пищевы́е и санита́рные помеще́ния."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T06",
+              "phase": "overview",
+              "concept": "hygiene",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 1.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T06:change",
+            "text": "保持隔离，避免污物流线进入食品区。",
+            "words": {
+              "zh": "保持隔离，避免污物流线进入食品区。",
+              "ru": "Что́бы не загрязня́ть пи́щу."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "room": 2.0,
+                "roof": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T06:answer",
+            "text": "卫生舱室可能污染食品，因此厨房须与之隔离。",
+            "words": {
+              "ru": "Сосе́дство санита́рных помеще́ний создаёт опа́сность загрязне́ния пи́щи, поэ́тому ка́мбуз отделя́ют от них.",
+              "zh": "卫生舱室可能污染食品，因此厨房须与之隔离。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T13",
+        "title": {
+          "zh": "尾机型",
+          "ru": "Вопро́с 13"
+        },
+        "beats": [
+          {
+            "id": "P12_T13:object",
+            "text": "机舱内的主机通过轴系连接艉部螺旋桨。",
+            "words": {
+              "zh": "机舱内的主机通过轴系连接艉部螺旋桨。",
+              "ru": "Вал соединя́ет дви́гатель и винт."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T13",
+              "phase": "overview",
+              "concept": "engine",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T13:change",
+            "text": "机舱靠近艉部，轴系缩短，货舱区域更连续。",
+            "words": {
+              "zh": "机舱靠近艉部，轴系缩短，货舱区域更连续。",
+              "ru": "Коро́че валопрово́д; бо́льше места́ для гру́за."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "room": 3.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T13:answer",
+            "text": "尾机型可缩短轴系，并让船中部形成较连续的货舱区域。",
+            "words": {
+              "ru": "Кормово́е маши́нное отделе́ние сокраща́ет валопрово́д и освобожда́ет сре́днюю часть ко́рпуса для гру́за.",
+              "zh": "尾机型可缩短轴系，并让船中部形成较连续的货舱区域。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T19",
+        "title": {
+          "zh": "总布置个性",
+          "ru": "Вопро́с 19"
+        },
+        "beats": [
+          {
+            "id": "P12_T19:object",
+            "text": "先确定运输任务、设备和人员需要。",
+            "words": {
+              "zh": "先确定运输任务、设备和人员需要。",
+              "ru": "Пока́жем помеще́ния и прохо́ды."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T19",
+              "phase": "overview",
+              "concept": "rooms",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 1.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T19:change",
+            "text": "这些条件不同，舱室大小和相互位置也不同。",
+            "words": {
+              "zh": "这些条件不同，舱室大小和相互位置也不同。",
+              "ru": "Ра́зные назначе́ние, разме́ры и обору́дование."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "room": 1.0,
+                "roof": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T19:answer",
+            "text": "各船的用途、货物、设备和船员不同，所需舱室面积及相互联系也不同。",
+            "words": {
+              "ru": "Назначе́ние, груз, обору́дование и экипа́ж у судо́в ра́зные, поэ́тому различа́ются пло́щади помеще́ний и свя́зи ме́жду ни́ми.",
+              "zh": "各船的用途、货物、设备和船员不同，所需舱室面积及相互联系也不同。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T29",
+        "title": {
+          "zh": "休息与进餐",
+          "ru": "Вопро́с 29"
+        },
+        "beats": [
+          {
+            "id": "P12_T29:object",
+            "text": "分别找到卧室、餐厅及它们的通道。",
+            "words": {
+              "zh": "分别找到卧室、餐厅及它们的通道。",
+              "ru": "Пока́жем помеще́ния и прохо́ды."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T29",
+              "phase": "overview",
+              "concept": "rooms",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 1.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T29:change",
+            "text": "进餐活动和食品流线不应干扰休息。",
+            "words": {
+              "zh": "进餐活动和食品流线不应干扰休息。",
+              "ru": "Для о́тдыха и соблюде́ния гигие́ны."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "room": 1.0,
+                "roof": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T29:answer",
+            "text": "休息需要安静，进餐则伴随人员流动、服务活动和气味。",
+            "words": {
+              "ru": "Для о́тдыха нужна́ тишина́, а приём пи́щи свя́зан с движе́нием люде́й, обслу́живанием и за́пахами.",
+              "zh": "休息需要安静，进餐则伴随人员流动、服务活动和气味。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_T30",
+        "title": {
+          "zh": "食品库与卫生区",
+          "ru": "Вопро́с 30"
+        },
+        "beats": [
+          {
+            "id": "P12_T30:object",
+            "text": "食品库储存准备食用的物资。",
+            "words": {
+              "zh": "食品库储存准备食用的物资。",
+              "ru": "Найдём пищевы́е и санита́рные помеще́ния."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_T30",
+              "phase": "overview",
+              "concept": "hygiene",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 1.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            }
+          },
+          {
+            "id": "P12_T30:change",
+            "text": "隔离卫生设施及其污染源，保持食品流线清洁。",
+            "words": {
+              "zh": "隔离卫生设施及其污染源，保持食品流线清洁。",
+              "ru": "Что́бы не загрязня́ть проду́кты."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "room": 2.0,
+                "roof": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_T30:answer",
+            "text": "卫生舱室可能污染储存和搬运中的食品，因此食品库须与之隔离。",
+            "words": {
+              "ru": "Сосе́дство санита́рных помеще́ний создаёт опа́сность загрязне́ния проду́ктов при хране́нии и перено́се, поэ́тому кладовы́е отделя́ют от них.",
+              "zh": "卫生舱室可能污染储存和搬运中的食品，因此食品库须与之隔离。"
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_C04",
+        "title": {
+          "zh": "计算4",
+          "ru": "Зада́ча 4"
+        },
+        "beats": [
+          {
+            "id": "P12_C04:goal",
+            "text": "演示假定：24名船员，一半同时就餐，每座1.2平方米。",
+            "words": {
+              "zh": "演示假定：24名船员，一半同时就餐，每座1.2平方米。",
+              "ru": "Уче́бный приме́р: 24 челове́ка, одновре́менно пита́ется полови́на экипа́жа."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_C04",
+              "phase": "overview",
+              "concept": "rooms",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 1.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 0,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "record_text": {
+              "zh": "演示已知：24人，一半同时就餐",
+              "ru": "Уче́бный приме́р: 24 челове́ка"
+            }
+          },
+          {
+            "id": "P12_C04:seats",
+            "text": "24人乘一半，餐厅需要12个座位。",
+            "words": {
+              "zh": "24人乘一半，餐厅需要12个座位。",
+              "ru": "Полови́на экипа́жа — 12 челове́к; ну́жны 12 ме́ст."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "room": 1.0,
+                "roof": 1.0,
+                "load": 1.0
+              },
+              "duration": 3.0
+            },
+            "record_text": {
+              "zh": "先求座位数",
+              "ru": "Число́ ме́ст"
+            }
+          },
+          {
+            "id": "P12_C04:sum",
+            "text": "12个座位乘每座1.2平方米，面积为14.4平方米。",
+            "words": {
+              "zh": "12个座位乘每座1.2平方米，面积为14.4平方米。",
+              "ru": "Пло́щадь столо́вой: 12 умно́жить на 1,2 — 14,4 квадра́тного ме́тра."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "record_text": {
+              "zh": "再求餐厅面积",
+              "ru": "Пло́щадь столо́вой"
+            }
+          },
+          {
+            "id": "P12_C04:answer",
+            "text": "餐厅座位数按同时就餐人数确定；未给定同时就餐比例时，无法确定具体座位数。",
+            "words": {
+              "zh": "餐厅座位数按同时就餐人数确定；未给定同时就餐比例时，无法确定具体座位数。",
+              "ru": "Число́ ме́ст определя́ется число́м люде́й, кото́рые пита́ются одновре́менно."
+            },
+            "camera": "topic",
+            "anchor": "ship"
+          }
+        ]
+      },
+      {
+        "id": "P12_F01",
+        "title": {
+          "zh": "生活区平面",
+          "ru": "Рису́нок 1"
+        },
+        "beats": [
+          {
+            "id": "P12_F01:object",
+            "text": "识别餐厅、通道和相邻舱室。",
+            "words": {
+              "zh": "识别餐厅、通道和相邻舱室。",
+              "ru": "Пока́жем помеще́ния и прохо́ды."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_F01",
+              "phase": "overview",
+              "concept": "rooms",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 1,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "room": 1.0,
+                "roof": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_F01:identify",
+            "text": "将图上的区域对应到船上。",
+            "words": {
+              "zh": "将图上的区域对应到船上。",
+              "ru": "Сравни́м рису́нок и ко́рпус."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0
+              },
+              "duration": 3.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_F03",
+        "title": {
+          "zh": "食品储藏与卫生关系",
+          "ru": "Рису́нок 3"
+        },
+        "beats": [
+          {
+            "id": "P12_F03:object",
+            "text": "识别食品库、卫生设施和通道；比较污染流线。",
+            "words": {
+              "zh": "识别食品库、卫生设施和通道；比较污染流线。",
+              "ru": "Найдём пищевы́е и санита́рные помеще́ния."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_F03",
+              "phase": "overview",
+              "concept": "hygiene",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 6,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "room": 2.0,
+                "roof": 1.0,
+                "cut": 1.0
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_F03:identify",
+            "text": "将图上的区域对应到船上。",
+            "words": {
+              "zh": "将图上的区域对应到船上。",
+              "ru": "Сравни́м рису́нок и ко́рпус."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0
+              },
+              "duration": 3.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "P12_F04",
+        "title": {
+          "zh": "总布置与双层底",
+          "ru": "Рису́нок 4"
+        },
+        "beats": [
+          {
+            "id": "P12_F04:object",
+            "text": "把侧视、货舱平面和双层底图对应到三维位置。",
+            "words": {
+              "zh": "把侧视、货舱平面和双层底图对应到三维位置。",
+              "ru": "Пока́жем нару́жное и внутре́ннее дно."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "start_params": {
+              "topic": "exam12",
+              "qid": "P12_F04",
+              "phase": "overview",
+              "concept": "double",
+              "progress": 0.0,
+              "load": 0.0,
+              "cargo_x": 112.0,
+              "cargo_z": 5.0,
+              "flood": 0.0,
+              "room": 0.0,
+              "heel": 0.0,
+              "zg": 8.7,
+              "scale_l": 1.0,
+              "scale_b": 1.0,
+              "scale_t": 1.0,
+              "bilge": 0.0,
+              "bulb": 0.0,
+              "lines": 0.0,
+              "station": 0.0,
+              "speed": 0.0,
+              "roof": 0.0,
+              "cut": 0.0,
+              "depth": 0.0,
+              "forecastle": 0.0,
+              "scan": 0.0,
+              "shift": 0.0,
+              "image_index": 7,
+              "axis": 0.0,
+              "row_index": 0,
+              "drawing": false,
+              "section_height": -1.0
+            },
+            "action": {
+              "params": {
+                "cut": 1.0,
+                "flood": 0.5
+              },
+              "duration": 3.0
+            }
+          },
+          {
+            "id": "P12_F04:identify",
+            "text": "将图上的区域对应到船上。",
+            "words": {
+              "zh": "将图上的区域对应到船上。",
+              "ru": "Сравни́м рису́нок и ко́рпус."
+            },
+            "camera": "topic",
+            "anchor": "ship",
+            "action": {
+              "params": {
+                "progress": 1.0
+              },
+              "duration": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "questions": [
+      "P12_T04",
+      "P12_T06",
+      "P12_T13",
+      "P12_T19",
+      "P12_T29",
+      "P12_T30",
+      "P12_C04",
+      "P12_F01",
+      "P12_F03",
+      "P12_F04",
+      "P13_Q15",
+      "P13_Q16"
+    ],
+    "question_targets": {
+      "P12_T04": "P12_T04:object",
+      "P12_T06": "P12_T06:object",
+      "P12_T13": "P12_T13:object",
+      "P12_T19": "P12_T19:object",
+      "P12_T29": "P12_T29:object",
+      "P12_T30": "P12_T30:object",
+      "P12_C04": "P12_C04:goal",
+      "P12_F01": "P12_F01:object",
+      "P12_F03": "P12_F03:object",
+      "P12_F04": "P12_F04:object"
+    },
+    "foundation_end": "P12_arrangement:foundation_end",
+    "characters_per_second": 28
+  }
+]

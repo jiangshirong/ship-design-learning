@@ -1,0 +1,2120 @@
+{
+  "schema_version": "1.0",
+  "steps": [
+    {
+      "id": "B01",
+      "case_id": "basics_v5",
+      "title_zh": "中横剖面丰满系数",
+      "purpose": "比较浸水中横剖面面积与宽、吃水组成的矩形面积。",
+      "inputs": [
+        {
+          "symbol": "A_M",
+          "ref": "input:basics_v5.midship.area_m2",
+          "unit": "m2"
+        },
+        {
+          "symbol": "B",
+          "ref": "input:basics_v5.midship.breadth_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "T",
+          "ref": "input:basics_v5.midship.draft_m",
+          "unit": "m"
+        }
+      ],
+      "formula_latex": "\\beta=\\frac{A_M}{BT}",
+      "formula_ascii": "beta = area_m2 / (breadth_m * draft_m)",
+      "substitution_latex": "\\beta=\\frac{45}{15\\times5}=0.60",
+      "outputs": [
+        "beta"
+      ],
+      "expected_ref": "expected_results.json#/cases/basics_v5/steps/B01",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "tasks_v5",
+          "locator": "ВАРИАНТ 5，Задача 1"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "B02",
+      "case_id": "basics_v5",
+      "title_zh": "第二港装货量",
+      "purpose": "同时满足载重和容积限制。",
+      "inputs": [
+        {
+          "symbol": "货物数据",
+          "ref": "input:basics_v5.cargo",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "P_{余}=P_{限}-P_1;\\quad W_1=P_1\\mu_1;\\quad W_{余}=W_{限}-W_1;\\quad P_{容}=W_{余}/\\mu_2;\\quad P_2=\\min(P_{余},P_{容});\\quad W_{未用}=W_{余}-P_2\\mu_2",
+      "formula_ascii": "remaining_mass_t=capacity_mass_t-first_port_mass_t; first_volume_m3=first_port_mass_t*first_port_stowage_m3_t; remaining_volume_m3=capacity_volume_m3-first_volume_m3; volume_limited_mass_t=remaining_volume_m3/second_port_stowage_m3_t; second_port_mass_t=min(remaining_mass_t,volume_limited_mass_t)",
+      "substitution_latex": "P_{余}=15950-10950=5000\\ t\\\\W_1=10950\\times1.32=14454\\ m^3\\\\W_{余}=20640-14454=6186\\ m^3\\\\P_{容}=6186/1.21=5112.40\\ t\\\\P_2=\\min(5000,5112.40)=5000\\ t\\\\W_{未用}=6186-5000\\times1.21=136\\ m^3",
+      "outputs": [
+        "remaining_mass_t",
+        "first_volume_m3",
+        "remaining_volume_m3",
+        "volume_limited_mass_t",
+        "second_port_mass_t",
+        "unused_volume_m3"
+      ],
+      "expected_ref": "expected_results.json#/cases/basics_v5/steps/B02",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "tasks_v5",
+          "locator": "ВАРИАНТ 5，Задача 2"
+        }
+      ],
+      "notes": "本题由剩余载重能力限制；装完第二港货物后剩余容积为136 m³。"
+    },
+    {
+      "id": "B03",
+      "case_id": "basics_v5",
+      "title_zh": "艏倾和平均吃水",
+      "purpose": "从艉吃水及艏倾求艏吃水、平均吃水。",
+      "inputs": [
+        {
+          "symbol": "吃水题数据",
+          "ref": "input:basics_v5.draft",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "d=T_k-T_n;\\quad T_n=T_k-d;\\quad T_{平均}=(T_n+T_k)/2",
+      "formula_ascii": "signed_trim_m=-trim_fore_m; fore_m=stern_m-signed_trim_m; mean_m=(fore_m+stern_m)/2",
+      "substitution_latex": "d=-2.80\\ m\\\\T_n=3.50-(-2.80)=6.30\\ m\\\\T_{平均}=(6.30+3.50)/2=4.90\\ m",
+      "outputs": [
+        "signed_trim_m",
+        "fore_m",
+        "mean_m"
+      ],
+      "expected_ref": "expected_results.json#/cases/basics_v5/steps/B03",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "tasks_v5",
+          "locator": "ВАРИАНТ 5，Задача 3"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "L01",
+      "case_id": "load_v5",
+      "title_zh": "逐舱计算质量矩",
+      "purpose": "把每个油舱的质量及重心位置转换成可相加的质量矩。",
+      "inputs": [
+        {
+          "symbol": "9个油舱",
+          "ref": "input:load_v5.fuel_tanks",
+          "unit": "rows"
+        }
+      ],
+      "formula_latex": "M_{ОП,i}=P_i z_i;\\quad M_{КП,i}=P_i x_i",
+      "formula_ascii": "for tank: moment_z_tm=mass_t*z_m; moment_x_tm=mass_t*x_m",
+      "substitution_latex": "M_{ОП,1}=250\\times0.58=145.00\\ t\\cdot m\\\\M_{КП,1}=250\\times97.00=24250.00\\ t\\cdot m",
+      "outputs": [
+        "rows"
+      ],
+      "expected_ref": "expected_results.json#/cases/load_v5/steps/L01",
+      "next_step_ids": [
+        "L02"
+      ],
+      "sources": [
+        {
+          "source_id": "load_v5",
+          "locator": "表1，九个燃油舱；本章表内逐舱列出代入结果"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "L02",
+      "case_id": "load_v5",
+      "title_zh": "燃油总质量、总矩和自由液面矩",
+      "purpose": "分别相加同类物理量。",
+      "inputs": [
+        {
+          "symbol": "逐舱结果",
+          "ref": "result:L01.rows",
+          "unit": "rows"
+        }
+      ],
+      "formula_latex": "P_{燃油}=\\sum P_i;\\quad M_{ОП}=\\sum P_i z_i;\\quad M_{КП}=\\sum P_i x_i;\\quad M_{自由}=\\sum M_{自由,i}",
+      "formula_ascii": "P_t=sum(mass_t); moment_z_tm=sum(moment_z_tm); moment_x_tm=sum(moment_x_tm); free_surface_tm=sum(free_surface_tm)",
+      "substitution_latex": "P_{燃油}=250+160+160+150+175+55+57+30+32=1069\\ t\\\\M_{ОП}=145.00+92.80+92.80+87.00+101.50+393.25+612.75+204.00+318.40=2047.50\\ t\\cdot m\\\\M_{КП}=24250.00+10720.00+10720.00+10050.00+7262.50+1325.50+1453.50+868.50+926.40=67576.40\\ t\\cdot m\\\\M_{自由}=420+340+340+300+295+11+12+8+8=1734\\ t\\cdot m",
+      "outputs": [
+        "P_t",
+        "moment_z_tm",
+        "moment_x_tm",
+        "free_surface_tm"
+      ],
+      "expected_ref": "expected_results.json#/cases/load_v5/steps/L02",
+      "next_step_ids": [
+        "L03",
+        "L04"
+      ],
+      "sources": [
+        {
+          "source_id": "load_v5",
+          "locator": "表1，Всего"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "L03",
+      "case_id": "load_v5",
+      "title_zh": "燃油合成重心",
+      "purpose": "用燃油总质量矩除以总质量。",
+      "inputs": [
+        {
+          "symbol": "燃油总质量",
+          "ref": "result:L02.P_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "燃油关于ОП总矩",
+          "ref": "result:L02.moment_z_tm",
+          "unit": "t*m"
+        },
+        {
+          "symbol": "燃油关于КП总矩",
+          "ref": "result:L02.moment_x_tm",
+          "unit": "t*m"
+        }
+      ],
+      "formula_latex": "z_{燃油}=M_{ОП}/P_{燃油};\\quad x_{燃油}=M_{КП}/P_{燃油}",
+      "formula_ascii": "z_m=moment_z_tm/P_t; x_m=moment_x_tm/P_t",
+      "substitution_latex": "z_{燃油}=2047.50/1069=1.9153\\ m\\\\x_{燃油}=67576.40/1069=63.2146\\ m",
+      "outputs": [
+        "z_m",
+        "x_m"
+      ],
+      "expected_ref": "expected_results.json#/cases/load_v5/steps/L03",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "load_v5",
+          "locator": "表1后重心计算；表2燃油行"
+        }
+      ],
+      "notes": "全船燃油行直接承接1069、2047.50、67576.40三个总量。"
+    },
+    {
+      "id": "L04",
+      "case_id": "load_v5",
+      "title_zh": "逐项计算全船质量矩",
+      "purpose": "汇总空船、货物、燃油及其他储备。",
+      "inputs": [
+        {
+          "symbol": "13项载荷",
+          "ref": "input:load_v5.ship_items",
+          "unit": "rows"
+        },
+        {
+          "symbol": "燃油总量",
+          "ref": "result:L02.P_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "燃油关于ОП总矩",
+          "ref": "result:L02.moment_z_tm",
+          "unit": "t*m"
+        },
+        {
+          "symbol": "燃油关于КП总矩",
+          "ref": "result:L02.moment_x_tm",
+          "unit": "t*m"
+        }
+      ],
+      "formula_latex": "M_{ОП,i}=P_i z_i;\\quad M_{КП,i}=P_i x_i",
+      "formula_ascii": "fuel: transfer L02 totals; other ship items: moment_z_tm=mass_t*z_m; moment_x_tm=mass_t*x_m",
+      "substitution_latex": "M_{ОП,空船}=5120\\times10.45=53504.00\\ t\\cdot m\\\\M_{КП,空船}=5120\\times62.85=321792.00\\ t\\cdot m",
+      "outputs": [
+        "rows"
+      ],
+      "expected_ref": "expected_results.json#/cases/load_v5/steps/L04",
+      "next_step_ids": [
+        "L05"
+      ],
+      "sources": [
+        {
+          "source_id": "load_v5",
+          "locator": "表2，十三项载荷"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "L05",
+      "case_id": "load_v5",
+      "title_zh": "全船总质量和总矩",
+      "purpose": "把十三项载荷的质量和两方向质量矩分别求和。",
+      "inputs": [
+        {
+          "symbol": "全船逐项结果",
+          "ref": "result:L04.rows",
+          "unit": "rows"
+        }
+      ],
+      "formula_latex": "\\Delta=\\sum P_i;\\quad M_{ОП}=\\sum P_i z_i;\\quad M_{КП}=\\sum P_i x_i",
+      "formula_ascii": "P_t=sum(mass_t); moment_z_tm=sum(moment_z_tm); moment_x_tm=sum(moment_x_tm)",
+      "substitution_latex": "\\Delta=5120+3000+4000+4000+3000+100+1069+200+66+23+18+5+15=20616\\ t\\\\M_{ОП}=53504.00+16170.00+24080.00+24600.00+15660.00+1790.00+2047.50+1830.00+671.88+17.25+219.24+53.85+235.35=140879.07\\ t\\cdot m\\\\M_{КП}=321792.00+363990.00+388000.00+268000.00+124500.00+7940.00+67576.40+2568.00+1584.66+410.09+281.88+695.40+309.60=1547648.03\\ t\\cdot m",
+      "outputs": [
+        "P_t",
+        "moment_z_tm",
+        "moment_x_tm"
+      ],
+      "expected_ref": "expected_results.json#/cases/load_v5/steps/L05",
+      "next_step_ids": [
+        "L06"
+      ],
+      "sources": [
+        {
+          "source_id": "load_v5",
+          "locator": "表2，Всего"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "L06",
+      "case_id": "load_v5",
+      "title_zh": "全船重心",
+      "purpose": "用全船总矩除以总质量。",
+      "inputs": [
+        {
+          "symbol": "全船总质量",
+          "ref": "result:L05.P_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "全船关于ОП总矩",
+          "ref": "result:L05.moment_z_tm",
+          "unit": "t*m"
+        },
+        {
+          "symbol": "全船关于КП总矩",
+          "ref": "result:L05.moment_x_tm",
+          "unit": "t*m"
+        }
+      ],
+      "formula_latex": "z_G=M_{ОП}/\\Delta;\\quad x_G=M_{КП}/\\Delta",
+      "formula_ascii": "zG_m=moment_z_tm/P_t; xG_m=moment_x_tm/P_t",
+      "substitution_latex": "z_G=140879.07/20616=6.8335\\ m\\\\x_G=1547648.03/20616=75.0702\\ m",
+      "outputs": [
+        "zG_m",
+        "xG_m"
+      ],
+      "expected_ref": "expected_results.json#/cases/load_v5/steps/L06",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "load_v5",
+          "locator": "结果计算段"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "O01",
+      "case_id": "ost_v2",
+      "title_zh": "按名称检索ОСТ",
+      "purpose": "为每个原始名称保留完整的名称栏和备注栏命中。",
+      "inputs": [
+        {
+          "symbol": "43个原始项目",
+          "ref": "input:ost_v2.items",
+          "unit": "rows"
+        },
+        {
+          "symbol": "确认的检索对应",
+          "ref": "lookup:groups",
+          "unit": "rows"
+        }
+      ],
+      "formula_latex": "原始名称\\longrightarrow\\{名称栏命中,备注栏命中\\}",
+      "formula_ascii": "matches=lookup.groups[source_item_id].matches",
+      "substitution_latex": "Корпус\\ металлический\\longrightarrow0101\\\\Вода\\ в\\ успокоителях\\ качки\\longrightarrow1701\\ (第6栏),\\ 1801\\ (第7栏)",
+      "outputs": [
+        "parent_count",
+        "match_row_count",
+        "code_cell_count"
+      ],
+      "expected_ref": "expected_results.json#/cases/ost_v2/steps/O01",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "ost_assignment",
+          "locator": "第2方案；工作簿A5:D144及代码批注"
+        },
+        {
+          "source_id": "ost_finished",
+          "locator": "第2方案；工作簿A5:D144及代码批注"
+        },
+        {
+          "source_id": "ost_pdf",
+          "locator": "第2方案；工作簿A5:D144及代码批注"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "O02",
+      "case_id": "ost_v2",
+      "title_zh": "生成父项和检索明细",
+      "purpose": "保留原顺序和原始质量，展示候选分类代码。",
+      "inputs": [
+        {
+          "symbol": "43个原始项目",
+          "ref": "input:ost_v2.items",
+          "unit": "rows"
+        },
+        {
+          "symbol": "确认的检索对应",
+          "ref": "lookup:groups",
+          "unit": "rows"
+        }
+      ],
+      "formula_latex": "每个父项\\longrightarrow原质量+其检索明细;\\quad N_{行}=N_{父项}+N_{明细}",
+      "formula_ascii": "for original item in order: append parent(mass_t); append matches(mass_t=null)",
+      "substitution_latex": "N_{行}=43+97=140;\\quad N_{代码单元格}=101",
+      "outputs": [
+        "rows",
+        "row_count"
+      ],
+      "expected_ref": "expected_results.json#/cases/ost_v2/steps/O02",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "ost_finished",
+          "locator": "Вариант 2，A5:D144"
+        }
+      ],
+      "notes": "同一明细同时在第6栏和第7栏命中时，保留两列代码及各自原文。"
+    },
+    {
+      "id": "O03",
+      "case_id": "ost_v2",
+      "title_zh": "核对原始质量合计",
+      "purpose": "按原始项目求和。",
+      "inputs": [
+        {
+          "symbol": "43个原始项目",
+          "ref": "input:ost_v2.items",
+          "unit": "rows"
+        }
+      ],
+      "formula_latex": "P_{合计}=\\sum_{i=1}^{43}P_i",
+      "formula_ascii": "total_mass_t=sum(original_items.mass_t)",
+      "substitution_latex": "P_{合计}=182.29+15.60+14.75+\\cdots+45.80=16494.04\\ t",
+      "outputs": [
+        "total_mass_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/ost_v2/steps/O03",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "ost_assignment",
+          "locator": "第2张表，43项质量"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "O04",
+      "case_id": "ost_v2",
+      "title_zh": "第17类质量求和",
+      "purpose": "合计属于第17类的三项可变液体。",
+      "inputs": [
+        {
+          "symbol": "43个原始项目",
+          "ref": "input:ost_v2.items",
+          "unit": "rows"
+        },
+        {
+          "symbol": "第17类项目ID",
+          "ref": "input:ost_v2.section_17_item_ids",
+          "unit": "ids"
+        },
+        {
+          "symbol": "第17类代码",
+          "ref": "input:ost_v2.section_17_codes",
+          "unit": "mapping"
+        }
+      ],
+      "formula_latex": "P_{17}=P_{1701}+P_{1702}+P_{1703}",
+      "formula_ascii": "section_17_mass_t=sum(items[id in section_17_item_ids].mass_t)",
+      "substitution_latex": "P_{17}=14.75+3.79+4.35=22.89\\ t",
+      "outputs": [
+        "section_17_mass_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/ost_v2/steps/O04",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "ost_assignment",
+          "locator": "原始序号3、4、5；1701、1702、1703"
+        },
+        {
+          "source_id": "ost_pdf",
+          "locator": "原始序号3、4、5；1701、1702、1703"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T01",
+      "case_id": "t2_first",
+      "title_zh": "供应质量",
+      "purpose": "先求船员、食品、淡水和器具供应。",
+      "inputs": [
+        {
+          "symbol": "新船任务",
+          "ref": "input:t2_first.project",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "P_{эк}=p_{эк}n;\\ P_{пров}=p_{пров}nA_{пров};\\ P_{пр.вод}=p_{пр.вод}nA_{пр.вод};\\ P_{сн}=P_{эк}+P_{пров}+P_{пр.вод}+P_{инв}",
+      "formula_ascii": "Pcrew_t=p_crew_t_person*crew_count; Pfood_t=p_food_t_person_day*crew_count*food_days; Pwater_t=p_water_t_person_day*crew_count*water_days; Psupply_t=Pcrew_t+Pfood_t+Pwater_t+P_inventory_t",
+      "substitution_latex": "P_{эк}=0.12\\times20=2.40\\ t\\\\P_{пров}=0.003\\times20\\times35=2.10\\ t\\\\P_{пр.вод}=0.15\\times20\\times20=60.00\\ t\\\\P_{сн}=2.40+2.10+60.00+20.00=84.50\\ t",
+      "outputs": [
+        "Pcrew_t",
+        "Pfood_t",
+        "Pwater_t",
+        "Pinventory_t",
+        "Psupply_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T01",
+      "next_step_ids": [
+        "T03",
+        "T07",
+        "T11"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.1，质量供应计算"
+        },
+        {
+          "source_id": "t2_method",
+          "locator": "2.1.1，质量供应计算"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T02",
+      "case_id": "t2_first",
+      "title_zh": "母型船质量系数及海军系数",
+      "purpose": "把母型船数据转成新船质量方程使用的关系。",
+      "inputs": [
+        {
+          "symbol": "母型船数据",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "p_{к.об.}=P_{к.об.0}/D_0;\\ p_{сэу}=P_{сэу0}/N_0;\\ p_{сэз}=P_{сэз0}v_0/(N_0R_0);\\ C_A=D_0^{2/3}v_0^3/N_0",
+      "formula_ascii": "p_hull=P_hull0_t/D0_t; p_engine=P_engine0_t/N0_kW; p_energy=P_energy0_t*v0_kn/(N0_kW*R0_nm); CA=D0_t**(2/3)*v0_kn**3/N0_kW",
+      "substitution_latex": "p_{к.об.}=6720/27590\\approx0.24\\\\p_{сэу}=720/8580\\approx0.08\\ t/kW\\\\p_{сэз}=690\\times15/(8580\\times5000)\\approx0.00024\\ t/(kW\\cdot h)\\\\C_A=27590^{2/3}\\times15^3/8580=359.16",
+      "outputs": [
+        "p_hull",
+        "p_engine",
+        "p_energy",
+        "CA"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T02",
+      "next_step_ids": [
+        "T03",
+        "T06"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.1，前三类质量的系数计算"
+        },
+        {
+          "source_id": "t2_method",
+          "locator": "2.1.1，前三类质量的系数计算"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T03",
+      "case_id": "t2_first",
+      "title_zh": "建立质量方程",
+      "purpose": "将随排水量变化的各项质量写入同一个方程。",
+      "inputs": [
+        {
+          "symbol": "船体质量系数",
+          "ref": "result:T02.p_hull",
+          "unit": "1"
+        },
+        {
+          "symbol": "动力质量系数",
+          "ref": "result:T02.p_engine",
+          "unit": "t/kW"
+        },
+        {
+          "symbol": "能源质量系数",
+          "ref": "result:T02.p_energy",
+          "unit": "t/(kW*h)"
+        },
+        {
+          "symbol": "海军系数",
+          "ref": "result:T02.CA",
+          "unit": "1"
+        },
+        {
+          "symbol": "新船任务",
+          "ref": "input:t2_first.project",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "供应质量",
+          "ref": "result:T01.Psupply_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "D=p_{к.об.}D+(p_{сэу}+p_{сэз}R/v)\\frac{v^3}{C_A}D^{2/3}+0.01D+P_{сн}+P_{гр}",
+      "formula_ascii": "a=1-p_hull-p_reserve; b=(p_engine+p_energy*R_nm/v_kn)*v_kn**3/CA; c_t=Psupply_t+Pgr_t",
+      "substitution_latex": "a=1-\\frac{6720}{27590}-0.01\\\\b=\\left(\\frac{720}{8580}+\\frac{690\\times15}{8580\\times5000}\\frac{5500}{15.9}\\right)\\frac{15.9^3}{27590^{2/3}\\times15^3/8580}\\approx1.8732\\\\c=84.50+30700=30784.50\\ t\\\\\\left(1-\\frac{6720}{27590}-0.01\\right)D-1.8732D^{2/3}-30784.50\\approx0",
+      "outputs": [
+        "a",
+        "b",
+        "c_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T03",
+      "next_step_ids": [
+        "T04"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.1，整理质量方程"
+        }
+      ],
+      "notes": "求根中的两个系数由本步原始分数表达式求出；0.24和0.08用于报告展示。"
+    },
+    {
+      "id": "T04",
+      "case_id": "t2_first",
+      "title_zh": "以X求解排水量",
+      "purpose": "令X为排水量的立方根，把质量方程变成三次方程。",
+      "inputs": [
+        {
+          "symbol": "三次项系数",
+          "ref": "result:T03.a",
+          "unit": "1"
+        },
+        {
+          "symbol": "二次项系数",
+          "ref": "result:T03.b",
+          "unit": "1"
+        },
+        {
+          "symbol": "常数质量",
+          "ref": "result:T03.c_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "X=D^{1/3};\\quad aX^3-bX^2-c=0;\\quad D=X^3",
+      "formula_ascii": "X=bisect(lambda X: a*X**3-b*X**2-c_t,1,100); X_for_cube=round_half_up(X,4); D_before_adoption_t=round_half_up(X_for_cube**3,2)",
+      "substitution_latex": "\\left(1-\\frac{6720}{27590}-0.01\\right)X^3-1.8732X^2-30784.50\\approx0\\\\X\\approx35.41;\\quad D\\approx35.4070^3=44388.19\\ t",
+      "outputs": [
+        "X",
+        "X_for_cube",
+        "D_before_adoption_t",
+        "solver_trace"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T04",
+      "next_step_ids": [
+        "T05"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.1，X代换及求解"
+        }
+      ],
+      "notes": "复现Word代入行时，X用于立方的取值为35.4070。",
+      "solver": {
+        "method": "bisection",
+        "variable": "X",
+        "initial_interval": [
+          1,
+          100
+        ],
+        "residual_abs_tolerance": 1e-08,
+        "interval_abs_tolerance": 1e-10,
+        "max_iterations": 200,
+        "positive_root": true
+      }
+    },
+    {
+      "id": "T05",
+      "case_id": "t2_first",
+      "title_zh": "采用排水量",
+      "purpose": "进入老师采用的设计状态。",
+      "inputs": [
+        {
+          "symbol": "已求得的D",
+          "ref": "result:T04.D_before_adoption_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "老师采用D₁",
+          "ref": "input:t2_first.adopted.D1_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "D_1=44388\\ t",
+      "formula_ascii": "D1_t=adopted.D1_t",
+      "substitution_latex": "D_1=44388\\ t",
+      "outputs": [
+        "D1_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T05",
+      "next_step_ids": [
+        "T06",
+        "T07",
+        "T08",
+        "T12",
+        "T15",
+        "S01"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.1，Принимаем D₁"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T06",
+      "case_id": "t2_first",
+      "title_zh": "功率与各项质量回代",
+      "purpose": "在已采用排水量下计算主机功率及各项质量。",
+      "inputs": [
+        {
+          "symbol": "采用D₁",
+          "ref": "result:T05.D1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "新船任务",
+          "ref": "input:t2_first.project",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "母型船",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "海军系数",
+          "ref": "result:T02.CA",
+          "unit": "1"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "N_1=D_1^{2/3}v^3/C_A;\\ P_{к.об.1}=p_{к.об.}D_1;\\ P_{сэу1}=p_{сэу}N_1;\\ P_{сэз1}=p_{сэз}N_1R/v;\\ P_{зв1}=0.01D_1",
+      "formula_ascii": "N1_kW=round_half_up(D1_t**(2/3)*v_kn**3/CA,2); Phull_t=round_half_up((P_hull0_t/D0_t)*D1_t,2); Pengine_t=round_half_up((P_engine0_t/N0_kW)*N1_kW,2); Penergy_t=round_half_up((P_energy0_t*v0_kn/(N0_kW*R0_nm))*N1_kW*R_nm/v_kn,2); Preserve_t=round_half_up(p_reserve*D1_t,2)",
+      "substitution_latex": "N_1=\\frac{44388^{2/3}\\times15.9^3}{27590^{2/3}\\times15^3/8580}=14030.75\\ kW\\\\P_{к.об.1}=\\frac{6720}{27590}\\times44388=10811.43\\ t\\\\P_{сэу1}=\\frac{720}{8580}\\times14030.75=1177.41\\ t\\\\P_{сэз1}=\\frac{690\\times15}{8580\\times5000}\\times14030.75\\times\\frac{5500}{15.9}=1170.93\\ t\\\\P_{зв1}=0.01\\times44388=443.88\\ t",
+      "outputs": [
+        "N1_kW",
+        "Phull_t",
+        "Pengine_t",
+        "Penergy_t",
+        "Preserve_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T06",
+      "next_step_ids": [
+        "T07",
+        "T11"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.1，Подсчет составляющих масс"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T07",
+      "case_id": "t2_first",
+      "title_zh": "质量汇总表",
+      "purpose": "将原型船和新船质量整理成老师要求的表格。",
+      "inputs": [
+        {
+          "symbol": "母型船质量",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "新船四项计算质量",
+          "ref": "result:T06.Phull_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "动力质量",
+          "ref": "result:T06.Pengine_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "能源质量",
+          "ref": "result:T06.Penergy_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "裕量",
+          "ref": "result:T06.Preserve_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "供应",
+          "ref": "result:T01.Psupply_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "货物",
+          "ref": "input:t2_first.project.Pgr_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "D₁",
+          "ref": "result:T05.D1_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "P_{表}=\\operatorname{四舍五入}(P);\\quad \\%D=100P/D;\\quad D_{表}=\\sum P_{表}",
+      "formula_ascii": "table_mass_t=round_half_up(calculated_mass_t,0); percent=round_half_up(100*calculated_mass_t/D_t,2); table_total_t=sum(table_mass_t)",
+      "substitution_latex": "10811+1177+1171+444+85+30700=44388\\ t\\\\100\\times10811.43/44388=24.36\\%",
+      "outputs": [
+        "rows",
+        "prototype_total_t",
+        "project_total_t",
+        "table_residual_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T07",
+      "next_step_ids": [
+        "S01"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.2，Таблица 1"
+        }
+      ],
+      "notes": "吨数列为整数；百分比依据对应计算质量，显示两位小数。"
+    },
+    {
+      "id": "T08",
+      "case_id": "t2_first",
+      "title_zh": "船长",
+      "purpose": "由航速和排水量确定油船长度。",
+      "inputs": [
+        {
+          "symbol": "航速",
+          "ref": "input:t2_first.project.v_kn",
+          "unit": "kn"
+        },
+        {
+          "symbol": "D₁",
+          "ref": "result:T05.D1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "长度系数",
+          "ref": "input:t2_first.constants.relative_length_factor",
+          "unit": "1"
+        },
+        {
+          "symbol": "采用L₁",
+          "ref": "input:t2_first.adopted.L1_m",
+          "unit": "m"
+        }
+      ],
+      "formula_latex": "\\ell=2.13v^{1/3};\\quad L_1=\\ell D_1^{1/3}",
+      "formula_ascii": "relative_length=relative_length_factor*v_kn**(1/3); L_calculated_m=round_half_up(relative_length*D1_t**(1/3),2); L1_m=adopted.L1_m",
+      "substitution_latex": "\\ell=2.13\\times15.9^{1/3}=5.36\\\\L_1=2.13\\times15.9^{1/3}\\times44388^{1/3}=189.64\\ m",
+      "outputs": [
+        "relative_length",
+        "L_calculated_m",
+        "L1_m"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T08",
+      "next_step_ids": [
+        "T09",
+        "T12"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，Длина судна"
+        },
+        {
+          "source_id": "first_deck",
+          "locator": "2.1.3，Длина судна"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T09",
+      "case_id": "t2_first",
+      "title_zh": "船型及重心系数",
+      "purpose": "准备浮性、稳性与容积方程的系数。",
+      "inputs": [
+        {
+          "symbol": "采用L₁",
+          "ref": "result:T08.L1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "航速",
+          "ref": "input:t2_first.project.v_kn",
+          "unit": "kn"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "原型数据",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "采用的系数",
+          "ref": "input:t2_first.adopted",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "Fr=0.514v/\\sqrt{gL_1};\\quad\\delta=1.05-1.40Fr;\\quad\\alpha=0.96\\sqrt{\\delta};\\quad\\zeta=z_{г0}/H_0;\\quad\\delta_{пп}=\\delta+0.035",
+      "formula_ascii": "Fr=kn_to_ms*v_kn/sqrt(g_m_s2*L1_m); delta_calculated=fullness_a-fullness_b*Fr; alpha_calculated=waterline_factor*sqrt(delta_calculated); delta=adopted.delta; alpha=adopted.alpha; zeta=adopted.zeta; delta_underdeck=round_half_up(delta+underdeck_delta_add,2)",
+      "substitution_latex": "Fr=\\frac{0.514\\times15.9}{\\sqrt{9.81\\times189.64}}\\approx0.19\\\\\\delta=1.05-1.40\\times\\frac{0.514\\times15.9}{\\sqrt{9.81\\times189.64}}\\approx0.785\\\\\\alpha=0.96\\sqrt{1.05-1.40\\times0.514\\times15.9/\\sqrt{9.81\\times189.64}}\\approx0.850\\\\\\zeta=8.31/13.40\\approx0.62;\\quad\\delta_{пп}=0.785+0.035=0.82",
+      "outputs": [
+        "Fr",
+        "delta_calculated",
+        "alpha_calculated",
+        "delta",
+        "alpha",
+        "zeta",
+        "delta_underdeck"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T09",
+      "next_step_ids": [
+        "T12",
+        "T13",
+        "T15",
+        "S01"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，系数计算及采用值"
+        }
+      ],
+      "notes": "三个方程使用δ=0.785、α=0.850、ζ=0.62、δпп=0.82。"
+    },
+    {
+      "id": "T10",
+      "case_id": "t2_first",
+      "title_zh": "动力舱容积系数",
+      "purpose": "由母型船动力舱容积与功率确定采用系数。",
+      "inputs": [
+        {
+          "symbol": "母型船动力舱容积",
+          "ref": "input:t2_first.prototype.W_engine0_m3",
+          "unit": "m3"
+        },
+        {
+          "symbol": "母型船功率",
+          "ref": "input:t2_first.prototype.N0_kW",
+          "unit": "kW"
+        },
+        {
+          "symbol": "采用μ",
+          "ref": "input:t2_first.adopted.mu_engine_m3_kW",
+          "unit": "m3/kW"
+        }
+      ],
+      "formula_latex": "\\mu_{сэу}=W_{сэу0}/N_0",
+      "formula_ascii": "mu=adopted.mu_engine_m3_kW",
+      "substitution_latex": "\\mu_{сэу}=4715/8580\\approx0.55\\ m^3/kW",
+      "outputs": [
+        "mu"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T10",
+      "next_step_ids": [
+        "T11"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，μсэу"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T11",
+      "case_id": "t2_first",
+      "title_zh": "各项所需容积",
+      "purpose": "把货物、设备和液体储备转换成所需容积。",
+      "inputs": [
+        {
+          "symbol": "货物",
+          "ref": "input:t2_first.project.Pgr_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "货物密度",
+          "ref": "input:t2_first.project.rho_cargo_t_m3",
+          "unit": "t/m3"
+        },
+        {
+          "symbol": "主机功率",
+          "ref": "result:T06.N1_kW",
+          "unit": "kW"
+        },
+        {
+          "symbol": "动力舱容积系数",
+          "ref": "result:T10.mu",
+          "unit": "m3/kW"
+        },
+        {
+          "symbol": "能源质量",
+          "ref": "result:T06.Penergy_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "淡水质量",
+          "ref": "result:T01.Pwater_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "原型系数",
+          "ref": "input:t2_first.prototype.k_dry",
+          "unit": "1"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "W_{гр}=1.04P_{гр}/\\rho_{гр};\\ W_{сэу}=\\mu_{сэу}N_1;\\ W_{сэз}=P_{сэз1}/0.85;\\ W_{пр.вод}=P_{пр.вод}/1.00;\\ W_{бл}=0.38W_{гр};\\ W_{需}=k_{со}\\sum W",
+      "formula_ascii": "Wcargo_m3=round_half_up(cargo_volume_factor*Pgr_t/rho_cargo_t_m3,2); Wengine_m3=round_half_up(mu*N1_kW,2); Wenergy_m3=round_half_up(Penergy_t/k_energy_t_m3,2); Wwater_m3=round_half_up(Pwater_t/k_water_t_m3,2); Wballast_m3=round_half_up(ballast_fraction*Wcargo_m3,2); Wrequired_m3=round_half_up(k_dry*(Wcargo_m3+Wengine_m3+Wenergy_m3+Wwater_m3+Wballast_m3),2)",
+      "substitution_latex": "W_{гр}=1.04\\times30700/0.9=35475.56\\ m^3\\\\W_{сэу}=0.55\\times14030.75=7716.91\\ m^3\\\\W_{сэз}=1170.93/0.85=1377.56\\ m^3\\\\W_{пр.вод}=60/1=60.00\\ m^3\\\\W_{бл}=0.38\\times35475.56=13480.71\\ m^3\\\\W_{需}=1.06(35475.56+7716.91+1377.56+60.00+13480.71)=61597.38\\ m^3",
+      "outputs": [
+        "Wcargo_m3",
+        "Wengine_m3",
+        "Wenergy_m3",
+        "Wwater_m3",
+        "Wballast_m3",
+        "Wrequired_m3"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T11",
+      "next_step_ids": [
+        "T12"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，各容积及代入系统之前的合计"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T12",
+      "case_id": "t2_first",
+      "title_zh": "由浮性和容积求两个尺度乘积",
+      "purpose": "先求B₁T₁及B₁H₁，为直接求宽度准备数据。",
+      "inputs": [
+        {
+          "symbol": "D₁",
+          "ref": "result:T05.D1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "L₁",
+          "ref": "result:T08.L1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "δ",
+          "ref": "result:T09.delta",
+          "unit": "1"
+        },
+        {
+          "symbol": "δпп",
+          "ref": "result:T09.delta_underdeck",
+          "unit": "1"
+        },
+        {
+          "symbol": "需要的容积",
+          "ref": "result:T11.Wrequired_m3",
+          "unit": "m3"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "B_1T_1=\\frac{D_1}{1.005\\times1.025\\delta L_1};\\quad B_1H_1=\\frac{W_{需}}{\\delta_{пп}L_1}",
+      "formula_ascii": "BT_m2=round_half_up(D1_t/(k_appendage*rho_seawater_t_m3*delta*L1_m),2); BH_m2=round_half_up(Wrequired_m3/(delta_underdeck*L1_m),2)",
+      "substitution_latex": "B_1T_1=\\frac{44388}{1.005\\times1.025\\times0.785\\times189.64}=289.45\\ m^2\\\\B_1H_1=\\frac{61597.38}{0.82\\times189.64}=396.11\\ m^2",
+      "outputs": [
+        "BT_m2",
+        "BH_m2"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T12",
+      "next_step_ids": [
+        "T13"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，老师补写的三个值与浮性、容积方程"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T13",
+      "case_id": "t2_first",
+      "title_zh": "直接求解宽度、吃水与型深",
+      "purpose": "把T₁=289.45/B₁、H₁=396.11/B₁代入原稳性方程，求正宽度。",
+      "inputs": [
+        {
+          "symbol": "B₁T₁",
+          "ref": "result:T12.BT_m2",
+          "unit": "m2"
+        },
+        {
+          "symbol": "B₁H₁",
+          "ref": "result:T12.BH_m2",
+          "unit": "m2"
+        },
+        {
+          "symbol": "δ",
+          "ref": "result:T09.delta",
+          "unit": "1"
+        },
+        {
+          "symbol": "α",
+          "ref": "result:T09.alpha",
+          "unit": "1"
+        },
+        {
+          "symbol": "ζ",
+          "ref": "result:T09.zeta",
+          "unit": "1"
+        },
+        {
+          "symbol": "稳性系数",
+          "ref": "input:t2_first.constants.k_stability",
+          "unit": "1"
+        },
+        {
+          "symbol": "h/B",
+          "ref": "input:t2_first.constants.h_over_B",
+          "unit": "1"
+        },
+        {
+          "symbol": "母型船宽",
+          "ref": "input:t2_first.prototype.B0_m",
+          "unit": "m"
+        }
+      ],
+      "formula_latex": "0.06B_1=0.50\\sqrt{\\alpha/\\delta}\\,T_1+\\frac{0.0862\\alpha^2B_1^2}{\\delta T_1}-\\zeta H_1",
+      "formula_ascii": "f(B1_m)=k_stability*sqrt(alpha/delta)*(BT_m2/B1_m)+0.0862*alpha**2*B1_m**2/(delta*(BT_m2/B1_m))-zeta*(BH_m2/B1_m)-h_over_B*B1_m; B_solver_value_m=bisect(f,B0_m/2,2*B0_m); B_calculated_m=round_half_up(B_solver_value_m,2); T_calculated_m=round_half_up(BT_m2/B_solver_value_m,2); H_calculated_m=round_half_up(BH_m2/B_solver_value_m,2)",
+      "substitution_latex": "0=0.50\\sqrt{0.850/0.785}\\frac{289.45}{B_1}+\\frac{0.0862\\times0.850^2B_1^2}{0.785(289.45/B_1)}-0.62\\frac{396.11}{B_1}-0.06B_1\\\\B_1\\approx26.61\\ m;\\quad T_1=289.45/B_1\\approx10.88\\ m;\\quad H_1=396.11/B_1\\approx14.88\\ m",
+      "outputs": [
+        "B_calculated_m",
+        "T_calculated_m",
+        "H_calculated_m",
+        "B_solver_value_m",
+        "solver_trace"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T13",
+      "next_step_ids": [
+        "T14"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，原三个方程、计算值与老师补写的B₁"
+        }
+      ],
+      "notes": "",
+      "solver": {
+        "method": "bisection",
+        "variable": "B1_m",
+        "initial_interval": [
+          12.25,
+          49.0
+        ],
+        "residual_abs_tolerance": 1e-08,
+        "interval_abs_tolerance": 1e-10,
+        "max_iterations": 200,
+        "positive_root": true
+      }
+    },
+    {
+      "id": "T14",
+      "case_id": "t2_first",
+      "title_zh": "采用最终主尺度",
+      "purpose": "按最终报告的采用值进入复核。",
+      "inputs": [
+        {
+          "symbol": "计算尺寸",
+          "ref": "result:T13.B_calculated_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "计算吃水",
+          "ref": "result:T13.T_calculated_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "计算型深",
+          "ref": "result:T13.H_calculated_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "老师采用尺寸",
+          "ref": "input:t2_first.adopted",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "(L_1,B_1,T_1,H_1)=(189.64,26.60,10.88,14.89)\\ m",
+      "formula_ascii": "L1_m=adopted.L1_m; B1_m=adopted.B1_m; T1_m=adopted.T1_m; H1_m=adopted.H1_m",
+      "substitution_latex": "L_1=189.64\\ m;\\quad B_1=26.60\\ m;\\quad T_1=10.88\\ m;\\quad H_1=14.89\\ m",
+      "outputs": [
+        "L1_m",
+        "B1_m",
+        "T1_m",
+        "H1_m"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T14",
+      "next_step_ids": [
+        "T15",
+        "S01"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，最后的Принимаем及Главные размерения"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "T15",
+      "case_id": "t2_first",
+      "title_zh": "浮性与允许差额复核",
+      "purpose": "用采用尺寸回算排水量，并完成允许范围判定。",
+      "inputs": [
+        {
+          "symbol": "L₁",
+          "ref": "result:T14.L1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "B₁",
+          "ref": "result:T14.B1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "T₁",
+          "ref": "result:T14.T1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "D₁",
+          "ref": "result:T05.D1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "δ",
+          "ref": "result:T09.delta",
+          "unit": "1"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "D_{пров}=1.005\\times1.025\\delta L_1B_1T_1;\\quad\\Delta D=|D_{пров}-D_1|",
+      "formula_ascii": "Dcheck_t=round_half_up(k_appendage*rho_seawater_t_m3*delta*L1_m*B1_m*T1_m,2); difference_t=round_half_up(abs(Dcheck_t-D1_t),2); reported_difference_t=round_half_up(difference_t,0); within_allowed=(reported_difference_t<=max(floating_difference_range_t))",
+      "substitution_latex": "D_{пров}=1.005\\times1.025\\times0.785\\times189.64\\times26.60\\times10.88=44381.30\\ t\\\\\\Delta D=|44381.30-44388.00|=6.70\\ t\\approx7\\ t",
+      "outputs": [
+        "Dcheck_t",
+        "difference_t",
+        "reported_difference_t",
+        "within_allowed",
+        "conclusion_ru"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T15",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，Проверка及差额结论"
+        },
+        {
+          "source_id": "t2_method",
+          "locator": "2.1.3，Проверка及差额结论"
+        }
+      ],
+      "notes": "报告句：Расхождение между D и D₁ составляет 7 тонн и не превышает 5-8 тонн."
+    },
+    {
+      "id": "T16",
+      "case_id": "t2_first",
+      "title_zh": "尺度比与油船H/T检查",
+      "purpose": "比较原型船与新船的尺度比例，并检查H/T。",
+      "inputs": [
+        {
+          "symbol": "母型船尺寸",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "采用尺寸",
+          "ref": "input:t2_first.adopted",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "H/T下限",
+          "ref": "input:t2_first.constants.min_H_over_T",
+          "unit": "1"
+        }
+      ],
+      "formula_latex": "L/B;\\quad B/T;\\quad H/T\\ge1.25",
+      "formula_ascii": "prototype_L_B=L0_m/B0_m; prototype_B_T=B0_m/T0_m; prototype_H_T=H0_m/T0_m; project_L_B=L1_m/B1_m; project_B_T=B1_m/T1_m; project_H_T=H1_m/T1_m; H_T_pass=(project_H_T>=min_H_over_T)",
+      "substitution_latex": "L_1/B_1=189.64/26.60=7.13\\\\B_1/T_1=26.60/10.88=2.44\\\\H_1/T_1=14.89/10.88=1.37\\ge1.25",
+      "outputs": [
+        "prototype_L_B",
+        "prototype_B_T",
+        "prototype_H_T",
+        "project_L_B",
+        "project_B_T",
+        "project_H_T",
+        "H_T_pass"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_first/steps/T16",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "t2_final",
+          "locator": "2.1.3，最后的尺度比表及H/T结论"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S01",
+      "case_id": "t2_second",
+      "title_zh": "承接第一次近似的采用尺寸和整数质量",
+      "purpose": "建立与4a第1页第二张表一致的计算起点。",
+      "inputs": [
+        {
+          "symbol": "第一次近似质量表",
+          "ref": "result:T07.rows",
+          "unit": "rows"
+        },
+        {
+          "symbol": "D₁",
+          "ref": "result:T05.D1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "L₁",
+          "ref": "result:T14.L1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "B₁",
+          "ref": "result:T14.B1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "T₁",
+          "ref": "result:T14.T1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "H₁",
+          "ref": "result:T14.H1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "δ₁",
+          "ref": "result:T09.delta",
+          "unit": "1"
+        }
+      ],
+      "formula_latex": "P_{i1}=P_{i1,表};\\quad(D_1,L_1,B_1,T_1,H_1,\\delta_1)=第一次近似采用值",
+      "formula_ascii": "copy D1 from T05, dimensions from T14, delta from T09; select project_mass_t by symbol from T07.rows",
+      "substitution_latex": "D_1=44388\\ t;\\quad(L_1,B_1,T_1,H_1)=(189.64,26.60,10.88,14.89)\\ m\\\\\\delta_1=0.785;\\quad(P_{сэу1},P_{сэз1},P_{зв1},P_{сн},P_{гр})=(1177,1171,444,85,30700)\\ t",
+      "outputs": [
+        "D1_t",
+        "L1_m",
+        "B1_m",
+        "T1_m",
+        "H1_m",
+        "delta1",
+        "Pengine1_t",
+        "Penergy1_t",
+        "Preserve1_t",
+        "Psupply_t",
+        "Pcargo_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S01",
+      "next_step_ids": [
+        "S04",
+        "S06",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第1页，Результаты первого приближения"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": "质量取T07的project_mass_t整数列；尺寸取T14的最终采用值。"
+    },
+    {
+      "id": "S02",
+      "case_id": "t2_second",
+      "title_zh": "母型船方形系数",
+      "purpose": "用母型船排水量和尺寸求δ₀。",
+      "inputs": [
+        {
+          "symbol": "母型船数据",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        },
+        {
+          "symbol": "附体修正",
+          "ref": "input:t2_first.constants.k_appendage",
+          "unit": "1"
+        },
+        {
+          "symbol": "海水密度",
+          "ref": "input:t2_first.constants.rho_seawater_t_m3",
+          "unit": "t/m3"
+        }
+      ],
+      "formula_latex": "\\delta_0=\\frac{D_0}{k\\rho L_0B_0T_0}",
+      "formula_ascii": "delta0_calculated=D0_t/(k_appendage*rho_seawater_t_m3*L0_m*B0_m*T0_m); delta0=round_half_up(delta0_calculated,2)",
+      "substitution_latex": "\\delta_0=\\frac{27590}{1.005\\times1.025\\times147.20\\times24.50\\times9.80}\\approx0.76",
+      "outputs": [
+        "delta0_calculated",
+        "delta0"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S02",
+      "next_step_ids": [
+        "S03"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第2页，Коэффициент общей полноты прототипа"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S03",
+      "case_id": "t2_second",
+      "title_zh": "钢质船体质量系数",
+      "purpose": "由母型船钢质船体质量求gст。",
+      "inputs": [
+        {
+          "symbol": "Pст₀",
+          "ref": "input:t2_second.prototype.P_steel0_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "δ₀",
+          "ref": "result:S02.delta0",
+          "unit": "1"
+        },
+        {
+          "symbol": "母型船尺寸",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "g_{ст}=\\frac{P_{ст0}}{\\delta_0^{1/3}L_0^{3/2}B_0H_0^{1/2}}",
+      "formula_ascii": "g_steel_calculated=P_steel0_t/(delta0**(1/3)*L0_m**(3/2)*B0_m*H0_m**(1/2)); g_steel=round_half_up(g_steel_calculated,3)",
+      "substitution_latex": "g_{ст}=\\frac{5430}{0.76^{1/3}\\times147.20^{3/2}\\times24.50\\times13.40^{1/2}}\\approx0.037\\ t/m^3",
+      "outputs": [
+        "g_steel_calculated",
+        "g_steel"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S03",
+      "next_step_ids": [
+        "S04"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第2页，gст计算"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S04",
+      "case_id": "t2_second",
+      "title_zh": "新船钢质船体质量",
+      "purpose": "用第一次近似采用尺寸细算钢质船体。",
+      "inputs": [
+        {
+          "symbol": "gст",
+          "ref": "result:S03.g_steel",
+          "unit": "t/m3"
+        },
+        {
+          "symbol": "delta1",
+          "ref": "result:S01.delta1",
+          "unit": "1"
+        },
+        {
+          "symbol": "L1_m",
+          "ref": "result:S01.L1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "B1_m",
+          "ref": "result:S01.B1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "H1_m",
+          "ref": "result:S01.H1_m",
+          "unit": "m"
+        }
+      ],
+      "formula_latex": "P_{ст2}=g_{ст}\\delta_1^{1/3}L_1^{3/2}B_1H_1^{1/2}",
+      "formula_ascii": "Psteel2_t=round_half_up(g_steel*delta1**(1/3)*L1_m**(3/2)*B1_m*H1_m**(1/2),2)",
+      "substitution_latex": "P_{ст2}=0.037\\times0.785^{1/3}\\times189.64^{3/2}\\times26.60\\times14.89^{1/2}=9149.18\\ t",
+      "outputs": [
+        "Psteel2_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S04",
+      "next_step_ids": [
+        "S07"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第2页，Pст₂计算"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S05",
+      "case_id": "t2_second",
+      "title_zh": "设备质量系数",
+      "purpose": "由母型船设备质量求gоб。",
+      "inputs": [
+        {
+          "symbol": "Pоб₀",
+          "ref": "input:t2_second.prototype.P_equipment0_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "母型船尺寸",
+          "ref": "input:t2_first.prototype",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "g_{об}=\\frac{P_{об0}}{(L_0B_0H_0)^{2/3}}",
+      "formula_ascii": "g_equipment_calculated=P_equipment0_t/(L0_m*B0_m*H0_m)**(2/3); g_equipment=round_half_up(g_equipment_calculated,2)",
+      "substitution_latex": "g_{об}=\\frac{1290}{(147.20\\times24.50\\times13.40)^{2/3}}\\approx0.97\\ t/m^2",
+      "outputs": [
+        "g_equipment_calculated",
+        "g_equipment"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S05",
+      "next_step_ids": [
+        "S06"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第2页，gоб计算"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S06",
+      "case_id": "t2_second",
+      "title_zh": "新船设备质量",
+      "purpose": "按新船尺度计算设备质量。",
+      "inputs": [
+        {
+          "symbol": "gоб",
+          "ref": "result:S05.g_equipment",
+          "unit": "t/m2"
+        },
+        {
+          "symbol": "L1_m",
+          "ref": "result:S01.L1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "B1_m",
+          "ref": "result:S01.B1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "H1_m",
+          "ref": "result:S01.H1_m",
+          "unit": "m"
+        }
+      ],
+      "formula_latex": "P_{об2}=g_{об}(L_1B_1H_1)^{2/3}",
+      "formula_ascii": "Pequipment2_t=round_half_up(g_equipment*(L1_m*B1_m*H1_m)**(2/3),2)",
+      "substitution_latex": "P_{об2}=0.97(189.64\\times26.60\\times14.89)^{2/3}=1726.80\\ t",
+      "outputs": [
+        "Pequipment2_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S06",
+      "next_step_ids": [
+        "S07"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第2页，Pоб₂计算"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S07",
+      "case_id": "t2_second",
+      "title_zh": "合成船体及设备质量",
+      "purpose": "相加两部分船体质量。",
+      "inputs": [
+        {
+          "symbol": "Pст₂",
+          "ref": "result:S04.Psteel2_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pоб₂",
+          "ref": "result:S06.Pequipment2_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "P_{к.об.2}=P_{ст2}+P_{об2}",
+      "formula_ascii": "Phull2_t=round_half_up(Psteel2_t+Pequipment2_t,2)",
+      "substitution_latex": "P_{к.об.2}=9149.18+1726.80=10875.98\\ t",
+      "outputs": [
+        "Phull2_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S07",
+      "next_step_ids": [
+        "S08",
+        "S12"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第2页，最后的Pк.об.₂"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S08",
+      "case_id": "t2_second",
+      "title_zh": "计算修正前的质量总和",
+      "purpose": "将新的船体质量与原有其他载荷相加。",
+      "inputs": [
+        {
+          "symbol": "Pк.об.₂",
+          "ref": "result:S07.Phull2_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pengine1_t",
+          "ref": "result:S01.Pengine1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Penergy1_t",
+          "ref": "result:S01.Penergy1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Preserve1_t",
+          "ref": "result:S01.Preserve1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Psupply_t",
+          "ref": "result:S01.Psupply_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pcargo_t",
+          "ref": "result:S01.Pcargo_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "A_1=P_{к.об.2}+P_{сэу1}+P_{сэз1}+P_{зв1}+P_{сн}+P_{гр}",
+      "formula_ascii": "A1_t=round_half_up(Phull2_t+Pengine1_t+Penergy1_t+Preserve1_t+Psupply_t+Pcargo_t,2)",
+      "substitution_latex": "A_1=10875.98+1177+1171+444+85+30700=44452.98\\ t",
+      "outputs": [
+        "A1_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S08",
+      "next_step_ids": [
+        "S09"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第3页，Сумма масс"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S09",
+      "case_id": "t2_second",
+      "title_zh": "核对A分支判据",
+      "purpose": "比较质量差额绝对值与原裕量的一半。",
+      "inputs": [
+        {
+          "symbol": "A₁",
+          "ref": "result:S08.A1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "D₁",
+          "ref": "result:S01.D1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pзв₁",
+          "ref": "result:S01.Preserve1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "判据系数",
+          "ref": "input:t2_second.constants.reserve_tolerance_fraction",
+          "unit": "1"
+        }
+      ],
+      "formula_latex": "\\Delta P=A_1-D_1;\\quad|\\Delta P|\\le0.5P_{зв1}",
+      "formula_ascii": "signed_difference_t=round_half_up(A1_t-D1_t,2); absolute_difference_t=abs(signed_difference_t); threshold_t=round_half_up(reserve_tolerance_fraction*Preserve1_t,2); criterion_pass=(absolute_difference_t<=threshold_t); branch=\"A\" when criterion_pass",
+      "substitution_latex": "\\Delta P=44452.98-44388=64.98\\ t\\\\0.5P_{зв1}=0.5\\times444=222.00\\ t\\\\64.98\\le222.00",
+      "outputs": [
+        "signed_difference_t",
+        "absolute_difference_t",
+        "threshold_t",
+        "criterion_pass",
+        "branch"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S09",
+      "next_step_ids": [
+        "S10"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第3页，差额比较及Условие выполняется"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": "本实例满足A分支，S10至S14按该分支执行。",
+      "branch_guard": {
+        "ref": "result:S09.criterion_pass",
+        "equals": true,
+        "applies_to_step_ids": [
+          "S10",
+          "S11",
+          "S12",
+          "S13",
+          "S14"
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "case_id": "t2_second",
+      "title_zh": "修正排水量裕量",
+      "purpose": "用裕量吸收有符号的质量增量。",
+      "inputs": [
+        {
+          "symbol": "Pзв₁",
+          "ref": "result:S01.Preserve1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "A₁−D₁",
+          "ref": "result:S09.signed_difference_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "P_{зв2}=P_{зв1}-(A_1-D_1)",
+      "formula_ascii": "Preserve2_t=round_half_up(Preserve1_t-signed_difference_t,2)",
+      "substitution_latex": "P_{зв2}=444-(44452.98-44388)=444-64.98=379.02\\ t",
+      "outputs": [
+        "Preserve2_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S10",
+      "next_step_ids": [
+        "S12"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第3页，Корректируем запас водоизмещения"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S11",
+      "case_id": "t2_second",
+      "title_zh": "保留排水量与主尺度",
+      "purpose": "按A分支承接第一次近似采用值及其他质量。",
+      "inputs": [
+        {
+          "symbol": "D1_t",
+          "ref": "result:S01.D1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "L1_m",
+          "ref": "result:S01.L1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "B1_m",
+          "ref": "result:S01.B1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "T1_m",
+          "ref": "result:S01.T1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "H1_m",
+          "ref": "result:S01.H1_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "Pengine1_t",
+          "ref": "result:S01.Pengine1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Penergy1_t",
+          "ref": "result:S01.Penergy1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Preserve1_t",
+          "ref": "result:S01.Preserve1_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Psupply_t",
+          "ref": "result:S01.Psupply_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pcargo_t",
+          "ref": "result:S01.Pcargo_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "D_2=D_1;\\ (L_2,B_2,T_2,H_2)=(L_1,B_1,T_1,H_1);\\ P_{сэу2}=P_{сэу1};\\ P_{сэз2}=P_{сэз1}",
+      "formula_ascii": "copy D2=D1, L2=L1, B2=B1, T2=T1, H2=H1, Pengine2=Pengine1, Penergy2=Penergy1; retain Psupply and Pcargo",
+      "substitution_latex": "D_2=44388\\ t;\\quad(L_2,B_2,T_2,H_2)=(189.64,26.60,10.88,14.89)\\ m\\\\P_{сэу2}=1177\\ t;\\quad P_{сэз2}=1171\\ t;\\quad P_{сн}=85\\ t;\\quad P_{гр}=30700\\ t",
+      "outputs": [
+        "D2_t",
+        "L2_m",
+        "B2_m",
+        "T2_m",
+        "H2_m",
+        "Pengine2_t",
+        "Penergy2_t",
+        "Psupply_t",
+        "Pcargo_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S11",
+      "next_step_ids": [
+        "S12",
+        "S13",
+        "S14"
+      ],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第3页，Водоизмещение и главные размерения及Остальные составляющие"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S12",
+      "case_id": "t2_second",
+      "title_zh": "生成第二次近似整数质量表",
+      "purpose": "逐项四舍五入并核对报告总质量。",
+      "inputs": [
+        {
+          "symbol": "Pк.об.₂",
+          "ref": "result:S07.Phull2_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pзв₂",
+          "ref": "result:S10.Preserve2_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pengine2_t",
+          "ref": "result:S11.Pengine2_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Penergy2_t",
+          "ref": "result:S11.Penergy2_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Psupply_t",
+          "ref": "result:S11.Psupply_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "Pcargo_t",
+          "ref": "result:S11.Pcargo_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "D2_t",
+          "ref": "result:S11.D2_t",
+          "unit": "t"
+        }
+      ],
+      "formula_latex": "P_{表,i}=\\operatorname{round}_{0}(P_i);\\quad\\Sigma P_{表}=\\sum P_{表,i}",
+      "formula_ascii": "rows=round_half_up each mass to integer; calculated_total_t=sum(calculated_mass_t); report_total_t=sum(report_mass_t); table_residual_t=report_total_t-D2_t",
+      "substitution_latex": "P_{к.об.,表}=\\operatorname{round}_{0}(10875.98)=10876;\\quad P_{зв,表}=\\operatorname{round}_{0}(379.02)=379\\\\\\Sigma P_{表}=10876+1177+1171+379+85+30700=44388\\ t\\\\\\Sigma P_{表}-D_2=44388-44388=0\\ t",
+      "outputs": [
+        "rows",
+        "calculated_total_t",
+        "report_total_t",
+        "table_residual_t"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S12",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第4页，Таблица 2及Проверяем сумму масс"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S13",
+      "case_id": "t2_second",
+      "title_zh": "浮性复核与差额结论",
+      "purpose": "用保留的尺度复核排水量，给出老师原格式的允许范围判定。",
+      "inputs": [
+        {
+          "symbol": "L2_m",
+          "ref": "result:S11.L2_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "B2_m",
+          "ref": "result:S11.B2_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "T2_m",
+          "ref": "result:S11.T2_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "D2_t",
+          "ref": "result:S11.D2_t",
+          "unit": "t"
+        },
+        {
+          "symbol": "δ₁",
+          "ref": "result:S01.delta1",
+          "unit": "1"
+        },
+        {
+          "symbol": "方法常数",
+          "ref": "input:t2_first.constants",
+          "unit": "mixed"
+        }
+      ],
+      "formula_latex": "D_{пров}=k\\rho\\delta_1L_2B_2T_2;\\quad\\Delta D=|D_{пров}-D_2|",
+      "formula_ascii": "Dcheck_t=round_half_up(k_appendage*rho_seawater_t_m3*delta1*L2_m*B2_m*T2_m,2); difference_t=round_half_up(abs(Dcheck_t-D2_t),2); reported_difference_t=round_half_up(difference_t,0); within_allowed=(reported_difference_t<=max(floating_difference_range_t))",
+      "substitution_latex": "D_{пров}=1.005\\times1.025\\times0.785\\times189.64\\times26.60\\times10.88=44381.30\\ t\\\\\\Delta D=|44381.30-44388|=6.70\\ t\\approx7\\ t",
+      "outputs": [
+        "Dcheck_t",
+        "difference_t",
+        "reported_difference_t",
+        "within_allowed",
+        "conclusion_ru"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S13",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第4页，Проверяем уравнение плавучести及最后结论"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S14",
+      "case_id": "t2_second",
+      "title_zh": "型深吃水比检查",
+      "purpose": "核对油船H/T下限。",
+      "inputs": [
+        {
+          "symbol": "H₂",
+          "ref": "result:S11.H2_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "T₂",
+          "ref": "result:S11.T2_m",
+          "unit": "m"
+        },
+        {
+          "symbol": "油船下限",
+          "ref": "input:t2_first.constants.min_H_over_T",
+          "unit": "1"
+        }
+      ],
+      "formula_latex": "H_2/T_2\\ge1.25",
+      "formula_ascii": "H_T=H2_m/T2_m; H_T_pass=(H_T>=min_H_over_T)",
+      "substitution_latex": "H_2/T_2=14.89/10.88\\approx1.37\\ge1.25",
+      "outputs": [
+        "H_T",
+        "H_T_pass"
+      ],
+      "expected_ref": "expected_results.json#/cases/t2_second/steps/S14",
+      "next_step_ids": [],
+      "sources": [
+        {
+          "source_id": "t2_second_final",
+          "locator": "第3页，最后的H₂/T₂"
+        },
+        {
+          "source_id": "t2_second_method",
+          "locator": "2.2，船体质量公式及Вариант А"
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

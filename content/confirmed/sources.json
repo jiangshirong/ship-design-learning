@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "path_base": "原课程根目录；仅用于来源追溯",
+  "sources": {
+    "tasks_v5": {
+      "path": "1p/Задачи.docx",
+      "locator": "ВАРИАНТ 5，Задача 1–3",
+      "role": "基础题原题",
+      "sha256": "042dad5711c5e6efa4d2b1511fda8443ade01a48bf0807eae2c97afde3798bc4",
+      "byte_count": 16852
+    },
+    "load_v5": {
+      "path": "1p/Вариант 5 Расчёт нагрузки.docx",
+      "locator": "Вариант 5，表1及表2",
+      "role": "第5方案载荷与重心的完整数据及结果",
+      "sha256": "bdb057f375c6a5a79f99905a0f2afb85adebd2b58bddcd3f19fd900e6bc27ffa",
+      "byte_count": 39229
+    },
+    "load_assignment": {
+      "path": "1p/5. Нагрузка-2024.docx",
+      "locator": "Вариант 5",
+      "role": "载荷作业原始资料",
+      "sha256": "4d0255f1ccb7e5ff09974b47d177033297787e9d3a54ea48f92508b32c0be674",
+      "byte_count": 577882
+    },
+    "ost_assignment": {
+      "path": "1a/5. Нагрузка. Задание ОСТ.docx",
+      "locator": "第2张表，第2方案，原始43项",
+      "role": "ОСТ第2方案名称、质量及顺序",
+      "sha256": "2480ad0f5ca6df7ff7a0f4dfe56bc0ac5e2de39af80dbe43a1e1df4dae36b681",
+      "byte_count": 102035
+    },
+    "ost_pdf": {
+      "path": "1p/5. ОСТ 5Р_0206-2002.pdf",
+      "locator": "表1，名称第6栏、备注第7栏及行左侧分类码",
+      "role": "ОСТ分类依据",
+      "sha256": "f0bff9a7d5ae3fcb0f1854ac1c76f3e58f9620943197039ba9840d1783b0e65f",
+      "byte_count": 924887
+    },
+    "ost_finished": {
+      "path": "1p/Вариант 2 ОСТ соответствие.xlsx",
+      "locator": "Вариант 2，A5:D144；代码单元格批注",
+      "role": "已完成的完整检索对应表",
+      "sha256": "eae5ab1397a0de237c2a939097a6af5da731289fb1b0e1a5bfc255bfabba54e1",
+      "byte_count": 29751
+    },
+    "t2_final": {
+      "path": "2p/2p-Женя.docx",
+      "locator": "1 初始数据；2.1.1质量方程；2.1.2质量表；2.1.3主尺度",
+      "role": "第一次近似最终报告及老师采用值",
+      "sha256": "6f5c544e038fe475f08d844e93612a7877e6329a707c273ad06d218f0951bb28",
+      "byte_count": 28757
+    },
+    "t2_method": {
+      "path": "2p/КП-ПС-1 приближение.docx",
+      "locator": "2.1.1–2.1.3",
+      "role": "老师的公式、流程及复核结论格式",
+      "sha256": "ae886efea8226ef05db77906f24f5a7ee585c66e0034a7cebb08b3612709068e",
+      "byte_count": 54394
+    },
+    "intro_deck": {
+      "path": "2a/ПС-КР-1. Введение.pptx",
+      "locator": "第4页原型资料，第16页Т2",
+      "role": "原型资料及新船方案",
+      "sha256": "0213632937afb9c750817eb43ca6c8ae66cd9a2e6379503356bebb5606cf89ea",
+      "byte_count": 5187611
+    },
+    "first_deck": {
+      "path": "2a/ПС-КР-2. Первое приближение.pptx",
+      "locator": "第6页及第8–15页",
+      "role": "质量方程与主尺度公式",
+      "sha256": "b866e8761250013a8412e7b69ab10cf4ebb871004fa60f6919ecd89847b28558",
+      "byte_count": 2431585
+    },
+    "t2_second_final": {
+      "path": "4a/4a-Женя.docx",
+      "locator": "第1页母型船表及第一次近似结果表；第2页船体计算；第3页A分支；第4页表2及浮性复核",
+      "role": "已通过的第二次近似最终报告，采用整数质量输入",
+      "sha256": "b1d214e1684a3763a30c3f8bc208c8ffefd723d67db9e31a0125230c8ad9af3f",
+      "byte_count": 21552
+    },
+    "t2_second_method": {
+      "path": "4a/КП-ПС-2 приближение.docx",
+      "locator": "2.2，钢质船体与设备质量公式、Вариант А及其表2",
+      "role": "老师第二次近似公式与A分支流程",
+      "sha256": "36ff774052c5f9ec1eb2b0278025048233b950697b362053875119de7518881f",
+      "byte_count": 37986
+    },
+    "t2_second_photo": {
+      "path": "4a/0.jpg",
+      "locator": "油船列，Масса стального корпуса、Масса оборудования",
+      "role": "母型船钢质船体5430吨及设备1290吨的课堂来源",
+      "sha256": "9bc62ed492700d9355d8f47df72472cd7317b8096b6f3d4eeb5332e864b19e14",
+      "byte_count": 248957
+    }
+  }
+}

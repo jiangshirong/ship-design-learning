@@ -1,0 +1,231 @@
+{
+  "source_file": "1p/5. Нагрузка-2024.docx",
+  "case": "Variant 5, multipurpose ship with four holds",
+  "fuel_tanks": [
+    {
+      "id": 1,
+      "mass_t": 250.0,
+      "x_m": 97.0,
+      "z_m": 0.58,
+      "y_display_m": 0,
+      "oil_dimensions_m": [
+        20,
+        14.705882352941176,
+        1
+      ],
+      "oil_centre_blender": [
+        22.0,
+        0,
+        0.58
+      ],
+      "oil_centre_godot": [
+        22.0,
+        0.58,
+        0
+      ],
+      "oil_volume_display_m3": 294.11764705882354,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 2,
+      "mass_t": 160.0,
+      "x_m": 67.0,
+      "z_m": 0.58,
+      "y_display_m": -5.55,
+      "oil_dimensions_m": [
+        35,
+        5.378151260504202,
+        1
+      ],
+      "oil_centre_blender": [
+        -8.0,
+        -5.55,
+        0.58
+      ],
+      "oil_centre_godot": [
+        -8.0,
+        0.58,
+        5.55
+      ],
+      "oil_volume_display_m3": 188.23529411764707,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 3,
+      "mass_t": 160.0,
+      "x_m": 67.0,
+      "z_m": 0.58,
+      "y_display_m": 0,
+      "oil_dimensions_m": [
+        35,
+        5.378151260504202,
+        1
+      ],
+      "oil_centre_blender": [
+        -8.0,
+        0,
+        0.58
+      ],
+      "oil_centre_godot": [
+        -8.0,
+        0.58,
+        0
+      ],
+      "oil_volume_display_m3": 188.23529411764707,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 4,
+      "mass_t": 150.0,
+      "x_m": 67.0,
+      "z_m": 0.58,
+      "y_display_m": 5.55,
+      "oil_dimensions_m": [
+        35,
+        5.042016806722689,
+        1
+      ],
+      "oil_centre_blender": [
+        -8.0,
+        5.55,
+        0.58
+      ],
+      "oil_centre_godot": [
+        -8.0,
+        0.58,
+        -5.55
+      ],
+      "oil_volume_display_m3": 176.47058823529412,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 5,
+      "mass_t": 175.0,
+      "x_m": 41.5,
+      "z_m": 0.58,
+      "y_display_m": 0,
+      "oil_dimensions_m": [
+        15,
+        13.72549019607843,
+        1
+      ],
+      "oil_centre_blender": [
+        -33.5,
+        0,
+        0.58
+      ],
+      "oil_centre_godot": [
+        -33.5,
+        0.58,
+        0
+      ],
+      "oil_volume_display_m3": 205.88235294117646,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 6,
+      "mass_t": 55.0,
+      "x_m": 24.1,
+      "z_m": 7.15,
+      "y_display_m": -7,
+      "oil_dimensions_m": [
+        5,
+        4.97737556561086,
+        2.6
+      ],
+      "oil_centre_blender": [
+        -50.9,
+        -7,
+        7.15
+      ],
+      "oil_centre_godot": [
+        -50.9,
+        7.15,
+        7
+      ],
+      "oil_volume_display_m3": 64.70588235294117,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 7,
+      "mass_t": 57.0,
+      "x_m": 25.5,
+      "z_m": 10.75,
+      "y_display_m": -7,
+      "oil_dimensions_m": [
+        5,
+        5.588235294117648,
+        2.4
+      ],
+      "oil_centre_blender": [
+        -49.5,
+        -7,
+        10.75
+      ],
+      "oil_centre_godot": [
+        -49.5,
+        10.75,
+        7
+      ],
+      "oil_volume_display_m3": 67.05882352941177,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 8,
+      "mass_t": 30.0,
+      "x_m": 28.95,
+      "z_m": 6.8,
+      "y_display_m": 7,
+      "oil_dimensions_m": [
+        4.8,
+        3.3422459893048124,
+        2.2
+      ],
+      "oil_centre_blender": [
+        -46.05,
+        7,
+        6.8
+      ],
+      "oil_centre_godot": [
+        -46.05,
+        6.8,
+        -7
+      ],
+      "oil_volume_display_m3": 35.294117647058826,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    },
+    {
+      "id": 9,
+      "mass_t": 32.0,
+      "x_m": 28.95,
+      "z_m": 9.95,
+      "y_display_m": 7,
+      "oil_dimensions_m": [
+        4.8,
+        3.5650623885918,
+        2.2
+      ],
+      "oil_centre_blender": [
+        -46.05,
+        7,
+        9.95
+      ],
+      "oil_centre_godot": [
+        -46.05,
+        9.95,
+        -7
+      ],
+      "oil_volume_display_m3": 37.64705882352941,
+      "geometry_status": "authored teaching geometry; only mass/x/z are source inputs"
+    }
+  ],
+  "display_hull_dimensions_m": [
+    150,
+    25,
+    17
+  ],
+  "display_density_t_m3": 0.85,
+  "density_and_geometry_are_teaching_choices": true,
+  "source_coordinates": "x forward from aft perpendicular; z up from baseline",
+  "export_mesh_groups": 82
+}

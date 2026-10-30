@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "created_in": "5.2.2 LTS",
+  "source": "models/液货船学习模型.blend",
+  "asset": "assets/tanker_learning.glb",
+  "reference_dimensions_m": {
+    "length_between_perpendiculars": 189.64,
+    "beam": 26.6,
+    "main_deck": 14.89,
+    "draft": 10.88
+  },
+  "objects": 1106,
+  "export": {
+    "mesh_groups": 34,
+    "triangles": 98296
+  },
+  "stages": [
+    "01 船体 · 圆舭、艏艉与水下外形",
+    "02 舱室 · 双层底、边舱与十二个液货舱",
+    "03 甲板与上层建筑 · 连续液货甲板和艉部驾驶台",
+    "04 液货系统 · 独立管路、阀门、通气与舷侧装卸接口",
+    "05 细节 · 栏杆、梯道、系泊、救生和推进装置",
+    "06 校核细节 · 艉部间隙、机舱与消防系统",
+    "液货船学习模型 · 完整模型",
+    "液货船学习模型 · 完整模型"
+  ],
+  "cargo_tanks": 12,
+  "coordinates": "Blender +X forward, +Y port, +Z up; Godot +X forward, +Y up, -Z port",
+  "source_facts": "Т2 adopted principal dimensions only",
+  "teaching_choices": [
+    "double hull",
+    "six pairs of integral liquid cargo tanks",
+    "independent tank piping and amidships manifolds",
+    "aft machinery and accommodation",
+    "conventional ambient-temperature liquid cargo; no specific cargo certification",
+    "Visible cargo liquid and horizontal free surfaces; fill level is teaching geometry, not homework volume integration"
+  ],
+  "boundary": "Hull lines, compartment count and equipment arrangement are authored teaching geometry. No hydrostatic integration or class approval is implied.",
+  "references": [
+    "https://www.wartsila.com/encyclopedia/term/tankers",
+    "https://www.wartsila.com/encyclopedia/term/cargo-manifold",
+    "https://www.damen.com/vessels/cargo/combi-tankers/combi-tanker-8800"
+  ],
+  "liquid_filled_cargo_tanks": 12
+}

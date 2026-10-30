@@ -1,0 +1,28 @@
+[
+  {
+    "id": "THU_20261029",
+    "title": {
+      "zh": "周四真题",
+      "ru": "Экзамен в четверг"
+    },
+    "goal": {
+      "zh": "复习10月29日选择题对应的知识。",
+      "ru": "Вопросы экзамена."
+    },
+    "questions": [
+      "THU01",
+      "THU02",
+      "THU03",
+      "THU04",
+      "THU05",
+      "THU06",
+      "THU07",
+      "THU08",
+      "THU09",
+      "THU10"
+    ],
+    "groups": [],
+    "question_targets": {},
+    "animation_available": false
+  }
+]

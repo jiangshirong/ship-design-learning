@@ -1,0 +1,8 @@
+{
+  "removed_package": true,
+  "removed_runtime_assets": true,
+  "live_code_references": [],
+  "removed_freeboard_wave_parameters": 8,
+  "ordinary_ocean_preserved": true,
+  "deletion_method": "Resource directories sent to Windows Recycle Bin; playback scripts and related tools removed. Original Blender bake caches in models and historical QA records retained."
+}

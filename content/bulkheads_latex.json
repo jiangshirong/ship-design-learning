@@ -1,0 +1,1608 @@
+{
+  "BH:dimensions": {
+    "zh": [
+      {
+        "tex": "L=189.13\\,\\mathrm{m},\\quad B=26.53\\,\\mathrm{m}",
+        "linear": "L=189.13 {m},\\quad B=26.53 {m}"
+      },
+      {
+        "tex": "H=14.97\\,\\mathrm{m},\\quad T=10.85\\,\\mathrm{m}",
+        "linear": "H=14.97 {m},\\quad T=10.85 {m}"
+      },
+      {
+        "tex": "D=44024\\,\\mathrm{t}",
+        "linear": "D=44024 {t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L=189.13\\,\\mathrm{m},\\quad B=26.53\\,\\mathrm{m}",
+        "linear": "L=189.13 {m},\\quad B=26.53 {m}"
+      },
+      {
+        "tex": "H=14.97\\,\\mathrm{m},\\quad T=10.85\\,\\mathrm{m}",
+        "linear": "H=14.97 {m},\\quad T=10.85 {m}"
+      },
+      {
+        "tex": "D=44024\\,\\mathrm{t}",
+        "linear": "D=44024 {t}"
+      }
+    ]
+  },
+  "BH:webvalues": {
+    "zh": [
+      {
+        "tex": "a_{\\text{р.н. ср.ч.}}=4a_{\\text{0 ср.ч.}}",
+        "linear": "a_{{р.н. ср.ч.}}=4a_{{0 ср.ч.}}"
+      },
+      {
+        "tex": "=4\\cdot0.85=3.40\\,\\mathrm{m}",
+        "linear": "=4 * 0.85=3.40 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{р.н. ср.ч.}}=4a_{\\text{0 ср.ч.}}",
+        "linear": "a_{{р.н. ср.ч.}}=4a_{{0 ср.ч.}}"
+      },
+      {
+        "tex": "=4\\cdot0.85=3.40\\,\\mathrm{m}",
+        "linear": "=4 * 0.85=3.40 {m}"
+      }
+    ]
+  },
+  "BH:fore_range": {
+    "zh": [
+      {
+        "tex": "L_{\\text{ф}}\\in[0.05L,0.08L]",
+        "linear": "L_{{ф}}\\in[0.05L,0.08L]"
+      },
+      {
+        "tex": "=[9.4565,15.1304]\\,\\mathrm{m}",
+        "linear": "=[9.4565,15.1304] {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{ф}}\\in[0.05L,0.08L]",
+        "linear": "L_{{ф}}\\in[0.05L,0.08L]"
+      },
+      {
+        "tex": "=[9.4565,15.1304]\\,\\mathrm{m}",
+        "linear": "=[9.4565,15.1304] {m}"
+      }
+    ]
+  },
+  "BH:fore_integer": {
+    "zh": [
+      {
+        "tex": "\\frac{L_{\\text{ф}}}{0.60}\\in[15.7608,25.2173]",
+        "linear": "\\frac{L_{{ф}}}{0.60}\\in[15.7608,25.2173]"
+      },
+      {
+        "tex": "n_{\\text{шп. ф}}\\in\\{16,\\ldots,25\\}",
+        "linear": "n_{{шп. ф}}\\in\\{16,\\ldots,25\\}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{L_{\\text{ф}}}{0.60}\\in[15.7608,25.2173]",
+        "linear": "\\frac{L_{{ф}}}{0.60}\\in[15.7608,25.2173]"
+      },
+      {
+        "tex": "n_{\\text{шп. ф}}\\in\\{16,\\ldots,25\\}",
+        "linear": "n_{{шп. ф}}\\in\\{16,\\ldots,25\\}"
+      }
+    ]
+  },
+  "BH:fore_place": {
+    "zh": [
+      {
+        "tex": "L_{\\text{ф}}=24\\cdot0.60=14.40\\,\\mathrm{m}",
+        "linear": "L_{{ф}}=24 * 0.60=14.40 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{ф}}=24\\cdot0.60=14.40\\,\\mathrm{m}",
+        "linear": "L_{{ф}}=24 * 0.60=14.40 {m}"
+      }
+    ]
+  },
+  "BH:aft_range": {
+    "zh": [
+      {
+        "tex": "L_{\\text{ахт}}\\in[0.04L,0.08L]",
+        "linear": "L_{{ахт}}\\in[0.04L,0.08L]"
+      },
+      {
+        "tex": "L_{\\text{ахт}}\\in[7.5652,15.1304]\\,\\mathrm{m}",
+        "linear": "L_{{ахт}}\\in[7.5652,15.1304] {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{ахт}}\\in[0.04L,0.08L]",
+        "linear": "L_{{ахт}}\\in[0.04L,0.08L]"
+      },
+      {
+        "tex": "L_{\\text{ахт}}\\in[7.5652,15.1304]\\,\\mathrm{m}",
+        "linear": "L_{{ахт}}\\in[7.5652,15.1304] {m}"
+      }
+    ]
+  },
+  "BH:aft_integer": {
+    "zh": [
+      {
+        "tex": "\\frac{7.5652}{0.60}=12.6087",
+        "linear": "\\frac{7.5652}{0.60}=12.6087"
+      },
+      {
+        "tex": "\\frac{15.1304}{0.60}=25.2173",
+        "linear": "\\frac{15.1304}{0.60}=25.2173"
+      },
+      {
+        "tex": "n_{\\text{шп. а}}\\in\\{13,\\ldots,25\\}",
+        "linear": "n_{{шп. а}}\\in\\{13,\\ldots,25\\}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{7.5652}{0.60}=12.6087",
+        "linear": "\\frac{7.5652}{0.60}=12.6087"
+      },
+      {
+        "tex": "\\frac{15.1304}{0.60}=25.2173",
+        "linear": "\\frac{15.1304}{0.60}=25.2173"
+      },
+      {
+        "tex": "n_{\\text{шп. а}}\\in\\{13,\\ldots,25\\}",
+        "linear": "n_{{шп. а}}\\in\\{13,\\ldots,25\\}"
+      }
+    ]
+  },
+  "BH:aft_place": {
+    "zh": [
+      {
+        "tex": "L_{\\text{ахт}}=22\\cdot0.60=13.20\\,\\mathrm{m}",
+        "linear": "L_{{ахт}}=22 * 0.60=13.20 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{ахт}}=22\\cdot0.60=13.20\\,\\mathrm{m}",
+        "linear": "L_{{ахт}}=22 * 0.60=13.20 {m}"
+      }
+    ]
+  },
+  "BH:engine_range": {
+    "zh": [
+      {
+        "tex": "L_{\\text{МО}}\\in[0.14L,0.17L]",
+        "linear": "L_{{МО}}\\in[0.14L,0.17L]"
+      },
+      {
+        "tex": "=[26.4782,32.1521]\\,\\mathrm{m}",
+        "linear": "=[26.4782,32.1521] {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{МО}}\\in[0.14L,0.17L]",
+        "linear": "L_{{МО}}\\in[0.14L,0.17L]"
+      },
+      {
+        "tex": "=[26.4782,32.1521]\\,\\mathrm{m}",
+        "linear": "=[26.4782,32.1521] {m}"
+      }
+    ]
+  },
+  "BH:engine_integer": {
+    "zh": [
+      {
+        "tex": "\\frac{L_{\\text{МО}}}{1.70}\\in[15.5754,18.913]",
+        "linear": "\\frac{L_{{МО}}}{1.70}\\in[15.5754,18.913]"
+      },
+      {
+        "tex": "n_{\\text{р.шп. МО}}\\in\\{16,17,18\\}",
+        "linear": "n_{{р.шп. МО}}\\in\\{16,17,18\\}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{L_{\\text{МО}}}{1.70}\\in[15.5754,18.913]",
+        "linear": "\\frac{L_{{МО}}}{1.70}\\in[15.5754,18.913]"
+      },
+      {
+        "tex": "n_{\\text{р.шп. МО}}\\in\\{16,17,18\\}",
+        "linear": "n_{{р.шп. МО}}\\in\\{16,17,18\\}"
+      }
+    ]
+  },
+  "BH:engine_place": {
+    "zh": [
+      {
+        "tex": "L_{\\text{МО}}=18\\cdot1.70",
+        "linear": "L_{{МО}}=18 * 1.70"
+      },
+      {
+        "tex": "=36\\cdot0.85=30.60\\,\\mathrm{m}",
+        "linear": "=36 * 0.85=30.60 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{МО}}=18\\cdot1.70",
+        "linear": "L_{{МО}}=18 * 1.70"
+      },
+      {
+        "tex": "=36\\cdot0.85=30.60\\,\\mathrm{m}",
+        "linear": "=36 * 0.85=30.60 {m}"
+      }
+    ]
+  },
+  "BH:pump": {
+    "zh": [
+      {
+        "tex": "L_{\\mathrm{pump}}=1\\cdot3.40",
+        "linear": "L_{{pump}}=1 * 3.40"
+      },
+      {
+        "tex": "=4\\cdot0.85=3.40\\,\\mathrm{m}",
+        "linear": "=4 * 0.85=3.40 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\mathrm{pump}}=1\\cdot3.40",
+        "linear": "L_{{pump}}=1 * 3.40"
+      },
+      {
+        "tex": "=4\\cdot0.85=3.40\\,\\mathrm{m}",
+        "linear": "=4 * 0.85=3.40 {m}"
+      }
+    ]
+  },
+  "BH:remaining": {
+    "zh": [
+      {
+        "tex": "L_{\\text{гр.ч.}}=L-L_{\\text{ф}}-L_{\\text{ахт}}-L_{\\text{МО}}-L_{\\mathrm{pump}}",
+        "linear": "L_{{гр.ч.}}=L-L_{{ф}}-L_{{ахт}}-L_{{МО}}-L_{{pump}}"
+      },
+      {
+        "tex": "=189.13-(14.40+13.20",
+        "linear": "=189.13-(14.40+13.20"
+      },
+      {
+        "tex": "\\qquad+30.60+3.40)",
+        "linear": "\\qquad+30.60+3.40)"
+      },
+      {
+        "tex": "=127.53\\,\\mathrm{m}",
+        "linear": "=127.53 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{гр.ч.}}=L-L_{\\text{ф}}-L_{\\text{ахт}}-L_{\\text{МО}}-L_{\\mathrm{pump}}",
+        "linear": "L_{{гр.ч.}}=L-L_{{ф}}-L_{{ахт}}-L_{{МО}}-L_{{pump}}"
+      },
+      {
+        "tex": "=189.13-(14.40+13.20",
+        "linear": "=189.13-(14.40+13.20"
+      },
+      {
+        "tex": "\\qquad+30.60+3.40)",
+        "linear": "\\qquad+30.60+3.40)"
+      },
+      {
+        "tex": "=127.53\\,\\mathrm{m}",
+        "linear": "=127.53 {m}"
+      }
+    ]
+  },
+  "BH:transition": {
+    "zh": [
+      {
+        "tex": "L_{\\text{пр}}\\ge0.2L-L_{\\text{ф}}",
+        "linear": "L_{{пр}}\\ge0.2L-L_{{ф}}"
+      },
+      {
+        "tex": "L_{\\text{пр}}\\ge37.826-14.40",
+        "linear": "L_{{пр}}\\ge37.826-14.40"
+      },
+      {
+        "tex": "L_{\\text{пр}}\\ge23.426\\,\\mathrm{m}",
+        "linear": "L_{{пр}}\\ge23.426 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{пр}}\\ge0.2L-L_{\\text{ф}}",
+        "linear": "L_{{пр}}\\ge0.2L-L_{{ф}}"
+      },
+      {
+        "tex": "L_{\\text{пр}}\\ge37.826-14.40",
+        "linear": "L_{{пр}}\\ge37.826-14.40"
+      },
+      {
+        "tex": "L_{\\text{пр}}\\ge23.426\\,\\mathrm{m}",
+        "linear": "L_{{пр}}\\ge23.426 {m}"
+      }
+    ]
+  },
+  "BH:transition_integer": {
+    "zh": [
+      {
+        "tex": "\\frac{23.426}{0.69}=33.9507",
+        "linear": "\\frac{23.426}{0.69}=33.9507"
+      },
+      {
+        "tex": "\\left\\lceil33.9507\\right\\rceil=34",
+        "linear": "\\left\\lceil33.9507\\right\\rceil=34"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{23.426}{0.69}=33.9507",
+        "linear": "\\frac{23.426}{0.69}=33.9507"
+      },
+      {
+        "tex": "\\left\\lceil33.9507\\right\\rceil=34",
+        "linear": "\\left\\lceil33.9507\\right\\rceil=34"
+      }
+    ]
+  },
+  "BH:conflict": {
+    "zh": [
+      {
+        "tex": "L_{\\text{пр}}=37\\cdot0.69=25.53\\,\\mathrm{m}",
+        "linear": "L_{{пр}}=37 * 0.69=25.53 {m}"
+      },
+      {
+        "tex": "25.53\\ge23.426",
+        "linear": "25.53\\ge23.426"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\text{пр}}=37\\cdot0.69=25.53\\,\\mathrm{m}",
+        "linear": "L_{{пр}}=37 * 0.69=25.53 {m}"
+      },
+      {
+        "tex": "25.53\\ge23.426",
+        "linear": "25.53\\ge23.426"
+      }
+    ]
+  },
+  "BH:recheck": {
+    "zh": [
+      {
+        "tex": "24+37=61",
+        "linear": "24+37=61"
+      },
+      {
+        "tex": "s_{\\mathrm{transition}}=14.40+25.53=39.93\\,\\mathrm{m}",
+        "linear": "s_{{transition}}=14.40+25.53=39.93 {m}"
+      },
+      {
+        "tex": "39.93\\ge0.2L=37.826\\,\\mathrm{m}",
+        "linear": "39.93\\ge0.2L=37.826 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "24+37=61",
+        "linear": "24+37=61"
+      },
+      {
+        "tex": "s_{\\mathrm{transition}}=14.40+25.53=39.93\\,\\mathrm{m}",
+        "linear": "s_{{transition}}=14.40+25.53=39.93 {m}"
+      },
+      {
+        "tex": "39.93\\ge0.2L=37.826\\,\\mathrm{m}",
+        "linear": "39.93\\ge0.2L=37.826 {m}"
+      }
+    ]
+  },
+  "BH:allocate": {
+    "zh": [
+      {
+        "tex": "37=36+1",
+        "linear": "37=36+1"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "37=36+1",
+        "linear": "37=36+1"
+      }
+    ]
+  },
+  "BH:firsthold": {
+    "zh": [
+      {
+        "tex": "L_{\\mathrm{hold},1}=36\\cdot0.69=24.84\\,\\mathrm{m}",
+        "linear": "L_{{hold},1}=36 * 0.69=24.84 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\mathrm{hold},1}=36\\cdot0.69=24.84\\,\\mathrm{m}",
+        "linear": "L_{{hold},1}=36 * 0.69=24.84 {m}"
+      }
+    ]
+  },
+  "BH:secondhold": {
+    "zh": [
+      {
+        "tex": "L_{\\mathrm{hold},2}=1\\cdot0.69+24\\cdot0.85",
+        "linear": "L_{{hold},2}=1 * 0.69+24 * 0.85"
+      },
+      {
+        "tex": "=21.09\\,\\mathrm{m}",
+        "linear": "=21.09 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\mathrm{hold},2}=1\\cdot0.69+24\\cdot0.85",
+        "linear": "L_{{hold},2}=1 * 0.69+24 * 0.85"
+      },
+      {
+        "tex": "=21.09\\,\\mathrm{m}",
+        "linear": "=21.09 {m}"
+      }
+    ]
+  },
+  "BH:otherholds": {
+    "zh": [
+      {
+        "tex": "L_{\\mathrm{hold},3-6}=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "L_{{hold},3-6}=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "24.84+21.09+4\\cdot20.40=127.53\\,\\mathrm{m}",
+        "linear": "24.84+21.09+4 * 20.40=127.53 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L_{\\mathrm{hold},3-6}=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "L_{{hold},3-6}=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "24.84+21.09+4\\cdot20.40=127.53\\,\\mathrm{m}",
+        "linear": "24.84+21.09+4 * 20.40=127.53 {m}"
+      }
+    ]
+  },
+  "BH:webjoin": {
+    "zh": [
+      {
+        "tex": "n=60\\to61:\\quad a=0.69\\,\\mathrm{m}",
+        "linear": "n=60\\to61:\\quad a=0.69 {m}"
+      },
+      {
+        "tex": "n=61,65,69,\\ldots,85",
+        "linear": "n=61,65,69,\\ldots,85"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=60\\to61:\\quad a=0.69\\,\\mathrm{m}",
+        "linear": "n=60\\to61:\\quad a=0.69 {m}"
+      },
+      {
+        "tex": "n=61,65,69,\\ldots,85",
+        "linear": "n=61,65,69,\\ldots,85"
+      }
+    ]
+  },
+  "BH:numbering": {
+    "zh": [
+      {
+        "tex": "x=L-s",
+        "linear": "x=L-s"
+      },
+      {
+        "tex": "0\\le n\\le24:\\quad s=0.60n",
+        "linear": "0\\le n\\le24:\\quad s=0.60n"
+      },
+      {
+        "tex": "24<n\\le61:",
+        "linear": "24<n\\le61:"
+      },
+      {
+        "tex": "s=14.40+0.69(n-24)",
+        "linear": "s=14.40+0.69(n-24)"
+      },
+      {
+        "tex": "61<n\\le221:",
+        "linear": "61<n\\le221:"
+      },
+      {
+        "tex": "s=39.93+0.85(n-61)",
+        "linear": "s=39.93+0.85(n-61)"
+      },
+      {
+        "tex": "221<n\\le243:",
+        "linear": "221<n\\le243:"
+      },
+      {
+        "tex": "s=175.93+0.60(n-221)",
+        "linear": "s=175.93+0.60(n-221)"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "x=L-s",
+        "linear": "x=L-s"
+      },
+      {
+        "tex": "0\\le n\\le24:\\quad s=0.60n",
+        "linear": "0\\le n\\le24:\\quad s=0.60n"
+      },
+      {
+        "tex": "24<n\\le61:",
+        "linear": "24<n\\le61:"
+      },
+      {
+        "tex": "s=14.40+0.69(n-24)",
+        "linear": "s=14.40+0.69(n-24)"
+      },
+      {
+        "tex": "61<n\\le221:",
+        "linear": "61<n\\le221:"
+      },
+      {
+        "tex": "s=39.93+0.85(n-61)",
+        "linear": "s=39.93+0.85(n-61)"
+      },
+      {
+        "tex": "221<n\\le243:",
+        "linear": "221<n\\le243:"
+      },
+      {
+        "tex": "s=175.93+0.60(n-221)",
+        "linear": "s=175.93+0.60(n-221)"
+      }
+    ]
+  },
+  "BH:row0": {
+    "zh": [
+      {
+        "tex": "n=0\\ldots24",
+        "linear": "n=0\\ldots24"
+      },
+      {
+        "tex": "l=24\\cdot0.60=14.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.60=14.40 {m}"
+      },
+      {
+        "tex": "s=14.40\\,\\mathrm{m}",
+        "linear": "s=14.40 {m}"
+      },
+      {
+        "tex": "x=174.73\\,\\mathrm{m}",
+        "linear": "x=174.73 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=0\\ldots24",
+        "linear": "n=0\\ldots24"
+      },
+      {
+        "tex": "l=24\\cdot0.60=14.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.60=14.40 {m}"
+      },
+      {
+        "tex": "s=14.40\\,\\mathrm{m}",
+        "linear": "s=14.40 {m}"
+      },
+      {
+        "tex": "x=174.73\\,\\mathrm{m}",
+        "linear": "x=174.73 {m}"
+      }
+    ]
+  },
+  "BH:row1": {
+    "zh": [
+      {
+        "tex": "n=24\\ldots60",
+        "linear": "n=24\\ldots60"
+      },
+      {
+        "tex": "l=36\\cdot0.69=24.84\\,\\mathrm{m}",
+        "linear": "l=36 * 0.69=24.84 {m}"
+      },
+      {
+        "tex": "s=39.24\\,\\mathrm{m}",
+        "linear": "s=39.24 {m}"
+      },
+      {
+        "tex": "x=149.89\\,\\mathrm{m}",
+        "linear": "x=149.89 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=24\\ldots60",
+        "linear": "n=24\\ldots60"
+      },
+      {
+        "tex": "l=36\\cdot0.69=24.84\\,\\mathrm{m}",
+        "linear": "l=36 * 0.69=24.84 {m}"
+      },
+      {
+        "tex": "s=39.24\\,\\mathrm{m}",
+        "linear": "s=39.24 {m}"
+      },
+      {
+        "tex": "x=149.89\\,\\mathrm{m}",
+        "linear": "x=149.89 {m}"
+      }
+    ]
+  },
+  "BH:row2": {
+    "zh": [
+      {
+        "tex": "n=60\\ldots85",
+        "linear": "n=60\\ldots85"
+      },
+      {
+        "tex": "l=1\\cdot0.69+24\\cdot0.85=21.09\\,\\mathrm{m}",
+        "linear": "l=1 * 0.69+24 * 0.85=21.09 {m}"
+      },
+      {
+        "tex": "s=60.33\\,\\mathrm{m}",
+        "linear": "s=60.33 {m}"
+      },
+      {
+        "tex": "x=128.80\\,\\mathrm{m}",
+        "linear": "x=128.80 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=60\\ldots85",
+        "linear": "n=60\\ldots85"
+      },
+      {
+        "tex": "l=1\\cdot0.69+24\\cdot0.85=21.09\\,\\mathrm{m}",
+        "linear": "l=1 * 0.69+24 * 0.85=21.09 {m}"
+      },
+      {
+        "tex": "s=60.33\\,\\mathrm{m}",
+        "linear": "s=60.33 {m}"
+      },
+      {
+        "tex": "x=128.80\\,\\mathrm{m}",
+        "linear": "x=128.80 {m}"
+      }
+    ]
+  },
+  "BH:row3": {
+    "zh": [
+      {
+        "tex": "n=85\\ldots109",
+        "linear": "n=85\\ldots109"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=80.73\\,\\mathrm{m}",
+        "linear": "s=80.73 {m}"
+      },
+      {
+        "tex": "x=108.40\\,\\mathrm{m}",
+        "linear": "x=108.40 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=85\\ldots109",
+        "linear": "n=85\\ldots109"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=80.73\\,\\mathrm{m}",
+        "linear": "s=80.73 {m}"
+      },
+      {
+        "tex": "x=108.40\\,\\mathrm{m}",
+        "linear": "x=108.40 {m}"
+      }
+    ]
+  },
+  "BH:row4": {
+    "zh": [
+      {
+        "tex": "n=109\\ldots133",
+        "linear": "n=109\\ldots133"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=101.13\\,\\mathrm{m}",
+        "linear": "s=101.13 {m}"
+      },
+      {
+        "tex": "x=88.00\\,\\mathrm{m}",
+        "linear": "x=88.00 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=109\\ldots133",
+        "linear": "n=109\\ldots133"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=101.13\\,\\mathrm{m}",
+        "linear": "s=101.13 {m}"
+      },
+      {
+        "tex": "x=88.00\\,\\mathrm{m}",
+        "linear": "x=88.00 {m}"
+      }
+    ]
+  },
+  "BH:row5": {
+    "zh": [
+      {
+        "tex": "n=133\\ldots157",
+        "linear": "n=133\\ldots157"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=121.53\\,\\mathrm{m}",
+        "linear": "s=121.53 {m}"
+      },
+      {
+        "tex": "x=67.60\\,\\mathrm{m}",
+        "linear": "x=67.60 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=133\\ldots157",
+        "linear": "n=133\\ldots157"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=121.53\\,\\mathrm{m}",
+        "linear": "s=121.53 {m}"
+      },
+      {
+        "tex": "x=67.60\\,\\mathrm{m}",
+        "linear": "x=67.60 {m}"
+      }
+    ]
+  },
+  "BH:row6": {
+    "zh": [
+      {
+        "tex": "n=157\\ldots181",
+        "linear": "n=157\\ldots181"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=141.93\\,\\mathrm{m}",
+        "linear": "s=141.93 {m}"
+      },
+      {
+        "tex": "x=47.20\\,\\mathrm{m}",
+        "linear": "x=47.20 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=157\\ldots181",
+        "linear": "n=157\\ldots181"
+      },
+      {
+        "tex": "l=24\\cdot0.85=20.40\\,\\mathrm{m}",
+        "linear": "l=24 * 0.85=20.40 {m}"
+      },
+      {
+        "tex": "s=141.93\\,\\mathrm{m}",
+        "linear": "s=141.93 {m}"
+      },
+      {
+        "tex": "x=47.20\\,\\mathrm{m}",
+        "linear": "x=47.20 {m}"
+      }
+    ]
+  },
+  "BH:row7": {
+    "zh": [
+      {
+        "tex": "n=181\\ldots185",
+        "linear": "n=181\\ldots185"
+      },
+      {
+        "tex": "l=4\\cdot0.85=3.40\\,\\mathrm{m}",
+        "linear": "l=4 * 0.85=3.40 {m}"
+      },
+      {
+        "tex": "s=145.33\\,\\mathrm{m}",
+        "linear": "s=145.33 {m}"
+      },
+      {
+        "tex": "x=43.80\\,\\mathrm{m}",
+        "linear": "x=43.80 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=181\\ldots185",
+        "linear": "n=181\\ldots185"
+      },
+      {
+        "tex": "l=4\\cdot0.85=3.40\\,\\mathrm{m}",
+        "linear": "l=4 * 0.85=3.40 {m}"
+      },
+      {
+        "tex": "s=145.33\\,\\mathrm{m}",
+        "linear": "s=145.33 {m}"
+      },
+      {
+        "tex": "x=43.80\\,\\mathrm{m}",
+        "linear": "x=43.80 {m}"
+      }
+    ]
+  },
+  "BH:row8": {
+    "zh": [
+      {
+        "tex": "n=185\\ldots221",
+        "linear": "n=185\\ldots221"
+      },
+      {
+        "tex": "l=36\\cdot0.85=30.60\\,\\mathrm{m}",
+        "linear": "l=36 * 0.85=30.60 {m}"
+      },
+      {
+        "tex": "s=175.93\\,\\mathrm{m}",
+        "linear": "s=175.93 {m}"
+      },
+      {
+        "tex": "x=13.20\\,\\mathrm{m}",
+        "linear": "x=13.20 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=185\\ldots221",
+        "linear": "n=185\\ldots221"
+      },
+      {
+        "tex": "l=36\\cdot0.85=30.60\\,\\mathrm{m}",
+        "linear": "l=36 * 0.85=30.60 {m}"
+      },
+      {
+        "tex": "s=175.93\\,\\mathrm{m}",
+        "linear": "s=175.93 {m}"
+      },
+      {
+        "tex": "x=13.20\\,\\mathrm{m}",
+        "linear": "x=13.20 {m}"
+      }
+    ]
+  },
+  "BH:row9": {
+    "zh": [
+      {
+        "tex": "n=221\\ldots243",
+        "linear": "n=221\\ldots243"
+      },
+      {
+        "tex": "l=22\\cdot0.60=13.20\\,\\mathrm{m}",
+        "linear": "l=22 * 0.60=13.20 {m}"
+      },
+      {
+        "tex": "s=189.13\\,\\mathrm{m}",
+        "linear": "s=189.13 {m}"
+      },
+      {
+        "tex": "x=0.00\\,\\mathrm{m}",
+        "linear": "x=0.00 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=221\\ldots243",
+        "linear": "n=221\\ldots243"
+      },
+      {
+        "tex": "l=22\\cdot0.60=13.20\\,\\mathrm{m}",
+        "linear": "l=22 * 0.60=13.20 {m}"
+      },
+      {
+        "tex": "s=189.13\\,\\mathrm{m}",
+        "linear": "s=189.13 {m}"
+      },
+      {
+        "tex": "x=0.00\\,\\mathrm{m}",
+        "linear": "x=0.00 {m}"
+      }
+    ]
+  },
+  "BH:closure": {
+    "zh": [
+      {
+        "tex": "14.40+24.84+21.09+4\\cdot20.40",
+        "linear": "14.40+24.84+21.09+4 * 20.40"
+      },
+      {
+        "tex": "\\quad+3.40+30.60+13.20=189.13\\,\\mathrm{m}",
+        "linear": "\\quad+3.40+30.60+13.20=189.13 {m}"
+      },
+      {
+        "tex": "n=24,60,85,109,133,",
+        "linear": "n=24,60,85,109,133,"
+      },
+      {
+        "tex": "\\quad157,181,185,221",
+        "linear": "\\quad157,181,185,221"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "14.40+24.84+21.09+4\\cdot20.40",
+        "linear": "14.40+24.84+21.09+4 * 20.40"
+      },
+      {
+        "tex": "\\quad+3.40+30.60+13.20=189.13\\,\\mathrm{m}",
+        "linear": "\\quad+3.40+30.60+13.20=189.13 {m}"
+      },
+      {
+        "tex": "n=24,60,85,109,133,",
+        "linear": "n=24,60,85,109,133,"
+      },
+      {
+        "tex": "\\quad157,181,185,221",
+        "linear": "\\quad157,181,185,221"
+      }
+    ]
+  },
+  "BH:drag": {
+    "zh": [
+      {
+        "tex": "n=@bh_n@\\quad x=@bh_x@\\,\\mathrm{m}",
+        "linear": "n=@bh_n@\\quad x=@bh_x@ {m}"
+      },
+      {
+        "tex": "l_1=@bh_l1@\\,\\mathrm{m}",
+        "linear": "l_1=@bh_l1@ {m}"
+      },
+      {
+        "tex": "l_2=@bh_l2@\\,\\mathrm{m}",
+        "linear": "l_2=@bh_l2@ {m}"
+      },
+      {
+        "tex": "l_1+l_2=@bh_pair@\\,\\mathrm{m}",
+        "linear": "l_1+l_2=@bh_pair@ {m}"
+      },
+      {
+        "tex": "\\sum l_i=@bh_total@\\,\\mathrm{m}",
+        "linear": "\\sum l_i=@bh_total@ {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "n=@bh_n@\\quad x=@bh_x@\\,\\mathrm{m}",
+        "linear": "n=@bh_n@\\quad x=@bh_x@ {m}"
+      },
+      {
+        "tex": "l_1=@bh_l1@\\,\\mathrm{m}",
+        "linear": "l_1=@bh_l1@ {m}"
+      },
+      {
+        "tex": "l_2=@bh_l2@\\,\\mathrm{m}",
+        "linear": "l_2=@bh_l2@ {m}"
+      },
+      {
+        "tex": "l_1+l_2=@bh_pair@\\,\\mathrm{m}",
+        "linear": "l_1+l_2=@bh_pair@ {m}"
+      },
+      {
+        "tex": "\\sum l_i=@bh_total@\\,\\mathrm{m}",
+        "linear": "\\sum l_i=@bh_total@ {m}"
+      }
+    ]
+  },
+  "BH:dbformula": {
+    "zh": [
+      {
+        "tex": "h_{\\text{дд}}=0.0328H+1.2",
+        "linear": "h_{{дд}}=0.0328H+1.2"
+      },
+      {
+        "tex": "=0.0328\\cdot14.97+1.2",
+        "linear": "=0.0328 * 14.97+1.2"
+      },
+      {
+        "tex": "=1.691016\\approx1.69\\,\\mathrm{m}",
+        "linear": "=1.691016\\approx1.69 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h_{\\text{дд}}=0.0328H+1.2",
+        "linear": "h_{{дд}}=0.0328H+1.2"
+      },
+      {
+        "tex": "=0.0328\\cdot14.97+1.2",
+        "linear": "=0.0328 * 14.97+1.2"
+      },
+      {
+        "tex": "=1.691016\\approx1.69\\,\\mathrm{m}",
+        "linear": "=1.691016\\approx1.69 {m}"
+      }
+    ]
+  },
+  "BH:dbcheck": {
+    "zh": [
+      {
+        "tex": "h_{\\mathrm{min}}=\\frac{L-40}{570}+0.04B+\\frac{3.5T}{L}",
+        "linear": "h_{{min}}=\\frac{L-40}{570}+0.04B+\\frac{3.5T}{L}"
+      },
+      {
+        "tex": "=\\frac{189.13-40}{570}+0.04\\cdot26.53",
+        "linear": "=\\frac{189.13-40}{570}+0.04 * 26.53"
+      },
+      {
+        "tex": "\\quad+\\frac{3.5\\cdot10.85}{189.13}",
+        "linear": "\\quad+\\frac{3.5 * 10.85}{189.13}"
+      },
+      {
+        "tex": "\\approx1.52\\,\\mathrm{m}",
+        "linear": "\\approx1.52 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h_{\\mathrm{min}}=\\frac{L-40}{570}+0.04B+\\frac{3.5T}{L}",
+        "linear": "h_{{min}}=\\frac{L-40}{570}+0.04B+\\frac{3.5T}{L}"
+      },
+      {
+        "tex": "=\\frac{189.13-40}{570}+0.04\\cdot26.53",
+        "linear": "=\\frac{189.13-40}{570}+0.04 * 26.53"
+      },
+      {
+        "tex": "\\quad+\\frac{3.5\\cdot10.85}{189.13}",
+        "linear": "\\quad+\\frac{3.5 * 10.85}{189.13}"
+      },
+      {
+        "tex": "\\approx1.52\\,\\mathrm{m}",
+        "linear": "\\approx1.52 {m}"
+      }
+    ]
+  },
+  "BH:dbadopt": {
+    "zh": [
+      {
+        "tex": "h_{\\text{дд}}\\le2.00\\,\\mathrm{m}",
+        "linear": "h_{{дд}}\\le2.00 {m}"
+      },
+      {
+        "tex": "h_{\\text{дд}}=1.70\\,\\mathrm{m}",
+        "linear": "h_{{дд}}=1.70 {m}"
+      },
+      {
+        "tex": "1.52<1.70\\le2.00",
+        "linear": "1.52<1.70\\le2.00"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h_{\\text{дд}}\\le2.00\\,\\mathrm{m}",
+        "linear": "h_{{дд}}\\le2.00 {m}"
+      },
+      {
+        "tex": "h_{\\text{дд}}=1.70\\,\\mathrm{m}",
+        "linear": "h_{{дд}}=1.70 {m}"
+      },
+      {
+        "tex": "1.52<1.70\\le2.00",
+        "linear": "1.52<1.70\\le2.00"
+      }
+    ]
+  },
+  "BH:deadweight": {
+    "zh": [
+      {
+        "tex": "DW=D-(P_{\\text{коб},3}+P_{\\text{сэу},3})",
+        "linear": "DW=D-(P_{{коб},3}+P_{{сэу},3})"
+      },
+      {
+        "tex": "=44024-(10840+1041)",
+        "linear": "=44024-(10840+1041)"
+      },
+      {
+        "tex": "=32143\\,\\mathrm{t}",
+        "linear": "=32143 {t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "DW=D-(P_{\\text{коб},3}+P_{\\text{сэу},3})",
+        "linear": "DW=D-(P_{{коб},3}+P_{{сэу},3})"
+      },
+      {
+        "tex": "=44024-(10840+1041)",
+        "linear": "=44024-(10840+1041)"
+      },
+      {
+        "tex": "=32143\\,\\mathrm{t}",
+        "linear": "=32143 {t}"
+      }
+    ]
+  },
+  "BH:sideformula": {
+    "zh": [
+      {
+        "tex": "b_{\\text{дб}}=0.5+\\frac{DW}{20000}",
+        "linear": "b_{{дб}}=0.5+\\frac{DW}{20000}"
+      },
+      {
+        "tex": "=0.5+\\frac{32143}{20000}",
+        "linear": "=0.5+\\frac{32143}{20000}"
+      },
+      {
+        "tex": "=2.10715\\approx2.11\\,\\mathrm{m}",
+        "linear": "=2.10715\\approx2.11 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "b_{\\text{дб}}=0.5+\\frac{DW}{20000}",
+        "linear": "b_{{дб}}=0.5+\\frac{DW}{20000}"
+      },
+      {
+        "tex": "=0.5+\\frac{32143}{20000}",
+        "linear": "=0.5+\\frac{32143}{20000}"
+      },
+      {
+        "tex": "=2.10715\\approx2.11\\,\\mathrm{m}",
+        "linear": "=2.10715\\approx2.11 {m}"
+      }
+    ]
+  },
+  "BH:sideadopt": {
+    "zh": [
+      {
+        "tex": "1.00\\le b_{\\text{дб}}\\le2.50\\,\\mathrm{m}",
+        "linear": "1.00\\le b_{{дб}}\\le2.50 {m}"
+      },
+      {
+        "tex": "b_{\\text{дб}}=2.20\\,\\mathrm{m}",
+        "linear": "b_{{дб}}=2.20 {m}"
+      },
+      {
+        "tex": "1.00\\le2.20\\le2.50",
+        "linear": "1.00\\le2.20\\le2.50"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "1.00\\le b_{\\text{дб}}\\le2.50\\,\\mathrm{m}",
+        "linear": "1.00\\le b_{{дб}}\\le2.50 {m}"
+      },
+      {
+        "tex": "b_{\\text{дб}}=2.20\\,\\mathrm{m}",
+        "linear": "b_{{дб}}=2.20 {m}"
+      },
+      {
+        "tex": "1.00\\le2.20\\le2.50",
+        "linear": "1.00\\le2.20\\le2.50"
+      }
+    ]
+  },
+  "BH:longitudinal": {
+    "zh": [
+      {
+        "tex": "6\\cdot3=18",
+        "linear": "6 * 3=18"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "6\\cdot3=18",
+        "linear": "6 * 3=18"
+      }
+    ]
+  },
+  "BH:cargo_width": {
+    "zh": [
+      {
+        "tex": "B_{\\mathrm{cargo}}=B-2b_{\\text{дб}}",
+        "linear": "B_{{cargo}}=B-2b_{{дб}}"
+      },
+      {
+        "tex": "=26.53-2\\cdot2.20=22.13\\,\\mathrm{m}",
+        "linear": "=26.53-2 * 2.20=22.13 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "B_{\\mathrm{cargo}}=B-2b_{\\text{дб}}",
+        "linear": "B_{{cargo}}=B-2b_{{дб}}"
+      },
+      {
+        "tex": "=26.53-2\\cdot2.20=22.13\\,\\mathrm{m}",
+        "linear": "=26.53-2 * 2.20=22.13 {m}"
+      }
+    ]
+  },
+  "BH:central": {
+    "zh": [
+      {
+        "tex": "b_{\\mathrm{central}}=22.13-2\\cdot6.65",
+        "linear": "b_{{central}}=22.13-2 * 6.65"
+      },
+      {
+        "tex": "=8.83\\,\\mathrm{m}",
+        "linear": "=8.83 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "b_{\\mathrm{central}}=22.13-2\\cdot6.65",
+        "linear": "b_{{central}}=22.13-2 * 6.65"
+      },
+      {
+        "tex": "=8.83\\,\\mathrm{m}",
+        "linear": "=8.83 {m}"
+      }
+    ]
+  },
+  "BH:bi": {
+    "zh": [
+      {
+        "tex": "b_i=2.20+6.65=8.85\\,\\mathrm{m}",
+        "linear": "b_i=2.20+6.65=8.85 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "b_i=2.20+6.65=8.85\\,\\mathrm{m}",
+        "linear": "b_i=2.20+6.65=8.85 {m}"
+      }
+    ]
+  },
+  "BH:multiple": {
+    "zh": [
+      {
+        "tex": "\\frac{b_i}{B}=\\frac{8.85}{26.53}",
+        "linear": "\\frac{b_i}{B}=\\frac{8.85}{26.53}"
+      },
+      {
+        "tex": "\\approx0.33>\\frac{1}{5}",
+        "linear": "\\approx0.33>\\frac{1}{5}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{b_i}{B}=\\frac{8.85}{26.53}",
+        "linear": "\\frac{b_i}{B}=\\frac{8.85}{26.53}"
+      },
+      {
+        "tex": "\\approx0.33>\\frac{1}{5}",
+        "linear": "\\approx0.33>\\frac{1}{5}"
+      }
+    ]
+  },
+  "BH:tanklimits": {
+    "zh": [
+      {
+        "tex": "\\frac{b_i}{B}\\ge\\frac{1}{5}",
+        "linear": "\\frac{b_i}{B}\\ge\\frac{1}{5}"
+      },
+      {
+        "tex": "l_{\\mathrm{allow}}=0.2L",
+        "linear": "l_{{allow}}=0.2L"
+      },
+      {
+        "tex": "=0.2\\cdot189.13=37.826",
+        "linear": "=0.2 * 189.13=37.826"
+      },
+      {
+        "tex": "\\approx37.83\\,\\mathrm{m}",
+        "linear": "\\approx37.83 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{b_i}{B}\\ge\\frac{1}{5}",
+        "linear": "\\frac{b_i}{B}\\ge\\frac{1}{5}"
+      },
+      {
+        "tex": "l_{\\mathrm{allow}}=0.2L",
+        "linear": "l_{{allow}}=0.2L"
+      },
+      {
+        "tex": "=0.2\\cdot189.13=37.826",
+        "linear": "=0.2 * 189.13=37.826"
+      },
+      {
+        "tex": "\\approx37.83\\,\\mathrm{m}",
+        "linear": "\\approx37.83 {m}"
+      }
+    ]
+  },
+  "BH:tankcheck": {
+    "zh": [
+      {
+        "tex": "l_{\\max}=24.84\\,\\mathrm{m}",
+        "linear": "l_{\\max}=24.84 {m}"
+      },
+      {
+        "tex": "24.84<37.826",
+        "linear": "24.84<37.826"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "l_{\\max}=24.84\\,\\mathrm{m}",
+        "linear": "l_{\\max}=24.84 {m}"
+      },
+      {
+        "tex": "24.84<37.826",
+        "linear": "24.84<37.826"
+      }
+    ]
+  },
+  "BH:webengine": {
+    "zh": [
+      {
+        "tex": "a_{\\text{р.н. М.О.}}=2a_{\\text{0 ср.ч.}}",
+        "linear": "a_{{р.н. М.О.}}=2a_{{0 ср.ч.}}"
+      },
+      {
+        "tex": "=2\\cdot0.85=1.70\\,\\mathrm{m}",
+        "linear": "=2 * 0.85=1.70 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{р.н. М.О.}}=2a_{\\text{0 ср.ч.}}",
+        "linear": "a_{{р.н. М.О.}}=2a_{{0 ср.ч.}}"
+      },
+      {
+        "tex": "=2\\cdot0.85=1.70\\,\\mathrm{m}",
+        "linear": "=2 * 0.85=1.70 {m}"
+      }
+    ]
+  },
+  "BH:webtransition": {
+    "zh": [
+      {
+        "tex": "a_{\\text{р.н. п.р.}}=2a_{\\text{п.р.}}",
+        "linear": "a_{{р.н. п.р.}}=2a_{{п.р.}}"
+      },
+      {
+        "tex": "=2\\cdot0.69=1.38\\,\\mathrm{m}",
+        "linear": "=2 * 0.69=1.38 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{р.н. п.р.}}=2a_{\\text{п.р.}}",
+        "linear": "a_{{р.н. п.р.}}=2a_{{п.р.}}"
+      },
+      {
+        "tex": "=2\\cdot0.69=1.38\\,\\mathrm{m}",
+        "linear": "=2 * 0.69=1.38 {m}"
+      }
+    ]
+  },
+  "BH:webfore": {
+    "zh": [
+      {
+        "tex": "a_{\\text{р.н. окон.}}=a_{\\text{0 ф}}",
+        "linear": "a_{{р.н. окон.}}=a_{{0 ф}}"
+      },
+      {
+        "tex": "=1\\cdot0.60=0.60\\,\\mathrm{m}",
+        "linear": "=1 * 0.60=0.60 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{р.н. окон.}}=a_{\\text{0 ф}}",
+        "linear": "a_{{р.н. окон.}}=a_{{0 ф}}"
+      },
+      {
+        "tex": "=1\\cdot0.60=0.60\\,\\mathrm{m}",
+        "linear": "=1 * 0.60=0.60 {m}"
+      }
+    ]
+  },
+  "BH:webaft": {
+    "zh": [
+      {
+        "tex": "a_{\\text{р.н. окон.}}=a_{\\text{0 ахт.}}",
+        "linear": "a_{{р.н. окон.}}=a_{{0 ахт.}}"
+      },
+      {
+        "tex": "=1\\cdot0.60=0.60\\,\\mathrm{m}",
+        "linear": "=1 * 0.60=0.60 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{р.н. окон.}}=a_{\\text{0 ахт.}}",
+        "linear": "a_{{р.н. окон.}}=a_{{0 ахт.}}"
+      },
+      {
+        "tex": "=1\\cdot0.60=0.60\\,\\mathrm{m}",
+        "linear": "=1 * 0.60=0.60 {m}"
+      }
+    ]
+  },
+  "BH:webvalues_ordinary": {
+    "zh": [
+      {
+        "tex": "a_0=0.002L+0.48",
+        "linear": "a_0=0.002L+0.48"
+      },
+      {
+        "tex": "=0.002\\cdot189.13+0.48",
+        "linear": "=0.002 * 189.13+0.48"
+      },
+      {
+        "tex": "=0.85826\\approx0.86\\,\\mathrm{m}",
+        "linear": "=0.85826\\approx0.86 {m}"
+      },
+      {
+        "tex": "a_{\\text{0 ср.ч.}}=0.85\\,\\mathrm{m}",
+        "linear": "a_{{0 ср.ч.}}=0.85 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_0=0.002L+0.48",
+        "linear": "a_0=0.002L+0.48"
+      },
+      {
+        "tex": "=0.002\\cdot189.13+0.48",
+        "linear": "=0.002 * 189.13+0.48"
+      },
+      {
+        "tex": "=0.85826\\approx0.86\\,\\mathrm{m}",
+        "linear": "=0.85826\\approx0.86 {m}"
+      },
+      {
+        "tex": "a_{\\text{0 ср.ч.}}=0.85\\,\\mathrm{m}",
+        "linear": "a_{{0 ср.ч.}}=0.85 {m}"
+      }
+    ]
+  },
+  "BH:webengine_ordinary": {
+    "zh": [
+      {
+        "tex": "a_{\\text{0 ср.ч.}}",
+        "linear": "a_{{0 ср.ч.}}"
+      },
+      {
+        "tex": "=0.85\\,\\mathrm{m}",
+        "linear": "=0.85 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{0 ср.ч.}}",
+        "linear": "a_{{0 ср.ч.}}"
+      },
+      {
+        "tex": "=0.85\\,\\mathrm{m}",
+        "linear": "=0.85 {m}"
+      }
+    ]
+  },
+  "BH:webtransition_ordinary": {
+    "zh": [
+      {
+        "tex": "0.75a_0\\le a_{\\text{п.р.}}\\le1.25a_0",
+        "linear": "0.75a_0\\le a_{{п.р.}}\\le1.25a_0"
+      },
+      {
+        "tex": "a_{\\text{п.р.}}\\le0.70\\,\\mathrm{m}",
+        "linear": "a_{{п.р.}}\\le0.70 {m}"
+      },
+      {
+        "tex": "0.75\\cdot0.86=0.645",
+        "linear": "0.75 * 0.86=0.645"
+      },
+      {
+        "tex": "1.25\\cdot0.86=1.075",
+        "linear": "1.25 * 0.86=1.075"
+      },
+      {
+        "tex": "0.645\\le a_{\\text{п.р.}}\\le0.70",
+        "linear": "0.645\\le a_{{п.р.}}\\le0.70"
+      },
+      {
+        "tex": "a_{\\text{п.р.}}=0.69\\,\\mathrm{m}",
+        "linear": "a_{{п.р.}}=0.69 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "0.75a_0\\le a_{\\text{п.р.}}\\le1.25a_0",
+        "linear": "0.75a_0\\le a_{{п.р.}}\\le1.25a_0"
+      },
+      {
+        "tex": "a_{\\text{п.р.}}\\le0.70\\,\\mathrm{m}",
+        "linear": "a_{{п.р.}}\\le0.70 {m}"
+      },
+      {
+        "tex": "0.75\\cdot0.86=0.645",
+        "linear": "0.75 * 0.86=0.645"
+      },
+      {
+        "tex": "1.25\\cdot0.86=1.075",
+        "linear": "1.25 * 0.86=1.075"
+      },
+      {
+        "tex": "0.645\\le a_{\\text{п.р.}}\\le0.70",
+        "linear": "0.645\\le a_{{п.р.}}\\le0.70"
+      },
+      {
+        "tex": "a_{\\text{п.р.}}=0.69\\,\\mathrm{m}",
+        "linear": "a_{{п.р.}}=0.69 {m}"
+      }
+    ]
+  },
+  "BH:webfore_ordinary": {
+    "zh": [
+      {
+        "tex": "a_{\\text{0 ф}}=0.60\\,\\mathrm{m}",
+        "linear": "a_{{0 ф}}=0.60 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{0 ф}}=0.60\\,\\mathrm{m}",
+        "linear": "a_{{0 ф}}=0.60 {m}"
+      }
+    ]
+  },
+  "BH:webaft_ordinary": {
+    "zh": [
+      {
+        "tex": "a_{\\text{0 ахт.}}=0.60\\,\\mathrm{m}",
+        "linear": "a_{{0 ахт.}}=0.60 {m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "a_{\\text{0 ахт.}}=0.60\\,\\mathrm{m}",
+        "linear": "a_{{0 ахт.}}=0.60 {m}"
+      }
+    ]
+  }
+}

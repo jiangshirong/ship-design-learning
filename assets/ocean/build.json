@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "ocean_modifier": true,
+  "dimensions_m": [
+    420,
+    240
+  ],
+  "normal_map": [
+    512,
+    512
+  ],
+  "source": "models/calm_ocean.blend"
+}

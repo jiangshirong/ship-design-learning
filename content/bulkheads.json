@@ -1,0 +1,2435 @@
+{
+  "id": "bulkheads",
+  "title": {
+    "zh": "舱壁布置",
+    "ru": "Расстано́вка перебо́рок"
+  },
+  "initial": {
+    "bh_cut": 0,
+    "bh_walls": 0,
+    "bh_frames": 0,
+    "bh_frame": 60,
+    "bh_insert": 0,
+    "bh_bottom": 0,
+    "bh_side": 0,
+    "bh_long": 0,
+    "bh_range": 0
+  },
+  "groups": [
+    {
+      "id": "purpose",
+      "title": {
+        "zh": "目标与舱壁",
+        "ru": "Цель и перебо́рка"
+      },
+      "beats": [
+        {
+          "id": "BH:opening",
+          "text": "把船长分配给各个舱室，确定舱壁落在哪个肋位，最后检查各舱能否拼成整艘船。",
+          "words": {
+            "zh": "把船长分配给各个舱室，确定舱壁落在哪个肋位，最后检查各舱能否拼成整艘船。",
+            "ru": "Разде́лим длину́ су́дна на отсе́ки, поста́вим перебо́рки на шпанго́уты и прове́рим о́бщую длину́."
+          },
+          "anchor": "ship",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 0,
+            "bh_walls": 0,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "source": "6a/6a-Женя.docx · 目标与舱壁"
+        },
+        {
+          "id": "BH:inside",
+          "text": "先打开外壳，看清船内待划分的空间。",
+          "words": {
+            "zh": "先打开外壳，看清船内待划分的空间。",
+            "ru": "Откро́ем ко́рпус и уви́дим простра́нство для отсе́ков."
+          },
+          "anchor": "ship",
+          "camera": "cut",
+          "start_params": {
+            "bh_cut": 0,
+            "bh_walls": 0,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_cut": 1
+            }
+          },
+          "source": "6a/6a-Женя.docx · 目标与舱壁"
+        },
+        {
+          "id": "BH:wall",
+          "text": "横舱壁横跨船体，把前后的空间隔开。",
+          "words": {
+            "zh": "横舱壁横跨船体，把前后的空间隔开。",
+            "ru": "Попере́чная перебо́рка разделя́ет простра́нство вдоль су́дна."
+          },
+          "anchor": "wall",
+          "camera": "wall",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_insert": 1
+            }
+          },
+          "source": "6a/6a-Женя.docx · 目标与舱壁"
+        }
+      ]
+    },
+    {
+      "id": "frames",
+      "title": {
+        "zh": "肋骨与间距",
+        "ru": "Шпанго́уты"
+      },
+      "beats": [
+        {
+          "id": "BH:rib",
+          "text": "肋骨是支撑外板的骨架，内部仍然相通。",
+          "words": {
+            "zh": "肋骨是支撑外板的骨架，内部仍然相通。",
+            "ru": "Шпанго́ут подде́рживает обши́вку; внутри́ остаётся прохо́д."
+          },
+          "anchor": "rib",
+          "camera": "rib",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_frames": 1
+            }
+          },
+          "source": "6a/6a-Женя.docx · 肋骨与间距"
+        },
+        {
+          "id": "BH:spacing",
+          "text": "两根相邻肋骨之间的距离，叫肋距。",
+          "words": {
+            "zh": "两根相邻肋骨之间的距离，叫肋距。",
+            "ru": "Расстоя́ние ме́жду сосе́дними шпанго́утами называ́ется шпа́цией."
+          },
+          "anchor": "rib",
+          "camera": "rib",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 1,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "dimension": "spacing",
+          "source": "6a/6a-Женя.docx · 肋骨与间距"
+        },
+        {
+          "id": "BH:four",
+          "text": "这里是四个间隔，因此需要看五根肋骨。",
+          "words": {
+            "zh": "这里是四个间隔，因此需要看五根肋骨。",
+            "ru": "Здесь четы́ре проме́жутка и пять шпанго́утов."
+          },
+          "anchor": "rib",
+          "camera": "rib",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 1,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "dimension": "four",
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_frames": 2
+            }
+          },
+          "source": "6a/6a-Женя.docx · 肋骨与间距"
+        },
+        {
+          "id": "BH:web",
+          "text": "本算例船中部（不含艏部过渡区），每四个普通肋距设一道强肋骨。",
+          "words": {
+            "zh": "本算例船中部（不含艏部过渡区），每四个普通肋距设一道强肋骨。",
+            "ru": "В сре́дней ча́сти вне перехо́дного райо́на: оди́н ра́мный шпанго́ут че́рез четы́ре обы́чные шпа́ции."
+          },
+          "anchor": "rib",
+          "camera": "rib",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 2,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "dimension": "four",
+          "source": "6a/6a-Женя.docx · 肋骨与间距",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "3. Пример компоновки ОР.docx · Определение и разбивка судна на шпации"
+          },
+          "source_rows": {},
+          "source_phrase": {
+            "zh": "船中部（不含艏部过渡区），每四个普通肋距设一道强肋骨",
+            "ru": "В сре́дней ча́сти вне перехо́дного райо́на: оди́н ра́мный шпанго́ут че́рез четы́ре обы́чные шпа́ции"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spacing",
+      "title": {
+        "zh": "Т2肋距",
+        "ru": "Разме́ры Т2 и шпа́ция"
+      },
+      "beats": [
+        {
+          "id": "BH:dimensions",
+          "text": "本章按这份Т2作业第三次近似的尺寸继续布置。",
+          "words": {
+            "zh": "本章按这份Т2作业第三次近似的尺寸继续布置。",
+            "ru": "Испо́льзуем разме́ры Т2 из тре́тьего приближе́ния."
+          },
+          "anchor": "ship",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 2,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距"
+        },
+        {
+          "id": "BH:webvalues_ordinary",
+          "text": "先按船长算得0.85826米；本方案把普通肋距取为0.85米。",
+          "words": {
+            "zh": "先按船长算得0.85826米；本方案把普通肋距取为0.85米。",
+            "ru": "По длине́ получа́ем 0.85826 ме́тра; принима́ем обы́чную шпа́цию 0.85 ме́тра."
+          },
+          "anchor": "rib",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {
+            "0": {
+              "kind": "formula",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 3"
+            }
+          },
+          "spacing_region": "cargo",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "ordinary",
+          "record_text": {
+            "zh": "船中部 · 普通肋距",
+            "ru": "Средняя часть · обы́чная шпа́ция"
+          },
+          "source_rule": {
+            "kind": "formula",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 3"
+          }
+        },
+        {
+          "id": "BH:webvalues",
+          "text": "强肋骨间距取四个普通肋距：4乘0.85，得到3.40米。",
+          "words": {
+            "zh": "强肋骨间距取四个普通肋距：4乘0.85，得到3.40米。",
+            "ru": "Ра́мная шпа́ция равна́ четырём обы́чным: 4 на 0.85 — получа́ем 3.40 ме́тра."
+          },
+          "anchor": "rib",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "3. Пример компоновки ОР.docx · рамная шпация"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "3. Пример компоновки ОР.docx · рамная шпация"
+            }
+          },
+          "spacing_region": "cargo",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "web",
+          "record_text": {
+            "zh": "船中部 · 强肋骨间距",
+            "ru": "Средняя часть · ра́мная шпа́ция"
+          }
+        },
+        {
+          "id": "BH:webengine_ordinary",
+          "text": "机舱沿用船中部的普通肋距，采用0.85米。",
+          "words": {
+            "zh": "机舱沿用船中部的普通肋距，采用0.85米。",
+            "ru": "В МО обы́чная шпа́ция така́я же, как в сре́дней ча́сти: 0.85 ме́тра."
+          },
+          "anchor": "engine",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {},
+          "spacing_region": "engine",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "ordinary",
+          "record_text": {
+            "zh": "机舱 · 普通肋距",
+            "ru": "МО · обы́чная шпа́ция"
+          }
+        },
+        {
+          "id": "BH:webengine",
+          "text": "强肋骨间距取两个普通肋距：2乘0.85，得到1.70米。",
+          "words": {
+            "zh": "强肋骨间距取两个普通肋距：2乘0.85，得到1.70米。",
+            "ru": "Ра́мная шпа́ция равна́ двум обы́чным: 2 на 0.85 — получа́ем 1.70 ме́тра."
+          },
+          "anchor": "engine",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "3. Пример компоновки ОР.docx · рамная шпация"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "3. Пример компоновки ОР.docx · рамная шпация"
+            }
+          },
+          "spacing_region": "engine",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "web",
+          "record_text": {
+            "zh": "机舱 · 强肋骨间距",
+            "ru": "МО · ра́мная шпа́ция"
+          }
+        },
+        {
+          "id": "BH:webtransition_ordinary",
+          "text": "普通肋距需在0.645至0.70米内；本方案选0.69米，并非唯一取值。",
+          "words": {
+            "zh": "普通肋距需在0.645至0.70米内；本方案选0.69米，并非唯一取值。",
+            "ru": "Обы́чная шпа́ция — от 0.645 до 0.70 ме́тра; здесь выбира́ем 0.69."
+          },
+          "anchor": "transition",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 第3页\n3. Пример компоновки ОР.docx · 肋距划分"
+            },
+            "1": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 第3页\n3. Пример компоновки ОР.docx · 肋距划分"
+            }
+          },
+          "spacing_region": "transition",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "ordinary",
+          "record_text": {
+            "zh": "艏部过渡区 · 普通肋距",
+            "ru": "Перехо́дный райо́н · обы́чная шпа́ция"
+          },
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 第3页\n3. Пример компоновки ОР.docx · 肋距划分"
+          }
+        },
+        {
+          "id": "BH:webtransition",
+          "text": "本方案强肋骨间距采用两个普通间隔：2乘0.69，得到1.38米。",
+          "words": {
+            "zh": "本方案强肋骨间距采用两个普通间隔：2乘0.69，得到1.38米。",
+            "ru": "Здесь принима́ем две обы́чные шпа́ции: 2 на 0.69 — получа́ем 1.38 ме́тра."
+          },
+          "anchor": "transition",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {},
+          "spacing_region": "transition",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "web",
+          "record_text": {
+            "zh": "艏部过渡区 · 强肋骨间距",
+            "ru": "Перехо́дный райо́н · ра́мная шпа́ция"
+          }
+        },
+        {
+          "id": "BH:webfore_ordinary",
+          "text": "艏尖舱普通肋距按课件指定取0.60米，不由船长公式算出。",
+          "words": {
+            "zh": "艏尖舱普通肋距按课件指定取0.60米，不由船长公式算出。",
+            "ru": "В пи́ке по материа́лу принима́ем обы́чную шпа́цию 0.60 ме́тра."
+          },
+          "anchor": "fore",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 3"
+            }
+          },
+          "spacing_region": "fore",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "ordinary",
+          "record_text": {
+            "zh": "艏尖舱 · 普通肋距",
+            "ru": "Фо́рпик · обы́чная шпа́ция"
+          },
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 3"
+          }
+        },
+        {
+          "id": "BH:webfore",
+          "text": "艏尖舱强肋骨间距等于普通肋距，均为0.60米。",
+          "words": {
+            "zh": "艏尖舱强肋骨间距等于普通肋距，均为0.60米。",
+            "ru": "В фо́рпике ра́мная шпа́ция равна́ обы́чной: 0.60 ме́тра."
+          },
+          "anchor": "fore",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {
+            "0": {
+              "kind": "formula",
+              "teacher_reference": "3. Пример компоновки ОР.docx · в оконечностях: рамная шпация = обычная шпация"
+            }
+          },
+          "spacing_region": "fore",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "web",
+          "record_text": {
+            "zh": "艏尖舱 · 强肋骨间距",
+            "ru": "Фо́рпик · ра́мная шпа́ция"
+          },
+          "source_rule": {
+            "kind": "formula",
+            "teacher_reference": "3. Пример компоновки ОР.docx · в оконечностях: рамная шпация = обычная шпация"
+          },
+          "source_phrase": {
+            "zh": "强肋骨间距等于普通肋距",
+            "ru": "ра́мная шпа́ция равна́ обы́чной"
+          }
+        },
+        {
+          "id": "BH:webaft_ordinary",
+          "text": "艉尖舱普通肋距按课件指定取0.60米，不由船长公式算出。",
+          "words": {
+            "zh": "艉尖舱普通肋距按课件指定取0.60米，不由船长公式算出。",
+            "ru": "В пи́ке по материа́лу принима́ем обы́чную шпа́цию 0.60 ме́тра."
+          },
+          "anchor": "aft",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 3"
+            }
+          },
+          "spacing_region": "aft",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "ordinary",
+          "record_text": {
+            "zh": "艉尖舱 · 普通肋距",
+            "ru": "Ахте́рпик · обы́чная шпа́ция"
+          },
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 3"
+          }
+        },
+        {
+          "id": "BH:webaft",
+          "text": "艉尖舱强肋骨间距等于普通肋距，均为0.60米。",
+          "words": {
+            "zh": "艉尖舱强肋骨间距等于普通肋距，均为0.60米。",
+            "ru": "В ахтерпи́ке ра́мная шпа́ция равна́ обы́чной: 0.60 ме́тра."
+          },
+          "anchor": "aft",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_spacing_reveal": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · Т2肋距",
+          "source_rows": {
+            "0": {
+              "kind": "formula",
+              "teacher_reference": "3. Пример компоновки ОР.docx · в оконечностях: рамная шпация = обычная шпация"
+            }
+          },
+          "spacing_region": "aft",
+          "action": {
+            "duration": 1.4,
+            "params": {
+              "bh_spacing_reveal": 1
+            }
+          },
+          "spacing_stage": "web",
+          "record_text": {
+            "zh": "艉尖舱 · 强肋骨间距",
+            "ru": "Ахте́рпик · ра́мная шпа́ция"
+          },
+          "source_rule": {
+            "kind": "formula",
+            "teacher_reference": "3. Пример компоновки ОР.docx · в оконечностях: рамная шпация = обычная шпация"
+          },
+          "source_phrase": {
+            "zh": "强肋骨间距等于普通肋距",
+            "ru": "ра́мная шпа́ция равна́ обы́чной"
+          }
+        }
+      ]
+    },
+    {
+      "id": "peaks",
+      "title": {
+        "zh": "艏艉尖舱",
+        "ru": "Пи́ковые отсе́ки"
+      },
+      "beats": [
+        {
+          "id": "BH:fore_range",
+          "text": "艏尖舱长度取船长的5%到8%。",
+          "words": {
+            "zh": "艏尖舱长度取船长的5%到8%。",
+            "ru": "Длина́ фо́рпика — от 5 до 8 проце́нтов длины́ су́дна."
+          },
+          "anchor": "fore",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_range": 1
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 艏艉尖舱",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "3. Пример компоновки ОР.docx · Lф（PPT4另写lфп）"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "3. Пример компоновки ОР.docx · Lф（PPT4另写lфп）"
+            }
+          },
+          "source_phrase": {
+            "zh": "艏尖舱长度取船长的5%到8%。",
+            "ru": "Длина́ фо́рпика — от 5 до 8 проце́нтов длины́ су́дна."
+          }
+        },
+        {
+          "id": "BH:fore_integer",
+          "text": "按0.60米肋距，可选16到25个整数间隔。",
+          "words": {
+            "zh": "按0.60米肋距，可选16到25个整数间隔。",
+            "ru": "При шпа́ции 0.60 ме́тра допусти́мы от 16 до 25 проме́жутков."
+          },
+          "anchor": "fore",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 艏艉尖舱"
+        },
+        {
+          "id": "BH:fore_place",
+          "text": "本作业选24个间隔，艏尖舱长14.40米。",
+          "words": {
+            "zh": "本作业选24个间隔，艏尖舱长14.40米。",
+            "ru": "Принима́ем 24 шпа́ции: длина́ фо́рпика 14.40 ме́тра."
+          },
+          "anchor": "fore",
+          "camera": "fore",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 0,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 1
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_walls": 1,
+              "bh_range": 0
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 艏艉尖舱"
+        },
+        {
+          "id": "BH:aft_range",
+          "text": "艉尖舱按船长的4%到8%取范围。",
+          "words": {
+            "zh": "艉尖舱按船长的4%到8%取范围。",
+            "ru": "Для ахте́рпика берём от 4 до 8 проце́нтов длины́."
+          },
+          "anchor": "aft",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 1,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "L_{\\text{ахт}}\\in[0.04L,0.08L]",
+            "L_{\\text{ахт}}\\in[7.5652,15.1304]\\,\\mathrm{m}"
+          ],
+          "source": "6a/6a-Женя.docx · 艏艉尖舱",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "3. Пример компоновки ОР.docx · Lахт（PPT4另写lахт）"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "3. Пример компоновки ОР.docx · Lахт（PPT4另写lахт）"
+            }
+          },
+          "source_phrase": {
+            "zh": "艉尖舱按船长的4%到8%取范围。",
+            "ru": "Для ахте́рпика берём от 4 до 8 проце́нтов длины́."
+          }
+        },
+        {
+          "id": "BH:aft_integer",
+          "text": "范围除以0.60米，下界向上取整、上界向下取整，允许13到25个间隔。",
+          "words": {
+            "zh": "范围除以0.60米，下界向上取整、上界向下取整，允许13到25个间隔。",
+            "ru": "Де́лим грани́цы на 0.60 ме́тра: це́лых шпа́ций от 13 до 25."
+          },
+          "anchor": "aft",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 1,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 艏艉尖舱"
+        },
+        {
+          "id": "BH:aft_place",
+          "text": "13到25均在长度范围内；本方案选22个，得到13.20米。",
+          "words": {
+            "zh": "13到25均在长度范围内；本方案选22个，得到13.20米。",
+            "ru": "Допусти́мы от 13 до 25; принима́ем 22 шпа́ции, получа́ем 13.20 ме́тра."
+          },
+          "anchor": "aft",
+          "camera": "aft",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 1,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_walls": 2
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 艏艉尖舱"
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "title": {
+        "zh": "机舱与泵舱",
+        "ru": "МО, насо́сное отделе́ние и та́нки"
+      },
+      "beats": [
+        {
+          "id": "BH:engine_range",
+          "text": "机舱长度先按船长的14%到17%估算。",
+          "words": {
+            "zh": "机舱长度先按船长的14%到17%估算。",
+            "ru": "Длина́ МО составля́ет 14–17 проце́нтов длины́ су́дна."
+          },
+          "anchor": "engine",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 2,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 机舱与泵舱",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "3. Пример компоновки ОР.docx · Длина машинного отделения"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "3. Пример компоновки ОР.docx · Длина машинного отделения"
+            }
+          },
+          "source_phrase": {
+            "zh": "机舱长度先按船长的14%到17%估算。",
+            "ru": "Длина́ МО составля́ет 14–17 проце́нтов длины́ су́дна."
+          }
+        },
+        {
+          "id": "BH:engine_integer",
+          "text": "按1.70米强肋骨间距，可选16到18个间隔。",
+          "words": {
+            "zh": "按1.70米强肋骨间距，可选16到18个间隔。",
+            "ru": "При ра́мной шпа́ции 1.70 ме́тра выбира́ем от 16 до 18 проме́жутков."
+          },
+          "anchor": "engine",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 2,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 机舱与泵舱"
+        },
+        {
+          "id": "BH:engine_place",
+          "text": "选18个强肋骨间隔，即36个普通间隔。",
+          "words": {
+            "zh": "选18个强肋骨间隔，即36个普通间隔。",
+            "ru": "Принима́ем 18 ра́мных, и́ли 36 обы́чных шпа́ций."
+          },
+          "anchor": "engine",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 2,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_walls": 3
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 机舱与泵舱"
+        },
+        {
+          "id": "BH:pump",
+          "text": "本方案为泵舱采用一个框架间隔，长3.40米；不是所有油船都必须取此值。",
+          "words": {
+            "zh": "本方案为泵舱采用一个框架间隔，长3.40米；不是所有油船都必须取此值。",
+            "ru": "Для насо́сного отделе́ния принима́ем одну́ ра́мную шпа́цию, 3.40 ме́тра; э́то вы́бор прое́кта."
+          },
+          "anchor": "pump",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 3,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_walls": 4
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 机舱与泵舱"
+        },
+        {
+          "id": "BH:remaining",
+          "text": "扣除两个尖舱、机舱和泵舱，得到货区长度。",
+          "words": {
+            "zh": "扣除两个尖舱、机舱和泵舱，得到货区长度。",
+            "ru": "Вычита́ем пи́ки, МО и насо́сное отделе́ние; получа́ем длину́ грузово́й ча́сти."
+          },
+          "anchor": "cargo",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 4,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 机舱与泵舱"
+        }
+      ]
+    },
+    {
+      "id": "transition",
+      "title": {
+        "zh": "过渡区",
+        "ru": "Перехо́дный райо́н"
+      },
+      "beats": [
+        {
+          "id": "BH:transition",
+          "text": "老师资料要求：过渡区至少延伸到距艏端0.2倍船长的位置。",
+          "words": {
+            "zh": "老师资料要求：过渡区至少延伸到距艏端0.2倍船长的位置。",
+            "ru": "По тре́бованию из материа́ла преподава́теля перехо́дный райо́н дохо́дит как ми́нимум до 0.2 длины́ от но́са."
+          },
+          "anchor": "transition",
+          "camera": "fore",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 4,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_range": 2
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 过渡区",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 4"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 4"
+            }
+          },
+          "source_phrase": {
+            "zh": "老师资料要求：过渡区至少延伸到距艏端0.2倍船长的位置。",
+            "ru": "По тре́бованию из материа́ла преподава́теля перехо́дный райо́н дохо́дит как ми́нимум до 0.2 длины́ от но́са."
+          }
+        },
+        {
+          "id": "BH:transition_integer",
+          "text": "最低长度除以0.69米并向上取整，至少需要34个普通间隔。",
+          "words": {
+            "zh": "最低长度除以0.69米并向上取整，至少需要34个普通间隔。",
+            "ru": "Минима́льную длину́ де́лим на 0.69 и округля́ем вверх: ну́жно не ме́нее 34 шпа́ций."
+          },
+          "anchor": "transition",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 4,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 2
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 过渡区"
+        },
+        {
+          "id": "BH:conflict",
+          "text": "本方案为衔接舱段采用37个间隔，长25.53米；37不是下限唯一确定的值。",
+          "words": {
+            "zh": "本方案为衔接舱段采用37个间隔，长25.53米；37不是下限唯一确定的值。",
+            "ru": "Для компоно́вки принима́ем 37 шпа́ций, 25.53 ме́тра; нижняя грани́ца не тре́бует и́менно 37."
+          },
+          "anchor": "transition",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 4,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 2
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 过渡区"
+        },
+        {
+          "id": "BH:recheck",
+          "text": "本方案终点在61号肋位，距艏39.93米，满足要求不小于0.2L。",
+          "words": {
+            "zh": "本方案终点在61号肋位，距艏39.93米，满足要求不小于0.2L。",
+            "ru": "Коне́ц райо́на — шпанго́ут 61, в 39.93 ме́тра от но́са; тре́бование не ме́нее 0.2L вы́полнено."
+          },
+          "anchor": "transition",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 4,
+            "bh_frames": 3,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 2
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 过渡区",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 4"
+          },
+          "source_phrase": {
+            "zh": "满足要求不小于0.2L",
+            "ru": "тре́бование не ме́нее 0.2L вы́полнено"
+          },
+          "source_rows": {
+            "2": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cargo",
+      "title": {
+        "zh": "六组货油舱",
+        "ru": "Шесть групп грузовы́х та́нков"
+      },
+      "beats": [
+        {
+          "id": "BH:six",
+          "text": "本方案采用九道横水密舱壁，划出六组货油舱。",
+          "words": {
+            "zh": "本方案采用九道横水密舱壁，划出六组货油舱。",
+            "ru": "Принима́ем де́вять попере́чных водонепроница́емых перебо́рок и шесть групп та́нков."
+          },
+          "anchor": "cargo",
+          "camera": "top",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 4,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "source": "6a/6a-Женя.docx · 六组货油舱",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 6"
+          },
+          "source_rows": {},
+          "record_text": {
+            "zh": "本方案采用9道横舱壁。",
+            "ru": "В э́том вариа́нте приня́то 9 перебо́рок."
+          },
+          "source_notice": {
+            "zh": "船长超过185米时，舱壁总数须与船级社商定。",
+            "ru": "При длине́ бо́лее 185 м число́ перебо́рок согласу́ют с Реги́стром."
+          },
+          "lines": [
+            "source"
+          ]
+        },
+        {
+          "id": "BH:fourholds",
+          "text": "货区内再加入五道横舱壁，形成六组。",
+          "words": {
+            "zh": "货区内再加入五道横舱壁，形成六组。",
+            "ru": "Пять перебо́рок внутри́ грузово́й ча́сти образу́ют шесть групп."
+          },
+          "anchor": "cargo",
+          "camera": "top",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 4,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_walls": 9
+            }
+          },
+          "source": "6a/6a-Женя.docx · 六组货油舱"
+        },
+        {
+          "id": "BH:allocate",
+          "text": "第一组用36个过渡间隔；第二组接过渡区最后一个间隔。",
+          "words": {
+            "zh": "第一组用36个过渡间隔；第二组接过渡区最后一个间隔。",
+            "ru": "В пе́рвой гру́ппе 36 перехо́дных шпа́ций; во второ́й остаётся одна́."
+          },
+          "anchor": "hold1",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 六组货油舱"
+        },
+        {
+          "id": "BH:firsthold",
+          "text": "第一组长24.84米。",
+          "words": {
+            "zh": "第一组长24.84米。",
+            "ru": "Длина́ пе́рвой гру́ппы — 24.84 ме́тра."
+          },
+          "anchor": "hold1",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 六组货油舱"
+        },
+        {
+          "id": "BH:secondhold",
+          "text": "第二组跨两种肋距，必须分段相加。",
+          "words": {
+            "zh": "第二组跨两种肋距，必须分段相加。",
+            "ru": "Во второ́й гру́ппе одна́ шпа́ция 0.69 ме́тра и 24 шпа́ции по 0.85."
+          },
+          "anchor": "hold2",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 六组货油舱"
+        },
+        {
+          "id": "BH:otherholds",
+          "text": "其余四组各用24个普通间隔，每组20.40米。",
+          "words": {
+            "zh": "其余四组各用24个普通间隔，每组20.40米。",
+            "ru": "В остальны́х четырёх гру́ппах по 24 шпа́ции; длина́ ка́ждой — 20.40 ме́тра."
+          },
+          "anchor": "hold3",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 六组货油舱"
+        },
+        {
+          "id": "BH:webjoin",
+          "text": "60到61号只有0.69米；61号设强肋骨，再按3.40米排列。",
+          "words": {
+            "zh": "60到61号只有0.69米；61号设强肋骨，再按3.40米排列。",
+            "ru": "От 60 до 61 — 0.69 ме́тра; на 61 ста́вим ра́мный шпанго́ут, да́лее шаг 3.40 ме́тра."
+          },
+          "anchor": "transition",
+          "camera": "overview",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 六组货油舱"
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "title": {
+        "zh": "肋位校核",
+        "ru": "Шпанго́уты и прове́рка длины́"
+      },
+      "beats": [
+        {
+          "id": "BH:numbering",
+          "text": "肋位从艏向艉编号；坐标换算必须按四个肋距区间计算。",
+          "words": {
+            "zh": "肋位从艏向艉编号；坐标换算必须按四个肋距区间计算。",
+            "ru": "Номера́ иду́т от но́са к корме́; расстоя́ние счита́ем по четырём уча́сткам."
+          },
+          "anchor": "ship",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "dimension": "axis",
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row0",
+          "text": "艏尖舱：0到24号肋位，长14.40米。",
+          "words": {
+            "zh": "艏尖舱：0到24号肋位，长14.40米。",
+            "ru": "Фо́рпик: шпанго́уты 0–24, длина́ 14.40 ме́тра."
+          },
+          "anchor": "fore",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 1,
+          "record_label": {
+            "zh": "艏尖舱",
+            "ru": "Фо́рпик"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row1",
+          "text": "货油舱组1：24到60号肋位，长24.84米。",
+          "words": {
+            "zh": "货油舱组1：24到60号肋位，长24.84米。",
+            "ru": "Гру́ппа 1: шпанго́уты 24–60, длина́ 24.84 ме́тра."
+          },
+          "anchor": "hold1",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 2,
+          "record_label": {
+            "zh": "货油舱组1",
+            "ru": "Гру́ппа 1"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row2",
+          "text": "货油舱组2：60到85号肋位，长21.09米。",
+          "words": {
+            "zh": "货油舱组2：60到85号肋位，长21.09米。",
+            "ru": "Гру́ппа 2: шпанго́уты 60–85, длина́ 21.09 ме́тра."
+          },
+          "anchor": "hold2",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 3,
+          "record_label": {
+            "zh": "货油舱组2",
+            "ru": "Гру́ппа 2"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row3",
+          "text": "货油舱组3：85到109号肋位，长20.40米。",
+          "words": {
+            "zh": "货油舱组3：85到109号肋位，长20.40米。",
+            "ru": "Гру́ппа 3: шпанго́уты 85–109, длина́ 20.40 ме́тра."
+          },
+          "anchor": "hold3",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 4,
+          "record_label": {
+            "zh": "货油舱组3",
+            "ru": "Гру́ппа 3"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row4",
+          "text": "货油舱组4：109到133号肋位，长20.40米。",
+          "words": {
+            "zh": "货油舱组4：109到133号肋位，长20.40米。",
+            "ru": "Гру́ппа 4: шпанго́уты 109–133, длина́ 20.40 ме́тра."
+          },
+          "anchor": "hold4",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 5,
+          "record_label": {
+            "zh": "货油舱组4",
+            "ru": "Гру́ппа 4"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row5",
+          "text": "货油舱组5：133到157号肋位，长20.40米。",
+          "words": {
+            "zh": "货油舱组5：133到157号肋位，长20.40米。",
+            "ru": "Гру́ппа 5: шпанго́уты 133–157, длина́ 20.40 ме́тра."
+          },
+          "anchor": "hold5",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 6,
+          "record_label": {
+            "zh": "货油舱组5",
+            "ru": "Гру́ппа 5"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row6",
+          "text": "货油舱组6：157到181号肋位，长20.40米。",
+          "words": {
+            "zh": "货油舱组6：157到181号肋位，长20.40米。",
+            "ru": "Гру́ппа 6: шпанго́уты 157–181, длина́ 20.40 ме́тра."
+          },
+          "anchor": "hold6",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 7,
+          "record_label": {
+            "zh": "货油舱组6",
+            "ru": "Гру́ппа 6"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row7",
+          "text": "泵舱：181到185号肋位，长3.40米。",
+          "words": {
+            "zh": "泵舱：181到185号肋位，长3.40米。",
+            "ru": "Насо́сное отделе́ние: шпанго́уты 181–185, длина́ 3.40 ме́тра."
+          },
+          "anchor": "pump",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 8,
+          "record_label": {
+            "zh": "泵舱",
+            "ru": "Насо́сное отделе́ние"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row8",
+          "text": "机舱：185到221号肋位，长30.60米。",
+          "words": {
+            "zh": "机舱：185到221号肋位，长30.60米。",
+            "ru": "МО: шпанго́уты 185–221, длина́ 30.60 ме́тра."
+          },
+          "anchor": "engine",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 9,
+          "record_label": {
+            "zh": "机舱",
+            "ru": "МО"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:row9",
+          "text": "艉尖舱：221到243号肋位，长13.20米。",
+          "words": {
+            "zh": "艉尖舱：221到243号肋位，长13.20米。",
+            "ru": "Ахте́рпик: шпанго́уты 221–243, длина́ 13.20 ме́тра."
+          },
+          "anchor": "aft",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 10,
+          "record_label": {
+            "zh": "艉尖舱",
+            "ru": "Ахте́рпик"
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        },
+        {
+          "id": "BH:closure",
+          "text": "十个纵向舱段合计189.13米，九道内部横舱壁全部落在强肋骨肋位。",
+          "words": {
+            "zh": "十个纵向舱段合计189.13米，九道内部横舱壁全部落在强肋骨肋位。",
+            "ru": "Де́сять отсе́ков даю́т 189.13 ме́тра; де́вять перебо́рок стоя́т на ра́мных шпанго́утах."
+          },
+          "anchor": "ship",
+          "camera": "top",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 10,
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "3. Пример компоновки ОР.docx · Переборка должна стоять на рамной шпации"
+          },
+          "source_rows": {},
+          "source_phrase": {
+            "zh": "全部落在强肋骨肋位",
+            "ru": "стоя́т на ра́мных шпанго́утах"
+          }
+        },
+        {
+          "id": "BH:drag",
+          "text": "可移动第一、第二组之间的舱壁；两组总长保持不变。",
+          "words": {
+            "zh": "可移动第一、第二组之间的舱壁；两组总长保持不变。",
+            "ru": "Передви́ньте перебо́рку ме́жду пе́рвой и второ́й гру́ппами; о́бщая длина́ сохраня́ется."
+          },
+          "anchor": "wall",
+          "camera": "side",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "table_rows": 10,
+          "experiment": true,
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 肋位校核"
+        }
+      ]
+    },
+    {
+      "id": "section",
+      "title": {
+        "zh": "双层结构",
+        "ru": "Двойно́е дно и двойно́й борт"
+      },
+      "beats": [
+        {
+          "id": "BH:doublebottom",
+          "text": "外底和内底围成双层底空间，先确定它的高度。",
+          "words": {
+            "zh": "外底和内底围成双层底空间，先确定它的高度。",
+            "ru": "Нару́жное и второ́е дно образу́ют двойно́е дно; найдём его́ высоту́."
+          },
+          "anchor": "bottom",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 0,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_bottom": 1
+            }
+          },
+          "source": "6a/6a-Женя.docx · 双层结构"
+        },
+        {
+          "id": "BH:dbformula",
+          "text": "用型深估算双层底高度，得到约1.69米。",
+          "words": {
+            "zh": "用型深估算双层底高度，得到约1.69米。",
+            "ru": "По высоте́ бо́рта получа́ем высоту́ двойно́го дна о́коло 1.69 ме́тра."
+          },
+          "anchor": "bottom",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 双层结构",
+          "source_rule": {
+            "kind": "formula",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 9"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "formula",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 9"
+            }
+          },
+          "source_phrase": {
+            "zh": "用型深估算双层底高度",
+            "ru": "По высоте́ бо́рта"
+          }
+        },
+        {
+          "id": "BH:dbcheck",
+          "text": "再用船长、船宽和吃水计算下限，约1.52米。",
+          "words": {
+            "zh": "再用船长、船宽和吃水计算下限，约1.52米。",
+            "ru": "По длине́, ширине́ и оса́дке проверя́ем ми́нимум: о́коло 1.52 ме́тра."
+          },
+          "anchor": "bottom",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 双层结构",
+          "source_rule": {
+            "kind": "formula",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 9 (formula image)"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "formula",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 9 (formula image)"
+            }
+          },
+          "source_phrase": {
+            "zh": "用船长、船宽和吃水计算下限",
+            "ru": "По длине́, ширине́ и оса́дке проверя́ем ми́нимум"
+          }
+        },
+        {
+          "id": "BH:dbadopt",
+          "text": "采用1.70米：高于计算下限，也没有超过2米。",
+          "words": {
+            "zh": "采用1.70米：高于计算下限，也没有超过2米。",
+            "ru": "Принима́ем 1.70 ме́тра: вы́ше ми́нимума и не бо́лее 2 ме́тров."
+          },
+          "anchor": "bottom",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_db_value": 1
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 双层结构",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 9"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 9"
+            }
+          },
+          "source_phrase": {
+            "zh": "没有超过2米",
+            "ru": "не бо́лее 2 ме́тров"
+          }
+        },
+        {
+          "id": "BH:doubleside",
+          "text": "船侧外板和内舷围成双舷侧空间。",
+          "words": {
+            "zh": "船侧外板和内舷围成双舷侧空间。",
+            "ru": "Нару́жный и вну́тренний борта́ образу́ют двойно́й борт."
+          },
+          "anchor": "side",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 0,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_db_value": 1
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_side": 1
+            }
+          },
+          "source": "6a/6a-Женя.docx · 双层结构"
+        },
+        {
+          "id": "BH:deadweight",
+          "text": "从排水量扣除船体设备与动力装置质量，得到载重量。",
+          "words": {
+            "zh": "从排水量扣除船体设备与动力装置质量，得到载重量。",
+            "ru": "Из водоизмеще́ния вычита́ем ма́ссы ко́рпуса с обору́дованием и СЭУ; получа́ем дедве́йт."
+          },
+          "anchor": "side",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_db_value": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 双层结构"
+        },
+        {
+          "id": "BH:sideformula",
+          "text": "代入载重量，双舷侧宽度算得约2.11米。",
+          "words": {
+            "zh": "代入载重量，双舷侧宽度算得约2.11米。",
+            "ru": "Подставля́ем дедве́йт: шири́на двойно́го бо́рта о́коло 2.11 ме́тра."
+          },
+          "anchor": "side",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_db_value": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 双层结构",
+          "source_rule": {
+            "kind": "formula",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 10"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "formula",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 10"
+            }
+          },
+          "source_phrase": {
+            "zh": "代入载重量",
+            "ru": "Подставля́ем дедве́йт"
+          }
+        },
+        {
+          "id": "BH:sideadopt",
+          "text": "采用2.20米，处于规定的1到2.5米之间。",
+          "words": {
+            "zh": "采用2.20米，处于规定的1到2.5米之间。",
+            "ru": "Принима́ем 2.20 ме́тра: в преде́лах от 1 до 2.5 ме́тра."
+          },
+          "anchor": "side",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_db_value": 1
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_side_value": 1
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 双层结构",
+          "source_rule": {
+            "kind": "limit",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 10"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "limit",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 10"
+            }
+          },
+          "source_phrase": {
+            "zh": "规定的1到2.5米之间",
+            "ru": "в преде́лах от 1 до 2.5 ме́тра"
+          }
+        }
+      ]
+    },
+    {
+      "id": "longitudinal",
+      "title": {
+        "zh": "纵向分隔",
+        "ru": "18 та́нков и ограни́чение длины́"
+      },
+      "beats": [
+        {
+          "id": "BH:longitudinal",
+          "text": "加入两道纵舱壁，每组分成左、中央、右三个货油舱。",
+          "words": {
+            "zh": "加入两道纵舱壁，每组分成左、中央、右三个货油舱。",
+            "ru": "Две продо́льные перебо́рки де́лят ка́ждую гру́ппу на ле́вый, центра́льный и пра́вый та́нки."
+          },
+          "anchor": "long",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 0,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_long": 1
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        },
+        {
+          "id": "BH:longtop",
+          "text": "六组乘三个，共18个货油舱；两侧双舷空间与货油舱分开。",
+          "words": {
+            "zh": "六组乘三个，共18个货油舱；两侧双舷空间与货油舱分开。",
+            "ru": "Шесть групп по три — 18 грузовы́х та́нков; двойно́й борт отделён от них."
+          },
+          "anchor": "long",
+          "camera": "top",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1
+          },
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        },
+        {
+          "id": "BH:cargo_width",
+          "text": "船宽扣除两侧双舷侧，得到货区净宽22.13米。",
+          "words": {
+            "zh": "船宽扣除两侧双舷侧，得到货区净宽22.13米。",
+            "ru": "Вычита́ем двойны́е борта́: шири́на грузово́й ча́сти 22.13 ме́тра."
+          },
+          "anchor": "side",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        },
+        {
+          "id": "BH:central",
+          "text": "左右货油舱各采用6.65米，中央舱剩8.83米。",
+          "words": {
+            "zh": "左右货油舱各采用6.65米，中央舱剩8.83米。",
+            "ru": "Бортовы́е та́нки — по 6.65 ме́тра; центра́льный — 8.83 ме́тра."
+          },
+          "anchor": "long",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1
+          },
+          "action": {
+            "duration": 1.7,
+            "params": {
+              "bh_width_value": 1
+            }
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        },
+        {
+          "id": "BH:bi",
+          "text": "从外舷到纵舱壁，要加上双舷侧宽度与边货油舱宽度。",
+          "words": {
+            "zh": "从外舷到纵舱壁，要加上双舷侧宽度与边货油舱宽度。",
+            "ru": "От нару́жного бо́рта до продо́льной перебо́рки скла́дываем две ши́рины."
+          },
+          "anchor": "long",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1,
+            "bh_width_value": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        },
+        {
+          "id": "BH:multiple",
+          "text": "这个距离与船宽之比大于五分之一。",
+          "words": {
+            "zh": "这个距离与船宽之比大于五分之一。",
+            "ru": "Отноше́ние э́того расстоя́ния к ширине́ бо́льше одно́й пя́той."
+          },
+          "anchor": "long",
+          "camera": "section",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1,
+            "bh_width_value": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        },
+        {
+          "id": "BH:tanklimits",
+          "text": "两道纵舱壁且满足这个比例时，本作业采用0.2倍船长作为舱长上限。",
+          "words": {
+            "zh": "两道纵舱壁且满足这个比例时，本作业采用0.2倍船长作为舱长上限。",
+            "ru": "При двух продо́льных перебо́рках и э́том отноше́нии преде́л длины́ та́нка — 0.2L."
+          },
+          "anchor": "hold1",
+          "camera": "top",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1,
+            "bh_width_value": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 纵向分隔",
+          "source_rule": {
+            "kind": "formula",
+            "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 15 (table image)"
+          },
+          "source_rows": {
+            "0": {
+              "kind": "formula",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 15 (table image)"
+            },
+            "1": {
+              "kind": "formula",
+              "teacher_reference": "ПС-КР-6. Расстановка переборок.pptx · 15 (table image)"
+            }
+          },
+          "source_phrase": {
+            "zh": "两道纵舱壁且满足这个比例时，本作业采用0.2倍船长作为舱长上限",
+            "ru": "При двух продо́льных перебо́рках и э́том отноше́нии преде́л длины́ та́нка — 0.2L"
+          },
+          "source_condition": {
+            "zh": "两道纵舱壁，并且",
+            "ru": "Две продо́льные перебо́рки, и"
+          }
+        },
+        {
+          "id": "BH:tankcheck",
+          "text": "最长货油舱24.84米，小于允许的37.83米。",
+          "words": {
+            "zh": "最长货油舱24.84米，小于允许的37.83米。",
+            "ru": "Наибо́льшая длина́ та́нка 24.84 ме́тра, ме́ньше допусти́мой."
+          },
+          "anchor": "hold1",
+          "camera": "top",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1,
+            "bh_width_value": 1
+          },
+          "lines": [
+            "formula"
+          ],
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        },
+        {
+          "id": "BH:finish",
+          "text": "现在对照全船：六组货油舱、泵舱、机舱和两个尖舱均已定位。",
+          "words": {
+            "zh": "现在对照全船：六组货油舱、泵舱、机舱和两个尖舱均已定位。",
+            "ru": "Тепе́рь все отсе́ки на ме́сте: шесть групп та́нков, насо́сное отделе́ние, МО и два пи́ка."
+          },
+          "anchor": "ship",
+          "camera": "top",
+          "start_params": {
+            "bh_cut": 1,
+            "bh_walls": 9,
+            "bh_frames": 0,
+            "bh_frame": 60,
+            "bh_insert": 0,
+            "bh_bottom": 1,
+            "bh_side": 1,
+            "bh_long": 1,
+            "bh_range": 0,
+            "bh_db_value": 1,
+            "bh_side_value": 1,
+            "bh_width_value": 1
+          },
+          "table_rows": 10,
+          "source": "6a/6a-Женя.docx · 纵向分隔"
+        }
+      ]
+    }
+  ],
+  "characters_per_second": 26,
+  "resume_aliases": {
+    "BH:normal": "BH:webvalues_ordinary",
+    "BH:peakspacing": "BH:webtransition_ordinary"
+  }
+}

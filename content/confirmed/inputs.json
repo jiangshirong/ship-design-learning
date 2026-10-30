@@ -1,0 +1,926 @@
+{
+  "schema_version": "1.0",
+  "cases": {
+    "basics_v5": {
+      "variant": 5,
+      "source_id": "tasks_v5",
+      "midship": {
+        "area_m2": 45,
+        "breadth_m": 15,
+        "draft_m": 5
+      },
+      "cargo": {
+        "capacity_mass_t": 15950,
+        "capacity_volume_m3": 20640,
+        "first_port_mass_t": 10950,
+        "first_port_stowage_m3_t": 1.32,
+        "second_port_stowage_m3_t": 1.21
+      },
+      "draft": {
+        "stern_m": 3.5,
+        "trim_fore_m": 2.8,
+        "signed_trim_definition": "stern_minus_fore"
+      }
+    },
+    "load_v5": {
+      "variant": 5,
+      "fuel_tanks": [
+        {
+          "id": "tank_01",
+          "name_ru": "Танк № 1",
+          "name_zh": "燃油舱1",
+          "mass_t": 250.0,
+          "z_m": 0.58,
+          "x_m": 97.0,
+          "free_surface_tm": 420.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 1"
+          }
+        },
+        {
+          "id": "tank_02",
+          "name_ru": "Танк № 2",
+          "name_zh": "燃油舱2",
+          "mass_t": 160.0,
+          "z_m": 0.58,
+          "x_m": 67.0,
+          "free_surface_tm": 340.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 2"
+          }
+        },
+        {
+          "id": "tank_03",
+          "name_ru": "Танк № 3",
+          "name_zh": "燃油舱3",
+          "mass_t": 160.0,
+          "z_m": 0.58,
+          "x_m": 67.0,
+          "free_surface_tm": 340.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 3"
+          }
+        },
+        {
+          "id": "tank_04",
+          "name_ru": "Танк № 4",
+          "name_zh": "燃油舱4",
+          "mass_t": 150.0,
+          "z_m": 0.58,
+          "x_m": 67.0,
+          "free_surface_tm": 300.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 4"
+          }
+        },
+        {
+          "id": "tank_05",
+          "name_ru": "Танк № 5",
+          "name_zh": "燃油舱5",
+          "mass_t": 175.0,
+          "z_m": 0.58,
+          "x_m": 41.5,
+          "free_surface_tm": 295.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 5"
+          }
+        },
+        {
+          "id": "tank_06",
+          "name_ru": "Танк № 6",
+          "name_zh": "燃油舱6",
+          "mass_t": 55.0,
+          "z_m": 7.15,
+          "x_m": 24.1,
+          "free_surface_tm": 11.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 6"
+          }
+        },
+        {
+          "id": "tank_07",
+          "name_ru": "Танк № 7",
+          "name_zh": "燃油舱7",
+          "mass_t": 57.0,
+          "z_m": 10.75,
+          "x_m": 25.5,
+          "free_surface_tm": 12.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 7"
+          }
+        },
+        {
+          "id": "tank_08",
+          "name_ru": "Танк № 8",
+          "name_zh": "燃油舱8",
+          "mass_t": 30.0,
+          "z_m": 6.8,
+          "x_m": 28.95,
+          "free_surface_tm": 8.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 8"
+          }
+        },
+        {
+          "id": "tank_09",
+          "name_ru": "Танк № 9",
+          "name_zh": "燃油舱9",
+          "mass_t": 32.0,
+          "z_m": 9.95,
+          "x_m": 28.95,
+          "free_surface_tm": 8.0,
+          "source": {
+            "id": "load_v5",
+            "locator": "表1，Танк № 9"
+          }
+        }
+      ],
+      "ship_items": [
+        {
+          "id": "lightship",
+          "name_ru": "Судно порожнем",
+          "name_zh": "空船",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Судно порожнем"
+          },
+          "mass_t": 5120.0,
+          "z_m": 10.45,
+          "x_m": 62.85
+        },
+        {
+          "id": "hold_1",
+          "name_ru": "Трюм № 1",
+          "name_zh": "第1货舱",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Трюм № 1"
+          },
+          "mass_t": 3000.0,
+          "z_m": 5.39,
+          "x_m": 121.33
+        },
+        {
+          "id": "hold_2",
+          "name_ru": "Трюм № 2",
+          "name_zh": "第2货舱",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Трюм № 2"
+          },
+          "mass_t": 4000.0,
+          "z_m": 6.02,
+          "x_m": 97.0
+        },
+        {
+          "id": "hold_3",
+          "name_ru": "Трюм № 3",
+          "name_zh": "第3货舱",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Трюм № 3"
+          },
+          "mass_t": 4000.0,
+          "z_m": 6.15,
+          "x_m": 67.0
+        },
+        {
+          "id": "hold_4",
+          "name_ru": "Трюм № 4",
+          "name_zh": "第4货舱",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Трюм № 4"
+          },
+          "mass_t": 3000.0,
+          "z_m": 5.22,
+          "x_m": 41.5
+        },
+        {
+          "id": "deck_cargo",
+          "name_ru": "Палубный груз",
+          "name_zh": "甲板货物",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Палубный груз"
+          },
+          "mass_t": 100.0,
+          "z_m": 17.9,
+          "x_m": 79.4
+        },
+        {
+          "id": "fuel",
+          "name_ru": "Топливо",
+          "name_zh": "燃油",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Топливо"
+          },
+          "derived_from": "L02,L03"
+        },
+        {
+          "id": "drinking_water",
+          "name_ru": "Питьевая вода",
+          "name_zh": "饮用水",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Питьевая вода"
+          },
+          "mass_t": 200.0,
+          "z_m": 9.15,
+          "x_m": 12.84
+        },
+        {
+          "id": "oil",
+          "name_ru": "Масло",
+          "name_zh": "润滑油",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Масло"
+          },
+          "mass_t": 66.0,
+          "z_m": 10.18,
+          "x_m": 24.01
+        },
+        {
+          "id": "dirty_liquids",
+          "name_ru": "Грязное масло, льяльные воды и проч.",
+          "name_zh": "污油、舱底水等",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Грязное масло, льяльные воды и проч."
+          },
+          "mass_t": 23.0,
+          "z_m": 0.75,
+          "x_m": 17.83
+        },
+        {
+          "id": "stores_aft",
+          "name_ru": "Судовые запасы в корме",
+          "name_zh": "艉部船用储备",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Судовые запасы в корме"
+          },
+          "mass_t": 18.0,
+          "z_m": 12.18,
+          "x_m": 15.66
+        },
+        {
+          "id": "stores_fore",
+          "name_ru": "Судовые запасы в носу",
+          "name_zh": "艏部船用储备",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Судовые запасы в носу"
+          },
+          "mass_t": 5.0,
+          "z_m": 10.77,
+          "x_m": 139.08
+        },
+        {
+          "id": "crew",
+          "name_ru": "Экипаж с багажом",
+          "name_zh": "船员及行李",
+          "source": {
+            "id": "load_v5",
+            "locator": "表2，Экипаж с багажом"
+          },
+          "mass_t": 15.0,
+          "z_m": 15.69,
+          "x_m": 20.64
+        }
+      ],
+      "coordinate_convention": {
+        "z": "重心距基本平面ОП的垂直距离，m",
+        "x": "重心距艉垂线КП的纵向距离，m",
+        "moment_z": "P*z，关于ОП，t*m",
+        "moment_x": "P*x，关于КП，t*m"
+      }
+    },
+    "ost_v2": {
+      "variant": 2,
+      "source_id": "ost_assignment",
+      "items": [
+        {
+          "id": "ost_01",
+          "order": 1,
+          "name_ru": "Валопровод, движители",
+          "name_zh": "轴系与推进器",
+          "mass_t": 182.29,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号1"
+          }
+        },
+        {
+          "id": "ost_02",
+          "order": 2,
+          "name_ru": "Внутрисудовые связь и управление",
+          "name_zh": "船内通信与控制",
+          "mass_t": 15.6,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号2"
+          }
+        },
+        {
+          "id": "ost_03",
+          "order": 3,
+          "name_ru": "Вода в успокоителях качки",
+          "name_zh": "减摇装置中的水",
+          "mass_t": 14.75,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号3"
+          }
+        },
+        {
+          "id": "ost_04",
+          "order": 4,
+          "name_ru": "Вода в фекальных цистернах",
+          "name_zh": "粪便舱中的水",
+          "mass_t": 3.79,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号4"
+          }
+        },
+        {
+          "id": "ost_05",
+          "order": 5,
+          "name_ru": "Вода в цистернах сбора загрязненных вод",
+          "name_zh": "污水收集舱中的水",
+          "mass_t": 4.35,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号5"
+          }
+        },
+        {
+          "id": "ost_06",
+          "order": 6,
+          "name_ru": "Груз в трюме 1",
+          "name_zh": "第1货舱货物",
+          "mass_t": 2341.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号6"
+          }
+        },
+        {
+          "id": "ost_07",
+          "order": 7,
+          "name_ru": "Груз в трюме 2",
+          "name_zh": "第2货舱货物",
+          "mass_t": 3440.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号7"
+          }
+        },
+        {
+          "id": "ost_08",
+          "order": 8,
+          "name_ru": "Груз в трюме 3",
+          "name_zh": "第3货舱货物",
+          "mass_t": 3446.5,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号8"
+          }
+        },
+        {
+          "id": "ost_09",
+          "order": 9,
+          "name_ru": "Груз на палубе",
+          "name_zh": "甲板货物",
+          "mass_t": 721.18,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号9"
+          }
+        },
+        {
+          "id": "ost_10",
+          "order": 10,
+          "name_ru": "Грузовые устройства",
+          "name_zh": "货运装置",
+          "mass_t": 197.28,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号10"
+          }
+        },
+        {
+          "id": "ost_11",
+          "order": 11,
+          "name_ru": "Дельные вещи",
+          "name_zh": "船体属具",
+          "mass_t": 145.81,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号11"
+          }
+        },
+        {
+          "id": "ost_12",
+          "order": 12,
+          "name_ru": "Запасные части для систем",
+          "name_zh": "系统备件",
+          "mass_t": 171.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号12"
+          }
+        },
+        {
+          "id": "ost_13",
+          "order": 13,
+          "name_ru": "Запасные части для установок энергетических главной и вспомогательных",
+          "name_zh": "主辅动力装置备件",
+          "mass_t": 30.12,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号13"
+          }
+        },
+        {
+          "id": "ost_14",
+          "order": 14,
+          "name_ru": "Изоляция и зашивки",
+          "name_zh": "隔热及衬板",
+          "mass_t": 63.38,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号14"
+          }
+        },
+        {
+          "id": "ost_15",
+          "order": 15,
+          "name_ru": "Источники электроэнергии",
+          "name_zh": "电源",
+          "mass_t": 25.6,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号15"
+          }
+        },
+        {
+          "id": "ost_16",
+          "order": 16,
+          "name_ru": "Корпус металлический",
+          "name_zh": "金属船体",
+          "mass_t": 3568.61,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号16"
+          }
+        },
+        {
+          "id": "ost_17",
+          "order": 17,
+          "name_ru": "Масло",
+          "name_zh": "油",
+          "mass_t": 5.74,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号17"
+          }
+        },
+        {
+          "id": "ost_18",
+          "order": 18,
+          "name_ru": "Неметаллические части корпуса",
+          "name_zh": "非金属船体部分",
+          "mass_t": 51.37,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号18"
+          }
+        },
+        {
+          "id": "ost_19",
+          "order": 19,
+          "name_ru": "Оборудование помещений ",
+          "name_zh": "舱室设备",
+          "mass_t": 613.32,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号19"
+          }
+        },
+        {
+          "id": "ost_20",
+          "order": 20,
+          "name_ru": "Пассажиры с багажом, провизия, вода",
+          "name_zh": "旅客、行李、食品和水",
+          "mass_t": 30.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号20"
+          }
+        },
+        {
+          "id": "ost_21",
+          "order": 21,
+          "name_ru": "Питательная вода",
+          "name_zh": "锅炉给水",
+          "mass_t": 17.75,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号21"
+          }
+        },
+        {
+          "id": "ost_22",
+          "order": 22,
+          "name_ru": "Подкрепления, фундаменты",
+          "name_zh": "加强结构及基座",
+          "mass_t": 48.4,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号22"
+          }
+        },
+        {
+          "id": "ost_23",
+          "order": 23,
+          "name_ru": "Покрытия, окраска",
+          "name_zh": "涂层与油漆",
+          "mass_t": 34.99,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号23"
+          }
+        },
+        {
+          "id": "ost_24",
+          "order": 24,
+          "name_ru": "Постоянный жидкий балласт",
+          "name_zh": "永久液体压载",
+          "mass_t": 2.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号24"
+          }
+        },
+        {
+          "id": "ost_25",
+          "order": 25,
+          "name_ru": "Пресная вода для экипажа",
+          "name_zh": "船员淡水",
+          "mass_t": 114.79,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号25"
+          }
+        },
+        {
+          "id": "ost_26",
+          "order": 26,
+          "name_ru": "Провизия для экипажа",
+          "name_zh": "船员食品",
+          "mass_t": 5.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号26"
+          }
+        },
+        {
+          "id": "ost_27",
+          "order": 27,
+          "name_ru": "Расходные материалы",
+          "name_zh": "消耗材料",
+          "mass_t": 23.28,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号27"
+          }
+        },
+        {
+          "id": "ost_28",
+          "order": 28,
+          "name_ru": "Рулевое устройство",
+          "name_zh": "舵装置",
+          "mass_t": 30.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号28"
+          }
+        },
+        {
+          "id": "ost_29",
+          "order": 29,
+          "name_ru": "Системы бытового водоснабжения, сточно-фановые",
+          "name_zh": "生活供水及污水系统",
+          "mass_t": 6.8,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号29"
+          }
+        },
+        {
+          "id": "ost_30",
+          "order": 30,
+          "name_ru": "Системы вентиляции, кондиционирования воздуха, охлаждения",
+          "name_zh": "通风、空调与冷却系统",
+          "mass_t": 5.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号30"
+          }
+        },
+        {
+          "id": "ost_31",
+          "order": 31,
+          "name_ru": "Системы противопожарные",
+          "name_zh": "消防系统",
+          "mass_t": 25.9,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号31"
+          }
+        },
+        {
+          "id": "ost_32",
+          "order": 32,
+          "name_ru": "Системы различного назначения",
+          "name_zh": "其他用途系统",
+          "mass_t": 2.5,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号32"
+          }
+        },
+        {
+          "id": "ost_33",
+          "order": 33,
+          "name_ru": "Системы установок главной и вспомогательных энергетических",
+          "name_zh": "主辅动力装置系统",
+          "mass_t": 23.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号33"
+          }
+        },
+        {
+          "id": "ost_34",
+          "order": 34,
+          "name_ru": "Средства активного управления",
+          "name_zh": "主动操纵装置",
+          "mass_t": 10.2,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号34"
+          }
+        },
+        {
+          "id": "ost_35",
+          "order": 35,
+          "name_ru": "Судовая система передачи и распределения электроэнергии",
+          "name_zh": "船舶电力输送与分配系统",
+          "mass_t": 16.7,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号35"
+          }
+        },
+        {
+          "id": "ost_36",
+          "order": 36,
+          "name_ru": "Твердый балласт",
+          "name_zh": "固体压载",
+          "mass_t": 20.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号36"
+          }
+        },
+        {
+          "id": "ost_37",
+          "order": 37,
+          "name_ru": "Топливо",
+          "name_zh": "燃料",
+          "mass_t": 797.75,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号37"
+          }
+        },
+        {
+          "id": "ost_38",
+          "order": 38,
+          "name_ru": "Трюмные системы",
+          "name_zh": "舱底及舱室液体系统",
+          "mass_t": 37.5,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号38"
+          }
+        },
+        {
+          "id": "ost_39",
+          "order": 39,
+          "name_ru": "Установка энергетическая главная",
+          "name_zh": "主动力装置",
+          "mass_t": 121.5,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号39"
+          }
+        },
+        {
+          "id": "ost_40",
+          "order": 40,
+          "name_ru": "Устройства шлюпочное, спасательное",
+          "name_zh": "艇与救生装置",
+          "mass_t": 12.5,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号40"
+          }
+        },
+        {
+          "id": "ost_41",
+          "order": 41,
+          "name_ru": "Устройство швартовное, буксирное",
+          "name_zh": "系泊与拖曳装置",
+          "mass_t": 19.0,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号41"
+          }
+        },
+        {
+          "id": "ost_42",
+          "order": 42,
+          "name_ru": "Экипаж с багажом",
+          "name_zh": "船员及行李",
+          "mass_t": 1.99,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号42"
+          }
+        },
+        {
+          "id": "ost_43",
+          "order": 43,
+          "name_ru": "Якорное устройство",
+          "name_zh": "锚装置",
+          "mass_t": 45.8,
+          "source": {
+            "id": "ost_assignment",
+            "locator": "第2张表，原始序号43"
+          }
+        }
+      ],
+      "assigned_section": "17",
+      "section_17_item_ids": [
+        "ost_03",
+        "ost_04",
+        "ost_05"
+      ],
+      "section_17_codes": {
+        "ost_03": "1701",
+        "ost_04": "1702",
+        "ost_05": "1703"
+      }
+    },
+    "t2_first": {
+      "variant": "Т2",
+      "ship_type_ru": "танкер",
+      "project": {
+        "Pgr_t": 30700,
+        "v_kn": 15.9,
+        "R_nm": 5500,
+        "food_days": 35,
+        "water_days": 20,
+        "crew_count": 20,
+        "rho_cargo_t_m3": 0.9
+      },
+      "prototype": {
+        "D0_t": 27590,
+        "P_hull0_t": 6720,
+        "P_engine0_t": 720,
+        "P_energy0_t": 690,
+        "N0_kW": 8580,
+        "v0_kn": 15,
+        "R0_nm": 5000,
+        "L0_m": 147.2,
+        "B0_m": 24.5,
+        "H0_m": 13.4,
+        "T0_m": 9.8,
+        "zg0_m": 8.31,
+        "W_engine0_m3": 4715,
+        "k_dry": 1.06,
+        "P_reserve0_t": 140,
+        "P_supply0_t": 175,
+        "P_cargo0_t": 19145
+      },
+      "constants": {
+        "p_crew_t_person": 0.12,
+        "p_food_t_person_day": 0.003,
+        "p_water_t_person_day": 0.15,
+        "P_inventory_t": 20,
+        "p_reserve": 0.01,
+        "relative_length_factor": 2.13,
+        "fullness_a": 1.05,
+        "fullness_b": 1.4,
+        "kn_to_ms": 0.514,
+        "g_m_s2": 9.81,
+        "waterline_factor": 0.96,
+        "k_appendage": 1.005,
+        "rho_seawater_t_m3": 1.025,
+        "k_stability": 0.5,
+        "h_over_B": 0.06,
+        "underdeck_delta_add": 0.035,
+        "cargo_volume_factor": 1.04,
+        "k_energy_t_m3": 0.85,
+        "k_water_t_m3": 1,
+        "ballast_fraction": 0.38,
+        "min_H_over_T": 1.25,
+        "floating_difference_range_t": [
+          5,
+          8
+        ]
+      },
+      "adopted": {
+        "D1_t": 44388,
+        "L1_m": 189.64,
+        "delta": 0.785,
+        "alpha": 0.85,
+        "zeta": 0.62,
+        "mu_engine_m3_kW": 0.55,
+        "B1_m": 26.6,
+        "T1_m": 10.88,
+        "H1_m": 14.89,
+        "source_id": "t2_final",
+        "locator": "2.1.1采用D₁；2.1.3系数及最后的Принимаем"
+      },
+      "source_ids": {
+        "project": [
+          "t2_final",
+          "intro_deck"
+        ],
+        "prototype": [
+          "t2_final",
+          "intro_deck"
+        ],
+        "constants": [
+          "t2_final",
+          "t2_method",
+          "first_deck"
+        ],
+        "adopted": [
+          "t2_final"
+        ]
+      }
+    },
+    "t2_second": {
+      "variant": "Т2",
+      "ship_type_ru": "танкер",
+      "source_id": "t2_second_final",
+      "upstream_case_id": "t2_first",
+      "prototype": {
+        "P_steel0_t": 5430,
+        "P_equipment0_t": 1290
+      },
+      "constants": {
+        "reserve_tolerance_fraction": 0.5
+      },
+      "source_locations": {
+        "prototype.P_steel0_t": [
+          "t2_second_final，第1页母型船表：Pст₀",
+          "t2_second_photo，油船列：5430"
+        ],
+        "prototype.P_equipment0_t": [
+          "t2_second_final，第1页母型船表：Pоб₀",
+          "t2_second_photo，油船列：1290"
+        ],
+        "constants.reserve_tolerance_fraction": [
+          "t2_second_final，第3页判据",
+          "t2_second_method，Вариант А"
+        ],
+        "upstream": [
+          "t2_second_final，第1页第二张表；由S01承接T05、T07、T09、T14"
+        ],
+        "shared_prototype": [
+          "t2_first.prototype；与t2_second_final第1页第一张表核对"
+        ],
+        "shared_constants": [
+          "t2_first.constants：k_appendage、rho_seawater_t_m3、min_H_over_T、floating_difference_range_t"
+        ]
+      }
+    }
+  }
+}

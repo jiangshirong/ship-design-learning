@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-30",
+  "before_bytes": 8659230936,
+  "before_MiB": 8258.09,
+  "after_bytes": 202217060,
+  "after_MiB": 192.85,
+  "reduction_percent": 97.66,
+  "groups_MiB": {
+    "modules": 66.941,
+    "assets": 44.511,
+    "models": 33.578,
+    "archives": 31.244,
+    "content": 15.22,
+    "tools": 0.743,
+    "qa": 0.268,
+    "view": 0.173,
+    "runtime": 0.11,
+    "main.gd": 0.028,
+    "core": 0.021,
+    "docs": 0.007,
+    "README.md": 0.004,
+    "export_presets.cfg": 0.001,
+    "project.godot": 0.001,
+    ".gitignore": 0.0,
+    "main.tscn": 0.0,
+    ".gitattributes": 0.0,
+    "开始学习.cmd": 0.0,
+    "main.gd.uid": 0.0
+  },
+  "protected_files_unchanged": 121,
+  "banks": {
+    "course": {
+      "cards": 62,
+      "auxiliary_figures": 0
+    },
+    "preparation": {
+      "cards": 66,
+      "auxiliary_figures": 6
+    },
+    "exams": {
+      "cards": 10,
+      "auxiliary_figures": 0
+    }
+  },
+  "runtime_checks": [
+    {
+      "name": "route",
+      "passed": true,
+      "seconds": 3.57,
+      "real_rendering": true
+    },
+    {
+      "name": "model",
+      "passed": true,
+      "seconds": 4.26,
+      "real_rendering": true
+    }
+  ],
+  "cold_import": {
+    "passed": true,
+    "seconds": 12.52,
+    "known_nonfatal_uv_tangent_messages": true
+  },
+  "engine_location": "%LOCALAPPDATA%/ShipLearningTools/Godot/4.7.2",
+  "history_archive_included_in_size": true,
+  "discarded_cache_location": "Windows Recycle Bin (recoverable; not part of project)",
+  "uploaded_to_github": false,
+  "release_package_rebuilt": false,
+  "file_count": 719
+}

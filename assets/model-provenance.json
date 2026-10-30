@@ -1,0 +1,26 @@
+{
+  "source": "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）造船绘图\\ChatGPT\\船体结构学习-v2\\模型\\完整教学杂货船.blend",
+  "models": [
+    {
+      "variant": "cargo",
+      "mesh_groups": 29,
+      "vertices": 201188,
+      "reference_dimensions_m": {
+        "length": 78,
+        "beam": 12.6,
+        "main_deck": 7.5
+      }
+    },
+    {
+      "variant": "tanker",
+      "mesh_groups": 19,
+      "vertices": 93594,
+      "reference_dimensions_m": {
+        "length": 78,
+        "beam": 12.6,
+        "main_deck": 7.5
+      }
+    }
+  ],
+  "boundary": "Derived schematic geometry, rescaled for instruction. Not assignment hull lines or hydrostatic geometry."
+}

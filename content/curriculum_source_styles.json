@@ -1,0 +1,116 @@
+[
+  {
+    "step": "B01:ratio",
+    "teacher_reference": "1p/Modul_1.docx",
+    "rows": [
+      "0"
+    ]
+  },
+  {
+    "step": "B03:sign",
+    "teacher_reference": "1p/Modul_1.docx",
+    "rows": [
+      "0"
+    ]
+  },
+  {
+    "step": "B03:mean",
+    "teacher_reference": "1p/Modul_1.docx",
+    "rows": [
+      "0"
+    ]
+  },
+  {
+    "step": "L01:meaning",
+    "teacher_reference": "1p/Modul_2.docx",
+    "rows": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "step": "T08:length",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "step": "T09:delta",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "1"
+    ]
+  },
+  {
+    "step": "T09:alpha",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "1"
+    ]
+  },
+  {
+    "step": "T09:underdeck",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "0"
+    ]
+  },
+  {
+    "step": "T11:ballast",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "0"
+    ]
+  },
+  {
+    "step": "T11:total",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "2"
+    ]
+  },
+  {
+    "step": "T12:float:meaning",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "step": "T12:stability:meaning",
+    "teacher_reference": "5p/Modul_6. Остойчивость.docx",
+    "rows": [
+      "0"
+    ]
+  },
+  {
+    "step": "T12:stability",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "step": "norman-derive:eta",
+    "teacher_reference": "3a/Modul_4.docx",
+    "rows": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "step": "T11:cargo:margin",
+    "teacher_reference": "2p/КП-ПС-1 приближение.docx",
+    "rows": [
+      "0"
+    ]
+  }
+]

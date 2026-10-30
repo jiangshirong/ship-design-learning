@@ -1,0 +1,14 @@
+{
+  "source": "手机界面迁移参考/1.2.1/船舶俄语复习",
+  "version": "1.2.1",
+  "reused": [
+    "bottom_bar.gd",
+    "choice_button.gd",
+    "word_list_view.gd",
+    "progress_badge.gd",
+    "ui_icons.gd",
+    "fonts",
+    "assets/icons"
+  ],
+  "desktop_changes": "Resource namespace, desktop tab labels, desktop layout; same palette, fonts, icons and cached list painting."
+}

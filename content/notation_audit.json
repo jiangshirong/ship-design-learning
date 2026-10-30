@@ -1,0 +1,5945 @@
+{
+  "policy": "原文已有符号按各章来源保留；未命名中间量使用英文下标；0/1及i为原有对象或序号。",
+  "records": [
+    {
+      "id": "sample:known",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "sample:given",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "p = 100 \\,\\mathrm{t}",
+        "z _{1} = 17.9 \\,\\mathrm{m}",
+        "z _{2} = 17.9 - 6 = 11.9 \\,\\mathrm{m}",
+        "D = 20616 \\,\\mathrm{t}"
+      ],
+      "after": [
+        "p = 100 \\,\\mathrm{t}",
+        "z _{1} = 17.9 \\,\\mathrm{m}",
+        "z _{2} = 17.9 - 6 = 11.9 \\,\\mathrm{m}",
+        "\\Delta = 20616 \\,\\mathrm{t}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "sample:weighted",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "z_G = \\frac{\\sum  \\left(P _{i} z _{i}\\right)}{D}",
+        "\\frac{p}{D} = \\frac{100}{20616} \\approx 0.0048506"
+      ],
+      "after": [
+        "z_G = \\frac{\\sum  \\left(P _{i} z _{i}\\right)}{\\Delta}",
+        "\\frac{p}{\\Delta} = \\frac{100}{20616} \\approx 0.0048506"
+      ],
+      "changed": true
+    },
+    {
+      "id": "sample:moment",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\Delta  M _{z} = p z _{2} - p z _{1} = p \\left(z _{2} - z _{1}\\right)",
+        "\\Delta  M _{z} = 100 \\cdot \\left(11.9 - 17.9\\right) = - 600 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      ],
+      "after": [
+        "\\Delta  M_{\\text{оп}} = p z _{2} - p z _{1} = p \\left(z _{2} - z _{1}\\right)",
+        "\\Delta  M_{\\text{оп}} = 100 \\cdot \\left(11.9 - 17.9\\right) = - 600 \\,\\mathrm{t}\\cdot\\mathrm{m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "sample:before",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "z_{G,1} = \\frac{140879.07}{20616} = 6.8334822 \\,\\mathrm{m}"
+      ],
+      "after": [
+        "z_{G,1} = \\frac{140879.07}{20616} = 6.8334822 \\,\\mathrm{m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "sample:move",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\Delta  z = @move_z@ \\,\\mathrm{m}",
+        "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = @MZ@ \\,\\mathrm{t}\\cdot\\mathrm{m}",
+        "z_G = @zG@ \\,\\mathrm{m}"
+      ],
+      "after": [
+        "\\Delta  z = @move_z@ \\,\\mathrm{m}",
+        "\\sum  \\left(P _{i} \\cdot z _{i}\\right) = @MZ@ \\,\\mathrm{t}\\cdot\\mathrm{m}",
+        "z_G = @zG@ \\,\\mathrm{m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "sample:result",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\Delta  z_G = \\frac{\\Delta  M _{z}}{D} = \\frac{p \\Delta  z}{D}",
+        "\\Delta  z_G = \\frac{- 600}{20616} = - 0.0291036 \\,\\mathrm{m}",
+        "- 0.0291036 \\,\\mathrm{m} \\approx - 2.91 \\,\\mathrm{cm}"
+      ],
+      "after": [
+        "\\Delta  z_G = \\frac{\\Delta  M_{\\text{оп}}}{\\Delta} = \\frac{p \\Delta  z}{\\Delta}",
+        "\\Delta  z_G = \\frac{- 600}{20616} = - 0.0291036 \\,\\mathrm{m}",
+        "- 0.0291036 \\,\\mathrm{m} \\approx - 2.91 \\,\\mathrm{cm}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "sample:check",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "z_{G,2} = 6.8334822 - 0.0291036 \\approx 6.8043786 \\,\\mathrm{m}",
+        "D _{2} = D _{1} = 20616 \\,\\mathrm{t}"
+      ],
+      "after": [
+        "z_{G,2} = 6.8334822 - 0.0291036 \\approx 6.8043786 \\,\\mathrm{m}",
+        "\\Delta_2 = \\Delta_1 = 20616 \\,\\mathrm{t}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "parts:direction",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "parts:hull",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "parts:deck",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "parts:compartments",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "baseline:reference",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "baseline:draft",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "baseline:depth",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "reserve:volume",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "A_{av}=\\frac{2000+2120}{2}=2060",
+        "V_{res}=2060(10-7.5)",
+        "=5150\\,\\mathrm m^3"
+      ],
+      "after": [
+        "V_{\\mathrm{res}}\\approx2060\\cdot2.5",
+        "=5150\\,\\mathrm m^3",
+        "\\frac{V_{\\mathrm{res}}}{V}\\cdot100\\%\\approx42.92\\%"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "A_{\\mathrm{av}}=\\frac{2000+2120}{2}=2060",
+        "V_{\\mathrm{res}}=2060(10-7.5)",
+        "=5150\\,\\mathrm m^3"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "load-centre:free",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\sum  \\mathrm{FSM} = 420 + 340 + 340 + 300 + 295 + 11 + 12 + 8 + 8 = 1734 \\,\\mathrm{t}\\cdot\\mathrm{m}",
+        "\\Delta  h = \\frac{1734}{20616} = @free_correction@ \\,\\mathrm{m}",
+        "GM_{\\mathrm{corr}} = G M - \\Delta  h"
+      ],
+      "after": [
+        "h_{\\mathrm{corr}}=h-\\Delta h"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "\\sum  M_{\\mathrm{free}} = 420 + 340 + 340 + 300 + 295 + 11 + 12 + 8 + 8 = 1734 \\,\\mathrm{t}\\cdot\\mathrm{m}",
+        "\\Delta  h = \\frac{1734}{20616} = @free_correction@ \\,\\mathrm{m}",
+        "h_{\\mathrm{corr}} = h - \\Delta  h"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "norman-derive:difference",
+      "sources": [
+        "3a/Modul_4.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "norman-derive:differentiate",
+      "sources": [
+        "3a/Modul_4.docx"
+      ],
+      "before": [
+        "D = F \\left(D,\\;\\theta \\right) + P",
+        "d D = F _{D} d D + d F ^{*} + d P",
+        "\\left(1 - F _{D}\\right) d D = d F ^{*} + d P"
+      ],
+      "after": [
+        "D=F(D,\\theta)+P",
+        "dD=\\frac{\\partial F}{\\partial D}dD",
+        "\\quad+[dF]^*+dP",
+        "\\left(1-\\frac{\\partial F}{\\partial D}\\right)dD",
+        "=[dF]^*+dP"
+      ],
+      "changed": true
+    },
+    {
+      "id": "norman-derive:eta",
+      "sources": [
+        "3a/Modul_4.docx"
+      ],
+      "before": [
+        "\\eta  = \\frac{1}{1 - F _{D}}",
+        "d D = \\eta  \\left(d F ^{*} + d P\\right)"
+      ],
+      "after": [
+        "\\eta_{\\text{н}}=\\frac{1}{1-\\frac{\\partial F}{\\partial D}}",
+        "dD=\\eta_{\\text{н}}([dF]^*+dP)"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "\\eta_{\\text{н}}=\\frac{1}{1-\\partial F/\\partial D}",
+        "dD=\\eta_{\\text{н}}([dF]^*+dP)"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "norman-apply:derivative",
+      "sources": [
+        "3a/Modul_4.docx"
+      ],
+      "before": [
+        "F _{D} = \\frac{P_{\\mathrm{к}}}{D} + \\frac{2 P_{\\mathrm{э}}}{3 D} + \\frac{2 P_{\\mathrm{т}}}{3 D} + \\frac{P_{\\mathrm{з}}}{D}",
+        "\\eta  = @eta@",
+        "d P = 100 \\,\\mathrm{t} \\longrightarrow d D \\approx \\eta  \\cdot 100 \\approx 140.6146 \\,\\mathrm{t}"
+      ],
+      "after": [
+        "\\frac{\\partial F}{\\partial D}=\\frac{P_{\\text{к}}}{D}",
+        "+\\frac{2P_{\\text{сэу}}}{3D}+\\frac{2P_{\\text{сэз}}}{3D}",
+        "+\\frac{P_{\\text{зв}}}{D}",
+        "\\eta_{\\text{н}}=@eta@",
+        "dP=100\\,\\mathrm t",
+        "dD\\approx\\eta_{\\text{н}}\\cdot100",
+        "\\approx140.6146\\,\\mathrm t"
+      ],
+      "changed": true
+    },
+    {
+      "id": "norman-apply:direct",
+      "sources": [
+        "3a/Modul_4.docx"
+      ],
+      "before": [
+        "dP_h=D\\,dp_h",
+        "dP_e=P_e\\frac{dp_e}{p_e}",
+        "+P_e\\left(3\\frac{dv}{v}-\\frac{dC}{C}\\right)",
+        "dP_f=P_f\\frac{dp_f}{p_f}+P_f\\frac{dR}{R}",
+        "+P_f\\left(2\\frac{dv}{v}-\\frac{dC}{C}\\right)"
+      ],
+      "after": [
+        "[dF_{\\text{к}}]^*=D\\,dp_{\\text{к}}",
+        "[dF_{\\text{сэу}}]^*=P_{\\text{сэу}}\\frac{dp_{\\text{сэу}}}{p_{\\text{сэу}}}",
+        "+P_{\\text{сэу}}\\left(3\\frac{dv}{v}-\\frac{dC}{C}\\right)",
+        "[dF_{\\text{сэз}}]^*=P_{\\text{сэз}}\\frac{dp_{\\text{сэз}}}{p_{\\text{сэз}}}",
+        "+P_{\\text{сэз}}\\frac{dR}{R}",
+        "+P_{\\text{сэз}}\\left(2\\frac{dv}{v}-\\frac{dC}{C}\\right)"
+      ],
+      "changed": true
+    },
+    {
+      "id": "norman-apply:limits",
+      "sources": [
+        "3a/Modul_4.docx"
+      ],
+      "before": [
+        "\\frac{44388 - 27590}{27590} \\cdot 100 \\% = 60.8844 \\%"
+      ],
+      "after": [
+        "\\frac{44388 - 27590}{27590} \\cdot 100 \\% = 60.8844 \\%"
+      ],
+      "changed": false
+    },
+    {
+      "id": "_concept/area",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "A_{\\mathrm{м}}"
+      ],
+      "after": [
+        "A_M"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/fullness",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "\\beta  = \\frac{A_{\\mathrm{м}}}{B \\cdot T}"
+      ],
+      "after": [
+        "\\beta  = \\frac{A_M}{B \\cdot T}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/cargo",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "\\frac{6186 \\,\\mathrm{m}^{3}}{1.21 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}} = 5112.40 \\,\\mathrm{t}"
+      ],
+      "after": [
+        "\\frac{6186 \\,\\mathrm{m}^{3}}{1.21 \\,\\frac{\\mathrm{m}^{3}}{\\mathrm{t}}} = 5112.40 \\,\\mathrm{t}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "_concept/root",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "f \\left(X\\right) = a X ^{3} - b X ^{2} - c"
+      ],
+      "after": [
+        "f \\left(X\\right) = a X ^{3} - b X ^{2} - P"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/mass0",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{\\mathrm{к}} = p_{\\mathrm{к}} D"
+      ],
+      "after": [
+        "P_{\\text{к.об.}} = p_{\\text{к.об.}} D"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/mass1",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{\\mathrm{э}} = p_{\\mathrm{э}} N"
+      ],
+      "after": [
+        "P_{\\text{сэу}} = p_{\\text{сэу}} N"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/mass2",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{\\mathrm{т}} = \\frac{p_{\\mathrm{т}} N R}{v}"
+      ],
+      "after": [
+        "P_{\\text{сэз}} = \\frac{p_{\\text{сэз}} N R}{v}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/mass3",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{\\mathrm{з}} = 0.01 D"
+      ],
+      "after": [
+        "P_{\\text{зв}} = 0.01 D"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/mass4",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{\\mathrm{сн}} = 84.5 \\,\\mathrm{t}"
+      ],
+      "after": [
+        "P_{\\mathrm{сн}} = 84.5 \\,\\mathrm{t}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "_concept/mass5",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{\\mathrm{гр}} = 30700 \\,\\mathrm{t}"
+      ],
+      "after": [
+        "P_{\\mathrm{гр}} = 30700 \\,\\mathrm{t}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "_concept/mass_total",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D = P_{\\mathrm{к}} + P_{\\mathrm{э}} + P_{\\mathrm{т}} + P_{\\mathrm{з}} + P_{\\mathrm{сн}} + P_{\\mathrm{гр}}"
+      ],
+      "after": [
+        "D = P_{\\text{к.об.}} + P_{\\text{сэу}} + P_{\\text{сэз}} + P_{\\text{зв}} + P_{\\mathrm{сн}} + P_{\\mathrm{гр}}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "_concept/stability",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "G M = K B + B M - K G"
+      ],
+      "after": [
+        "h=z_c+r-Z_g"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "G M = K B + B M - K G"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "_concept/volume",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_{\\mathrm{req}} = 1.06 \\cdot \\sum  W"
+      ],
+      "after": [
+        "W_{\\mathrm{req}} = 1.06 \\cdot \\sum  W"
+      ],
+      "changed": false
+    },
+    {
+      "id": "parts:waterline",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "baseline:plane",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "dimensions:length",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "dimensions:beam",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "B01:goal",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "B01:area",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "A_M=45\\,\\mathrm{m}^2"
+      ],
+      "after": [
+        "A_M=45\\,\\mathrm{m}^2"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B01:width",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "B=15\\,\\mathrm m"
+      ],
+      "after": [
+        "B=15\\,\\mathrm m"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B01:draft",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "T=5\\,\\mathrm m"
+      ],
+      "after": [
+        "T=5\\,\\mathrm m"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B01:rectangle",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "A_{\\mathrm{rect}}=B\\cdot T",
+        "=15\\cdot5=75\\,\\mathrm m^2"
+      ],
+      "after": [
+        "A_{\\mathrm{rect}}=B\\cdot T",
+        "=15\\cdot5=75\\,\\mathrm m^2"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B01:ratio",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "\\beta=\\frac{A_M}{BT}",
+        "=\\frac{45}{75}=0.60"
+      ],
+      "after": [
+        "\\beta=\\frac{A_M}{BT}",
+        "=\\frac{45}{75}=0.60"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B01:meaning",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "\\beta\\cdot100\\%=60\\%"
+      ],
+      "after": [
+        "\\beta\\cdot100\\%=60\\%"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:goal",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "P_{\\max}=15950\\,\\mathrm t",
+        "W_{\\max}=20640\\,\\mathrm m^3"
+      ],
+      "after": [
+        "P_{\\text{гр}}=15950\\,\\mathrm t",
+        "W_{\\text{гр}}=20640\\,\\mathrm m^3"
+      ],
+      "changed": true
+    },
+    {
+      "id": "B02:given",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "P_1=10950\\,\\mathrm t"
+      ],
+      "after": [
+        "P_1=10950\\,\\mathrm t"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:factor1",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "\\mu_1=1.32\\,\\mathrm{m^3/t}"
+      ],
+      "after": [
+        "\\mu_1=1.32\\,\\mathrm{m^3/t}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:mass",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "P_{\\mathrm{rest}}=15950-10950",
+        "=5000\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\mathrm{rest}}=15950-10950",
+        "=5000\\,\\mathrm t"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:volume1",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "W_1=P_1\\mu_1",
+        "=10950\\cdot1.32=14454\\,\\mathrm m^3"
+      ],
+      "after": [
+        "W_1=P_1\\mu_1",
+        "=10950\\cdot1.32=14454\\,\\mathrm m^3"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:volume2",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "W_{\\mathrm{rest}}=20640-14454",
+        "=6186\\,\\mathrm m^3"
+      ],
+      "after": [
+        "W_{\\mathrm{rest}}=20640-14454",
+        "=6186\\,\\mathrm m^3"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:factor2",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "\\mu_2=1.21\\,\\mathrm{m^3/t}"
+      ],
+      "after": [
+        "\\mu_2=1.21\\,\\mathrm{m^3/t}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:bound",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "P_{2,V}=\\frac{W_{\\mathrm{rest}}}{\\mu_2}",
+        "=\\frac{6186}{1.21}=5112.40\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{2,V}=\\frac{W_{\\mathrm{rest}}}{\\mu_2}",
+        "=\\frac{6186}{1.21}=5112.40\\,\\mathrm t"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:answer",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "P_2=\\min(5000,5112.40)",
+        "=5000\\,\\mathrm t"
+      ],
+      "after": [
+        "P_2=\\min(5000,5112.40)",
+        "=5000\\,\\mathrm t"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B02:check",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "W_{\\mathrm{free}}=6186-5000\\cdot1.21",
+        "=136\\,\\mathrm m^3"
+      ],
+      "after": [
+        "W_{\\mathrm{free}}=6186-5000\\cdot1.21",
+        "=136\\,\\mathrm m^3"
+      ],
+      "changed": false
+    },
+    {
+      "id": "B03:goal",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "T_k=3.5\\,\\mathrm m"
+      ],
+      "after": [
+        "T_{\\text{к}}=3.5\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "B03:bow",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "B03:sign",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "d=T_k-T_n=-2.8\\,\\mathrm m"
+      ],
+      "after": [
+        "d=T_{\\text{к}}-T_{\\text{н}}=-2.8\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "B03:fore",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "T_n=T_k-d",
+        "=3.5-(-2.8)=6.3\\,\\mathrm m"
+      ],
+      "after": [
+        "T_{\\text{н}}=T_{\\text{к}}-d",
+        "=3.5-(-2.8)=6.3\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "B03:mean",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [
+        "T_{\\mathrm{mean}}=\\frac{T_k+T_n}{2}",
+        "=\\frac{3.5+6.3}{2}=4.9\\,\\mathrm m"
+      ],
+      "after": [
+        "T_{\\mathrm{mean}}=\\frac{T_{\\text{к}}+T_{\\text{н}}}{2}",
+        "=\\frac{3.5+6.3}{2}=4.9\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:goal",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L01:positions",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L01:origin",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "x_i,z_i\\quad[\\mathrm m]"
+      ],
+      "after": [
+        "x_i,z_i\\quad[\\mathrm m]"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L01:meaning",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "M_{z,i}=P_i\\cdot z_i",
+        "M_{x,i}=P_i\\cdot x_i",
+        "[M]=\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "M_{\\text{оп},i}=P_i\\cdot z_i",
+        "M_{\\text{кп},i}=P_i\\cdot x_i",
+        "[M]=\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank1:given",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{1}=250.00\\,\\mathrm{t}",
+        "z_{1}=0.58\\,\\mathrm{m}",
+        "x_{1}=97.00\\,\\mathrm{m}"
+      ],
+      "after": [
+        "P_{1}=250.00\\,\\mathrm{t}",
+        "z_{1}=0.58\\,\\mathrm{m}",
+        "x_{1}=97.00\\,\\mathrm{m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L01:tank1:z",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{1}z_{1}=250\\cdot0.58",
+        "=145.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{1}z_{1}=250\\cdot0.58",
+        "=145.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L01:tank1:x",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{1}x_{1}=250\\cdot97",
+        "=24250.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{1}x_{1}=250\\cdot97",
+        "=24250.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L01:free",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "I_{f,1}=420.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "M_{\\mathrm{free},1}=420.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank2",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{2}=160.00\\,\\mathrm{t}",
+        "z_{2}=0.58\\,\\mathrm{m}",
+        "x_{2}=67.00\\,\\mathrm{m}",
+        "P_{2}z_{2}=160\\cdot0.58",
+        "=92.80\\,\\mathrm{t\\cdot m}",
+        "P_{2}x_{2}=160\\cdot67",
+        "=10720.00\\,\\mathrm{t\\cdot m}",
+        "I_{f,2}=340.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{2}=160.00\\,\\mathrm{t}",
+        "z_{2}=0.58\\,\\mathrm{m}",
+        "x_{2}=67.00\\,\\mathrm{m}",
+        "P_{2}z_{2}=160\\cdot0.58",
+        "=92.80\\,\\mathrm{t\\cdot m}",
+        "P_{2}x_{2}=160\\cdot67",
+        "=10720.00\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},2}=340.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank3",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{3}=160.00\\,\\mathrm{t}",
+        "z_{3}=0.58\\,\\mathrm{m}",
+        "x_{3}=67.00\\,\\mathrm{m}",
+        "P_{3}z_{3}=160\\cdot0.58",
+        "=92.80\\,\\mathrm{t\\cdot m}",
+        "P_{3}x_{3}=160\\cdot67",
+        "=10720.00\\,\\mathrm{t\\cdot m}",
+        "I_{f,3}=340.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{3}=160.00\\,\\mathrm{t}",
+        "z_{3}=0.58\\,\\mathrm{m}",
+        "x_{3}=67.00\\,\\mathrm{m}",
+        "P_{3}z_{3}=160\\cdot0.58",
+        "=92.80\\,\\mathrm{t\\cdot m}",
+        "P_{3}x_{3}=160\\cdot67",
+        "=10720.00\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},3}=340.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank4",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{4}=150.00\\,\\mathrm{t}",
+        "z_{4}=0.58\\,\\mathrm{m}",
+        "x_{4}=67.00\\,\\mathrm{m}",
+        "P_{4}z_{4}=150\\cdot0.58",
+        "=87.00\\,\\mathrm{t\\cdot m}",
+        "P_{4}x_{4}=150\\cdot67",
+        "=10050.00\\,\\mathrm{t\\cdot m}",
+        "I_{f,4}=300.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{4}=150.00\\,\\mathrm{t}",
+        "z_{4}=0.58\\,\\mathrm{m}",
+        "x_{4}=67.00\\,\\mathrm{m}",
+        "P_{4}z_{4}=150\\cdot0.58",
+        "=87.00\\,\\mathrm{t\\cdot m}",
+        "P_{4}x_{4}=150\\cdot67",
+        "=10050.00\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},4}=300.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank5",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{5}=175.00\\,\\mathrm{t}",
+        "z_{5}=0.58\\,\\mathrm{m}",
+        "x_{5}=41.50\\,\\mathrm{m}",
+        "P_{5}z_{5}=175\\cdot0.58",
+        "=101.50\\,\\mathrm{t\\cdot m}",
+        "P_{5}x_{5}=175\\cdot41.5",
+        "=7262.50\\,\\mathrm{t\\cdot m}",
+        "I_{f,5}=295.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{5}=175.00\\,\\mathrm{t}",
+        "z_{5}=0.58\\,\\mathrm{m}",
+        "x_{5}=41.50\\,\\mathrm{m}",
+        "P_{5}z_{5}=175\\cdot0.58",
+        "=101.50\\,\\mathrm{t\\cdot m}",
+        "P_{5}x_{5}=175\\cdot41.5",
+        "=7262.50\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},5}=295.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank6",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{6}=55.00\\,\\mathrm{t}",
+        "z_{6}=7.15\\,\\mathrm{m}",
+        "x_{6}=24.10\\,\\mathrm{m}",
+        "P_{6}z_{6}=55\\cdot7.15",
+        "=393.25\\,\\mathrm{t\\cdot m}",
+        "P_{6}x_{6}=55\\cdot24.1",
+        "=1325.50\\,\\mathrm{t\\cdot m}",
+        "I_{f,6}=11.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{6}=55.00\\,\\mathrm{t}",
+        "z_{6}=7.15\\,\\mathrm{m}",
+        "x_{6}=24.10\\,\\mathrm{m}",
+        "P_{6}z_{6}=55\\cdot7.15",
+        "=393.25\\,\\mathrm{t\\cdot m}",
+        "P_{6}x_{6}=55\\cdot24.1",
+        "=1325.50\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},6}=11.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank7",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{7}=57.00\\,\\mathrm{t}",
+        "z_{7}=10.75\\,\\mathrm{m}",
+        "x_{7}=25.50\\,\\mathrm{m}",
+        "P_{7}z_{7}=57\\cdot10.75",
+        "=612.75\\,\\mathrm{t\\cdot m}",
+        "P_{7}x_{7}=57\\cdot25.5",
+        "=1453.50\\,\\mathrm{t\\cdot m}",
+        "I_{f,7}=12.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{7}=57.00\\,\\mathrm{t}",
+        "z_{7}=10.75\\,\\mathrm{m}",
+        "x_{7}=25.50\\,\\mathrm{m}",
+        "P_{7}z_{7}=57\\cdot10.75",
+        "=612.75\\,\\mathrm{t\\cdot m}",
+        "P_{7}x_{7}=57\\cdot25.5",
+        "=1453.50\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},7}=12.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank8",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{8}=30.00\\,\\mathrm{t}",
+        "z_{8}=6.80\\,\\mathrm{m}",
+        "x_{8}=28.95\\,\\mathrm{m}",
+        "P_{8}z_{8}=30\\cdot6.8",
+        "=204.00\\,\\mathrm{t\\cdot m}",
+        "P_{8}x_{8}=30\\cdot28.95",
+        "=868.50\\,\\mathrm{t\\cdot m}",
+        "I_{f,8}=8.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{8}=30.00\\,\\mathrm{t}",
+        "z_{8}=6.80\\,\\mathrm{m}",
+        "x_{8}=28.95\\,\\mathrm{m}",
+        "P_{8}z_{8}=30\\cdot6.8",
+        "=204.00\\,\\mathrm{t\\cdot m}",
+        "P_{8}x_{8}=30\\cdot28.95",
+        "=868.50\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},8}=8.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L01:tank9",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{9}=32.00\\,\\mathrm{t}",
+        "z_{9}=9.95\\,\\mathrm{m}",
+        "x_{9}=28.95\\,\\mathrm{m}",
+        "P_{9}z_{9}=32\\cdot9.95",
+        "=318.40\\,\\mathrm{t\\cdot m}",
+        "P_{9}x_{9}=32\\cdot28.95",
+        "=926.40\\,\\mathrm{t\\cdot m}",
+        "I_{f,9}=8.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{9}=32.00\\,\\mathrm{t}",
+        "z_{9}=9.95\\,\\mathrm{m}",
+        "x_{9}=28.95\\,\\mathrm{m}",
+        "P_{9}z_{9}=32\\cdot9.95",
+        "=318.40\\,\\mathrm{t\\cdot m}",
+        "P_{9}x_{9}=32\\cdot28.95",
+        "=926.40\\,\\mathrm{t\\cdot m}",
+        "M_{\\mathrm{free},9}=8.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L02:P_t",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\sum P_i=",
+        "250+160+160+150",
+        "+175+55+57+30+32",
+        "=1069.00\\,\\mathrm{t}"
+      ],
+      "after": [
+        "\\sum P_i=",
+        "250+160+160+150",
+        "+175+55+57+30+32",
+        "=1069.00\\,\\mathrm{t}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L02:moment_z_tm",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\sum P_i z_i=",
+        "145+92.8+92.8+87",
+        "+101.5+393.25+612.75+204+318.4",
+        "=2047.50\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "\\sum P_i z_i=",
+        "145+92.8+92.8+87",
+        "+101.5+393.25+612.75+204+318.4",
+        "=2047.50\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L02:moment_x_tm",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\sum P_i x_i=",
+        "24250+10720+10720+10050",
+        "+7262.5+1325.5+1453.5+868.5+926.4",
+        "=67576.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "\\sum P_i x_i=",
+        "24250+10720+10720+10050",
+        "+7262.5+1325.5+1453.5+868.5+926.4",
+        "=67576.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L02:free_surface_tm",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "\\sum I_{f,i}=",
+        "420+340+340+300",
+        "+295+11+12+8+8",
+        "=1734.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "\\sum M_{\\mathrm{free},i}=",
+        "420+340+340+300",
+        "+295+11+12+8+8",
+        "=1734.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L03:z",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "z_f=\\frac{\\sum P_i z_i}{\\sum P_i}",
+        "=\\frac{2047.50}{1069}",
+        "=1.9153\\,\\mathrm m"
+      ],
+      "after": [
+        "z_{\\mathrm{fuel}}=\\frac{\\sum P_i z_i}{\\sum P_i}",
+        "=\\frac{2047.50}{1069}",
+        "=1.9153\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L03:x",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "x_f=\\frac{\\sum P_i x_i}{\\sum P_i}",
+        "=\\frac{67576.40}{1069}",
+        "=63.2146\\,\\mathrm m"
+      ],
+      "after": [
+        "x_{\\mathrm{fuel}}=\\frac{\\sum P_i x_i}{\\sum P_i}",
+        "=\\frac{67576.40}{1069}",
+        "=63.2146\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L04:carry",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_f=1069\\,\\mathrm t",
+        "M_{z,f}=2047.50\\,\\mathrm{t\\cdot m}",
+        "M_{x,f}=67576.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{\\mathrm{fuel}}=1069\\,\\mathrm t",
+        "M_{\\text{оп},\\mathrm{fuel}}=2047.50\\,\\mathrm{t\\cdot m}",
+        "M_{\\text{кп},\\mathrm{fuel}}=67576.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L04:item1",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{1}=5120.00\\,\\mathrm{t}",
+        "z_{1}=10.4500\\,\\mathrm m",
+        "x_{1}=62.8500\\,\\mathrm m",
+        "P_{1}z_{1}=5120\\cdot10.45",
+        "=53504.00\\,\\mathrm{t\\cdot m}",
+        "P_{1}x_{1}=5120\\cdot62.85",
+        "=321792.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{1}=5120.00\\,\\mathrm{t}",
+        "z_{1}=10.4500\\,\\mathrm m",
+        "x_{1}=62.8500\\,\\mathrm m",
+        "P_{1}z_{1}=5120\\cdot10.45",
+        "=53504.00\\,\\mathrm{t\\cdot m}",
+        "P_{1}x_{1}=5120\\cdot62.85",
+        "=321792.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item2",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{2}=3000.00\\,\\mathrm{t}",
+        "z_{2}=5.3900\\,\\mathrm m",
+        "x_{2}=121.3300\\,\\mathrm m",
+        "P_{2}z_{2}=3000\\cdot5.39",
+        "=16170.00\\,\\mathrm{t\\cdot m}",
+        "P_{2}x_{2}=3000\\cdot121.33",
+        "=363990.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{2}=3000.00\\,\\mathrm{t}",
+        "z_{2}=5.3900\\,\\mathrm m",
+        "x_{2}=121.3300\\,\\mathrm m",
+        "P_{2}z_{2}=3000\\cdot5.39",
+        "=16170.00\\,\\mathrm{t\\cdot m}",
+        "P_{2}x_{2}=3000\\cdot121.33",
+        "=363990.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item3",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{3}=4000.00\\,\\mathrm{t}",
+        "z_{3}=6.0200\\,\\mathrm m",
+        "x_{3}=97.0000\\,\\mathrm m",
+        "P_{3}z_{3}=4000\\cdot6.02",
+        "=24080.00\\,\\mathrm{t\\cdot m}",
+        "P_{3}x_{3}=4000\\cdot97",
+        "=388000.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{3}=4000.00\\,\\mathrm{t}",
+        "z_{3}=6.0200\\,\\mathrm m",
+        "x_{3}=97.0000\\,\\mathrm m",
+        "P_{3}z_{3}=4000\\cdot6.02",
+        "=24080.00\\,\\mathrm{t\\cdot m}",
+        "P_{3}x_{3}=4000\\cdot97",
+        "=388000.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item4",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{4}=4000.00\\,\\mathrm{t}",
+        "z_{4}=6.1500\\,\\mathrm m",
+        "x_{4}=67.0000\\,\\mathrm m",
+        "P_{4}z_{4}=4000\\cdot6.15",
+        "=24600.00\\,\\mathrm{t\\cdot m}",
+        "P_{4}x_{4}=4000\\cdot67",
+        "=268000.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{4}=4000.00\\,\\mathrm{t}",
+        "z_{4}=6.1500\\,\\mathrm m",
+        "x_{4}=67.0000\\,\\mathrm m",
+        "P_{4}z_{4}=4000\\cdot6.15",
+        "=24600.00\\,\\mathrm{t\\cdot m}",
+        "P_{4}x_{4}=4000\\cdot67",
+        "=268000.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item5",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{5}=3000.00\\,\\mathrm{t}",
+        "z_{5}=5.2200\\,\\mathrm m",
+        "x_{5}=41.5000\\,\\mathrm m",
+        "P_{5}z_{5}=3000\\cdot5.22",
+        "=15660.00\\,\\mathrm{t\\cdot m}",
+        "P_{5}x_{5}=3000\\cdot41.5",
+        "=124500.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{5}=3000.00\\,\\mathrm{t}",
+        "z_{5}=5.2200\\,\\mathrm m",
+        "x_{5}=41.5000\\,\\mathrm m",
+        "P_{5}z_{5}=3000\\cdot5.22",
+        "=15660.00\\,\\mathrm{t\\cdot m}",
+        "P_{5}x_{5}=3000\\cdot41.5",
+        "=124500.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item6",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{6}=100.00\\,\\mathrm{t}",
+        "z_{6}=17.9000\\,\\mathrm m",
+        "x_{6}=79.4000\\,\\mathrm m",
+        "P_{6}z_{6}=100\\cdot17.9",
+        "=1790.00\\,\\mathrm{t\\cdot m}",
+        "P_{6}x_{6}=100\\cdot79.4",
+        "=7940.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{6}=100.00\\,\\mathrm{t}",
+        "z_{6}=17.9000\\,\\mathrm m",
+        "x_{6}=79.4000\\,\\mathrm m",
+        "P_{6}z_{6}=100\\cdot17.9",
+        "=1790.00\\,\\mathrm{t\\cdot m}",
+        "P_{6}x_{6}=100\\cdot79.4",
+        "=7940.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item7",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{7}=1069.00\\,\\mathrm{t}",
+        "z_{7}=1.9153\\,\\mathrm m",
+        "x_{7}=63.2146\\,\\mathrm m",
+        "M_{z,f}=2047.50\\,\\mathrm{t\\cdot m}",
+        "M_{x,f}=67576.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{7}=1069.00\\,\\mathrm{t}",
+        "z_{7}=1.9153\\,\\mathrm m",
+        "x_{7}=63.2146\\,\\mathrm m",
+        "M_{\\text{оп},\\mathrm{fuel}}=2047.50\\,\\mathrm{t\\cdot m}",
+        "M_{\\text{кп},\\mathrm{fuel}}=67576.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L04:item8",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{8}=200.00\\,\\mathrm{t}",
+        "z_{8}=9.1500\\,\\mathrm m",
+        "x_{8}=12.8400\\,\\mathrm m",
+        "P_{8}z_{8}=200\\cdot9.15",
+        "=1830.00\\,\\mathrm{t\\cdot m}",
+        "P_{8}x_{8}=200\\cdot12.84",
+        "=2568.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{8}=200.00\\,\\mathrm{t}",
+        "z_{8}=9.1500\\,\\mathrm m",
+        "x_{8}=12.8400\\,\\mathrm m",
+        "P_{8}z_{8}=200\\cdot9.15",
+        "=1830.00\\,\\mathrm{t\\cdot m}",
+        "P_{8}x_{8}=200\\cdot12.84",
+        "=2568.00\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item9",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{9}=66.00\\,\\mathrm{t}",
+        "z_{9}=10.1800\\,\\mathrm m",
+        "x_{9}=24.0100\\,\\mathrm m",
+        "P_{9}z_{9}=66\\cdot10.18",
+        "=671.88\\,\\mathrm{t\\cdot m}",
+        "P_{9}x_{9}=66\\cdot24.01",
+        "=1584.66\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{9}=66.00\\,\\mathrm{t}",
+        "z_{9}=10.1800\\,\\mathrm m",
+        "x_{9}=24.0100\\,\\mathrm m",
+        "P_{9}z_{9}=66\\cdot10.18",
+        "=671.88\\,\\mathrm{t\\cdot m}",
+        "P_{9}x_{9}=66\\cdot24.01",
+        "=1584.66\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item10",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{10}=23.00\\,\\mathrm{t}",
+        "z_{10}=0.7500\\,\\mathrm m",
+        "x_{10}=17.8300\\,\\mathrm m",
+        "P_{10}z_{10}=23\\cdot0.75",
+        "=17.25\\,\\mathrm{t\\cdot m}",
+        "P_{10}x_{10}=23\\cdot17.83",
+        "=410.09\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{10}=23.00\\,\\mathrm{t}",
+        "z_{10}=0.7500\\,\\mathrm m",
+        "x_{10}=17.8300\\,\\mathrm m",
+        "P_{10}z_{10}=23\\cdot0.75",
+        "=17.25\\,\\mathrm{t\\cdot m}",
+        "P_{10}x_{10}=23\\cdot17.83",
+        "=410.09\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item11",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{11}=18.00\\,\\mathrm{t}",
+        "z_{11}=12.1800\\,\\mathrm m",
+        "x_{11}=15.6600\\,\\mathrm m",
+        "P_{11}z_{11}=18\\cdot12.18",
+        "=219.24\\,\\mathrm{t\\cdot m}",
+        "P_{11}x_{11}=18\\cdot15.66",
+        "=281.88\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{11}=18.00\\,\\mathrm{t}",
+        "z_{11}=12.1800\\,\\mathrm m",
+        "x_{11}=15.6600\\,\\mathrm m",
+        "P_{11}z_{11}=18\\cdot12.18",
+        "=219.24\\,\\mathrm{t\\cdot m}",
+        "P_{11}x_{11}=18\\cdot15.66",
+        "=281.88\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item12",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{12}=5.00\\,\\mathrm{t}",
+        "z_{12}=10.7700\\,\\mathrm m",
+        "x_{12}=139.0800\\,\\mathrm m",
+        "P_{12}z_{12}=5\\cdot10.77",
+        "=53.85\\,\\mathrm{t\\cdot m}",
+        "P_{12}x_{12}=5\\cdot139.08",
+        "=695.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{12}=5.00\\,\\mathrm{t}",
+        "z_{12}=10.7700\\,\\mathrm m",
+        "x_{12}=139.0800\\,\\mathrm m",
+        "P_{12}z_{12}=5\\cdot10.77",
+        "=53.85\\,\\mathrm{t\\cdot m}",
+        "P_{12}x_{12}=5\\cdot139.08",
+        "=695.40\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L04:item13",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "P_{13}=15.00\\,\\mathrm{t}",
+        "z_{13}=15.6900\\,\\mathrm m",
+        "x_{13}=20.6400\\,\\mathrm m",
+        "P_{13}z_{13}=15\\cdot15.69",
+        "=235.35\\,\\mathrm{t\\cdot m}",
+        "P_{13}x_{13}=15\\cdot20.64",
+        "=309.60\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "P_{13}=15.00\\,\\mathrm{t}",
+        "z_{13}=15.6900\\,\\mathrm m",
+        "x_{13}=20.6400\\,\\mathrm m",
+        "P_{13}z_{13}=15\\cdot15.69",
+        "=235.35\\,\\mathrm{t\\cdot m}",
+        "P_{13}x_{13}=15\\cdot20.64",
+        "=309.60\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L05:P_t",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "D=\\sum P_i",
+        "=20616.00\\,\\mathrm{t}"
+      ],
+      "after": [
+        "\\Delta=\\sum P_i",
+        "=20616.00\\,\\mathrm{t}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L05:moment_z_tm",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "M_z=\\sum P_i z_i",
+        "=140879.07\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "M_{\\text{оп}}=\\sum P_i z_i",
+        "=140879.07\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L05:moment_x_tm",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "M_x=\\sum P_i x_i",
+        "=1547648.03\\,\\mathrm{t\\cdot m}"
+      ],
+      "after": [
+        "M_{\\text{кп}}=\\sum P_i x_i",
+        "=1547648.03\\,\\mathrm{t\\cdot m}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L06:z",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "z_G=\\frac{M_z}{D}",
+        "=\\frac{140879.07}{20616}",
+        "=6.8335\\,\\mathrm m"
+      ],
+      "after": [
+        "z_G=\\frac{M_{\\text{оп}}}{\\Delta}",
+        "=\\frac{140879.07}{20616}",
+        "=6.8335\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "L06:x",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "x_G=\\frac{M_x}{D}",
+        "=\\frac{1547648.03}{20616}",
+        "=75.0702\\,\\mathrm m"
+      ],
+      "after": [
+        "x_G=\\frac{M_{\\text{кп}}}{\\Delta}",
+        "=\\frac{1547648.03}{20616}",
+        "=75.0702\\,\\mathrm m"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T:task",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{gr}=30700\\,\\mathrm t",
+        "v=15.9\\,\\mathrm{kn}",
+        "R=5500\\,\\mathrm{nmi}",
+        "D\\;=?"
+      ],
+      "after": [
+        "P_{\\text{гр}}=30700\\,\\mathrm t",
+        "v=15.9\\,\\mathrm{kn}",
+        "R=5500\\,\\mathrm{nmi}",
+        "D\\;=?"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T:liquid",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "T:prototype",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D_0=27590\\,\\mathrm t",
+        "N_0=8580\\,\\mathrm{kW}",
+        "v_0=15\\,\\mathrm{kn}",
+        "R_0=5000\\,\\mathrm{nmi}"
+      ],
+      "after": [
+        "D_0=27590\\,\\mathrm t",
+        "N_0=8580\\,\\mathrm{kW}",
+        "v_0=15\\,\\mathrm{kn}",
+        "R_0=5000\\,\\mathrm{nmi}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T01:crew",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{crew}=0.12\\cdot20=2.40\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{эк}}=0.12\\cdot20=2.40\\,\\mathrm t"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T01:food",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{food}=0.003\\cdot20\\cdot35",
+        "=2.10\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{пров}}=0.003\\cdot20\\cdot35",
+        "=2.10\\,\\mathrm t"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T01:water",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_{water}=0.15\\cdot20\\cdot20",
+        "=60.00\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{пр.вод}}=0.15\\cdot20\\cdot20",
+        "=60.00\\,\\mathrm t"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T01:total",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_s=2.40+2.10+60+20",
+        "=84.50\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{сн}}=2.40+2.10+60+20",
+        "=84.50\\,\\mathrm t"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T02:hull",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "p_h=\\frac{P_{h0}}{D_0}=\\frac{6720}{27590}",
+        "\\approx0.24",
+        "P_h=p_hD"
+      ],
+      "after": [
+        "p_{\\text{к.об.}}=\\frac{P_{\\text{к.об.}0}}{D_0}=\\frac{6720}{27590}",
+        "\\approx0.24",
+        "P_{\\text{к.об.}}=p_{\\text{к.об.}}D"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T02:engine",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "p_e=\\frac{720}{8580}\\approx0.08",
+        "[p_e]=\\mathrm{t/kW}",
+        "P_e=p_eN"
+      ],
+      "after": [
+        "p_{\\text{сэу}}=\\frac{720}{8580}\\approx0.08",
+        "[p_{\\text{сэу}}]=\\mathrm{t/kW}",
+        "P_{\\text{сэу}}=p_{\\text{сэу}}N"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T02:fuel",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "t=\\frac{R}{v}\\quad[\\mathrm h]",
+        "p_f=\\frac{690\\cdot15}{8580\\cdot5000}",
+        "\\approx0.00024\\,\\mathrm{t/(kW\\cdot h)}",
+        "P_f=p_fN\\frac{R}{v}"
+      ],
+      "after": [
+        "p_{\\text{сэз}}=\\frac{690}{8580\\cdot\\frac{5000}{15}}",
+        "\\approx0.00024\\,\\mathrm{t/(kW\\cdot h)}",
+        "P_{\\text{сэз}}=p_{\\text{сэз}}Nt_{\\text{ход}}",
+        "\\frac{\\mathrm t}{\\mathrm{kW\\cdot h}}\\cdot\\mathrm{kW}\\cdot\\mathrm h=\\mathrm t"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "t_{\\text{ход}}=\\frac{R}{v}\\quad[\\mathrm h]",
+        "p_{\\text{сэз}}=\\frac{690\\cdot15}{8580\\cdot5000}",
+        "\\approx0.00024\\,\\mathrm{t/(kW\\cdot h)}",
+        "P_{\\text{сэз}}=p_{\\text{сэз}}N\\frac{R}{v}"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T02:admiralty",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "C_A=\\frac{D_0^{2/3}v_0^3}{N_0}",
+        "=\\frac{27590^{2/3}\\cdot15^3}{8580}",
+        "=359.16",
+        "N=\\frac{D^{2/3}v^3}{C_A}"
+      ],
+      "after": [
+        "C_{\\text{А}}=\\frac{D_0^{2/3}v_0^3}{N_0}",
+        "=\\frac{27590^{2/3}\\cdot15^3}{8580}",
+        "=359.16",
+        "N=\\frac{D^{2/3}v^3}{C_{\\text{А}}}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T02:precision",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "T03:dependencies",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D\\longrightarrow P_h=p_hD"
+      ],
+      "after": [
+        "D\\longrightarrow P_{\\text{к.об.}}=p_{\\text{к.об.}}D"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T03:power_dependency",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D\\longrightarrow N\\propto D^{2/3}"
+      ],
+      "after": [
+        "D\\longrightarrow N\\propto D^{2/3}"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T03:fuel_dependency",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "N\\longrightarrow P_e,\\ P_f"
+      ],
+      "after": [
+        "N\\longrightarrow P_{\\text{сэу}},\\ P_{\\text{сэз}}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T03:reserve",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_r=0.01D"
+      ],
+      "after": [
+        "P_{\\text{зв}}=0.01D"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T03:balance",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D=P_h+P_e+P_f",
+        "\\quad+P_r+P_s+P_{gr}",
+        "P_r=0.01D",
+        "P_s+P_{gr}=84.50+30700"
+      ],
+      "after": [
+        "D=P_{\\text{к.об.}}+P_{\\text{сэу}}+P_{\\text{сэз}}",
+        "\\quad+P_{\\text{зв}}+P_{\\text{сн}}+P_{\\text{гр}}",
+        "P_{\\text{зв}}=0.01D",
+        "P_{\\text{сн}}+P_{\\text{гр}}=84.50+30700"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T03:substitute",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_e=p_e\\frac{v^3}{C_A}D^{2/3}",
+        "P_f=p_f\\frac{Rv^2}{C_A}D^{2/3}"
+      ],
+      "after": [
+        "P_{\\text{сэу}}=p_{\\text{сэу}}\\frac{v^3}{C_{\\text{А}}}D^{2/3}",
+        "P_{\\text{сэз}}=p_{\\text{сэз}}\\frac{Rv^2}{C_{\\text{А}}}D^{2/3}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T03:a",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "a=1-p_h-0.01",
+        "=1-\\frac{6720}{27590}-0.01",
+        "=0.7464334904"
+      ],
+      "after": [
+        "a=1-p_{\\text{к.об.}}-0.01",
+        "=1-\\frac{6720}{27590}-0.01",
+        "=0.7464334904"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T03:b",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "b=\\left(p_e+p_f\\frac{R}{v}\\right)\\frac{v^3}{C_A}",
+        "=1.8731920869"
+      ],
+      "after": [
+        "b=\\left(p_{\\text{сэу}}+p_{\\text{сэз}}\\frac{R}{v}\\right)\\frac{v^3}{C_{\\text{А}}}",
+        "=1.8731920869"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T03:c",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "c=P_{gr}+P_s=30784.50",
+        "aD-bD^{2/3}-c=0"
+      ],
+      "after": [
+        "P=P_{\\text{гр}}+P_{\\text{сн}}=30784.50",
+        "aD-bD^{2/3}-P=0"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T04:transform",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "X=\\sqrt[3]{D},\\quad D=X^3",
+        "f(X)=aX^3-bX^2-c=0"
+      ],
+      "after": [
+        "X=\\sqrt[3]{D},\\quad D=X^3",
+        "f(X)=aX^3-bX^2-P=0"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T04:bracket",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "X\\in[1,100]",
+        "f(l)f(r)<0"
+      ],
+      "after": [
+        "X\\in[1,100]",
+        "f(l)f(r)<0"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T04:iteration1",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "l=1.0000000000",
+        "r=100.0000000000",
+        "X=\\frac{l+r}{2}",
+        "=50.5000000000",
+        "f(X)=60569.7883288370"
+      ],
+      "after": [
+        "l=1.0000000000",
+        "r=100.0000000000",
+        "X=\\frac{l+r}{2}",
+        "=50.5000000000",
+        "f(X)=60569.7883288370"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T04:iteration2",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "l=1.0000000000",
+        "r=50.5000000000",
+        "X=\\frac{l+r}{2}",
+        "=25.7500000000",
+        "f(X)=-19282.0429803211"
+      ],
+      "after": [
+        "l=1.0000000000",
+        "r=50.5000000000",
+        "X=\\frac{l+r}{2}",
+        "=25.7500000000",
+        "f(X)=-19282.0429803211"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T04:iteration3",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "l=25.7500000000",
+        "r=50.5000000000",
+        "X=\\frac{l+r}{2}",
+        "=38.1250000000",
+        "f(X)=7856.6092956114"
+      ],
+      "after": [
+        "l=25.7500000000",
+        "r=50.5000000000",
+        "X=\\frac{l+r}{2}",
+        "=38.1250000000",
+        "f(X)=7856.6092956114"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T04:trace",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "n=4",
+        "l=25.7500000000",
+        "r=38.1250000000",
+        "X=31.9375000000",
+        "f=-8379.0661323557",
+        "n=5",
+        "l=31.9375000000",
+        "r=38.1250000000",
+        "X=35.0312500000",
+        "f=-994.1240602050",
+        "n=6",
+        "l=35.0312500000",
+        "r=38.1250000000",
+        "X=36.5781250000",
+        "f=3239.7301673285",
+        "n=7",
+        "l=35.0312500000",
+        "r=36.5781250000",
+        "X=35.8046875000",
+        "f=1075.9610084576",
+        "n=8",
+        "l=35.0312500000",
+        "r=35.8046875000",
+        "X=35.4179687500",
+        "f=29.3374712865",
+        "n=9",
+        "l=35.0312500000",
+        "r=35.4179687500",
+        "X=35.2246093750",
+        "f=-485.2723566147",
+        "n=10",
+        "l=35.2246093750",
+        "r=35.4179687500",
+        "X=35.3212890625",
+        "f=-228.6892317723",
+        "n=11",
+        "l=35.3212890625",
+        "r=35.4179687500",
+        "X=35.3696289062",
+        "f=-99.8565804661",
+        "n=12",
+        "l=35.3696289062",
+        "r=35.4179687500",
+        "X=35.3937988281",
+        "f=-35.3047612639",
+        "n=13",
+        "l=35.3937988281",
+        "r=35.4179687500",
+        "X=35.4058837891",
+        "f=-2.9949506095",
+        "n=14",
+        "l=35.4058837891",
+        "r=35.4179687500",
+        "X=35.4119262695",
+        "f=13.1684334393",
+        "n=15",
+        "l=35.4058837891",
+        "r=35.4119262695",
+        "X=35.4089050293",
+        "f=5.0860347518",
+        "n=16",
+        "l=35.4058837891",
+        "r=35.4089050293",
+        "X=35.4073944092",
+        "f=1.0453654131",
+        "n=17",
+        "l=35.4058837891",
+        "r=35.4073944092",
+        "X=35.4066390991",
+        "f=-0.9748367617",
+        "n=18",
+        "l=35.4066390991",
+        "r=35.4073944092",
+        "X=35.4070167542",
+        "f=0.0352532847",
+        "n=19",
+        "l=35.4066390991",
+        "r=35.4070167542",
+        "X=35.4068279266",
+        "f=-0.4697944987",
+        "n=20",
+        "l=35.4068279266",
+        "r=35.4070167542",
+        "X=35.4069223404",
+        "f=-0.2172712971",
+        "n=21",
+        "l=35.4069223404",
+        "r=35.4070167542",
+        "X=35.4069695473",
+        "f=-0.0910091787",
+        "n=22",
+        "l=35.4069695473",
+        "r=35.4070167542",
+        "X=35.4069931507",
+        "f=-0.0278779901",
+        "n=23",
+        "l=35.4069931507",
+        "r=35.4070167542",
+        "X=35.4070049524",
+        "f=0.0036876365",
+        "n=24",
+        "l=35.4069931507",
+        "r=35.4070049524",
+        "X=35.4069990516",
+        "f=-0.0120951795",
+        "n=25",
+        "l=35.4069990516",
+        "r=35.4070049524",
+        "X=35.4070020020",
+        "f=-0.0042037722",
+        "n=26",
+        "l=35.4070020020",
+        "r=35.4070049524",
+        "X=35.4070034772",
+        "f=-0.0002580680",
+        "n=27",
+        "l=35.4070034772",
+        "r=35.4070049524",
+        "X=35.4070042148",
+        "f=0.0017147842",
+        "n=28",
+        "l=35.4070034772",
+        "r=35.4070042148",
+        "X=35.4070038460",
+        "f=0.0007283581",
+        "n=29",
+        "l=35.4070034772",
+        "r=35.4070038460",
+        "X=35.4070036616",
+        "f=0.0002351450",
+        "n=30",
+        "l=35.4070034772",
+        "r=35.4070036616",
+        "X=35.4070035694",
+        "f=-0.0000114615",
+        "n=31",
+        "l=35.4070035694",
+        "r=35.4070036616",
+        "X=35.4070036155",
+        "f=0.0001118418",
+        "n=32",
+        "l=35.4070035694",
+        "r=35.4070036155",
+        "X=35.4070035925",
+        "f=0.0000501901",
+        "n=33",
+        "l=35.4070035694",
+        "r=35.4070035925",
+        "X=35.4070035809",
+        "f=0.0000193643",
+        "n=34",
+        "l=35.4070035694",
+        "r=35.4070035809",
+        "X=35.4070035752",
+        "f=0.0000039514",
+        "n=35",
+        "l=35.4070035694",
+        "r=35.4070035752",
+        "X=35.4070035723",
+        "f=-0.0000037550",
+        "n=36",
+        "l=35.4070035723",
+        "r=35.4070035752",
+        "X=35.4070035737",
+        "f=0.0000000982",
+        "n=37",
+        "l=35.4070035723",
+        "r=35.4070035737",
+        "X=35.4070035730",
+        "f=-0.0000018284",
+        "n=38",
+        "l=35.4070035730",
+        "r=35.4070035737",
+        "X=35.4070035734",
+        "f=-0.0000008651",
+        "n=39",
+        "l=35.4070035734",
+        "r=35.4070035737",
+        "X=35.4070035736",
+        "f=-0.0000003835",
+        "n=40",
+        "l=35.4070035736",
+        "r=35.4070035737",
+        "X=35.4070035736",
+        "f=-0.0000001426",
+        "n=41",
+        "l=35.4070035736",
+        "r=35.4070035737",
+        "X=35.4070035737",
+        "f=-0.0000000222"
+      ],
+      "after": [
+        "n=4",
+        "l=25.7500000000",
+        "r=38.1250000000",
+        "X=31.9375000000",
+        "f=-8379.0661323557",
+        "n=5",
+        "l=31.9375000000",
+        "r=38.1250000000",
+        "X=35.0312500000",
+        "f=-994.1240602050",
+        "n=6",
+        "l=35.0312500000",
+        "r=38.1250000000",
+        "X=36.5781250000",
+        "f=3239.7301673285",
+        "n=7",
+        "l=35.0312500000",
+        "r=36.5781250000",
+        "X=35.8046875000",
+        "f=1075.9610084576",
+        "n=8",
+        "l=35.0312500000",
+        "r=35.8046875000",
+        "X=35.4179687500",
+        "f=29.3374712865",
+        "n=9",
+        "l=35.0312500000",
+        "r=35.4179687500",
+        "X=35.2246093750",
+        "f=-485.2723566147",
+        "n=10",
+        "l=35.2246093750",
+        "r=35.4179687500",
+        "X=35.3212890625",
+        "f=-228.6892317723",
+        "n=11",
+        "l=35.3212890625",
+        "r=35.4179687500",
+        "X=35.3696289062",
+        "f=-99.8565804661",
+        "n=12",
+        "l=35.3696289062",
+        "r=35.4179687500",
+        "X=35.3937988281",
+        "f=-35.3047612639",
+        "n=13",
+        "l=35.3937988281",
+        "r=35.4179687500",
+        "X=35.4058837891",
+        "f=-2.9949506095",
+        "n=14",
+        "l=35.4058837891",
+        "r=35.4179687500",
+        "X=35.4119262695",
+        "f=13.1684334393",
+        "n=15",
+        "l=35.4058837891",
+        "r=35.4119262695",
+        "X=35.4089050293",
+        "f=5.0860347518",
+        "n=16",
+        "l=35.4058837891",
+        "r=35.4089050293",
+        "X=35.4073944092",
+        "f=1.0453654131",
+        "n=17",
+        "l=35.4058837891",
+        "r=35.4073944092",
+        "X=35.4066390991",
+        "f=-0.9748367617",
+        "n=18",
+        "l=35.4066390991",
+        "r=35.4073944092",
+        "X=35.4070167542",
+        "f=0.0352532847",
+        "n=19",
+        "l=35.4066390991",
+        "r=35.4070167542",
+        "X=35.4068279266",
+        "f=-0.4697944987",
+        "n=20",
+        "l=35.4068279266",
+        "r=35.4070167542",
+        "X=35.4069223404",
+        "f=-0.2172712971",
+        "n=21",
+        "l=35.4069223404",
+        "r=35.4070167542",
+        "X=35.4069695473",
+        "f=-0.0910091787",
+        "n=22",
+        "l=35.4069695473",
+        "r=35.4070167542",
+        "X=35.4069931507",
+        "f=-0.0278779901",
+        "n=23",
+        "l=35.4069931507",
+        "r=35.4070167542",
+        "X=35.4070049524",
+        "f=0.0036876365",
+        "n=24",
+        "l=35.4069931507",
+        "r=35.4070049524",
+        "X=35.4069990516",
+        "f=-0.0120951795",
+        "n=25",
+        "l=35.4069990516",
+        "r=35.4070049524",
+        "X=35.4070020020",
+        "f=-0.0042037722",
+        "n=26",
+        "l=35.4070020020",
+        "r=35.4070049524",
+        "X=35.4070034772",
+        "f=-0.0002580680",
+        "n=27",
+        "l=35.4070034772",
+        "r=35.4070049524",
+        "X=35.4070042148",
+        "f=0.0017147842",
+        "n=28",
+        "l=35.4070034772",
+        "r=35.4070042148",
+        "X=35.4070038460",
+        "f=0.0007283581",
+        "n=29",
+        "l=35.4070034772",
+        "r=35.4070038460",
+        "X=35.4070036616",
+        "f=0.0002351450",
+        "n=30",
+        "l=35.4070034772",
+        "r=35.4070036616",
+        "X=35.4070035694",
+        "f=-0.0000114615",
+        "n=31",
+        "l=35.4070035694",
+        "r=35.4070036616",
+        "X=35.4070036155",
+        "f=0.0001118418",
+        "n=32",
+        "l=35.4070035694",
+        "r=35.4070036155",
+        "X=35.4070035925",
+        "f=0.0000501901",
+        "n=33",
+        "l=35.4070035694",
+        "r=35.4070035925",
+        "X=35.4070035809",
+        "f=0.0000193643",
+        "n=34",
+        "l=35.4070035694",
+        "r=35.4070035809",
+        "X=35.4070035752",
+        "f=0.0000039514",
+        "n=35",
+        "l=35.4070035694",
+        "r=35.4070035752",
+        "X=35.4070035723",
+        "f=-0.0000037550",
+        "n=36",
+        "l=35.4070035723",
+        "r=35.4070035752",
+        "X=35.4070035737",
+        "f=0.0000000982",
+        "n=37",
+        "l=35.4070035723",
+        "r=35.4070035737",
+        "X=35.4070035730",
+        "f=-0.0000018284",
+        "n=38",
+        "l=35.4070035730",
+        "r=35.4070035737",
+        "X=35.4070035734",
+        "f=-0.0000008651",
+        "n=39",
+        "l=35.4070035734",
+        "r=35.4070035737",
+        "X=35.4070035736",
+        "f=-0.0000003835",
+        "n=40",
+        "l=35.4070035736",
+        "r=35.4070035737",
+        "X=35.4070035736",
+        "f=-0.0000001426",
+        "n=41",
+        "l=35.4070035736",
+        "r=35.4070035737",
+        "X=35.4070035737",
+        "f=-0.0000000222"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T04:stop",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "|f|\\le10^{-8}",
+        "\\mathrm{or}\\quad r-l\\le10^{-10}",
+        "|f|=0.00000002221",
+        "r-l=0.00000000009",
+        "n\\le200"
+      ],
+      "after": [
+        "|f|\\le10^{-8}",
+        "\\mathrm{or}\\quad r-l\\le10^{-10}",
+        "|f|=0.00000002221",
+        "r-l=0.00000000009",
+        "n\\le200"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T04:report",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "X=35.4070035737",
+        "X_{\\mathrm{cube}}=35.4070",
+        "D_{\\mathrm{report}}=35.4070^3",
+        "=44388.19\\,\\mathrm t"
+      ],
+      "after": [
+        "X=35.4070035737",
+        "X_{\\mathrm{cube}}=35.4070",
+        "D_{\\mathrm{report}}=35.4070^3",
+        "=44388.19\\,\\mathrm t"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T05:adopt",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D_1=44388\\,\\mathrm t"
+      ],
+      "after": [
+        "D_1=44388\\,\\mathrm t"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T06:power",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "N_1=\\frac{44388^{2/3}\\cdot15.9^3}{C_A}",
+        "=14030.75\\,\\mathrm{kW}"
+      ],
+      "after": [
+        "N_1=\\frac{44388^{2/3}\\cdot15.9^3}{C_{\\text{А}}}",
+        "=14030.75\\,\\mathrm{kW}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T06:hull",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_h=\\frac{6720}{27590}\\cdot44388",
+        "=10811.43\\,\\mathrm{t}"
+      ],
+      "after": [
+        "P_{\\text{к.об.}1}=\\frac{6720}{27590}\\cdot44388",
+        "=10811.43\\,\\mathrm{t}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T06:engine",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_e=\\frac{720}{8580}\\cdot14030.75",
+        "=1177.41\\,\\mathrm{t}"
+      ],
+      "after": [
+        "P_{\\text{сэу}1}=\\frac{720}{8580}\\cdot14030.75",
+        "=1177.41\\,\\mathrm{t}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T06:fuel",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_f=p_f\\cdot14030.75\\cdot\\frac{5500}{15.9}",
+        "=1170.93\\,\\mathrm{t}"
+      ],
+      "after": [
+        "P_{\\text{сэз}1}=p_{\\text{сэз}}\\cdot14030.75\\cdot\\frac{5500}{15.9}",
+        "=1170.93\\,\\mathrm{t}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T06:reserve",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_r=0.01\\cdot44388",
+        "=443.88\\,\\mathrm{t}"
+      ],
+      "after": [
+        "P_{\\text{зв}1}=0.01\\cdot44388",
+        "=443.88\\,\\mathrm{t}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T07:round",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "84.50\\longrightarrow85\\,\\mathrm t"
+      ],
+      "after": [
+        "84.50\\longrightarrow85\\,\\mathrm t"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T07:row1",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_0=6720\\,\\mathrm{t}",
+        "\\frac{6720}{27590}\\cdot100\\%=24.36\\%",
+        "P_1=10811.43",
+        "\\longrightarrow 10811\\,\\mathrm t",
+        "\\frac{10811.43}{44388}\\cdot100\\%",
+        "=24.36\\%"
+      ],
+      "after": [
+        "P_{\\text{к.об.}0}=6720\\,\\mathrm{t}",
+        "\\frac{6720}{27590}\\cdot100\\%=24.36\\%",
+        "P_{\\text{к.об.}1}=10811.43",
+        "\\longrightarrow 10811\\,\\mathrm t",
+        "\\frac{10811.43}{44388}\\cdot100\\%",
+        "=24.36\\%"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T07:row2",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_0=720\\,\\mathrm{t}",
+        "\\frac{720}{27590}\\cdot100\\%=2.61\\%",
+        "P_1=1177.41",
+        "\\longrightarrow 1177\\,\\mathrm t",
+        "\\frac{1177.41}{44388}\\cdot100\\%",
+        "=2.65\\%"
+      ],
+      "after": [
+        "P_{\\text{сэу}0}=720\\,\\mathrm{t}",
+        "\\frac{720}{27590}\\cdot100\\%=2.61\\%",
+        "P_{\\text{сэу}1}=1177.41",
+        "\\longrightarrow 1177\\,\\mathrm t",
+        "\\frac{1177.41}{44388}\\cdot100\\%",
+        "=2.65\\%"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T07:row3",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_0=690\\,\\mathrm{t}",
+        "\\frac{690}{27590}\\cdot100\\%=2.50\\%",
+        "P_1=1170.93",
+        "\\longrightarrow 1171\\,\\mathrm t",
+        "\\frac{1170.93}{44388}\\cdot100\\%",
+        "=2.64\\%"
+      ],
+      "after": [
+        "P_{\\text{сэз}0}=690\\,\\mathrm{t}",
+        "\\frac{690}{27590}\\cdot100\\%=2.50\\%",
+        "P_{\\text{сэз}1}=1170.93",
+        "\\longrightarrow 1171\\,\\mathrm t",
+        "\\frac{1170.93}{44388}\\cdot100\\%",
+        "=2.64\\%"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T07:row4",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_0=140\\,\\mathrm{t}",
+        "\\frac{140}{27590}\\cdot100\\%=0.51\\%",
+        "P_1=443.88",
+        "\\longrightarrow 444\\,\\mathrm t",
+        "\\frac{443.88}{44388}\\cdot100\\%",
+        "=1.00\\%"
+      ],
+      "after": [
+        "P_{\\text{зв}0}=140\\,\\mathrm{t}",
+        "\\frac{140}{27590}\\cdot100\\%=0.51\\%",
+        "P_{\\text{зв}1}=443.88",
+        "\\longrightarrow 444\\,\\mathrm t",
+        "\\frac{443.88}{44388}\\cdot100\\%",
+        "=1.00\\%"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T07:row5",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_0=175\\,\\mathrm{t}",
+        "\\frac{175}{27590}\\cdot100\\%=0.63\\%",
+        "P_1=84.50",
+        "\\longrightarrow 85\\,\\mathrm t",
+        "\\frac{84.50}{44388}\\cdot100\\%",
+        "=0.19\\%"
+      ],
+      "after": [
+        "P_{\\text{сн}0}=175\\,\\mathrm{t}",
+        "\\frac{175}{27590}\\cdot100\\%=0.63\\%",
+        "P_{\\text{сн}1}=84.50",
+        "\\longrightarrow 85\\,\\mathrm t",
+        "\\frac{84.50}{44388}\\cdot100\\%",
+        "=0.19\\%"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T07:row6",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "P_0=19145\\,\\mathrm{t}",
+        "\\frac{19145}{27590}\\cdot100\\%=69.39\\%",
+        "P_1=30700.00",
+        "\\longrightarrow 30700\\,\\mathrm t",
+        "\\frac{30700.00}{44388}\\cdot100\\%",
+        "=69.16\\%"
+      ],
+      "after": [
+        "P_{\\text{гр}0}=19145\\,\\mathrm{t}",
+        "\\frac{19145}{27590}\\cdot100\\%=69.39\\%",
+        "P_{\\text{гр}1}=30700.00",
+        "\\longrightarrow 30700\\,\\mathrm t",
+        "\\frac{30700.00}{44388}\\cdot100\\%",
+        "=69.16\\%"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T07:check",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "10811+1177+1171",
+        "+444+85+30700",
+        "=44388\\,\\mathrm t",
+        "\\sum P_i-D_1=0"
+      ],
+      "after": [
+        "10811+1177+1171",
+        "+444+85+30700",
+        "=44388\\,\\mathrm t",
+        "\\sum P_i-D_1=0"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T08:goal",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D_1=44388\\,\\mathrm t",
+        "L,B,T,H\\;=?"
+      ],
+      "after": [
+        "D_1=44388\\,\\mathrm t",
+        "L_1,B_1,T_1,H_1\\;=?"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T08:length",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\ell=2.13\\sqrt[3]{15.9}=5.3560585",
+        "L=\\ell\\sqrt[3]{44388}",
+        "L_1=189.64\\,\\mathrm m"
+      ],
+      "after": [
+        "l=2.13\\sqrt[3]{v}",
+        "L_1=l\\sqrt[3]{D_1}",
+        "l=2.13\\sqrt[3]{15.9}=5.3560585",
+        "L_1=189.64\\,\\mathrm m"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "l=2.13\\sqrt[3]{15.9}=5.3560585",
+        "L_1=l\\sqrt[3]{44388}",
+        "L_1=189.64\\,\\mathrm m"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T09:froude",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\mathrm{Fr}=\\frac{0.514v}{\\sqrt{gL}}",
+        "=\\frac{0.514\\cdot15.9}{\\sqrt{9.81\\cdot189.64}}",
+        "=0.18947886"
+      ],
+      "after": [
+        "\\mathrm{Fr}=\\frac{0.514v}{\\sqrt{gL}}",
+        "=\\frac{0.514\\cdot15.9}{\\sqrt{9.81\\cdot189.64}}",
+        "=0.18947886"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T09:delta",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\delta=\\frac{\\nabla}{LBT}",
+        "\\delta_{calc}=1.05-1.4\\mathrm{Fr}",
+        "=0.78472959",
+        "\\delta=0.785"
+      ],
+      "after": [
+        "\\delta=\\frac{V}{L_1B_1T_1}",
+        "\\delta_{\\mathrm{calc}}=1.05-1.4\\mathrm{Fr}",
+        "=0.78472959",
+        "\\delta=0.785"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T09:alpha",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\alpha=\\frac{A_{WL}}{LB}",
+        "\\alpha_{calc}=0.96\\sqrt{\\delta_{calc}}",
+        "=0.85041566",
+        "\\alpha=0.850"
+      ],
+      "after": [
+        "\\alpha=\\frac{S}{L_1B_1}",
+        "\\alpha_{\\mathrm{calc}}=0.96\\sqrt{\\delta_{\\mathrm{calc}}}",
+        "=0.85041566",
+        "\\alpha=0.850"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T09:zeta",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\zeta=\\frac{z_{G0}}{H_0}=\\frac{8.31}{13.4}",
+        "\\zeta=0.62,\\quad z_G=\\zeta H"
+      ],
+      "after": [
+        "\\zeta=\\frac{Z_{g0}}{H_0}=\\frac{8.31}{13.4}",
+        "\\zeta=0.62,\\quad Z_g=\\zeta H_1"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "\\zeta=\\frac{z_{\\text{г}0}}{H_0}=\\frac{8.31}{13.4}",
+        "\\zeta=0.62,\\quad z_{\\text{г}}=\\zeta H_1"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit",
+      "verified_teacher_symbol": "2p/КП-ПС-1 приближение.docx: Z_g, Z_g0 (Latin g)"
+    },
+    {
+      "id": "T09:underdeck",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\delta_{pp}=\\delta+0.035",
+        "=0.785+0.035=0.82"
+      ],
+      "after": [
+        "\\delta_{\\text{пп}}=\\delta+0.035",
+        "=0.785+0.035=0.82"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T10:mu",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\mu=\\frac{4715}{8580}",
+        "\\mu_{adopt}=0.55\\,\\mathrm{m^3/kW}"
+      ],
+      "after": [
+        "\\mu_{\\text{сэу}}=\\frac{4715}{8580}",
+        "\\mu_{\\text{сэу}}=0.55\\,\\mathrm{m^3/kW}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T11:cargo",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_c=1.04\\frac{30700}{0.9}",
+        "=35475.56\\,\\mathrm{m^3}"
+      ],
+      "after": [
+        "W_{\\text{гр}}=1.04\\frac{30700}{0.9}",
+        "=35475.56\\,\\mathrm{m^3}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T11:engine",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_e=0.55\\cdot14030.75",
+        "=7716.91\\,\\mathrm{m^3}"
+      ],
+      "after": [
+        "W_{\\text{сэу}}=0.55\\cdot14030.75",
+        "=7716.91\\,\\mathrm{m^3}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T11:fuel",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_f=\\frac{1170.93}{0.85}",
+        "=1377.56\\,\\mathrm{m^3}"
+      ],
+      "after": [
+        "W_{\\text{сэз}}=\\frac{1170.93}{0.85}",
+        "=1377.56\\,\\mathrm{m^3}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T11:water",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_w=\\frac{60}{1}",
+        "=60.00\\,\\mathrm{m^3}"
+      ],
+      "after": [
+        "W_{\\text{пр.вод}}=\\frac{60}{1}",
+        "=60.00\\,\\mathrm{m^3}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T11:ballast",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_b=0.38\\cdot35475.56",
+        "=13480.71\\,\\mathrm{m^3}"
+      ],
+      "after": [
+        "W_{\\text{бл}}=0.38W_{\\text{гр}}",
+        "=0.38\\cdot35475.56",
+        "=13480.71\\,\\mathrm m^3"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "W_{\\text{бл}}=0.38\\cdot35475.56",
+        "=13480.71\\,\\mathrm{m^3}"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T11:total",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_\\Sigma=35475.56+7716.91",
+        "+1377.56+60+13480.71",
+        "W_{req}=1.06W_\\Sigma",
+        "=61597.38\\,\\mathrm m^3"
+      ],
+      "after": [
+        "W_{\\mathrm{sum}}=35475.56+7716.91",
+        "+1377.56+60+13480.71",
+        "k_{\\mathrm{co}}=1.06",
+        "W_{\\mathrm{req}}=k_{\\mathrm{co}}W_{\\mathrm{sum}}",
+        "=61597.38\\,\\mathrm m^3"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "W_{\\mathrm{sum}}=35475.56+7716.91",
+        "+1377.56+60+13480.71",
+        "W_{\\mathrm{req}}=1.06W_{\\mathrm{sum}}",
+        "=61597.38\\,\\mathrm m^3"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit",
+      "verified_teacher_symbol": "2p/КП-ПС-1 приближение.docx: k_co (Latin co)"
+    },
+    {
+      "id": "T12:float:meaning",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D=\\rho\\nabla",
+        "\\nabla=k\\delta LBT"
+      ],
+      "after": [
+        "V=\\delta L_1B_1T_1",
+        "D_1=k\\rho V",
+        "k=1.005",
+        "\\rho=1.025\\,\\mathrm{t/m^3}"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "D_1=\\rho\\nabla",
+        "V=k\\delta L_1B_1T_1"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T12:float",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "BT=\\frac{D}{k\\rho\\delta L}",
+        "=\\frac{44388}{\\begin{gathered}1.005\\cdot1.025\\cdot0.785\\\\\\cdot189.64\\end{gathered}}",
+        "=289.45\\,\\mathrm m^2"
+      ],
+      "after": [
+        "B_1T_1=\\frac{D_1}{k\\rho\\delta L_1}",
+        "=\\frac{44388}{\\begin{gathered}1.005\\cdot1.025\\cdot0.785\\\\\\cdot189.64\\end{gathered}}",
+        "=289.45\\,\\mathrm m^2"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T12:capacity",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "W_{req}=\\delta_{pp}LBH",
+        "BH=\\frac{61597.38}{0.82\\cdot189.64}",
+        "=396.11\\,\\mathrm m^2"
+      ],
+      "after": [
+        "W_{\\mathrm{req}}=\\delta_{\\text{пп}}L_1B_1H_1",
+        "B_1H_1=\\frac{61597.38}{0.82\\cdot189.64}",
+        "=396.11\\,\\mathrm m^2"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T12:centres",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "T12:metacentre",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "T12:stability:meaning",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "h=GM=KB+BM-KG"
+      ],
+      "after": [
+        "h=z_c+r-Z_g",
+        "z_c=KC",
+        "r=CM",
+        "Z_g=KG"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "h=GM=KB+BM-KG"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T12:stability",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "KB=0.50\\sqrt{\\frac{\\alpha}{\\delta}}T",
+        "BM=\\frac{0.0862\\alpha^2B^2}{\\delta T}",
+        "KG=\\zeta H",
+        "KB+BM-KG=0.06B"
+      ],
+      "after": [
+        "z_c=0.50\\sqrt{\\frac{\\alpha}{\\delta}}T_1",
+        "r=\\frac{0.0862\\alpha^2B_1^2}{\\delta T_1}",
+        "Z_g=\\zeta H_1",
+        "z_c+r-Z_g=0.06B_1"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "KB=0.50\\sqrt{\\frac{\\alpha}{\\delta}}T_1",
+        "BM=\\frac{0.0862\\alpha^2B_1^2}{\\delta T_1}",
+        "KG=\\zeta H_1",
+        "KB+BM-KG=0.06B_1"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T13:eliminate",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "T=\\frac{289.45}{B}",
+        "H=\\frac{396.11}{B}"
+      ],
+      "after": [
+        "T_1=\\frac{289.45}{B_1}",
+        "H_1=\\frac{396.11}{B_1}"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T13:function",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "f(B)=0.50\\sqrt{\\frac{0.850}{0.785}}\\frac{289.45}{B}",
+        "+\\frac{0.0862\\cdot0.850^2B^2}{0.785(289.45/B)}",
+        "-0.62\\frac{396.11}{B}-0.06B",
+        "f(B)=0"
+      ],
+      "after": [
+        "f(B_1)=0.50\\sqrt{\\frac{0.850}{0.785}}\\frac{289.45}{B_1}",
+        "+\\frac{0.0862\\cdot0.850^2B_1^2}{0.785(\\frac{289.45}{B_1})}",
+        "-0.62\\frac{396.11}{B_1}-0.06B_1",
+        "f(B_1)=0"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "f(B_1)=0.50\\sqrt{\\frac{0.850}{0.785}}\\frac{289.45}{B_1}",
+        "+\\frac{0.0862\\cdot0.850^2B_1^2}{0.785(289.45/B_1)}",
+        "-0.62\\frac{396.11}{B_1}-0.06B_1",
+        "f(B_1)=0"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T13:bracket",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "B\\in[12.25,49]",
+        "f(l)f(r)<0"
+      ],
+      "after": [
+        "B_1\\in[12.25,49]",
+        "f(l)f(r)<0"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T13:iteration1",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "l=12.2500000000",
+        "r=49.0000000000",
+        "B=\\frac{l+r}{2}",
+        "=30.6250000000",
+        "f(B)=2.9335854935"
+      ],
+      "after": [
+        "l=12.2500000000",
+        "r=49.0000000000",
+        "B_1=\\frac{l+r}{2}",
+        "=30.6250000000",
+        "f(B_1)=2.9335854935"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T13:iteration2",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "l=12.2500000000",
+        "r=30.6250000000",
+        "B=\\frac{l+r}{2}",
+        "=21.4375000000",
+        "f(B)=-3.0169196075"
+      ],
+      "after": [
+        "l=12.2500000000",
+        "r=30.6250000000",
+        "B_1=\\frac{l+r}{2}",
+        "=21.4375000000",
+        "f(B_1)=-3.0169196075"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T13:iteration3",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "l=21.4375000000",
+        "r=30.6250000000",
+        "B=\\frac{l+r}{2}",
+        "=26.0312500000",
+        "f(B)=-0.3760775794"
+      ],
+      "after": [
+        "l=21.4375000000",
+        "r=30.6250000000",
+        "B_1=\\frac{l+r}{2}",
+        "=26.0312500000",
+        "f(B_1)=-0.3760775794"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T13:trace",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "n=4",
+        "l=26.0312500000",
+        "r=30.6250000000",
+        "B=28.3281250000",
+        "f=1.1780546457",
+        "n=5",
+        "l=26.0312500000",
+        "r=28.3281250000",
+        "B=27.1796875000",
+        "f=0.3777624283",
+        "n=6",
+        "l=26.0312500000",
+        "r=27.1796875000",
+        "B=26.6054687500",
+        "f=-0.0047072312",
+        "n=7",
+        "l=26.6054687500",
+        "r=27.1796875000",
+        "B=26.8925781250",
+        "f=0.1851074007",
+        "n=8",
+        "l=26.6054687500",
+        "r=26.8925781250",
+        "B=26.7490234375",
+        "f=0.0898490886",
+        "n=9",
+        "l=26.6054687500",
+        "r=26.7490234375",
+        "B=26.6772460938",
+        "f=0.0424836901",
+        "n=10",
+        "l=26.6054687500",
+        "r=26.6772460938",
+        "B=26.6413574219",
+        "f=0.0188664839",
+        "n=11",
+        "l=26.6054687500",
+        "r=26.6413574219",
+        "B=26.6234130859",
+        "f=0.0070741980",
+        "n=12",
+        "l=26.6054687500",
+        "r=26.6234130859",
+        "B=26.6144409180",
+        "f=0.0011821273",
+        "n=13",
+        "l=26.6054687500",
+        "r=26.6144409180",
+        "B=26.6099548340",
+        "f=-0.0017628909",
+        "n=14",
+        "l=26.6099548340",
+        "r=26.6144409180",
+        "B=26.6121978760",
+        "f=-0.0002904665",
+        "n=15",
+        "l=26.6121978760",
+        "r=26.6144409180",
+        "B=26.6133193970",
+        "f=0.0004458092",
+        "n=16",
+        "l=26.6121978760",
+        "r=26.6133193970",
+        "B=26.6127586365",
+        "f=0.0000776660",
+        "n=17",
+        "l=26.6121978760",
+        "r=26.6127586365",
+        "B=26.6124782562",
+        "f=-0.0001064016",
+        "n=18",
+        "l=26.6124782562",
+        "r=26.6127586365",
+        "B=26.6126184464",
+        "f=-0.0000143681",
+        "n=19",
+        "l=26.6126184464",
+        "r=26.6127586365",
+        "B=26.6126885414",
+        "f=0.0000316489",
+        "n=20",
+        "l=26.6126184464",
+        "r=26.6126885414",
+        "B=26.6126534939",
+        "f=0.0000086404",
+        "n=21",
+        "l=26.6126184464",
+        "r=26.6126534939",
+        "B=26.6126359701",
+        "f=-0.0000028639",
+        "n=22",
+        "l=26.6126359701",
+        "r=26.6126534939",
+        "B=26.6126447320",
+        "f=0.0000028883",
+        "n=23",
+        "l=26.6126359701",
+        "r=26.6126447320",
+        "B=26.6126403511",
+        "f=0.0000000122",
+        "n=24",
+        "l=26.6126359701",
+        "r=26.6126403511",
+        "B=26.6126381606",
+        "f=-0.0000014258",
+        "n=25",
+        "l=26.6126381606",
+        "r=26.6126403511",
+        "B=26.6126392558",
+        "f=-0.0000007068",
+        "n=26",
+        "l=26.6126392558",
+        "r=26.6126403511",
+        "B=26.6126398034",
+        "f=-0.0000003473",
+        "n=27",
+        "l=26.6126398034",
+        "r=26.6126403511",
+        "B=26.6126400772",
+        "f=-0.0000001676",
+        "n=28",
+        "l=26.6126400772",
+        "r=26.6126403511",
+        "B=26.6126402142",
+        "f=-0.0000000777",
+        "n=29",
+        "l=26.6126402142",
+        "r=26.6126403511",
+        "B=26.6126402826",
+        "f=-0.0000000327",
+        "n=30",
+        "l=26.6126402826",
+        "r=26.6126403511",
+        "B=26.6126403168",
+        "f=-0.0000000103",
+        "n=31",
+        "l=26.6126403168",
+        "r=26.6126403511",
+        "B=26.6126403339",
+        "f=0.0000000010"
+      ],
+      "after": [
+        "n=1",
+        "l=12.2500000000",
+        "r=49.0000000000",
+        "B_1=\\frac{l+r}{2}",
+        "=30.6250000000",
+        "f(B_1)=2.9335854935",
+        "n=2",
+        "l=12.2500000000",
+        "r=30.6250000000",
+        "B_1=\\frac{l+r}{2}",
+        "=21.4375000000",
+        "f(B_1)=-3.0169196075",
+        "n=3",
+        "l=21.4375000000",
+        "r=30.6250000000",
+        "B_1=\\frac{l+r}{2}",
+        "=26.0312500000",
+        "f(B_1)=-0.3760775794",
+        "n=4",
+        "l=26.0312500000",
+        "r=30.6250000000",
+        "B_1=28.3281250000",
+        "f=1.1780546457",
+        "n=5",
+        "l=26.0312500000",
+        "r=28.3281250000",
+        "B_1=27.1796875000",
+        "f=0.3777624283",
+        "n=6",
+        "l=26.0312500000",
+        "r=27.1796875000",
+        "B_1=26.6054687500",
+        "f=-0.0047072312",
+        "n=7",
+        "l=26.6054687500",
+        "r=27.1796875000",
+        "B_1=26.8925781250",
+        "f=0.1851074007",
+        "n=8",
+        "l=26.6054687500",
+        "r=26.8925781250",
+        "B_1=26.7490234375",
+        "f=0.0898490886",
+        "n=9",
+        "l=26.6054687500",
+        "r=26.7490234375",
+        "B_1=26.6772460938",
+        "f=0.0424836901",
+        "n=10",
+        "l=26.6054687500",
+        "r=26.6772460938",
+        "B_1=26.6413574219",
+        "f=0.0188664839",
+        "n=11",
+        "l=26.6054687500",
+        "r=26.6413574219",
+        "B_1=26.6234130859",
+        "f=0.0070741980",
+        "n=12",
+        "l=26.6054687500",
+        "r=26.6234130859",
+        "B_1=26.6144409180",
+        "f=0.0011821273",
+        "n=13",
+        "l=26.6054687500",
+        "r=26.6144409180",
+        "B_1=26.6099548340",
+        "f=-0.0017628909",
+        "n=14",
+        "l=26.6099548340",
+        "r=26.6144409180",
+        "B_1=26.6121978760",
+        "f=-0.0002904665",
+        "n=15",
+        "l=26.6121978760",
+        "r=26.6144409180",
+        "B_1=26.6133193970",
+        "f=0.0004458092",
+        "n=16",
+        "l=26.6121978760",
+        "r=26.6133193970",
+        "B_1=26.6127586365",
+        "f=0.0000776660",
+        "n=17",
+        "l=26.6121978760",
+        "r=26.6127586365",
+        "B_1=26.6124782562",
+        "f=-0.0001064016",
+        "n=18",
+        "l=26.6124782562",
+        "r=26.6127586365",
+        "B_1=26.6126184464",
+        "f=-0.0000143681",
+        "n=19",
+        "l=26.6126184464",
+        "r=26.6127586365",
+        "B_1=26.6126885414",
+        "f=0.0000316489",
+        "n=20",
+        "l=26.6126184464",
+        "r=26.6126885414",
+        "B_1=26.6126534939",
+        "f=0.0000086404",
+        "n=21",
+        "l=26.6126184464",
+        "r=26.6126534939",
+        "B_1=26.6126359701",
+        "f=-0.0000028639",
+        "n=22",
+        "l=26.6126359701",
+        "r=26.6126534939",
+        "B_1=26.6126447320",
+        "f=0.0000028883",
+        "n=23",
+        "l=26.6126359701",
+        "r=26.6126447320",
+        "B_1=26.6126403511",
+        "f=0.0000000122",
+        "n=24",
+        "l=26.6126359701",
+        "r=26.6126403511",
+        "B_1=26.6126381606",
+        "f=-0.0000014258",
+        "n=25",
+        "l=26.6126381606",
+        "r=26.6126403511",
+        "B_1=26.6126392558",
+        "f=-0.0000007068",
+        "n=26",
+        "l=26.6126392558",
+        "r=26.6126403511",
+        "B_1=26.6126398034",
+        "f=-0.0000003473",
+        "n=27",
+        "l=26.6126398034",
+        "r=26.6126403511",
+        "B_1=26.6126400772",
+        "f=-0.0000001676",
+        "n=28",
+        "l=26.6126400772",
+        "r=26.6126403511",
+        "B_1=26.6126402142",
+        "f=-0.0000000777",
+        "n=29",
+        "l=26.6126402142",
+        "r=26.6126403511",
+        "B_1=26.6126402826",
+        "f=-0.0000000327",
+        "n=30",
+        "l=26.6126402826",
+        "r=26.6126403511",
+        "B_1=26.6126403168",
+        "f=-0.0000000103",
+        "n=31",
+        "l=26.6126403168",
+        "r=26.6126403511",
+        "B_1=26.6126403339",
+        "f=0.0000000010",
+        "|f|\\le10^{-8}",
+        "\\mathrm{or}\\quad r-l\\le10^{-10}",
+        "|f|=0.00000000096",
+        "r-l=0.00000003423",
+        "n\\le200"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "n=4",
+        "l=26.0312500000",
+        "r=30.6250000000",
+        "B_1=28.3281250000",
+        "f=1.1780546457",
+        "n=5",
+        "l=26.0312500000",
+        "r=28.3281250000",
+        "B_1=27.1796875000",
+        "f=0.3777624283",
+        "n=6",
+        "l=26.0312500000",
+        "r=27.1796875000",
+        "B_1=26.6054687500",
+        "f=-0.0047072312",
+        "n=7",
+        "l=26.6054687500",
+        "r=27.1796875000",
+        "B_1=26.8925781250",
+        "f=0.1851074007",
+        "n=8",
+        "l=26.6054687500",
+        "r=26.8925781250",
+        "B_1=26.7490234375",
+        "f=0.0898490886",
+        "n=9",
+        "l=26.6054687500",
+        "r=26.7490234375",
+        "B_1=26.6772460938",
+        "f=0.0424836901",
+        "n=10",
+        "l=26.6054687500",
+        "r=26.6772460938",
+        "B_1=26.6413574219",
+        "f=0.0188664839",
+        "n=11",
+        "l=26.6054687500",
+        "r=26.6413574219",
+        "B_1=26.6234130859",
+        "f=0.0070741980",
+        "n=12",
+        "l=26.6054687500",
+        "r=26.6234130859",
+        "B_1=26.6144409180",
+        "f=0.0011821273",
+        "n=13",
+        "l=26.6054687500",
+        "r=26.6144409180",
+        "B_1=26.6099548340",
+        "f=-0.0017628909",
+        "n=14",
+        "l=26.6099548340",
+        "r=26.6144409180",
+        "B_1=26.6121978760",
+        "f=-0.0002904665",
+        "n=15",
+        "l=26.6121978760",
+        "r=26.6144409180",
+        "B_1=26.6133193970",
+        "f=0.0004458092",
+        "n=16",
+        "l=26.6121978760",
+        "r=26.6133193970",
+        "B_1=26.6127586365",
+        "f=0.0000776660",
+        "n=17",
+        "l=26.6121978760",
+        "r=26.6127586365",
+        "B_1=26.6124782562",
+        "f=-0.0001064016",
+        "n=18",
+        "l=26.6124782562",
+        "r=26.6127586365",
+        "B_1=26.6126184464",
+        "f=-0.0000143681",
+        "n=19",
+        "l=26.6126184464",
+        "r=26.6127586365",
+        "B_1=26.6126885414",
+        "f=0.0000316489",
+        "n=20",
+        "l=26.6126184464",
+        "r=26.6126885414",
+        "B_1=26.6126534939",
+        "f=0.0000086404",
+        "n=21",
+        "l=26.6126184464",
+        "r=26.6126534939",
+        "B_1=26.6126359701",
+        "f=-0.0000028639",
+        "n=22",
+        "l=26.6126359701",
+        "r=26.6126534939",
+        "B_1=26.6126447320",
+        "f=0.0000028883",
+        "n=23",
+        "l=26.6126359701",
+        "r=26.6126447320",
+        "B_1=26.6126403511",
+        "f=0.0000000122",
+        "n=24",
+        "l=26.6126359701",
+        "r=26.6126403511",
+        "B_1=26.6126381606",
+        "f=-0.0000014258",
+        "n=25",
+        "l=26.6126381606",
+        "r=26.6126403511",
+        "B_1=26.6126392558",
+        "f=-0.0000007068",
+        "n=26",
+        "l=26.6126392558",
+        "r=26.6126403511",
+        "B_1=26.6126398034",
+        "f=-0.0000003473",
+        "n=27",
+        "l=26.6126398034",
+        "r=26.6126403511",
+        "B_1=26.6126400772",
+        "f=-0.0000001676",
+        "n=28",
+        "l=26.6126400772",
+        "r=26.6126403511",
+        "B_1=26.6126402142",
+        "f=-0.0000000777",
+        "n=29",
+        "l=26.6126402142",
+        "r=26.6126403511",
+        "B_1=26.6126402826",
+        "f=-0.0000000327",
+        "n=30",
+        "l=26.6126402826",
+        "r=26.6126403511",
+        "B_1=26.6126403168",
+        "f=-0.0000000103",
+        "n=31",
+        "l=26.6126403168",
+        "r=26.6126403511",
+        "B_1=26.6126403339",
+        "f=0.0000000010"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T13:stop",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "|f|\\le10^{-8}",
+        "\\mathrm{or}\\quad r-l\\le10^{-10}",
+        "|f|=0.00000000096",
+        "r-l=0.00000003423",
+        "n\\le200"
+      ],
+      "after": [
+        "|f|\\le10^{-8}",
+        "\\mathrm{or}\\quad r-l\\le10^{-10}",
+        "|f|=0.00000000096",
+        "r-l=0.00000003423",
+        "n\\le200"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T13:back",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "B=26.6126403339",
+        "B_{calc}=26.61\\,\\mathrm m",
+        "T=289.45/B=10.88\\,\\mathrm m",
+        "H=396.11/B=14.88\\,\\mathrm m"
+      ],
+      "after": [
+        "B_1=26.6126403339",
+        "B_{\\mathrm{calc}}=26.61\\,\\mathrm m",
+        "T_1=\\frac{289.45}{B_1}=10.88\\,\\mathrm m",
+        "H_1=\\frac{396.11}{B_1}=14.88\\,\\mathrm m"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "B_1=26.6126403339",
+        "B_{\\mathrm{calc}}=26.61\\,\\mathrm m",
+        "T_1=289.45/B_1=10.88\\,\\mathrm m",
+        "H_1=396.11/B_1=14.88\\,\\mathrm m"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T14:adopt",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "L_1=189.64\\,\\mathrm m",
+        "B_1=26.60\\,\\mathrm m",
+        "T_1=10.88\\,\\mathrm m",
+        "H_1=14.89\\,\\mathrm m"
+      ],
+      "after": [
+        "L_1=189.64\\,\\mathrm m",
+        "B_1=26.60\\,\\mathrm m",
+        "T_1=10.88\\,\\mathrm m",
+        "H_1=14.89\\,\\mathrm m"
+      ],
+      "changed": false
+    },
+    {
+      "id": "T15:check",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "D_{check}=1.005\\cdot1.025\\cdot0.785",
+        "\\quad\\cdot189.64\\cdot26.60\\cdot10.88",
+        "=44381.30\\,\\mathrm t"
+      ],
+      "after": [
+        "D_{\\text{пров}}=1.005\\cdot1.025\\cdot0.785",
+        "\\quad\\cdot189.64\\cdot26.60\\cdot10.88",
+        "=44381.30\\,\\mathrm t"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T15:report",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\Delta D=44388-44381.30",
+        "=6.70\\,\\mathrm t",
+        "\\Delta D_{report}=7\\,\\mathrm t",
+        "7\\le8\\,\\mathrm t"
+      ],
+      "after": [
+        "\\Delta D=44388-44381.30",
+        "=6.70\\,\\mathrm t",
+        "\\Delta D_{\\mathrm{report}}=7\\,\\mathrm t",
+        "7\\le8\\,\\mathrm t"
+      ],
+      "changed": true
+    },
+    {
+      "id": "T16:LB",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "L_0/B_0=6.01",
+        "L_1/B_1=7.13"
+      ],
+      "after": [
+        "\\frac{L_0}{B_0}=6.01",
+        "\\frac{L_1}{B_1}=7.13"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "L_0/B_0=6.01",
+        "L_1/B_1=7.13"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T16:BT",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "B_0/T_0=2.50",
+        "B_1/T_1=2.44"
+      ],
+      "after": [
+        "\\frac{B_0}{T_0}=2.50",
+        "\\frac{B_1}{T_1}=2.44"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "B_0/T_0=2.50",
+        "B_1/T_1=2.44"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T16:HT",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "H_0/T_0=1.37",
+        "H_1/T_1=1.37"
+      ],
+      "after": [
+        "\\frac{H_0}{T_0}=1.37",
+        "\\frac{H_1}{T_1}=1.37"
+      ],
+      "changed": true,
+      "notation_pass": [
+        "H_0/T_0=1.37",
+        "H_1/T_1=1.37"
+      ],
+      "teaching_revision": "2026-10-21: source formulas, units and continuous teaching audit"
+    },
+    {
+      "id": "T16:pass",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [
+        "\\frac{H_1}{T_1}=\\frac{14.89}{10.88}",
+        "=1.368566\\ge1.25"
+      ],
+      "after": [
+        "\\frac{H_1}{T_1}=\\frac{14.89}{10.88}",
+        "=1.368566\\ge1.25"
+      ],
+      "changed": false
+    },
+    {
+      "id": "basics:opening",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "foundation:opening",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "load:opening",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "mass:opening",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "dimensions:opening",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "supplement:opening",
+      "sources": [
+        "1p/Задачи.docx",
+        "1p/Modul_1.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L01:model_scope",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L01:weighted",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L01:moment_area",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L01:equivalent",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [
+        "x_{\\mathrm{pair}}=\\frac{250\\cdot97+160\\cdot67}{250+160}",
+        "=85.2927\\,\\mathrm m"
+      ],
+      "after": [
+        "x_{\\mathrm{pair}}=\\frac{250\\cdot97+160\\cdot67}{250+160}",
+        "=85.2927\\,\\mathrm m"
+      ],
+      "changed": false
+    },
+    {
+      "id": "L01:surface",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L01:surface_effect",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "L04:precision",
+      "sources": [
+        "1p/5. Нагрузка-2024.docx",
+        "1p/Вариант 5 Расчёт нагрузки.docx",
+        "1p/Modul_2.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "T02:bridge",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "T13:bridge",
+      "sources": [
+        "2p/КП-ПС-1 приближение.docx",
+        "2p/2p-Женя.docx（方案采用值）"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false
+    },
+    {
+      "id": "T02:fuel:units",
+      "sources": [],
+      "before": [
+        "t_{\\text{ход}}=\\frac{R}{v}",
+        "\\frac{\\mathrm{nmi}}{\\mathrm{nmi/h}}=\\mathrm h",
+        "E_{\\mathrm{out}}=Nt_{\\text{ход}}",
+        "[E_{\\mathrm{out}}]=\\mathrm{kW\\cdot h}"
+      ],
+      "after": [
+        "t_{\\text{ход}}=\\frac{R}{v}",
+        "\\frac{\\mathrm{nmi}}{\\mathrm{nmi/h}}=\\mathrm h",
+        "E_{\\mathrm{out}}=Nt_{\\text{ход}}",
+        "[E_{\\mathrm{out}}]=\\mathrm{kW\\cdot h}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "T11:cargo:margin",
+      "sources": [],
+      "before": [
+        "W_{\\text{гр}}=1.04\\frac{P_{\\text{гр}}}{\\rho_{\\text{гр}}}"
+      ],
+      "after": [
+        "W_{\\text{гр}}=1.04\\frac{P_{\\text{гр}}}{\\rho_{\\text{гр}}}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "reserve:known",
+      "sources": [],
+      "before": [
+        "T=7.5\\,\\mathrm m,\\quad H=10\\,\\mathrm m",
+        "S_{\\mathrm{water}}=2000\\,\\mathrm m^2",
+        "S_{\\mathrm{deck}}=2120\\,\\mathrm m^2",
+        "V=12000\\,\\mathrm m^3"
+      ],
+      "after": [
+        "T=7.5\\,\\mathrm m,\\quad H=10\\,\\mathrm m",
+        "S_{\\mathrm{water}}=2000\\,\\mathrm m^2",
+        "S_{\\mathrm{deck}}=2120\\,\\mathrm m^2",
+        "V=12000\\,\\mathrm m^3"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "reserve:height",
+      "sources": [],
+      "before": [
+        "H-T=10-7.5=2.5\\,\\mathrm m",
+        "S_{\\mathrm{mean}}=\\frac{2000+2120}{2}=2060\\,\\mathrm m^2"
+      ],
+      "after": [
+        "H-T=10-7.5=2.5\\,\\mathrm m",
+        "S_{\\mathrm{mean}}=\\frac{2000+2120}{2}=2060\\,\\mathrm m^2"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "free_surface:given",
+      "sources": [],
+      "before": [
+        "\\sum M_{\\mathrm{free}}=1734\\,\\mathrm{t\\cdot m}",
+        "\\Delta=20616\\,\\mathrm t"
+      ],
+      "after": [
+        "\\sum M_{\\mathrm{free}}=1734\\,\\mathrm{t\\cdot m}",
+        "\\Delta=20616\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "free_surface:height",
+      "sources": [],
+      "before": [
+        "\\Delta h=\\frac{1734}{20616}=@free_correction@\\,\\mathrm m",
+        "\\frac{\\mathrm{t\\cdot m}}{\\mathrm t}=\\mathrm m"
+      ],
+      "after": [
+        "\\Delta h=\\frac{1734}{20616}=@free_correction@\\,\\mathrm m",
+        "\\frac{\\mathrm{t\\cdot m}}{\\mathrm t}=\\mathrm m"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "norman-derive:variables",
+      "sources": [],
+      "before": [
+        "D=F(D,\\theta)+P"
+      ],
+      "after": [
+        "D=F(D,\\theta)+P"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "norman-derive:fixed",
+      "sources": [],
+      "before": [
+        "dF=\\frac{\\partial F}{\\partial D}dD+[dF]^*"
+      ],
+      "after": [
+        "dF=\\frac{\\partial F}{\\partial D}dD+[dF]^*"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:goal",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:input",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "D_1=44388\\,\\mathrm t",
+        "L_1=189.64\\,\\mathrm m,\\quad B_1=26.60\\,\\mathrm m",
+        "T_1=10.88\\,\\mathrm m,\\quad H_1=14.89\\,\\mathrm m"
+      ],
+      "after": [
+        "D_1=44388\\,\\mathrm t",
+        "L_1=189.64\\,\\mathrm m,\\quad B_1=26.60\\,\\mathrm m",
+        "T_1=10.88\\,\\mathrm m,\\quad H_1=14.89\\,\\mathrm m"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:steel_object",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:equipment_object",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:split",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{к.об.}2}=P_{\\text{ст}2}+P_{\\text{об}2}"
+      ],
+      "after": [
+        "P_{\\text{к.об.}2}=P_{\\text{ст}2}+P_{\\text{об}2}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:prototype",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{ст}0}=5430\\,\\mathrm t,\\quad P_{\\text{об}0}=1290\\,\\mathrm t",
+        "L_0=147.20,\\ B_0=24.50,\\ H_0=13.40\\,\\mathrm m",
+        "D_0=27590\\,\\mathrm t,\\quad T_0=9.80\\,\\mathrm m"
+      ],
+      "after": [
+        "P_{\\text{ст}0}=5430\\,\\mathrm t,\\quad P_{\\text{об}0}=1290\\,\\mathrm t",
+        "L_0=147.20,\\ B_0=24.50,\\ H_0=13.40\\,\\mathrm m",
+        "D_0=27590\\,\\mathrm t,\\quad T_0=9.80\\,\\mathrm m"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:delta0",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\delta_0=\\frac{D_0}{k\\rho L_0B_0T_0}",
+        "=\\frac{27590}{\\begin{gathered}1.005\\cdot1.025\\cdot147.20\\\\\\cdot24.50\\cdot9.80\\end{gathered}}",
+        "\\approx0.76"
+      ],
+      "after": [
+        "\\delta_0=\\frac{D_0}{k\\rho L_0B_0T_0}",
+        "=\\frac{27590}{\\begin{gathered}1.005\\cdot1.025\\cdot147.20\\\\\\cdot24.50\\cdot9.80\\end{gathered}}",
+        "\\approx0.76"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:gst",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "g_{\\text{ст}}=\\frac{P_{\\text{ст}0}}{\\delta_0^{1/3}L_0^{3/2}B_0H_0^{1/2}}",
+        "=\\frac{5430}{\\begin{gathered}0.76^{1/3}\\cdot147.20^{3/2}\\\\\\cdot24.50\\cdot13.40^{1/2}\\end{gathered}}",
+        "\\approx0.037\\,\\mathrm{t/m^3}"
+      ],
+      "after": [
+        "g_{\\text{ст}}=\\frac{P_{\\text{ст}0}}{\\delta_0^{1/3}L_0^{3/2}B_0H_0^{1/2}}",
+        "=\\frac{5430}{\\begin{gathered}0.76^{1/3}\\cdot147.20^{3/2}\\\\\\cdot24.50\\cdot13.40^{1/2}\\end{gathered}}",
+        "\\approx0.037\\,\\mathrm{t/m^3}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:steel",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{ст}2}=g_{\\text{ст}}\\delta^{1/3}L_1^{3/2}B_1H_1^{1/2}",
+        "\\begin{gathered}=0.037\\cdot0.785^{1/3}\\\\\\cdot189.64^{3/2}\\end{gathered}",
+        "\\;\\cdot26.60\\cdot14.89^{1/2}",
+        "=9149.18\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{ст}2}=g_{\\text{ст}}\\delta^{1/3}L_1^{3/2}B_1H_1^{1/2}",
+        "\\begin{gathered}=0.037\\cdot0.785^{1/3}\\\\\\cdot189.64^{3/2}\\end{gathered}",
+        "\\;\\cdot26.60\\cdot14.89^{1/2}",
+        "=9149.18\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:gob",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "g_{\\text{об}}=\\frac{P_{\\text{об}0}}{(L_0B_0H_0)^{2/3}}",
+        "=\\frac{1290}{\\left(\\begin{gathered}147.20\\cdot24.50\\\\\\cdot13.40\\end{gathered}\\right)^{2/3}}",
+        "\\approx0.97\\,\\mathrm{t/m^2}"
+      ],
+      "after": [
+        "g_{\\text{об}}=\\frac{P_{\\text{об}0}}{(L_0B_0H_0)^{2/3}}",
+        "=\\frac{1290}{\\left(\\begin{gathered}147.20\\cdot24.50\\\\\\cdot13.40\\end{gathered}\\right)^{2/3}}",
+        "\\approx0.97\\,\\mathrm{t/m^2}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:equipment",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{об}2}=g_{\\text{об}}(L_1B_1H_1)^{2/3}",
+        "=0.97\\left(\\begin{gathered}189.64\\\\\\cdot26.60\\\\\\cdot14.89\\end{gathered}\\right)^{2/3}",
+        "=1726.80\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{об}2}=g_{\\text{об}}(L_1B_1H_1)^{2/3}",
+        "=0.97\\left(\\begin{gathered}189.64\\\\\\cdot26.60\\\\\\cdot14.89\\end{gathered}\\right)^{2/3}",
+        "=1726.80\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:hull_sum",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{к.об.}2}=9149.18+1726.80",
+        "=10875.98\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{к.об.}2}=9149.18+1726.80",
+        "=10875.98\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:sum",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "A_1=10875.98+1177+1171",
+        "\\;+444+85+30700",
+        "=44452.98\\,\\mathrm t"
+      ],
+      "after": [
+        "A_1=10875.98+1177+1171",
+        "\\;+444+85+30700",
+        "=44452.98\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:criterion",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "|A_1-D_1|\\le\\frac12P_{\\text{зв}1}",
+        "|44452.98-44388|=64.98\\,\\mathrm t",
+        "\\frac12\\cdot444=222\\,\\mathrm t",
+        "64.98\\le222"
+      ],
+      "after": [
+        "|A_1-D_1|\\le\\frac12P_{\\text{зв}1}",
+        "|44452.98-44388|=64.98\\,\\mathrm t",
+        "\\frac12\\cdot444=222\\,\\mathrm t",
+        "64.98\\le222"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:reserve",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:adjust",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{зв}2}=P_{\\text{зв}1}-(A_1-D_1)",
+        "=444-64.98=379.02\\,\\mathrm t",
+        "P_{\\text{зв}2}\\approx379\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{зв}2}=P_{\\text{зв}1}-(A_1-D_1)",
+        "=444-64.98=379.02\\,\\mathrm t",
+        "P_{\\text{зв}2}\\approx379\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:unchanged",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "D_2=D_1=44388\\,\\mathrm t",
+        "L_2=L_1,\\ B_2=B_1,\\ T_2=T_1,\\ H_2=H_1"
+      ],
+      "after": [
+        "D_2=D_1=44388\\,\\mathrm t",
+        "L_2=L_1,\\ B_2=B_1,\\ T_2=T_1,\\ H_2=H_1"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:branch",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:table:row0",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{к.об.}2}=10876\\,\\mathrm t",
+        "\\frac{10876}{44388}\\cdot100\\%=24.50\\%"
+      ],
+      "after": [
+        "P_{\\text{к.об.}2}=10876\\,\\mathrm t",
+        "\\frac{10876}{44388}\\cdot100\\%=24.50\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:table:row1",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сэу}2}=1177\\,\\mathrm t",
+        "\\frac{1177}{44388}\\cdot100\\%=2.65\\%"
+      ],
+      "after": [
+        "P_{\\text{сэу}2}=1177\\,\\mathrm t",
+        "\\frac{1177}{44388}\\cdot100\\%=2.65\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:table:row2",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сэз}2}=1171\\,\\mathrm t",
+        "\\frac{1171}{44388}\\cdot100\\%=2.64\\%"
+      ],
+      "after": [
+        "P_{\\text{сэз}2}=1171\\,\\mathrm t",
+        "\\frac{1171}{44388}\\cdot100\\%=2.64\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:table:row3",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{зв}2}=379\\,\\mathrm t",
+        "\\frac{379}{44388}\\cdot100\\%=0.85\\%"
+      ],
+      "after": [
+        "P_{\\text{зв}2}=379\\,\\mathrm t",
+        "\\frac{379}{44388}\\cdot100\\%=0.85\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:table:row4",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сн}}=85\\,\\mathrm t",
+        "\\frac{85}{44388}\\cdot100\\%=0.19\\%"
+      ],
+      "after": [
+        "P_{\\text{сн}}=85\\,\\mathrm t",
+        "\\frac{85}{44388}\\cdot100\\%=0.19\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:table:row5",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{гр}}=30700\\,\\mathrm t",
+        "\\frac{30700}{44388}\\cdot100\\%=69.16\\%"
+      ],
+      "after": [
+        "P_{\\text{гр}}=30700\\,\\mathrm t",
+        "\\frac{30700}{44388}\\cdot100\\%=69.16\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:table:closure",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\sum P_i=10876+1177+1171",
+        "\\;+379+85+30700",
+        "=44388\\,\\mathrm t"
+      ],
+      "after": [
+        "\\sum P_i=10876+1177+1171",
+        "\\;+379+85+30700",
+        "=44388\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:float",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "D_{\\mathrm{check}}=k\\rho\\delta L_2B_2T_2",
+        "=1.005\\cdot1.025\\cdot0.785",
+        "\\;\\cdot189.64\\cdot26.60\\cdot10.88",
+        "=44381.30\\,\\mathrm t",
+        "|44381.30-44388|=6.70\\,\\mathrm t",
+        "6.70\\,\\mathrm t\\ \\longrightarrow\\ 7\\,\\mathrm t"
+      ],
+      "after": [
+        "D_{\\mathrm{check}}=k\\rho\\delta L_2B_2T_2",
+        "=1.005\\cdot1.025\\cdot0.785",
+        "\\;\\cdot189.64\\cdot26.60\\cdot10.88",
+        "=44381.30\\,\\mathrm t",
+        "|44381.30-44388|=6.70\\,\\mathrm t",
+        "6.70\\,\\mathrm t\\ \\longrightarrow\\ 7\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP2:ratio",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\frac{H_2}{T_2}=\\frac{14.89}{10.88}=1.37",
+        "\\frac{H}{T}\\ge1.25"
+      ],
+      "after": [
+        "\\frac{H_2}{T_2}=\\frac{14.89}{10.88}=1.37",
+        "\\frac{H}{T}\\ge1.25"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:goal",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:input",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "D_2=44388\\,\\mathrm t",
+        "P_{\\text{к.об.}2}=10876\\,\\mathrm t",
+        "P_{\\text{зв}2}=379\\,\\mathrm t"
+      ],
+      "after": [
+        "D_2=44388\\,\\mathrm t",
+        "P_{\\text{к.об.}2}=10876\\,\\mathrm t",
+        "P_{\\text{зв}2}=379\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:wet",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:omega",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\Omega=2L_2T_2+1.37(\\delta-0.274)L_2B_2",
+        "\\begin{gathered}=2\\cdot189.64\\cdot10.88\\\\+1.37(0.785-0.274)\\\\\\cdot189.64\\cdot26.60\\end{gathered}",
+        "=7658.02\\,\\mathrm{m^2}"
+      ],
+      "after": [
+        "\\Omega=2L_2T_2+1.37(\\delta-0.274)L_2B_2",
+        "\\begin{gathered}=2\\cdot189.64\\cdot10.88\\\\+1.37(0.785-0.274)\\\\\\cdot189.64\\cdot26.60\\end{gathered}",
+        "=7658.02\\,\\mathrm{m^2}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:velocity",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "v=15.9\\cdot0.514=8.1726\\,\\mathrm{m/s}"
+      ],
+      "after": [
+        "v=15.9\\cdot0.514=8.1726\\,\\mathrm{m/s}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:re",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "Re=\\frac{vL_2}{\\nu}",
+        "=\\frac{8.1726\\cdot189.64}{1.56\\cdot10^{-6}}",
+        "\\approx9.93\\cdot10^8"
+      ],
+      "after": [
+        "Re=\\frac{vL_2}{\\nu}",
+        "=\\frac{8.1726\\cdot189.64}{1.56\\cdot10^{-6}}",
+        "\\approx9.93\\cdot10^8"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:friction_chart",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\zeta_f\\approx1.57\\cdot10^{-3}"
+      ],
+      "after": [
+        "\\zeta_f\\approx1.57\\cdot10^{-3}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:roughness",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "150\\le L_2=189.64\\le210\\,\\mathrm m",
+        "\\zeta_n=0.20\\cdot10^{-3}"
+      ],
+      "after": [
+        "150\\le L_2=189.64\\le210\\,\\mathrm m",
+        "\\zeta_n=0.20\\cdot10^{-3}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:appendages",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "130\\le L_2=189.64\\le200\\,\\mathrm m",
+        "\\zeta_a=0.10\\cdot10^{-3}"
+      ],
+      "after": [
+        "130\\le L_2=189.64\\le200\\,\\mathrm m",
+        "\\zeta_a=0.10\\cdot10^{-3}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:fr",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "Fr=\\frac{v}{\\sqrt{gL_2}}",
+        "=\\frac{8.1726}{\\sqrt{9.81\\cdot189.64}}\\approx0.19"
+      ],
+      "after": [
+        "Fr=\\frac{v}{\\sqrt{gL_2}}",
+        "=\\frac{8.1726}{\\sqrt{9.81\\cdot189.64}}\\approx0.19"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:residual_chart",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\zeta_r(\\delta)\\approx1.55\\cdot10^{-3}"
+      ],
+      "after": [
+        "\\zeta_r(\\delta)\\approx1.55\\cdot10^{-3}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:standard_chart",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\Psi_0\\approx5.54"
+      ],
+      "after": [
+        "\\Psi_0\\approx5.54"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:relative",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "V_2=\\frac{D_2}{\\rho}=\\frac{44388}{1.025}=43305.37\\,\\mathrm{m^3}",
+        "\\Psi=\\frac{L_2}{\\sqrt[3]{V_2}}=\\frac{189.64}{\\sqrt[3]{43305.37}}\\approx5.40"
+      ],
+      "after": [
+        "V_2=\\frac{D_2}{\\rho}=\\frac{44388}{1.025}=43305.37\\,\\mathrm{m^3}",
+        "\\Psi=\\frac{L_2}{\\sqrt[3]{V_2}}=\\frac{189.64}{\\sqrt[3]{43305.37}}\\approx5.40"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:psi_chart",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\alpha_\\Psi\\approx1.26,\\quad\\alpha_{\\Psi_0}\\approx1.20",
+        "k_\\Psi=\\frac{\\alpha_\\Psi}{\\alpha_{\\Psi_0}}=\\frac{1.26}{1.20}=1.05"
+      ],
+      "after": [
+        "\\alpha_\\Psi\\approx1.26,\\quad\\alpha_{\\Psi_0}\\approx1.20",
+        "k_\\Psi=\\frac{\\alpha_\\Psi}{\\alpha_{\\Psi_0}}=\\frac{1.26}{1.20}=1.05"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:beam_chart",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\frac{B_2}{T_2}=\\frac{26.60}{10.88}\\approx2.44",
+        "k_{B/T}\\alpha_{B/T}\\approx1.00"
+      ],
+      "after": [
+        "\\frac{B_2}{T_2}=\\frac{26.60}{10.88}\\approx2.44",
+        "k_{B/T}\\alpha_{B/T}\\approx1.00"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:zr",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\zeta_r=\\zeta_r(\\delta)k_\\Psi k_{B/T}\\alpha_{B/T}",
+        "=1.55\\cdot10^{-3}\\cdot1.05\\cdot1.00",
+        "\\approx1.63\\cdot10^{-3}"
+      ],
+      "after": [
+        "\\zeta_r=\\zeta_r(\\delta)k_\\Psi k_{B/T}\\alpha_{B/T}",
+        "=1.55\\cdot10^{-3}\\cdot1.05\\cdot1.00",
+        "\\approx1.63\\cdot10^{-3}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:z",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\zeta=\\zeta_r+\\zeta_f+\\zeta_n+\\zeta_a",
+        "=\\left(\\begin{gathered}1.63+1.57\\\\+0.20+0.10\\end{gathered}\\right)10^{-3}",
+        "=3.50\\cdot10^{-3}"
+      ],
+      "after": [
+        "\\zeta=\\zeta_r+\\zeta_f+\\zeta_n+\\zeta_a",
+        "=\\left(\\begin{gathered}1.63+1.57\\\\+0.20+0.10\\end{gathered}\\right)10^{-3}",
+        "=3.50\\cdot10^{-3}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:drag",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "EPS=\\left(\\zeta\\frac{\\rho v^2}{2}\\Omega\\right)v",
+        "=\\zeta\\frac{\\rho}{2}\\Omega v^3"
+      ],
+      "after": [
+        "EPS=\\left(\\zeta\\frac{\\rho v^2}{2}\\Omega\\right)v",
+        "=\\zeta\\frac{\\rho}{2}\\Omega v^3"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:eps",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "EPS=3.50\\cdot10^{-3}\\frac{1.025}{2}",
+        "\\;\\cdot7658.02\\cdot8.1726^3",
+        "=7498.24\\,\\mathrm{kW}",
+        "\\frac{\\mathrm t}{\\mathrm{m^3}}\\mathrm{m^2}\\frac{\\mathrm{m^3}}{\\mathrm{s^3}}=\\frac{\\mathrm{t\\,m^2}}{\\mathrm{s^3}}=\\mathrm{kW}"
+      ],
+      "after": [
+        "EPS=3.50\\cdot10^{-3}\\frac{1.025}{2}",
+        "\\;\\cdot7658.02\\cdot8.1726^3",
+        "=7498.24\\,\\mathrm{kW}",
+        "\\frac{\\mathrm t}{\\mathrm{m^3}}\\mathrm{m^2}\\frac{\\mathrm{m^3}}{\\mathrm{s^3}}=\\frac{\\mathrm{t\\,m^2}}{\\mathrm{s^3}}=\\mathrm{kW}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:required",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\eta=0.70",
+        "N_{\\text{тр}}=\\frac{EPS}{\\eta}",
+        "=\\frac{7498.24}{0.70}=10711.77\\,\\mathrm{kW}"
+      ],
+      "after": [
+        "\\eta=0.70",
+        "N_{\\text{тр}}=\\frac{EPS}{\\eta}",
+        "=\\frac{7498.24}{0.70}=10711.77\\,\\mathrm{kW}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:margin",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "N_{\\text{гл}}\\ge1.15N_{\\text{тр}}",
+        "1.15\\cdot10711.77=12318.54\\,\\mathrm{kW}"
+      ],
+      "after": [
+        "N_{\\text{гл}}\\ge1.15N_{\\text{тр}}",
+        "1.15\\cdot10711.77=12318.54\\,\\mathrm{kW}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:catalog",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\Delta N=200\\,\\mathrm{kW}",
+        "12200<12318.54\\le12400",
+        "N_{\\text{гл}}=12400\\,\\mathrm{kW}"
+      ],
+      "after": [
+        "\\Delta N=200\\,\\mathrm{kW}",
+        "12200<12318.54\\le12400",
+        "N_{\\text{гл}}=12400\\,\\mathrm{kW}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:engine_mass",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сэу}3}=p_{\\text{сэу}}N_{\\text{гл}}",
+        "=\\frac{720}{8580}\\cdot12400=1040.56\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{сэу}3}=p_{\\text{сэу}}N_{\\text{гл}}",
+        "=\\frac{720}{8580}\\cdot12400=1040.56\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:energy_mass",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сэз}3}=p_{\\text{сэз}}N_{\\text{гл}}\\frac{R}{v}",
+        "\\begin{gathered}=\\frac{690\\cdot15}{8580\\cdot5000}\\\\\\cdot12400\\cdot\\frac{5500}{15.9}\\end{gathered}",
+        "=1034.83\\,\\mathrm t",
+        "\\frac{\\mathrm t}{\\mathrm{kW\\,h}}\\cdot\\mathrm{kW}\\cdot\\mathrm h=\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{сэз}3}=p_{\\text{сэз}}N_{\\text{гл}}\\frac{R}{v}",
+        "\\begin{gathered}=\\frac{690\\cdot15}{8580\\cdot5000}\\\\\\cdot12400\\cdot\\frac{5500}{15.9}\\end{gathered}",
+        "=1034.83\\,\\mathrm t",
+        "\\frac{\\mathrm t}{\\mathrm{kW\\,h}}\\cdot\\mathrm{kW}\\cdot\\mathrm h=\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:fixed",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [],
+      "after": [],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:A3",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "A_3=10876+1040.56+1034.83",
+        "\\;+379+85+30700",
+        "=44115.39\\,\\mathrm t"
+      ],
+      "after": [
+        "A_3=10876+1040.56+1034.83",
+        "\\;+379+85+30700",
+        "=44115.39\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:criterion",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "|A_3-D_2|\\le\\frac12P_{\\text{зв}2}",
+        "|44115.39-44388|=272.61\\,\\mathrm t",
+        "\\frac12\\cdot379=189.50\\,\\mathrm t",
+        "272.61>189.50"
+      ],
+      "after": [
+        "|A_3-D_2|\\le\\frac12P_{\\text{зв}2}",
+        "|44115.39-44388|=272.61\\,\\mathrm t",
+        "\\frac12\\cdot379=189.50\\,\\mathrm t",
+        "272.61>189.50"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:norman",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\eta_{\\text{Н}}=\\frac{1}{1-P_{\\text{к.об.}2}/D_2}",
+        "=\\frac{1}{1-10876/44388}\\approx1.32"
+      ],
+      "after": [
+        "\\eta_{\\text{Н}}=\\frac{1}{1-P_{\\text{к.об.}2}/D_2}",
+        "=\\frac{1}{1-10876/44388}\\approx1.32"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:sign",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "dP=A_3-D_2",
+        "=44115.39-44388=-272.61\\,\\mathrm t"
+      ],
+      "after": [
+        "dP=A_3-D_2",
+        "=44115.39-44388=-272.61\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:D",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "D_3=D_2+\\eta_{\\text{Н}}dP",
+        "=44388+1.32(-272.61)",
+        "=44028.15\\,\\mathrm t",
+        "D_3\\approx44028\\,\\mathrm t"
+      ],
+      "after": [
+        "D_3=D_2+\\eta_{\\text{Н}}dP",
+        "=44388+1.32(-272.61)",
+        "=44028.15\\,\\mathrm t",
+        "D_3\\approx44028\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:lambda",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\lambda=\\sqrt[3]{\\frac{D_3}{D_2}}",
+        "=\\sqrt[3]{\\frac{44028}{44388}}\\approx0.9973"
+      ],
+      "after": [
+        "\\lambda=\\sqrt[3]{\\frac{D_3}{D_2}}",
+        "=\\sqrt[3]{\\frac{44028}{44388}}\\approx0.9973"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:scaleL",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "L_3=L_2\\lambda=189.64\\cdot0.9973",
+        "=189.13\\,\\mathrm m"
+      ],
+      "after": [
+        "L_3=L_2\\lambda=189.64\\cdot0.9973",
+        "=189.13\\,\\mathrm m"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:scaleB",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "B_3=B_2\\lambda=26.60\\cdot0.9973",
+        "=26.53\\,\\mathrm m"
+      ],
+      "after": [
+        "B_3=B_2\\lambda=26.60\\cdot0.9973",
+        "=26.53\\,\\mathrm m"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:scaleT",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "T_3=T_2\\lambda=10.88\\cdot0.9973",
+        "=10.85\\,\\mathrm m"
+      ],
+      "after": [
+        "T_3=T_2\\lambda=10.88\\cdot0.9973",
+        "=10.85\\,\\mathrm m"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:scaleH",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "H_3=\\frac{H_2}{\\lambda^2}=\\frac{14.89}{0.9973^2}",
+        "=14.97\\,\\mathrm m",
+        "(L_2\\lambda)(B_2\\lambda)\\frac{H_2}{\\lambda^2}=L_2B_2H_2"
+      ],
+      "after": [
+        "H_3=\\frac{H_2}{\\lambda^2}=\\frac{14.89}{0.9973^2}",
+        "=14.97\\,\\mathrm m",
+        "(L_2\\lambda)(B_2\\lambda)\\frac{H_2}{\\lambda^2}=L_2B_2H_2"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:steel3",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{ст}3}=g_{\\text{ст}}\\delta^{1/3}L_3^{3/2}B_3H_3^{1/2}",
+        "\\begin{gathered}=0.037\\cdot0.785^{1/3}\\\\\\cdot189.13^{3/2}\\end{gathered}",
+        "\\;\\cdot26.53\\cdot14.97^{1/2}",
+        "=9112.70\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{ст}3}=g_{\\text{ст}}\\delta^{1/3}L_3^{3/2}B_3H_3^{1/2}",
+        "\\begin{gathered}=0.037\\cdot0.785^{1/3}\\\\\\cdot189.13^{3/2}\\end{gathered}",
+        "\\;\\cdot26.53\\cdot14.97^{1/2}",
+        "=9112.70\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:equipment3",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{об}3}=0.97\\left(\\begin{gathered}189.13\\\\\\cdot26.53\\\\\\cdot14.97\\end{gathered}\\right)^{2/3}",
+        "=1726.84\\,\\mathrm t",
+        "P_{\\text{к.об.}3}=9112.70+1726.84",
+        "=10839.54\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{об}3}=0.97\\left(\\begin{gathered}189.13\\\\\\cdot26.53\\\\\\cdot14.97\\end{gathered}\\right)^{2/3}",
+        "=1726.84\\,\\mathrm t",
+        "P_{\\text{к.об.}3}=9112.70+1726.84",
+        "=10839.54\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:power_check",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "N_{\\text{гл}}^{\\prime}=(1.15N_{\\text{тр}})\\lambda^2",
+        "=12318.54\\cdot0.9973^2=12252.11\\,\\mathrm{kW}",
+        "12200<12252.11<12400"
+      ],
+      "after": [
+        "N_{\\text{гл}}^{\\prime}=(1.15N_{\\text{тр}})\\lambda^2",
+        "=12318.54\\cdot0.9973^2=12252.11\\,\\mathrm{kW}",
+        "12200<12252.11<12400"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:A4",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "A_4=10839.54+1040.56+1034.83",
+        "\\;+379+85+30700=44078.93\\,\\mathrm t",
+        "|44078.93-44028|=50.93\\le189.50"
+      ],
+      "after": [
+        "A_4=10839.54+1040.56+1034.83",
+        "\\;+379+85+30700=44078.93\\,\\mathrm t",
+        "|44078.93-44028|=50.93\\le189.50"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:reserve3",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{зв}3}=P_{\\text{зв}2}-(A_4-D_3)",
+        "=379-50.93=328.07\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{зв}3}=P_{\\text{зв}2}-(A_4-D_3)",
+        "=379-50.93=328.07\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:round_table",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{зв}3}=44028-10840-1041-1035-85-30700",
+        "=327\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{зв}3}=44028-10840-1041-1035-85-30700",
+        "=327\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:float",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "D_{\\mathrm{check}}=k\\rho\\delta L_3B_3T_3",
+        "=1.005\\cdot1.025\\cdot0.785",
+        "\\;\\cdot189.13\\cdot26.53\\cdot10.85",
+        "=44023.75\\,\\mathrm t",
+        "|44023.75-44028|=4.25\\,\\mathrm t",
+        "D_3=44024\\,\\mathrm t"
+      ],
+      "after": [
+        "D_{\\mathrm{check}}=k\\rho\\delta L_3B_3T_3",
+        "=1.005\\cdot1.025\\cdot0.785",
+        "\\;\\cdot189.13\\cdot26.53\\cdot10.85",
+        "=44023.75\\,\\mathrm t",
+        "|44023.75-44028|=4.25\\,\\mathrm t",
+        "D_3=44024\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:reserve4",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{зв}4}=327+(44024-44028)=323\\,\\mathrm t"
+      ],
+      "after": [
+        "P_{\\text{зв}4}=327+(44024-44028)=323\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:table:row0",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{к.об.}3}=10840\\,\\mathrm t",
+        "\\frac{10840}{44024}\\cdot100\\%=24.62\\%"
+      ],
+      "after": [
+        "P_{\\text{к.об.}3}=10840\\,\\mathrm t",
+        "\\frac{10840}{44024}\\cdot100\\%=24.62\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:table:row1",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сэу}3}=1041\\,\\mathrm t",
+        "\\frac{1041}{44024}\\cdot100\\%=2.36\\%"
+      ],
+      "after": [
+        "P_{\\text{сэу}3}=1041\\,\\mathrm t",
+        "\\frac{1041}{44024}\\cdot100\\%=2.36\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:table:row2",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сэз}3}=1035\\,\\mathrm t",
+        "\\frac{1035}{44024}\\cdot100\\%=2.35\\%"
+      ],
+      "after": [
+        "P_{\\text{сэз}3}=1035\\,\\mathrm t",
+        "\\frac{1035}{44024}\\cdot100\\%=2.35\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:table:row3",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{зв}4}=323\\,\\mathrm t",
+        "\\frac{323}{44024}\\cdot100\\%=0.73\\%"
+      ],
+      "after": [
+        "P_{\\text{зв}4}=323\\,\\mathrm t",
+        "\\frac{323}{44024}\\cdot100\\%=0.73\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:table:row4",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{сн}}=85\\,\\mathrm t",
+        "\\frac{85}{44024}\\cdot100\\%=0.19\\%"
+      ],
+      "after": [
+        "P_{\\text{сн}}=85\\,\\mathrm t",
+        "\\frac{85}{44024}\\cdot100\\%=0.19\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:table:row5",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "P_{\\text{гр}}=30700\\,\\mathrm t",
+        "\\frac{30700}{44024}\\cdot100\\%=69.73\\%"
+      ],
+      "after": [
+        "P_{\\text{гр}}=30700\\,\\mathrm t",
+        "\\frac{30700}{44024}\\cdot100\\%=69.73\\%"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:table:closure",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\sum P_i=10840+1041+1035",
+        "\\;+323+85+30700",
+        "=44024\\,\\mathrm t"
+      ],
+      "after": [
+        "\\sum P_i=10840+1041+1035",
+        "\\;+323+85+30700",
+        "=44024\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:residual_check",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\sum P_i-D_3=0",
+        "|44023.75-44024|=0.25\\,\\mathrm t"
+      ],
+      "after": [
+        "\\sum P_i-D_3=0",
+        "|44023.75-44024|=0.25\\,\\mathrm t"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:ratioLB",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\frac{L_0}{B_0}=6.01",
+        "\\frac{L_3}{B_3}=\\frac{189.13}{26.53}=7.13"
+      ],
+      "after": [
+        "\\frac{L_0}{B_0}=6.01",
+        "\\frac{L_3}{B_3}=\\frac{189.13}{26.53}=7.13"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:ratioBT",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\frac{B_0}{T_0}=2.50",
+        "\\frac{B_3}{T_3}=\\frac{26.53}{10.85}=2.45"
+      ],
+      "after": [
+        "\\frac{B_0}{T_0}=2.50",
+        "\\frac{B_3}{T_3}=\\frac{26.53}{10.85}=2.45"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:ratioHT",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "\\frac{H_0}{T_0}=1.37",
+        "\\frac{H_3}{T_3}=\\frac{14.97}{10.85}=1.38",
+        "\\frac{H}{T}\\ge1.25"
+      ],
+      "after": [
+        "\\frac{H_0}{T_0}=1.37",
+        "\\frac{H_3}{T_3}=\\frac{14.97}{10.85}=1.38",
+        "\\frac{H}{T}\\ge1.25"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    },
+    {
+      "id": "AP3:handoff",
+      "sources": [
+        "4a/КП-ПС-2 приближение.docx",
+        "5a/МУ-3прибл.cПрил.Fig.1-3.docx",
+        "5a/КП-ПС-3 приближение.docx"
+      ],
+      "before": [
+        "L_3=189.13,\\ B_3=26.53\\,\\mathrm m",
+        "T_3=10.85,\\ H_3=14.97\\,\\mathrm m",
+        "D_3=44024\\,\\mathrm t,\\quad N_{\\text{гл}}=12400\\,\\mathrm{kW}"
+      ],
+      "after": [
+        "L_3=189.13,\\ B_3=26.53\\,\\mathrm m",
+        "T_3=10.85,\\ H_3=14.97\\,\\mathrm m",
+        "D_3=44024\\,\\mathrm t,\\quad N_{\\text{гл}}=12400\\,\\mathrm{kW}"
+      ],
+      "changed": false,
+      "teaching_addition": true
+    }
+  ]
+}

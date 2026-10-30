@@ -1,0 +1,67 @@
+extends "res://qa/formal_check.gd"
+func start(target)->void:
+	app=target;await frames(5)
+	app.lang="zh";await app.open_course("load","L01:goal");await frames(6)
+	if app.ship.camera_tween:app.ship.camera_tween.custom_step(1)
+	if app.layout_tween:app.layout_tween.custom_step(1)
+	await frames(10);app.player.complete_busy()
+	check(float(app.ship.current.cutaway_amount)==0,"Opening starts with intact ship")
+	app.player.play();app.player.animation.custom_step(.8);await frames(2)
+	check(float(app.ship.current.cutaway_amount)>0 and float(app.ship.current.cutaway_amount)<1,"Opening animates cutaway")
+	await capture("fuel-opening")
+	await settle()
+	for mesh in app.ship.model_meshes:
+		if app.ship.load_model.is_ancestor_of(mesh) and (mesh.get_meta("near_side",false) or mesh.get_meta("cutaway_hide",false)):
+			check(mesh.visible,"Local cut preserves authored component "+str(mesh.name))
+	check(app.ship.inspection_cuts[2].materials[0].get_shader_parameter("cut")>.99,"Fuel inspection window fully opens")
+	go_to("L01:positions");await settle()
+	check(app.ship.fuel_locations.markers.size()==9,"Nine separate filled fuel compartments")
+	await capture("fuel-overview")
+	var xs:Array=[97,67,67,67,41.5,24.1,25.5,28.95,28.95]
+	var zs:Array=[.58,.58,.58,.58,.58,7.15,10.75,6.8,9.95]
+	for i in range(9):
+		var id:String="L01:tank1:given" if i==0 else "L01:tank"+str(i+1)
+		go_to(id);await settle()
+		var ship=app.ship
+		check(float(ship.current.cutaway_amount)==1,"Tank "+str(i+1)+" keeps hull cut away")
+		check(ship.fuel_locations.markers.size()==1,"One selected tank marker")
+		check(ship.fuel_locations.markers[0].text.begins_with("油舱 "+str(i+1)),"Correct tank identity")
+		check(ship.points[i].position.distance_to(Vector3(xs[i]-75,zs[i],-float(ship.fuel_layout[i].y_display_m)))<.0001,"Source x/z preserved")
+		check(not ship.points[i].visible,"Large mass sphere hidden")
+		var oil:MeshInstance3D
+		for mesh in ship.model_meshes:
+			if ship.load_model.is_ancestor_of(mesh) and mesh.get_meta("zone")==("Fuel%02dOil"%[i+1]):oil=mesh
+		check(oil!=null and oil.is_visible_in_tree(),"Selected tank contains visible Blender oil mesh")
+		if oil!=null:
+			var bounds:AABB=oil.global_transform*oil.get_aabb()
+			check(bounds.get_center().distance_to(ship.points[i].position)<.0001,"Marker equals actual oil-volume centre")
+		check(not ship.coordinate_labels[0].visible,"Close-up does not show a false clamped AP origin")
+		check(Rect2(Vector2.ZERO,ship.size).has_point(ship.fuel_locations.markers[0].point),"Selected centre in camera frame")
+		check(ship.current.fuel_detail,"Camera follows selected fuel tank")
+		check(app.speech.caption.get_v_scroll_bar().max_value<=app.speech.caption.get_v_scroll_bar().page,"Explanation fits without scrolling")
+		if i in [0,1,5,8]:await capture("fuel-tank"+str(i+1))
+	go_to("L01:free");await settle()
+	check(app.equations.entries.has("L01:free"),"Given free-surface moment has separate explanation")
+	var before:Dictionary=app.player.state.duplicate(true);tap(KEY_F2);await frames(8)
+	check(app.beat.id=="L01:free" and app.player.state==before,"F2 preserves tank and step")
+	check(app.ship.fuel_locations.markers[0].text.begins_with("Танк 1"),"Russian marker")
+	await capture("fuel-russian")
+	go_to("L02:free_surface_tm");await settle();await capture("fuel-sum")
+	check(app.ship.fuel_locations.markers.size()==9,"Summation restores all locations")
+	go_to("L04:carry");await settle()
+	check(not app.ship.fuel_locations.visible,"Whole-ship load stage hides tank overlay")
+	await app.open_course("load","L01:tank6");await settle()
+	check(float(app.ship.current.cutaway_amount)==1 and app.ship.fuel_locations.markers.size()==1,"Direct progress resume reconstructs cutaway")
+	go_to("L01:goal");await frames(8);app.player.complete_busy();app.player.play();app.player.animation.custom_step(.2)
+	app.jump_to_step(10);await settle()
+	check(float(app.ship.current.cutaway_amount)==1,"Jump cancels cutaway animation and restores target state")
+	tap(KEY_ESCAPE);await frames(3);check(app.mode=="home","Esc exits lesson")
+	check(app.get_window().get_flag(Window.FLAG_NO_FOCUS),"QA window never takes focus")
+	check(app.store.path=="user://qa-progress.json","Independent test save")
+	app.lang="zh";await app.open_course("mass","T:liquid");await settle();await capture("fuel-t2-liquid")
+	check(app.ship.tanker_model.visible and not app.ship.load_model.visible,"T2 remains a separate liquid cargo vessel")
+	app.lang="ru";await app.open_course("dimensions","T16:pass");app.store.data.language="ru";app.save_progress()
+	var output:=FileAccess.open("res://qa/fuel-"+("minimum" if "--minimum" in OS.get_cmdline_user_args() else "normal")+".json",FileAccess.WRITE)
+	output.store_string(JSON.stringify(results,"\t"));output.close()
+	print("FUEL ",results.size()," checks")
+	get_tree().quit(0 if results.all(func(r):return r.passed) else 1)

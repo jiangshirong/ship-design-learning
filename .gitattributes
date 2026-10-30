@@ -1,0 +1,11 @@
+* text=auto
+*.gd text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.cmd text eol=crlf
+*.glb -text
+*.blend -text
+*.exe -text
+*.tar.xz -text
+*.otf -text
+*.ttf -text

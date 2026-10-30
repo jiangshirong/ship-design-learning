@@ -1,0 +1,974 @@
+{
+  "Q06:s1": {
+    "zh": [
+      {
+        "tex": "D=\\sum P_i",
+        "linear": "D=\\sum P_i"
+      },
+      {
+        "tex": "x_g=\\frac{\\sum P_i x_i}{D},\\quad z_g=\\frac{\\sum P_i z_i}{D}",
+        "linear": "x_g=\\frac{\\sum P_i x_i}{D},\\quad z_g=\\frac{\\sum P_i z_i}{D}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=\\sum P_i",
+        "linear": "D=\\sum P_i"
+      },
+      {
+        "tex": "x_g=\\frac{\\sum P_i x_i}{D},\\quad z_g=\\frac{\\sum P_i z_i}{D}",
+        "linear": "x_g=\\frac{\\sum P_i x_i}{D},\\quad z_g=\\frac{\\sum P_i z_i}{D}"
+      }
+    ]
+  },
+  "Q06:s2": {
+    "zh": [
+      {
+        "tex": "D=200\\,\\mathrm{t}",
+        "linear": "D=200\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_g=@xg@\\,\\mathrm{m},\\quad z_g=@zg@\\,\\mathrm{m}",
+        "linear": "x_g=@xg@\\,\\mathrm{m},\\quad z_g=@zg@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=200\\,\\mathrm{t}",
+        "linear": "D=200\\,\\mathrm{t}"
+      },
+      {
+        "tex": "x_g=@xg@\\,\\mathrm{m},\\quad z_g=@zg@\\,\\mathrm{m}",
+        "linear": "x_g=@xg@\\,\\mathrm{m},\\quad z_g=@zg@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "Q06:s3": {
+    "zh": [
+      {
+        "tex": "D=200\\,\\mathrm{t},\\quad x_g=5\\,\\mathrm{m},\\quad z_g=2\\,\\mathrm{m}",
+        "linear": "D=200\\,\\mathrm{t},\\quad x_g=5\\,\\mathrm{m},\\quad z_g=2\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "D=200\\,\\mathrm{t},\\quad x_g=5\\,\\mathrm{m},\\quad z_g=2\\,\\mathrm{m}",
+        "linear": "D=200\\,\\mathrm{t},\\quad x_g=5\\,\\mathrm{m},\\quad z_g=2\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "Q07:s1": {
+    "zh": [
+      {
+        "tex": "p_{\\mathrm{к}}=\\frac{P_{\\mathrm{к}}}{D}",
+        "linear": "p_{\\mathrm{к}}=\\frac{P_{\\mathrm{к}}}{D}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "p_{\\mathrm{к}}=\\frac{P_{\\mathrm{к}}}{D}",
+        "linear": "p_{\\mathrm{к}}=\\frac{P_{\\mathrm{к}}}{D}"
+      }
+    ]
+  },
+  "Q07:s2": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D",
+        "linear": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D",
+        "linear": "P_{\\mathrm{к}}=p_{\\mathrm{к}}D"
+      }
+    ]
+  },
+  "Q07:s3": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{к}}=0.4\\times1000=400\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{к}}=0.4\\times1000=400\\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{к}}=0.4\\times1000=400\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{к}}=0.4\\times1000=400\\,\\mathrm{t}"
+      }
+    ]
+  },
+  "Q08:s1": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N",
+        "linear": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N",
+        "linear": "P_{\\mathrm{сэу}}=p_{\\mathrm{сэу}}N"
+      }
+    ]
+  },
+  "Q08:s2": {
+    "zh": [
+      {
+        "tex": "N=\\frac{P_{\\mathrm{сэу}}}{p_{\\mathrm{сэу}}}",
+        "linear": "N=\\frac{P_{\\mathrm{сэу}}}{p_{\\mathrm{сэу}}}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "N=\\frac{P_{\\mathrm{сэу}}}{p_{\\mathrm{сэу}}}",
+        "linear": "N=\\frac{P_{\\mathrm{сэу}}}{p_{\\mathrm{сэу}}}"
+      }
+    ]
+  },
+  "Q08:s3": {
+    "zh": [
+      {
+        "tex": "N=\\frac{100\\,\\mathrm{t}}{0.02\\,\\mathrm{t/kW}}=5000\\,\\mathrm{kW}",
+        "linear": "N=\\frac{100\\,\\mathrm{t}}{0.02\\,\\mathrm{t/kW}}=5000\\,\\mathrm{kW}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "N=\\frac{100\\,\\mathrm{t}}{0.02\\,\\mathrm{t/kW}}=5000\\,\\mathrm{kW}",
+        "linear": "N=\\frac{100\\,\\mathrm{t}}{0.02\\,\\mathrm{t/kW}}=5000\\,\\mathrm{kW}"
+      }
+    ]
+  },
+  "Q09:s1": {
+    "zh": [
+      {
+        "tex": "t=\\frac{R}{v}=\\frac{120}{12}=10\\,\\mathrm{h}",
+        "linear": "t=\\frac{R}{v}=\\frac{120}{12}=10\\,\\mathrm{h}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "t=\\frac{R}{v}=\\frac{120}{12}=10\\,\\mathrm{h}",
+        "linear": "t=\\frac{R}{v}=\\frac{120}{12}=10\\,\\mathrm{h}"
+      }
+    ]
+  },
+  "Q09:s2": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{сэз}}=p_{\\mathrm{сэз}}N\\frac{R}{v}",
+        "linear": "P_{\\mathrm{сэз}}=p_{\\mathrm{сэз}}N\\frac{R}{v}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{сэз}}=p_{\\mathrm{сэз}}N\\frac{R}{v}",
+        "linear": "P_{\\mathrm{сэз}}=p_{\\mathrm{сэз}}N\\frac{R}{v}"
+      }
+    ]
+  },
+  "Q09:s3": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{сэз}}=0.2\\times1000\\times10=2000\\,\\mathrm{kg}",
+        "linear": "P_{\\mathrm{сэз}}=0.2\\times1000\\times10=2000\\,\\mathrm{kg}"
+      },
+      {
+        "tex": "2000\\,\\mathrm{kg}=2\\,\\mathrm{t}",
+        "linear": "2000\\,\\mathrm{kg}=2\\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{сэз}}=0.2\\times1000\\times10=2000\\,\\mathrm{kg}",
+        "linear": "P_{\\mathrm{сэз}}=0.2\\times1000\\times10=2000\\,\\mathrm{kg}"
+      },
+      {
+        "tex": "2000\\,\\mathrm{kg}=2\\,\\mathrm{t}",
+        "linear": "2000\\,\\mathrm{kg}=2\\,\\mathrm{t}"
+      }
+    ]
+  },
+  "Q10:s1": {
+    "zh": [
+      {
+        "tex": "P_{\\mathrm{пр.вод}}=0.15nS\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{пр.вод}}=0.15nS\\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "P_{\\mathrm{пр.вод}}=0.15nS\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{пр.вод}}=0.15nS\\,\\mathrm{t}"
+      }
+    ]
+  },
+  "Q10:s2": {
+    "zh": [
+      {
+        "tex": "W=150\\times5\\times2\\,\\mathrm{L}",
+        "linear": "W=150\\times5\\times2\\,\\mathrm{L}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "W=150\\times5\\times2\\,\\mathrm{L}",
+        "linear": "W=150\\times5\\times2\\,\\mathrm{L}"
+      }
+    ]
+  },
+  "Q10:s3": {
+    "zh": [
+      {
+        "tex": "W=1500\\,\\mathrm{L}",
+        "linear": "W=1500\\,\\mathrm{L}"
+      },
+      {
+        "tex": "P_{\\mathrm{пр.вод}}\\approx1.5\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{пр.вод}}\\approx1.5\\,\\mathrm{t}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "W=1500\\,\\mathrm{L}",
+        "linear": "W=1500\\,\\mathrm{L}"
+      },
+      {
+        "tex": "P_{\\mathrm{пр.вод}}\\approx1.5\\,\\mathrm{t}",
+        "linear": "P_{\\mathrm{пр.вод}}\\approx1.5\\,\\mathrm{t}"
+      }
+    ]
+  },
+  "TOP:N01:goal": {
+    "zh": [
+      {
+        "tex": "\\frac{h}{B}=\\frac{z_c+r-z_g}{B}",
+        "linear": "\\frac{h}{B}=\\frac{z_c+r-z_g}{B}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{h}{B}=\\frac{z_c+r-z_g}{B}",
+        "linear": "\\frac{h}{B}=\\frac{z_c+r-z_g}{B}"
+      }
+    ]
+  },
+  "TOP:N01:width": {
+    "zh": [
+      {
+        "tex": "r=\\frac{I_x}{\\nabla}",
+        "linear": "r=\\frac{I_x}{\\nabla}"
+      },
+      {
+        "tex": "\\frac{h}{B}=@st_ratio@",
+        "linear": "\\frac{h}{B}=@st_ratio@"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "r=\\frac{I_x}{\\nabla}",
+        "linear": "r=\\frac{I_x}{\\nabla}"
+      },
+      {
+        "tex": "\\frac{h}{B}=@st_ratio@",
+        "linear": "\\frac{h}{B}=@st_ratio@"
+      }
+    ]
+  },
+  "TOP:N01:limits": {
+    "zh": [
+      {
+        "tex": "\\frac{h}{H},\\quad\\frac{h}{T}",
+        "linear": "\\frac{h}{H},\\quad\\frac{h}{T}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{h}{H},\\quad\\frac{h}{T}",
+        "linear": "\\frac{h}{H},\\quad\\frac{h}{T}"
+      }
+    ]
+  },
+  "TOP:N02:goal": {
+    "zh": [
+      {
+        "tex": "h'=2h,\\quad B'=2B",
+        "linear": "h'=2h,\\quad B'=2B"
+      },
+      {
+        "tex": "\\frac{h'}{B'}=\\frac{2h}{2B}=\\frac{h}{B}",
+        "linear": "\\frac{h'}{B'}=\\frac{2h}{2B}=\\frac{h}{B}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h'=2h,\\quad B'=2B",
+        "linear": "h'=2h,\\quad B'=2B"
+      },
+      {
+        "tex": "\\frac{h'}{B'}=\\frac{2h}{2B}=\\frac{h}{B}",
+        "linear": "\\frac{h'}{B'}=\\frac{2h}{2B}=\\frac{h}{B}"
+      }
+    ]
+  },
+  "TOP:N03:goal": {
+    "zh": [
+      {
+        "tex": "\\frac{h}{B}=0.01",
+        "linear": "\\frac{h}{B}=0.01"
+      },
+      {
+        "tex": "h=0.01B",
+        "linear": "h=0.01B"
+      },
+      {
+        "tex": "l_{\\mathrm{ст}}=@st_arm@\\,\\mathrm{m}",
+        "linear": "l_{\\mathrm{ст}}=@st_arm@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{h}{B}=0.01",
+        "linear": "\\frac{h}{B}=0.01"
+      },
+      {
+        "tex": "h=0.01B",
+        "linear": "h=0.01B"
+      },
+      {
+        "tex": "l_{\\mathrm{ст}}=@st_arm@\\,\\mathrm{m}",
+        "linear": "l_{\\mathrm{ст}}=@st_arm@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "TOP:N04:goal": {
+    "zh": [
+      {
+        "tex": "\\frac{h}{B}=0.10",
+        "linear": "\\frac{h}{B}=0.10"
+      },
+      {
+        "tex": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{gh}}",
+        "linear": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{gh}}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{h}{B}=0.10",
+        "linear": "\\frac{h}{B}=0.10"
+      },
+      {
+        "tex": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{gh}}",
+        "linear": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{gh}}"
+      }
+    ]
+  },
+  "TOP:N05:goal": {
+    "zh": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      }
+    ]
+  },
+  "TOP:N05:required": {
+    "zh": [
+      {
+        "tex": "z_g\\leq z_c+r-h_{\\min}",
+        "linear": "z_g\\leq z_c+r-h_{\\min}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "z_g\\leq z_c+r-h_{\\min}",
+        "linear": "z_g\\leq z_c+r-h_{\\min}"
+      }
+    ]
+  },
+  "TOP:N05:dimensions": {
+    "zh": [
+      {
+        "tex": "z_c=k_1\\sqrt{\\frac{\\alpha}{\\delta}}\\,T",
+        "linear": "z_c=k_1\\sqrt{\\frac{\\alpha}{\\delta}}\\,T"
+      },
+      {
+        "tex": "r=\\frac{\\alpha^2B^2}{k_2\\delta T}",
+        "linear": "r=\\frac{\\alpha^2B^2}{k_2\\delta T}"
+      },
+      {
+        "tex": "z_g=\\xi H",
+        "linear": "z_g=\\xi H"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "z_c=k_1\\sqrt{\\frac{\\alpha}{\\delta}}\\,T",
+        "linear": "z_c=k_1\\sqrt{\\frac{\\alpha}{\\delta}}\\,T"
+      },
+      {
+        "tex": "r=\\frac{\\alpha^2B^2}{k_2\\delta T}",
+        "linear": "r=\\frac{\\alpha^2B^2}{k_2\\delta T}"
+      },
+      {
+        "tex": "z_g=\\xi H",
+        "linear": "z_g=\\xi H"
+      }
+    ]
+  },
+  "TOP:N06:goal": {
+    "zh": [
+      {
+        "tex": "l_{\\mathrm{ст}}(\\theta)=y_C(\\theta)-z_g\\sin\\theta",
+        "linear": "l_{\\mathrm{ст}}(\\theta)=y_C(\\theta)-z_g\\sin\\theta"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "l_{\\mathrm{ст}}(\\theta)=y_C(\\theta)-z_g\\sin\\theta",
+        "linear": "l_{\\mathrm{ст}}(\\theta)=y_C(\\theta)-z_g\\sin\\theta"
+      }
+    ]
+  },
+  "TOP:N13:measure": {
+    "zh": [
+      {
+        "tex": "F=H-T",
+        "linear": "F=H-T"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "F=H-T",
+        "linear": "F=H-T"
+      }
+    ]
+  },
+  "TOP:N13:reserve": {
+    "zh": [
+      {
+        "tex": "T\\uparrow\\quad\\Longrightarrow\\quad F\\downarrow",
+        "linear": "T\\uparrow\\quad\\Longrightarrow\\quad F\\downarrow"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "T\\uparrow\\quad\\Longrightarrow\\quad F\\downarrow",
+        "linear": "T\\uparrow\\quad\\Longrightarrow\\quad F\\downarrow"
+      }
+    ]
+  },
+  "TOP:N14:full": {
+    "zh": [
+      {
+        "tex": "T_{\\max}=H-F_{\\min}",
+        "linear": "T_{\\max}=H-F_{\\min}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "T_{\\max}=H-F_{\\min}",
+        "linear": "T_{\\max}=H-F_{\\min}"
+      }
+    ]
+  },
+  "TOP:N14:limit": {
+    "zh": [
+      {
+        "tex": "T\\leq T_{\\max}",
+        "linear": "T\\leq T_{\\max}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "T\\leq T_{\\max}",
+        "linear": "T\\leq T_{\\max}"
+      }
+    ]
+  },
+  "Q12:s3": {
+    "zh": [
+      {
+        "tex": "V=\\int_{x_a}^{x_b}A(x)\\,\\mathrm{d}x",
+        "linear": "V=\\int_{x_a}^{x_b}A(x)\\,\\mathrm{d}x"
+      },
+      {
+        "tex": "V\\approx\\sum_i\\frac{A_i+A_{i+1}}{2}\\,\\Delta x_i",
+        "linear": "V\\approx\\sum_i\\frac{A_i+A_{i+1}}{2}\\,\\Delta x_i"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "V=\\int_{x_a}^{x_b}A(x)\\,\\mathrm{d}x",
+        "linear": "V=\\int_{x_a}^{x_b}A(x)\\,\\mathrm{d}x"
+      },
+      {
+        "tex": "V\\approx\\sum_i\\frac{A_i+A_{i+1}}{2}\\,\\Delta x_i",
+        "linear": "V\\approx\\sum_i\\frac{A_i+A_{i+1}}{2}\\,\\Delta x_i"
+      }
+    ]
+  },
+  "Q09:units": {
+    "zh": [
+      {
+        "tex": "\\frac{\\mathrm{nmi}}{\\mathrm{nmi/h}}=\\mathrm h",
+        "linear": "\\frac{\\mathrm{nmi}}{\\mathrm{nmi/h}}=\\mathrm h"
+      },
+      {
+        "tex": "\\frac{\\mathrm t}{\\mathrm{kW\\cdot h}}\\cdot\\mathrm{kW}\\cdot\\mathrm h=\\mathrm t",
+        "linear": "\\frac{\\mathrm t}{\\mathrm{kW\\cdot h}}\\cdot\\mathrm{kW}\\cdot\\mathrm h=\\mathrm t"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\frac{\\mathrm{nmi}}{\\mathrm{nmi/h}}=\\mathrm h",
+        "linear": "\\frac{\\mathrm{nmi}}{\\mathrm{nmi/h}}=\\mathrm h"
+      },
+      {
+        "tex": "\\frac{\\mathrm t}{\\mathrm{kW\\cdot h}}\\cdot\\mathrm{kW}\\cdot\\mathrm h=\\mathrm t",
+        "linear": "\\frac{\\mathrm t}{\\mathrm{kW\\cdot h}}\\cdot\\mathrm{kW}\\cdot\\mathrm h=\\mathrm t"
+      }
+    ]
+  },
+  "Q14:ratios": {
+    "zh": [
+      {
+        "tex": "\\mu_{\\text{гр}}\\;[\\mathrm{m^3/t}]",
+        "linear": "\\mu_{\\text{гр}}\\;[\\mathrm{m^3/t}]"
+      },
+      {
+        "tex": "\\mu_{\\text{с}}=\\frac{W}{P_{\\text{гр}}}\\;[\\mathrm{m^3/t}]",
+        "linear": "\\mu_{\\text{с}}=\\frac{W}{P_{\\text{гр}}}\\;[\\mathrm{m^3/t}]"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\mu_{\\text{гр}}\\;[\\mathrm{m^3/t}]",
+        "linear": "\\mu_{\\text{гр}}\\;[\\mathrm{m^3/t}]"
+      },
+      {
+        "tex": "\\mu_{\\text{с}}=\\frac{W}{P_{\\text{гр}}}\\;[\\mathrm{m^3/t}]",
+        "linear": "\\mu_{\\text{с}}=\\frac{W}{P_{\\text{гр}}}\\;[\\mathrm{m^3/t}]"
+      }
+    ]
+  },
+  "Q15:ratio": {
+    "zh": [
+      {
+        "tex": "\\mu_{\\text{с}}<\\mu_{\\text{гр}}",
+        "linear": "\\mu_{\\text{с}}<\\mu_{\\text{гр}}"
+      },
+      {
+        "tex": "W_{\\mathrm{req}}=P_{\\text{гр}}\\mu_{\\text{гр}}",
+        "linear": "W_{\\mathrm{req}}=P_{\\text{гр}}\\mu_{\\text{гр}}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\mu_{\\text{с}}<\\mu_{\\text{гр}}",
+        "linear": "\\mu_{\\text{с}}<\\mu_{\\text{гр}}"
+      },
+      {
+        "tex": "W_{\\mathrm{req}}=P_{\\text{гр}}\\mu_{\\text{гр}}",
+        "linear": "W_{\\mathrm{req}}=P_{\\text{гр}}\\mu_{\\text{гр}}"
+      }
+    ]
+  },
+  "TOP:N04:type": {
+    "zh": [
+      {
+        "tex": "0.08\\leq\\frac{h}{B}\\leq0.10",
+        "linear": "0.08\\leq\\frac{h}{B}\\leq0.10"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "0.08\\leq\\frac{h}{B}\\leq0.10",
+        "linear": "0.08\\leq\\frac{h}{B}\\leq0.10"
+      }
+    ]
+  },
+  "M11:M11Q01:formula": {
+    "zh": [
+      {
+        "tex": "\\beta=\\frac{A_M}{BT}",
+        "linear": "\\beta=\\frac{A_M}{BT}"
+      },
+      {
+        "tex": "A_M=@m11_area@\\,\\mathrm{m^2}",
+        "linear": "A_M=@m11_area@\\,\\mathrm{m^2}"
+      },
+      {
+        "tex": "\\beta=@m11_beta@",
+        "linear": "\\beta=@m11_beta@"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\beta=\\frac{A_M}{BT}",
+        "linear": "\\beta=\\frac{A_M}{BT}"
+      },
+      {
+        "tex": "A_M=@m11_area@\\,\\mathrm{m^2}",
+        "linear": "A_M=@m11_area@\\,\\mathrm{m^2}"
+      },
+      {
+        "tex": "\\beta=@m11_beta@",
+        "linear": "\\beta=@m11_beta@"
+      }
+    ]
+  },
+  "M11:M11Q08:length": {
+    "zh": [
+      {
+        "tex": "x=l x_0",
+        "linear": "x=l x_0"
+      },
+      {
+        "tex": "l=\\frac{L}{L_0}",
+        "linear": "l=\\frac{L}{L_0}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "x=l x_0",
+        "linear": "x=l x_0"
+      },
+      {
+        "tex": "l=\\frac{L}{L_0}",
+        "linear": "l=\\frac{L}{L_0}"
+      }
+    ]
+  },
+  "M11:M11Q08:width": {
+    "zh": [
+      {
+        "tex": "y=b y_0",
+        "linear": "y=b y_0"
+      },
+      {
+        "tex": "b=\\frac{B}{B_0}",
+        "linear": "b=\\frac{B}{B_0}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "y=b y_0",
+        "linear": "y=b y_0"
+      },
+      {
+        "tex": "b=\\frac{B}{B_0}",
+        "linear": "b=\\frac{B}{B_0}"
+      }
+    ]
+  },
+  "M11:M11Q08:draft": {
+    "zh": [
+      {
+        "tex": "z=t z_0",
+        "linear": "z=t z_0"
+      },
+      {
+        "tex": "t=\\frac{T}{T_0}",
+        "linear": "t=\\frac{T}{T_0}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "z=t z_0",
+        "linear": "z=t z_0"
+      },
+      {
+        "tex": "t=\\frac{T}{T_0}",
+        "linear": "t=\\frac{T}{T_0}"
+      }
+    ]
+  },
+  "M11:M11Q08:conditions": {
+    "zh": [
+      {
+        "tex": "V=lbtV_0",
+        "linear": "V=lbtV_0"
+      },
+      {
+        "tex": "\\delta=\\delta_0",
+        "linear": "\\delta=\\delta_0"
+      },
+      {
+        "tex": "\\alpha=\\alpha_0",
+        "linear": "\\alpha=\\alpha_0"
+      },
+      {
+        "tex": "\\beta=\\beta_0",
+        "linear": "\\beta=\\beta_0"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "V=lbtV_0",
+        "linear": "V=lbtV_0"
+      },
+      {
+        "tex": "\\delta=\\delta_0",
+        "linear": "\\delta=\\delta_0"
+      },
+      {
+        "tex": "\\alpha=\\alpha_0",
+        "linear": "\\alpha=\\alpha_0"
+      },
+      {
+        "tex": "\\beta=\\beta_0",
+        "linear": "\\beta=\\beta_0"
+      }
+    ]
+  },
+  "R9:R9Q17:1": {
+    "zh": [
+      {
+        "tex": "(H-T)_{\\min}<H-T",
+        "linear": "(H-T)_{\\min}<H-T"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "(H-T)_{\\min}<H-T",
+        "linear": "(H-T)_{\\min}<H-T"
+      }
+    ]
+  },
+  "R9:R9Q18:1": {
+    "zh": [
+      {
+        "tex": "(H-T)_{\\min}=H-T",
+        "linear": "(H-T)_{\\min}=H-T"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "(H-T)_{\\min}=H-T",
+        "linear": "(H-T)_{\\min}=H-T"
+      }
+    ]
+  },
+  "R9:R9Q19:1": {
+    "zh": [
+      {
+        "tex": "(H-T)_{\\min}>H-T",
+        "linear": "(H-T)_{\\min}>H-T"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "(H-T)_{\\min}>H-T",
+        "linear": "(H-T)_{\\min}>H-T"
+      }
+    ]
+  },
+  "R9:R9Q27:0": {
+    "zh": [
+      {
+        "tex": "L=12.8\\,\\mathrm m",
+        "linear": "L=12.8\\,\\mathrm m"
+      },
+      {
+        "tex": "Fr_L=\\frac{v}{\\sqrt{gL}}",
+        "linear": "Fr_L=\\frac{v}{\\sqrt{gL}}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "L=12.8\\,\\mathrm m",
+        "linear": "L=12.8\\,\\mathrm m"
+      },
+      {
+        "tex": "Fr_L=\\frac{v}{\\sqrt{gL}}",
+        "linear": "Fr_L=\\frac{v}{\\sqrt{gL}}"
+      }
+    ]
+  },
+  "R9:R9Q27:1": {
+    "zh": [
+      {
+        "tex": "Fr_{\\nabla}=\\frac{v}{\\sqrt{g\\sqrt[3]{\\nabla}}}",
+        "linear": "Fr_{\\nabla}=\\frac{v}{\\sqrt{g\\sqrt[3]{\\nabla}}}"
+      },
+      {
+        "tex": "v=@y_speed@\\,\\mathrm{m/s}",
+        "linear": "v=@y_speed@\\,\\mathrm{m/s}"
+      },
+      {
+        "tex": "Fr_{\\nabla}=@y_fr@",
+        "linear": "Fr_{\\nabla}=@y_fr@"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "Fr_{\\nabla}=\\frac{v}{\\sqrt{g\\sqrt[3]{\\nabla}}}",
+        "linear": "Fr_{\\nabla}=\\frac{v}{\\sqrt{g\\sqrt[3]{\\nabla}}}"
+      },
+      {
+        "tex": "v=@y_speed@\\,\\mathrm{m/s}",
+        "linear": "v=@y_speed@\\,\\mathrm{m/s}"
+      },
+      {
+        "tex": "Fr_{\\nabla}=@y_fr@",
+        "linear": "Fr_{\\nabla}=@y_fr@"
+      }
+    ]
+  },
+  "R9:R9Q28:0": {
+    "zh": [
+      {
+        "tex": "Fr_{\\nabla}<1",
+        "linear": "Fr_{\\nabla}<1"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "Fr_{\\nabla}<1",
+        "linear": "Fr_{\\nabla}<1"
+      }
+    ]
+  },
+  "R9:R9Q28:1": {
+    "zh": [
+      {
+        "tex": "1<Fr_{\\nabla}<3",
+        "linear": "1<Fr_{\\nabla}<3"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "1<Fr_{\\nabla}<3",
+        "linear": "1<Fr_{\\nabla}<3"
+      }
+    ]
+  },
+  "R9:R9Q28:2": {
+    "zh": [
+      {
+        "tex": "Fr_{\\nabla}>3",
+        "linear": "Fr_{\\nabla}>3"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "Fr_{\\nabla}>3",
+        "linear": "Fr_{\\nabla}>3"
+      }
+    ]
+  },
+  "R9:R9Q30:1": {
+    "zh": [
+      {
+        "tex": "EPS=R_Tv",
+        "linear": "EPS=R_Tv"
+      },
+      {
+        "tex": "\\mathrm{kN}\\cdot\\frac{\\mathrm m}{\\mathrm s}=\\mathrm{kW}",
+        "linear": "\\mathrm{kN}\\cdot\\frac{\\mathrm m}{\\mathrm s}=\\mathrm{kW}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "EPS=R_Tv",
+        "linear": "EPS=R_Tv"
+      },
+      {
+        "tex": "\\mathrm{kN}\\cdot\\frac{\\mathrm m}{\\mathrm s}=\\mathrm{kW}",
+        "linear": "\\mathrm{kN}\\cdot\\frac{\\mathrm m}{\\mathrm s}=\\mathrm{kW}"
+      }
+    ]
+  },
+  "R9:R9Q31:2": {
+    "zh": [
+      {
+        "tex": "N=\\frac{EPS}{\\eta}",
+        "linear": "N=\\frac{EPS}{\\eta}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "N=\\frac{EPS}{\\eta}",
+        "linear": "N=\\frac{EPS}{\\eta}"
+      }
+    ]
+  },
+  "R9:R9Q34:1": {
+    "zh": [
+      {
+        "tex": "\\eta=\\frac{EPS}{N}",
+        "linear": "\\eta=\\frac{EPS}{N}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\eta=\\frac{EPS}{N}",
+        "linear": "\\eta=\\frac{EPS}{N}"
+      }
+    ]
+  },
+  "R9:R9Q40:1": {
+    "zh": [
+      {
+        "tex": "d\\leq0.04B",
+        "linear": "d\\leq0.04B"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "d\\leq0.04B",
+        "linear": "d\\leq0.04B"
+      }
+    ]
+  },
+  "_inline:ratioB": {
+    "zh": [
+      {
+        "tex": "\\tfrac{h}{B}",
+        "linear": "\\tfrac{h}{B}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\tfrac{h}{B}",
+        "linear": "\\tfrac{h}{B}"
+      }
+    ]
+  },
+  "_inline:ratioH": {
+    "zh": [
+      {
+        "tex": "\\tfrac{h}{H}",
+        "linear": "\\tfrac{h}{H}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\tfrac{h}{H}",
+        "linear": "\\tfrac{h}{H}"
+      }
+    ]
+  },
+  "_inline:ratioT": {
+    "zh": [
+      {
+        "tex": "\\tfrac{h}{T}",
+        "linear": "\\tfrac{h}{T}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\tfrac{h}{T}",
+        "linear": "\\tfrac{h}{T}"
+      }
+    ]
+  }
+}

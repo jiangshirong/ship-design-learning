@@ -1,0 +1,15 @@
+{
+  "TOP:Q22:water": {
+    "mode": "region", "region": "flooded_cell", "visible_from": "cut_side_or_above",
+    "minimum_pixels": [70, 40], "safe_margin": [0.04, 0.13, 0.04, 0.10]
+  },
+  "TOP:Q22:sink": {
+    "mode": "region", "region": "middle_hull", "visible_from": "cut_side_or_above", "include_waterline": true,
+    "minimum_pixels": [100, 60], "safe_margin": [0.04, 0.13, 0.04, 0.10]
+  },
+  "TOP:Q22:heel": {
+    "mode": "region", "region": "middle_hull", "visible_from": "cut_side_or_above", "include_waterline": true,
+    "minimum_pixels": [100, 60], "safe_margin": [0.04, 0.13, 0.04, 0.10]
+  },
+  "TOP:Q22:answer": { "mode": "keep" }
+}

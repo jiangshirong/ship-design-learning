@@ -1,0 +1,3462 @@
+{
+  "notice": "Historical evidence only. Current runtime content and root README are authoritative; do not restore over current files.",
+  "files": [
+    {
+      "path": "assets/bulkhead_inspection.glb",
+      "bytes": 6527388,
+      "sha256": "46920376d1170c02a7c27f5e0ec1225237d895551416a224cc663da68bec198e"
+    },
+    {
+      "path": "assets/tanker_ship.glb",
+      "bytes": 7091412,
+      "sha256": "db4291ae3397b20472db82d397d6a86481a39acc69237a0de499b326c5f583b6"
+    },
+    {
+      "path": "docs/12p接入与验证记录.md",
+      "bytes": 4531,
+      "sha256": "ecbf5040d91d94e51e63730102f39411ce102e6e536c21593829009b06821009"
+    },
+    {
+      "path": "docs/12p题目与图片对应表.md",
+      "bytes": 23104,
+      "sha256": "9e6050a99d063fbf2a0f571e66cdefbe2cdf9888cc79bf0646a3e4c7cfd1bfb0"
+    },
+    {
+      "path": "docs/13a接入与验证记录.md",
+      "bytes": 1940,
+      "sha256": "d5ca0a5d76b5c143b25f9f53e769241833284c268298be1a98267a5a39ad26bc"
+    },
+    {
+      "path": "docs/13a题目与答案.md",
+      "bytes": 28956,
+      "sha256": "930d4f51f3c68d550d0b68ec8c41c8c4ebc072214199bf2d5701fafd3b81711a"
+    },
+    {
+      "path": "docs/全部答案重写验证记录.md",
+      "bytes": 1696,
+      "sha256": "1ff501c5f52eafe530f12a14d6fb9d7a3d50a804a248a73500f279ad351afa9b"
+    },
+    {
+      "path": "docs/全部题目答案重写与依据.md",
+      "bytes": 125881,
+      "sha256": "a68e4d150591c9c512d551ae20194012e1daa332fa9488f28229fff2997d1e62"
+    },
+    {
+      "path": "docs/周四真题.md",
+      "bytes": 9170,
+      "sha256": "5a406b31114d3401fce5093d7c0afe07034ec8eebfbf28bf09eef592c9071ac5"
+    },
+    {
+      "path": "docs/新题字母分类验证记录.md",
+      "bytes": 1438,
+      "sha256": "2adb40971d7bf5dddfdb59c61e403675e8c2683c70573ada87dd66b49facdac7"
+    },
+    {
+      "path": "docs/新题目答案删冗记录.md",
+      "bytes": 7809,
+      "sha256": "98b2f31adf739c696998b36cd8c3e472175223a2edaa06c1cf7de49e99cfd3ed"
+    },
+    {
+      "path": "docs/新题目答案汇总.md",
+      "bytes": 55648,
+      "sha256": "21ddbb69c180f8acf2ef0679560f5c88c879e55bff38c2cca010a669f66f78cc"
+    },
+    {
+      "path": "docs/题目入口与真题分库.md",
+      "bytes": 931,
+      "sha256": "e8c85a897d6404963f61d86bdcc07b294d4766bbdcbd44834493fabf2b034c64"
+    },
+    {
+      "path": "models/bulkhead_inspection.blend",
+      "bytes": 3398968,
+      "sha256": "efb1a100feea0a503a32d66bd5f2ba9c1fe36b7b8213f33827c44517896bca11"
+    },
+    {
+      "path": "models/freight_first.blend1",
+      "bytes": 121478,
+      "sha256": "7337928362f3d6d7d4d7c83aecf9f5c464dc56be96f3478edd67a174a66db6a5"
+    },
+    {
+      "path": "models/freight_second.blend1",
+      "bytes": 124580,
+      "sha256": "b61bf31d9563a04f13d7982bdf9c8b4f455d0f2e1a4ba060be1976dbcd5ae3f4"
+    },
+    {
+      "path": "models/tanker_ship.blend",
+      "bytes": 2556503,
+      "sha256": "ef82b674ce800e8a18ab248c9ce914ca809b26ac500c91c9b933746dc83442a2"
+    },
+    {
+      "path": "models/干舷与艏部高度连续变形.blend1",
+      "bytes": 2121727,
+      "sha256": "6c0b38c015fb5b3954318415b5a8cd1e6a529a2bde8480639a4634b7bf640484"
+    },
+    {
+      "path": "models/总布置与驾驶室.blend1",
+      "bytes": 2892936,
+      "sha256": "726a2db17e9119c8cd7d944570b07b9083034ab670f0b08a68761b5b3a10fafb"
+    },
+    {
+      "path": "models/液货船学习模型.blend1",
+      "bytes": 2266063,
+      "sha256": "c11295685babcf39a6263bed26f91b2f35086fd57b6d291680cf66789982ff6b"
+    },
+    {
+      "path": "models/硬舭动力游艇.blend1",
+      "bytes": 242812,
+      "sha256": "9750da640bc0380fc23fcb057503cdf3b47dae30575bb482ebb907ae21809a7f"
+    },
+    {
+      "path": "models/第5方案九个燃油舱.blend1",
+      "bytes": 2798402,
+      "sha256": "3a63307866c7864467e48bf12d1a32338aac2c9e36a70611c9b53c109660347f"
+    },
+    {
+      "path": "models/船体型线与艏艉变形.blend1",
+      "bytes": 2922086,
+      "sha256": "3ebc14d4181bbff577c0f9d4f68f5b20c184e1d703525be24d1ecb5005120fd1"
+    },
+    {
+      "path": "models/船艏液体碰撞-flare.blend",
+      "bytes": 465905,
+      "sha256": "61c0df743140aaa51f9fc2c6b776349037d8d5716b74f5e6ec0e110daafec3ad"
+    },
+    {
+      "path": "models/船艏液体碰撞-flare.blend1",
+      "bytes": 447690,
+      "sha256": "f32c7c3a99fe0f969475d7f8cd98f1113018f6e3d9d7ab5c4dbcc9ba541cf664"
+    },
+    {
+      "path": "models/船艏液体碰撞-high.blend",
+      "bytes": 493141,
+      "sha256": "f37564a649e71e1063a3925077c80579275147aa45e8e4604593b3f7e160f7c6"
+    },
+    {
+      "path": "models/船艏液体碰撞-high.blend1",
+      "bytes": 450352,
+      "sha256": "e8b726edf0f68d9874406c62b6fa41247f7624d88dc293ee1518f9d7f0580d63"
+    },
+    {
+      "path": "models/船艏液体碰撞-low.blend",
+      "bytes": 419956,
+      "sha256": "9caeb7affb48a79879bae1e2eea046f94c7291d2afa31065391e34dc2608643d"
+    },
+    {
+      "path": "models/船艏液体碰撞-low.blend1",
+      "bytes": 417273,
+      "sha256": "1d6bc1250a65c17106cf0d5dbf10afc8d07a87189d5ab5809c2cd3feb8330c6e"
+    },
+    {
+      "path": "modules/review/qa/2026-10-19-符号释义验证.md",
+      "bytes": 1320,
+      "sha256": "f548dad4f76915c11ca0f27c275b355871b4c6d4b04c64f721ce54344441bf19"
+    },
+    {
+      "path": "modules/review/qa/2026-10-20-稳性与横摇.md",
+      "bytes": 4483,
+      "sha256": "9a0132bae8021f4a8620d4bfa2534e9b6214d2fe1a49b5750e55ee378981d517"
+    },
+    {
+      "path": "modules/review/qa/answer-vocabulary-audit.json",
+      "bytes": 19326,
+      "sha256": "5e7e50248e0dde0b9eb8930d6714e21a87af6f97888689033f140b2758f57aae"
+    },
+    {
+      "path": "modules/review/qa/bank-checks.json",
+      "bytes": 21666,
+      "sha256": "db5f639c4066b6f5796831084a0ebb08e971ffa3645ae00f1bf0074ebed73f97"
+    },
+    {
+      "path": "modules/review/qa/content-checks.json",
+      "bytes": 469,
+      "sha256": "e97461787e722c28ce6fb440cc25c6619dc8256ad63d1b7f9e4b023ae58b885b"
+    },
+    {
+      "path": "modules/review/qa/courses-checks.json",
+      "bytes": 35016,
+      "sha256": "1109feaaf4db85fa34ee8fb13021f81aa7b6099cee2f007648374dff7ed294cb"
+    },
+    {
+      "path": "modules/review/qa/damage-cutaway-results.json",
+      "bytes": 2661,
+      "sha256": "f2dd041e5008b8950849c74f4bce4d60d23a072f8e191ab40e251d78fec7854e"
+    },
+    {
+      "path": "modules/review/qa/design-checks.json",
+      "bytes": 6170,
+      "sha256": "6acc8691ddf42bbb711a6c63bea6cb0811e683415de5fcdf5b96212616dd273f"
+    },
+    {
+      "path": "modules/review/qa/freeboard-morph-results.json",
+      "bytes": 71835,
+      "sha256": "828e5db9ac6b70283801c68b37ec359f315ce38ffc1eb6c626dbef5ad3c44316"
+    },
+    {
+      "path": "modules/review/qa/freeboard-side-results.json",
+      "bytes": 722,
+      "sha256": "9b96b00aed9c77d1320175720e5a3dc065506473494bd00889a4efe09d2d3bc3"
+    },
+    {
+      "path": "modules/review/qa/full-checks.json",
+      "bytes": 65485,
+      "sha256": "623275a2cc3a0935198a515d06e51482ec7bb17f94efa3cc9dcf9a525ae64fe3"
+    },
+    {
+      "path": "modules/review/qa/inspection-all-results.json",
+      "bytes": 2273,
+      "sha256": "f07a4fceeafd2ec5a5c8cd9459a13ca897e995041d62d97269c6da90f8f8ddbf"
+    },
+    {
+      "path": "modules/review/qa/latex-build.json",
+      "bytes": 143,
+      "sha256": "e7457d58ccd9a53c7deefddc99745024397436656f91d88575b27f96e72b60a5"
+    },
+    {
+      "path": "modules/review/qa/launcher-check.json",
+      "bytes": 381,
+      "sha256": "58946423c048c407bfb833a94a29d157f4967484e3ac7a23a914a3a1ed819a57"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/coverage-after-review.json",
+      "bytes": 124142,
+      "sha256": "07762470e4433d9d0415803bcda7fa6bda12946b6af189573257f2cb0c655024"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/coverage.json",
+      "bytes": 211584,
+      "sha256": "354795ab6375a86e43f1a4f60560b9a2af7f704fa37c26076480a6b8b0f8ae9b"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/editorial-decisions.json",
+      "bytes": 199281,
+      "sha256": "68f9366581962e9ec4385f00818a35f434f983e0b1e5706a5b48aa669b10c9ff"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/glossary-before-review.json",
+      "bytes": 73448,
+      "sha256": "8494d6952c82454b04900dd00e2b06c8f6ebdd1c9bd5b4b49e9fe138c39ae7ef"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-07c389c2c610e3214306.json",
+      "bytes": 8499,
+      "sha256": "11fc624c403d8729b9d61dc48467ae88e89e74a61e4beb92d25931dce7aac23b"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-121daac7c525d09b17c9.json",
+      "bytes": 9358,
+      "sha256": "759ca2c10fd8fb6eddbbdb04d2c646fd6a22728adf5540d62ed2467209934c5a"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-1b40f871ffd63746da30.json",
+      "bytes": 8354,
+      "sha256": "96b83eb5e6893218bbe2082efdf2216818095095191a79658f72d0adc435c288"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-1ba3353957cb79c6adf0.json",
+      "bytes": 8840,
+      "sha256": "97ebe82a7930795fe9ef8b6797dadc0764d3b9e5f35ee2a5dc9ff3f415b89705"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-23dfb8c27b321b722999.json",
+      "bytes": 7696,
+      "sha256": "d3a83afd3b9f51b3627ae705c4539832fa75fb4750046d29ab6c39ad2b29823f"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-3c1f6a2fe734a73ea05e.json",
+      "bytes": 9070,
+      "sha256": "6dbabf8e0468f7b4bdf8aac4650c175148f85111a904cac89078c1a56af48ca4"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-405d52aa47476c46b919.json",
+      "bytes": 8307,
+      "sha256": "7d2a1291965aef7fc35c475d8a0e54e88728213d9442bdfc0cfbeb0cffbf7a15"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-409b7555c4cc23423441.json",
+      "bytes": 6033,
+      "sha256": "b9f4cfb1e6ca11b938b6fc341ebd7ecd7e8a297326120e85a0dba82ab8afa563"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-538f82f5be634eb6c87c.json",
+      "bytes": 8209,
+      "sha256": "f7baa834736fc945b3521e66815986198c3a0515a8c94e162663c63e8881eef2"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-6e6ad4e51fd8cf315b07.json",
+      "bytes": 9215,
+      "sha256": "3141d44205e3a401d6a1576bcd50aa02ff6f3054a8aed11fa081943b3c842c17"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-81c1468de985564e119e.json",
+      "bytes": 8049,
+      "sha256": "ce9a1874cadf297719745f7b92a9671da69ca8983c9a0d07f1776b6a3f716a4a"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-d0fb7c53b540d2d2d197.json",
+      "bytes": 7825,
+      "sha256": "2f33fff16257e93471f3d9c90c54981e0ed30903e71210951bbb60de11a2a18d"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-d3a4b7c2a3804a4e256a.json",
+      "bytes": 8082,
+      "sha256": "ff007330343d67564a281aea83efe796ee1b786df2964e622d89ed84b34828bc"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/model-dd0b97d96c3272219b27.json",
+      "bytes": 8569,
+      "sha256": "05a6c10a90a6af1224f417c9431d21f9265a1e3351b63bc5b386182fa695a15b"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/proposals.json",
+      "bytes": 118001,
+      "sha256": "cf90a2aa0d7a93a5fc05697e469ca7cd3c1252e39f934f495b3a464d314f13d0"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/review-items.json",
+      "bytes": 104756,
+      "sha256": "be1fcff848a0190960e0169a5e6ea6bed10951c1ee77a6af70fda88a12c1b14c"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/review-verification.json",
+      "bytes": 564,
+      "sha256": "c7cc254013eb9b5cc06e0dbf52d68cbdfbb273788642014a1da23adca2728784"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/sample.json",
+      "bytes": 6457,
+      "sha256": "4d54170f8c055c7751d9c19f038f72059d2b5381fc43304d5cfb03285fa58c2d"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/stress-corrections.json",
+      "bytes": 6826,
+      "sha256": "9f292c9d2c8adfc5e78d8f5541f8533f1c87e8e8829d3981f3f8d22e27bfbd42"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/summary.json",
+      "bytes": 874,
+      "sha256": "f479686d1ee37f1a0b1918f003c2ec145a665415b71458366446e827a2cb70ba"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/校对与验证记录.txt",
+      "bytes": 2854,
+      "sha256": "90dd61a2ab4a94e93f0e80ba096127c58ce4625fded1373882d0241c3f1cd014"
+    },
+    {
+      "path": "modules/review/qa/lookup-audit/检查结果.txt",
+      "bytes": 1414,
+      "sha256": "9962fb1be018f9a607e1f6c94543f808276428818b2dac92c0c93568a61e88bb"
+    },
+    {
+      "path": "modules/review/qa/module11-minimum.json",
+      "bytes": 473648,
+      "sha256": "660d0adcb378e4d4cd5e415c3142487f5a80cfc2adf893548ce23dad7d72df10"
+    },
+    {
+      "path": "modules/review/qa/module11-rebuild.json",
+      "bytes": 1268,
+      "sha256": "da0b13f5d818d130c21d5bd0f324eb6632dc68e545af170885c080291141ab29"
+    },
+    {
+      "path": "modules/review/qa/module11-source-geometry.json",
+      "bytes": 4336,
+      "sha256": "24b1458e3589fc37e912646a5e87b2b9c9140e6f94e73ceb86476c0aa902c2a5"
+    },
+    {
+      "path": "modules/review/qa/notation-checks.json",
+      "bytes": 7446,
+      "sha256": "fe8026c8b36e82ac3ccc0c0b41eca90dfecd49fcea92f57f062d93c7fc89f742"
+    },
+    {
+      "path": "modules/review/qa/reading-checks.json",
+      "bytes": 77481,
+      "sha256": "80786437b61fe636137fd1d5c39ff0b6132399556359709e18e0caa10942ed2b"
+    },
+    {
+      "path": "modules/review/qa/reading-content-checks.json",
+      "bytes": 15314,
+      "sha256": "7ad1125998445ab2eb7696551c4cbdaa1bdb095e8ecd2f41dd5780f0225a3182"
+    },
+    {
+      "path": "modules/review/qa/reading-filter-checks.json",
+      "bytes": 793,
+      "sha256": "0c88c49179aa6b355125431b9c58825cae08c8dd6257a843cf9a22e6e523e0be"
+    },
+    {
+      "path": "modules/review/qa/reading-launcher-check.json",
+      "bytes": 405,
+      "sha256": "9ea0656c7aae22dfa4b852241f70e595fc06e2e0bd43afc63827f0aac4af583a"
+    },
+    {
+      "path": "modules/review/qa/reading-menu-checks.json",
+      "bytes": 780,
+      "sha256": "e7c0ecf80db040e4064688cbb5b8b0aef1d77086e345dac43a0ca02ad9100790"
+    },
+    {
+      "path": "modules/review/qa/reading-resume-checks.json",
+      "bytes": 288,
+      "sha256": "6fee1a620ac7e9669c4c5ed0346f49885063b3577d3b90e7033dfae6628f47c0"
+    },
+    {
+      "path": "modules/review/qa/revision9p-content.json",
+      "bytes": 21345,
+      "sha256": "a6bc4d413a8c747e020e02a4355356ff2af0a451d4c8b126a7898a1fc8f5a60e"
+    },
+    {
+      "path": "modules/review/qa/short-answer-checks.json",
+      "bytes": 6639,
+      "sha256": "ecbd619773969284ebefa3506cfd48449887a42be63bc0f5c72c498024ff7599"
+    },
+    {
+      "path": "modules/review/qa/slow-server.json",
+      "bytes": 15,
+      "sha256": "5c09efbce261d378be2f40ca9ebf1428a93f7936c17de64af8e38404b46cdb54"
+    },
+    {
+      "path": "modules/review/qa/stability-checks.json",
+      "bytes": 138659,
+      "sha256": "9c1fa4c3a378b24f6e7c2bce2c2c5a34dfae167270b9c8ede0a9ee02b24bb6a8"
+    },
+    {
+      "path": "modules/review/qa/stability-launcher-check.json",
+      "bytes": 178,
+      "sha256": "41df99b253e6ba62aa573b1c87d313aad18faa8d72ef59797673ba8d1a68c6f8"
+    },
+    {
+      "path": "modules/review/qa/stability-physics.json",
+      "bytes": 19184,
+      "sha256": "7828149433e9184f7fc96d1a7efb15d8ec0655e5733e552e35d07f074e650f07"
+    },
+    {
+      "path": "modules/review/qa/topic-hover-results.json",
+      "bytes": 2629,
+      "sha256": "0b52089d0d6fb70d1c1ccbda9d51129573cf5f2ffccc57c2cb720de7c91732c6"
+    },
+    {
+      "path": "modules/review/qa/topics-checks.json",
+      "bytes": 240558,
+      "sha256": "ab3cb78bef3fc0f16c55f708719cfd334e32667e509d23d3afcad680029aab72"
+    },
+    {
+      "path": "modules/review/qa/topics-content.json",
+      "bytes": 57885,
+      "sha256": "a80940cab555422e36e3e898a008c840d18f04139888539f14453acac087266d"
+    },
+    {
+      "path": "modules/review/qa/topics-launcher.json",
+      "bytes": 1538,
+      "sha256": "b9f4bcaa08181096e8780bde37d37f676bd4cbe45c12a383dca44f111948aff9"
+    },
+    {
+      "path": "modules/review/qa/vocabulary-checks.json",
+      "bytes": 10732,
+      "sha256": "ec82a1952fe1ba046a1e19f806b478f18f700ae8a1030c810cd40a94687dc219"
+    },
+    {
+      "path": "modules/review/qa/阅读复习验证.md",
+      "bytes": 4082,
+      "sha256": "1200467600f208c05914f51f3ab471fd39da0974f3d0a91cf0a6968a266ae1e7"
+    },
+    {
+      "path": "modules/review/qa/验证记录.md",
+      "bytes": 18361,
+      "sha256": "3147d1de125848902522beb10244ca0e7fa67f5bca08bb6c187b45eb218141fe"
+    },
+    {
+      "path": "qa/2026-10-20-25题合并.md",
+      "bytes": 2615,
+      "sha256": "54a8c72f516b75c7648dbd22057917ade0bf52dcecc603b59ac49e5ca8e97969"
+    },
+    {
+      "path": "qa/2026-10-20-科学复习.md",
+      "bytes": 1421,
+      "sha256": "a5e4531b8cb679e1fd34cd30f0d039cc99565e9799ddeb61cecc52340d10271b"
+    },
+    {
+      "path": "qa/2026-10-20-背词分类与等级.md",
+      "bytes": 838,
+      "sha256": "dbe4f14950daeded85ea9397fe5c43466bccb4fb78045ca519e6627ec90d5bf8"
+    },
+    {
+      "path": "qa/7a试题整合-交付与验证-2026-10-22.txt",
+      "bytes": 4602,
+      "sha256": "1550ea69c84014fabb47932043f327b8f4d1925fe3740da57cdbdd792f767f24"
+    },
+    {
+      "path": "qa/7a迎浪演示更新.txt",
+      "bytes": 862,
+      "sha256": "9935afe28b42a1dd0b74dbaa55da0cf0707e220d1e269e45e09773ca501c605b"
+    },
+    {
+      "path": "qa/9p题库接入与短答审校-2026-10-23.md",
+      "bytes": 5413,
+      "sha256": "9c65ba16faf6d031451528e3d661473db2c498081418299869e662b019eb168e"
+    },
+    {
+      "path": "qa/alphabet-results.json",
+      "bytes": 20811,
+      "sha256": "6a38281cdccaf6bf356b7368253c93aeb6412a33fdea868393c3fd77fe187b9c"
+    },
+    {
+      "path": "qa/answer-rewrite-20261027/changes.json",
+      "bytes": 131301,
+      "sha256": "ee8d343f70a3d2645515bcea80852cd3786d3ef5093ac70134f619f6c3c1fe09"
+    },
+    {
+      "path": "qa/answer-rewrite-20261027/pre-rebuild.zip",
+      "bytes": 2062879,
+      "sha256": "aeaa51b6a6bfec5f5a18df2156cb7e8462e03c29010856fd786e19845e21cbd0"
+    },
+    {
+      "path": "qa/answer-rewrite-20261027/protected-before.json",
+      "bytes": 115791,
+      "sha256": "56455038a34a8775150fec6f791403dca7dad7bcb857d5892bf877e61e340d81"
+    },
+    {
+      "path": "qa/answer-rewrite-20261027/results.json",
+      "bytes": 38912,
+      "sha256": "9da314677fb27d2b9d4232c39cc9f34fc21c5f4550a4920f3889e3cbf0010a16"
+    },
+    {
+      "path": "qa/answer-source-text/1p_Modul_1.txt",
+      "bytes": 23266,
+      "sha256": "01032aab51ec86c433da6158c64a4335f1cb03102a9e3811e4213634eff6e089"
+    },
+    {
+      "path": "qa/answer-source-text/1p_Modul_2.txt",
+      "bytes": 19315,
+      "sha256": "4db5a284a5647d94457cd057ddaf684bdc2e3c036b2657ee42547daccb129f08"
+    },
+    {
+      "path": "qa/answer-source-text/1p_Modul_3.txt",
+      "bytes": 15355,
+      "sha256": "60fe2a6fc74a97902e2774b25dbdc1c94cccee47bc403c10dfa9341bb11317fe"
+    },
+    {
+      "path": "qa/answer-source-text/3a_Modul_4.txt",
+      "bytes": 27586,
+      "sha256": "a351a91601564294843b6fd2e3e7ea82d21dd19924f6fab3362a067ab3e42160"
+    },
+    {
+      "path": "qa/answer-source-text/4a_КП-ПС-2 приближение.txt",
+      "bytes": 9795,
+      "sha256": "61d6c37bfdc0ec7b5f3f084a94b90e41be58e420c9202e3da3f70e9882443942"
+    },
+    {
+      "path": "qa/answer-source-text/5a_КП-ПС-3 приближение.txt",
+      "bytes": 9585,
+      "sha256": "59a85a5b751c08c3fa132734060ab33df174ad271fccb61be044a3e5f549ee2d"
+    },
+    {
+      "path": "qa/answer-source-text/5a_МУ-3прибл.cПрил.Fig.1-3.txt",
+      "bytes": 8233,
+      "sha256": "9e916b9e2910911319394cad25a5806063af53b591a4ed2e132343fd71b8a0d1"
+    },
+    {
+      "path": "qa/answer-source-text/5p_Modul_5. Виды вместимости.txt",
+      "bytes": 33017,
+      "sha256": "3b4de68e8e6d0ae51245676fd1706cc5d6e95c209a1d54e012be6f975ed1cad0"
+    },
+    {
+      "path": "qa/answer-source-text/5p_Modul_6. Остойчивость.txt",
+      "bytes": 23052,
+      "sha256": "cfad2d4221c3e07c1166a47a50bf95755e4c8a20488b3801e6e514bf6cef541b"
+    },
+    {
+      "path": "qa/answer-source-text/5p_Modul_7. Непотопляемость.txt",
+      "bytes": 37816,
+      "sha256": "16cda1c84a91da04588775f3932f2087b9a8689383e37fd7f07763d81a200df8"
+    },
+    {
+      "path": "qa/answer-source-text/6a_3. Пример компоновки ОР.txt",
+      "bytes": 6663,
+      "sha256": "428e7fca4ea5814b147c8658b4a68e333d8c7d68de6f6ab617ff43bd6a754333"
+    },
+    {
+      "path": "qa/answer-source-text/6a_Modul_8. Ходкость.txt",
+      "bytes": 19357,
+      "sha256": "25a8b14617c758e19fef62128d69b7ec946b81e92ad6e3c96a3e5c72698e430f"
+    },
+    {
+      "path": "qa/answer-source-text/6p_Modul_10. Обеспечение непотопляемости.txt",
+      "bytes": 28791,
+      "sha256": "c25fa6d2c40c79b8e48644d5fa29fb1bdcc90d8f6ff524bdf6323b9633280ce7"
+    },
+    {
+      "path": "qa/answer-source-text/6p_Modul_9. Обеспечение остойчивости.txt",
+      "bytes": 20537,
+      "sha256": "06233bc05c718c84c749e607f436e281a2d51af0c7d597614fadd8a38e31c086"
+    },
+    {
+      "path": "qa/answer-source-text/6p_Вопросы к модулям 9 и 10.txt",
+      "bytes": 2351,
+      "sha256": "9763fb28792c6c24de5a4dc5b37fec1dadb6450f986b95eda1433c8372546e14"
+    },
+    {
+      "path": "qa/answer-source-text/7a_Modul_11-тест.txt",
+      "bytes": 1242,
+      "sha256": "45ea93ccf5070af70fff4d02f7d72c4a3a7e17a9b98fcabb03b13ea7bd57dcd4"
+    },
+    {
+      "path": "qa/answer-source-text/7a_Modul_11. ТЧ.txt",
+      "bytes": 34676,
+      "sha256": "1d91b581e52a77bc445761c73c0f01f070a57290633cd3e248a26a76c00b5577"
+    },
+    {
+      "path": "qa/answer-source-text/9p-晚上发的_Modul_12. Общее расположение.txt",
+      "bytes": 34137,
+      "sha256": "ec6961e5a0fcb3219ec81990c2ca16db6312e3267cf2475f1f19af11055862f8"
+    },
+    {
+      "path": "qa/answer-trim-20261028/before.json",
+      "bytes": 139735,
+      "sha256": "364615b351144a2f2b6a1d05e1f2c02570b60c85fc2bf745d5d4ddb646f6a1f9"
+    },
+    {
+      "path": "qa/answer-trim-20261028/editorial-audit.json",
+      "bytes": 100848,
+      "sha256": "25e19f7b3098a8a8aa2bd4f8c565fb790f00e6d15ee5b1a24b0abedb5865204c"
+    },
+    {
+      "path": "qa/answer-trim-20261028/validation.json",
+      "bytes": 250,
+      "sha256": "a8876ca2253ee79e72b4382e9f3e8b4966c410b470240567cd177daca7f7d43c"
+    },
+    {
+      "path": "qa/approximation-delivery.json",
+      "bytes": 1108,
+      "sha256": "70f9b87705ca4609d3c51bca9145532e40f45963a27c50dc727c9ba81e7a6343"
+    },
+    {
+      "path": "qa/approximation-home.json",
+      "bytes": 422,
+      "sha256": "4ea981c535acc4eb80d705f2e114f38ff3530001a2276ebf913590e41f8055b1"
+    },
+    {
+      "path": "qa/approximation-numerical.json",
+      "bytes": 3892,
+      "sha256": "54a4909fa84888891125b1efc654cc45770407541594ea4cfc2af86c5840ea4e"
+    },
+    {
+      "path": "qa/approximation-source-hashes.json",
+      "bytes": 788,
+      "sha256": "a27f04810f7b3f0d2b40631b923c72d72b8d81b5641860eef1c11e66a997459b"
+    },
+    {
+      "path": "qa/approximations-minimum.json",
+      "bytes": 55534,
+      "sha256": "9abd7e7c33004ceed82082be0e4f3c379ebdc7d6a9fff166af240804238a445c"
+    },
+    {
+      "path": "qa/audit-20261023/actual-lookup-coverage.json",
+      "bytes": 140634,
+      "sha256": "b7ffede631d52ff4dbcd3092eeb612c2f1485d9e9fc7fde60f9e3c5a64669ffa"
+    },
+    {
+      "path": "qa/audit-20261023/content-scan.json",
+      "bytes": 28163,
+      "sha256": "66d4ea67cfef3deacad4c86318340056451615f1e267af40cc90c3143fb6de65"
+    },
+    {
+      "path": "qa/audit-20261023/ending-source-snapshot.json",
+      "bytes": 2052,
+      "sha256": "bdabd984c2745c838efc9ae6686825809092528cc0260e0fce0b945174876d93"
+    },
+    {
+      "path": "qa/audit-20261023/focused.json",
+      "bytes": 875,
+      "sha256": "7fe0619acb2250669ac240df0a0cc2db5f1b82d878721474098b9d184e4a3932"
+    },
+    {
+      "path": "qa/audit-20261023/lookup-coverage.json",
+      "bytes": 151238,
+      "sha256": "570b0056d187716a33269c8da4682247f88a386f6abb4fe09eeffa36349de958"
+    },
+    {
+      "path": "qa/audit-20261023/offline.json",
+      "bytes": 2096,
+      "sha256": "c9daa091105ba1913e6403ed5439793e41e94e4e83242d3aff1a240d625af513"
+    },
+    {
+      "path": "qa/audit-20261023/runtime.json",
+      "bytes": 12310,
+      "sha256": "b20e730f9147dbc2e87145fcf8641ca6f87ce6ac5b7d6d2f584c72220f0da3a9"
+    },
+    {
+      "path": "qa/b02-minimum.json",
+      "bytes": 11429,
+      "sha256": "067d3b6587796d6c62e6adf9dba543bf5e640c2f055095f59bc6cd8603f8f655"
+    },
+    {
+      "path": "qa/baseline-minimum.json",
+      "bytes": 1767,
+      "sha256": "f503d37d0032d0efef5b120b3b23c5af5419bb7b123edb0a1a0e91b407f64727"
+    },
+    {
+      "path": "qa/baseline-processes.json",
+      "bytes": 290,
+      "sha256": "9c1c1cf7529b2677c0886d72e4e6ddd2f4645834a53bd2584b1f0d0dbe455613"
+    },
+    {
+      "path": "qa/bow-fluid-accepted-before-forecastle-repair.json",
+      "bytes": 415,
+      "sha256": "6d11581dd0a30f5745ffa10af97b6050a249cf586a6ca4e1f45447a6f24b46ed"
+    },
+    {
+      "path": "qa/bow-fluid-accepted.json",
+      "bytes": 415,
+      "sha256": "64b70534782e38274acf586999220d818c685f37abfc232bb5d75973cf16c8c5"
+    },
+    {
+      "path": "qa/bow-fluid-bake-status.json",
+      "bytes": 67,
+      "sha256": "ece066daf26a71a2240fdd04f1561b41a8e19ce98e26ef89f28ec2f40fa1d83a"
+    },
+    {
+      "path": "qa/bow-fluid-exact-collision.json",
+      "bytes": 5497,
+      "sha256": "2bc8c08db382eb7609ac40c57092cd20f4886f9f2ccd5f3b00a62a62ee7e72c4"
+    },
+    {
+      "path": "qa/bow-fluid-paused-before-repair.json",
+      "bytes": 599,
+      "sha256": "c4f9ee6228876d87b09dfcf87f05431ae506d89f1dcaddc458895b44dfeccc5c"
+    },
+    {
+      "path": "qa/bow-fluid-paused-forecastle-repair-completed.json",
+      "bytes": 237,
+      "sha256": "7370038785232668c56d68a4753a9ed01ec35ff5f9497a80b9dd5fc17881e09c"
+    },
+    {
+      "path": "qa/bow-fluid-physical-readback.json",
+      "bytes": 101269,
+      "sha256": "a8913a5e01a9add7217a1d698a88c48c4208d69b796b9613855b2662650c1589"
+    },
+    {
+      "path": "qa/bow-fluid-render-progress.json",
+      "bytes": 47,
+      "sha256": "a1ab7a02cca286aa752f758dd82c2bcc47639250906f38dffcc8849d9c677061"
+    },
+    {
+      "path": "qa/bow-fluid-render-surfaces.json",
+      "bytes": 39898,
+      "sha256": "0f858fa4e9ab78ace8b258bd5a0aa93511c2cfae3d32502002ce9788f4387220"
+    },
+    {
+      "path": "qa/bow-fluid-runtime-results.json",
+      "bytes": 3693,
+      "sha256": "306f9bc46ba5de4187fdf958ec91190cf53c56a88959adbf7f19791091bd662f"
+    },
+    {
+      "path": "qa/bow-wave-results.json",
+      "bytes": 1108,
+      "sha256": "73b4a2b906c95b5e28adfdd1e32672d1f63d0911edb613be3e7ec83d97d3c444"
+    },
+    {
+      "path": "qa/bubble-focus.json",
+      "bytes": 648,
+      "sha256": "b37e639876ce7b9f675000010558cefbb2cda240de4cbb6dd063715857c89a73"
+    },
+    {
+      "path": "qa/bulkhead-symbol-coverage.json",
+      "bytes": 109,
+      "sha256": "7750c1f47057437cf96c78f590c01abb6015597d14dca5d5993b3779cb13469f"
+    },
+    {
+      "path": "qa/bulkhead-symbol-hints.json",
+      "bytes": 25514,
+      "sha256": "5513c989d7f3bd9c79a2c28ad6983ce3527ea39e222855b5852282281fcb0b1a"
+    },
+    {
+      "path": "qa/bulkhead-t2-model.json",
+      "bytes": 480,
+      "sha256": "b0292abe71432d078213f9af32ff28b17ff89bb03236941c3056fa374305d2ba"
+    },
+    {
+      "path": "qa/bulkheads-check.json",
+      "bytes": 447372,
+      "sha256": "778c15abc4635d6d453d7537857aef3c21e6975bf6718f712c3689b7678757ef"
+    },
+    {
+      "path": "qa/bulkheads-numerical.json",
+      "bytes": 2297,
+      "sha256": "441de2158956c36cff6adb5ece3df43b6d500707a38ddf49351d530864e51442"
+    },
+    {
+      "path": "qa/calculation-notation/checks.json",
+      "bytes": 458,
+      "sha256": "fc9a73963f8e62d1f7ca590c870c38cd628af2014bc96e3b7b773a8f04b0d607"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C01-part2.png",
+      "bytes": 160388,
+      "sha256": "2edb3c1e8c8693a5c1a17e9d9068efed19b59d3ac143bf8773cd1b968f89a472"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C01-part3.png",
+      "bytes": 154787,
+      "sha256": "7413d16d9a676be07e54695a953b9a74a826953de0204235adc3420513908f1c"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C02-part1.png",
+      "bytes": 279268,
+      "sha256": "42229a79fb355c7ff5f259629ad5e4d0dce3c16f3252314b7b51410d3b823c27"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C02-part2.png",
+      "bytes": 263940,
+      "sha256": "eee52b3223c2e92a9a6299407b760c67f816aaebdf01d818fb1c03f6b8966848"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C02-part3.png",
+      "bytes": 225028,
+      "sha256": "0e5fe78171768b3eeef23fec28c93601a6dd589ae478f342dcc2e4c2c6157540"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C02-part4.png",
+      "bytes": 243778,
+      "sha256": "b293699cd141c238781b6e657743fa2fd10b3f466e2cb68fa256b9403ff7357e"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C02-part5.png",
+      "bytes": 126863,
+      "sha256": "c6c74c714a513dc5d4f526c6990fe529a381e6290f7abc6ef24e02e5179c14c1"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C02-solution.png",
+      "bytes": 1138815,
+      "sha256": "6e3a3cf51bf2985b2db4881b1d228317e5ffd8c3b366e548e7b8d90bbe6e3002"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C03-part1.png",
+      "bytes": 235408,
+      "sha256": "b1a291b5fb8570df223f7ca61340a4c3532fefbcb88629dcfb212cc0e5f2f653"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C03-part2.png",
+      "bytes": 204228,
+      "sha256": "c87f9bdf75f05df4f1cf37daa9e9a2fc88c4744346cbb809eaa223883488f32d"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C03-part3.png",
+      "bytes": 188520,
+      "sha256": "8dffdc73c5fc0eea354bff3f8da41594f47de5ebaa1017dafbd0838f65e1382e"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C03-part4.png",
+      "bytes": 35432,
+      "sha256": "196db2762fe46868a714a7957a8171bdbd1fc4495b3dda098e68aede4881cad4"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C03-solution.png",
+      "bytes": 663379,
+      "sha256": "941a88e95a30149e77c835f85caacac40006297edd2318e74d6a381cdcf61529"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C04-part1.png",
+      "bytes": 81624,
+      "sha256": "2dd2ca6c5718cdb997bb3529b48ab30daa7fcc7a835821697e43476153773e2c"
+    },
+    {
+      "path": "qa/calculation-notation/README.md",
+      "bytes": 1339,
+      "sha256": "891e714555d183694d00023e37b7e96286f7edca6d976671c312c7413b6c7137"
+    },
+    {
+      "path": "qa/calculation-notation/workings-content.json",
+      "bytes": 953,
+      "sha256": "f0404cd72caf4bf45cbc15ecf719118caaf97ee622900eccd965c15903eb5030"
+    },
+    {
+      "path": "qa/calculation-notation/workings-engine.json",
+      "bytes": 441674,
+      "sha256": "4853e01957da7a08bdf2c8f92d8ad5be67c8c98b9f218feb15acb5dba5ae468e"
+    },
+    {
+      "path": "qa/calculation-notation/workings-layout.json",
+      "bytes": 26788,
+      "sha256": "4e9b7ec92cf0d53571ec2c36a9762f37bfaa71f0f3d97079abd53215f33ca188"
+    },
+    {
+      "path": "qa/camera-free-results.json",
+      "bytes": 1426,
+      "sha256": "47e5aa942c6adca56c011762352d006f0615c79f9e7a4cda43c930f2790af144"
+    },
+    {
+      "path": "qa/camera-q22.json",
+      "bytes": 4786,
+      "sha256": "63f1fd6a8190d996309193de25eba74c65cba71d5ad5d1ca4b14b0f13492c2c1"
+    },
+    {
+      "path": "qa/checks-copy.json",
+      "bytes": 59,
+      "sha256": "a6cae7f8213e7c4e53cabea5f1ed5eb94cd0e29d697d8911f0ca668769674ae9"
+    },
+    {
+      "path": "qa/checks-launcher.json",
+      "bytes": 107,
+      "sha256": "2499df51b010a7229da0db406f4b2fdfc3805a1566293efa8a772e3fc580c477"
+    },
+    {
+      "path": "qa/checks-minimum.json",
+      "bytes": 224043,
+      "sha256": "d7df81304c1e8afd49b4ddfc0fb6394fed89ed6a779024b7290b3528d5c7af85"
+    },
+    {
+      "path": "qa/checks-reopen.json",
+      "bytes": 232,
+      "sha256": "0a377ec3ca10b15678dc7a887aa7e1359ae1cc98630b3e2971066c143223cbc7"
+    },
+    {
+      "path": "qa/checks.json",
+      "bytes": 1421,
+      "sha256": "32c3d02caa49f6c4febb4193463fd34a29eabc705de3593f0c102208d1fd68b1"
+    },
+    {
+      "path": "qa/continuity.json",
+      "bytes": 8656,
+      "sha256": "1ab2f99c4404cdb7accea9878470611582d845438a50c7df8e773e961f9847cc"
+    },
+    {
+      "path": "qa/curriculum-repairs-runtime.json",
+      "bytes": 5902,
+      "sha256": "c88ac40353ced3f8b5cd721d35b9fa29ba7e006c754449e88d58c84c509e9ff4"
+    },
+    {
+      "path": "qa/curriculum-repairs-summary.json",
+      "bytes": 825,
+      "sha256": "4dafa6a3ad14cc63638c521ab7ff88066ad6b3cc4ea4f2675caab2df3a6013e3"
+    },
+    {
+      "path": "qa/d-results.json",
+      "bytes": 2113,
+      "sha256": "7de0c3141fb3351af8a5008a6b8fb84c475cbeaa2122660c6bef2bcc797c028a"
+    },
+    {
+      "path": "qa/damage-blender-build.json",
+      "bytes": 360,
+      "sha256": "edbfd170ee899e372db1272e760b30ed8a52641c17e4a25b50674559d8af1dd4"
+    },
+    {
+      "path": "qa/damage-blender-error.txt",
+      "bytes": 521,
+      "sha256": "8b6a2bd3486a3fe66e2e2bc242a911521912e49e2020447ed4255221b348f15a"
+    },
+    {
+      "path": "qa/damage-blender-owned-pid.txt",
+      "bytes": 7,
+      "sha256": "5472643d1a53f610951390d8133a7ce0bc9cbaa93412071f500cd4722bdfdd61"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/baseline-hashes.json",
+      "bytes": 676,
+      "sha256": "6348bd9efc81f9a3210551a8084dfe55296a2d58db7afd4df95ce17dbed4ccf2"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/main.gd",
+      "bytes": 28146,
+      "sha256": "0307ed835e6fe2f1b8dfd1dc72f2c0ba1cf68f384785b2687916538a0d89faf1"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/main.gd.uid",
+      "bytes": 19,
+      "sha256": "d7a2b5f3865c3a1d6e39286429e2510e9ff342c1dc751967d29a60d069d030b7"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/module.gd",
+      "bytes": 6990,
+      "sha256": "d5848d158821a38f2a21a3108356d3431959fc9f4f22de648999eddf2ff14f81"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/module.gd.uid",
+      "bytes": 20,
+      "sha256": "b4d368219efce57925b77ea052b90d7e7d3b0751ac8af783f103a2d7bd18e6cb"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/reading_review.gd",
+      "bytes": 13358,
+      "sha256": "6b25af2c98034a4c1d6bd97505c2b30e98d4978ec34500d1a8b45cf5d8f31758"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/reading_review.gd.uid",
+      "bytes": 20,
+      "sha256": "b67cc03322919bedc147c38e816011a88178c3c6a2022d62be10a64d37b61d18"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/reading_words.gd",
+      "bytes": 7685,
+      "sha256": "b0615d91be5315559edbcbb752178186989e0c3207fbe7149e25df3f6c431e36"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/reading_words.gd.uid",
+      "bytes": 20,
+      "sha256": "c18909ed2500658c751e8094f173872bae9e18a106a67f3e04cdad310175d7da"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/term_tooltip.gd",
+      "bytes": 3933,
+      "sha256": "088c08126395effaae97f47925562a5de86b0b3cdb67b7a93a443d916cf56854"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/term_tooltip.gd.uid",
+      "bytes": 20,
+      "sha256": "c2d8b1e88715b551537082908b7f311bb5fb8a8b57ef732ad3b08485b8b25f73"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/vocabulary.gd",
+      "bytes": 12094,
+      "sha256": "2824e8c67e02b9c9fbef87481cafc9ac874c650e33ad6eb714137a2029f38da5"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/vocabulary.gd.uid",
+      "bytes": 20,
+      "sha256": "63df61a872f7dac4e47ded36cd93a5eecc76e17335c905168a843597c11e605c"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/word_picker.gd",
+      "bytes": 3622,
+      "sha256": "e80b0c5b5c6ce951135bf52e8f010c484cacce1ebb78141bbf28fb23bd90d9aa"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/before/modules/review/view/word_picker.gd.uid",
+      "bytes": 19,
+      "sha256": "65365f34e2a12b24ec04c827d18f5fac822b5decb0951d6fa8ef7c7cd1b93e00"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/integrity.json",
+      "bytes": 417,
+      "sha256": "9d118b5d28efbe28d9545c77f684fb6a54f7a0c3ac296b40265c162db6535524"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/results.json",
+      "bytes": 18047,
+      "sha256": "059646ffde4c61d2fcd8cf1379ea5b7472ef8ee97357d760cb0231026242f4b7"
+    },
+    {
+      "path": "qa/desktop-mobile-ui-20261026/交付与验证.md",
+      "bytes": 3298,
+      "sha256": "229dffe7425450e61871891002f7ba589e0fbe38aac3ab1fc67fa098f51919f7"
+    },
+    {
+      "path": "qa/duplicate-question-content.json",
+      "bytes": 225,
+      "sha256": "04937247da1ce4489ed9e9e664857eeea7f78e78e6328e8fbf0b26e48e1ee97c"
+    },
+    {
+      "path": "qa/duplicate-question-progress.json",
+      "bytes": 55,
+      "sha256": "8f89ab580ebcd24844cfa5d45e77242433db53eb33b90873f2ac6a1c96c3a3a1"
+    },
+    {
+      "path": "qa/exam-bank-exams.png",
+      "bytes": 69976,
+      "sha256": "37725f16f8ce1fdd025a76daf314f247f2ec4503af1ee485b885a6191c19c319"
+    },
+    {
+      "path": "qa/exam-bank-fixture-source.json",
+      "bytes": 232,
+      "sha256": "c8599a78063c7b4dca1911fcc21b6e919c53de487d3155417a66488075476d1b"
+    },
+    {
+      "path": "qa/exam-bank-fixture-target-10152.json",
+      "bytes": 199,
+      "sha256": "528f3152b560f500c8ed1e4d1dede25fb617526911f2c17691183a302e4e825f"
+    },
+    {
+      "path": "qa/exam-bank-home.png",
+      "bytes": 58752,
+      "sha256": "bc889e5ac4e297c8baa4842c31c1c384e58f251ec220cdac73b2c1d8c7c64ce4"
+    },
+    {
+      "path": "qa/exam-bank-routing.json",
+      "bytes": 228,
+      "sha256": "173a280d1013e97b6c2300d1a1ad53549509bfa9eefc9dca510a91e22857c1fe"
+    },
+    {
+      "path": "qa/exam12-content-results.json",
+      "bytes": 18781,
+      "sha256": "c87be5ff25f732bc36481f1f39d11faffdbfaa50e6f9f40d74975272f571f9e0"
+    },
+    {
+      "path": "qa/exam12-release-unchanged.json",
+      "bytes": 180,
+      "sha256": "2a1ef09d79347c300f4b4654e08c770f55ab3a9a74cd2eacfce5010b2e31d6be"
+    },
+    {
+      "path": "qa/exam12-results.json",
+      "bytes": 40596,
+      "sha256": "459f139d94abf0e76193587067e5817aa17ae03c3f85b0980fdb984fd8fb6c75"
+    },
+    {
+      "path": "qa/exam12-user-files-before.json",
+      "bytes": 5669,
+      "sha256": "6576d800e7028dc0cda1654afa87434a1dc43a37b9e461b8dc4b1ba04002506a"
+    },
+    {
+      "path": "qa/exam12-user-files-result.json",
+      "bytes": 64,
+      "sha256": "cc72061b6712f2b1e391b1e1ce9839cf4596bc6a55fcb795458dedbb83b468cb"
+    },
+    {
+      "path": "qa/exam13/before.json",
+      "bytes": 95560,
+      "sha256": "8651fba31b24638cfe8e3645811668c3b98bc5727a5bcf9d9a527c8fe33b7ae7"
+    },
+    {
+      "path": "qa/exam13/content-results.json",
+      "bytes": 20723,
+      "sha256": "8928d81f0a929288180cad56c617fe4193389282b41bb3bb3b99cd620942c102"
+    },
+    {
+      "path": "qa/exam13/lexical-draft.json",
+      "bytes": 13274,
+      "sha256": "d65aef28b7ae7170760ab89e79169652f8223fbb791fa97892eb108cf1b9e240"
+    },
+    {
+      "path": "qa/exam13/lexical-results.json",
+      "bytes": 40,
+      "sha256": "0c371168734d85dc358aac5e8c6d9043068720cff2776b8403f5d4e99248dbdf"
+    },
+    {
+      "path": "qa/exam13/ui-results.json",
+      "bytes": 14388,
+      "sha256": "63e1fd73dd6bab1a38c825d15ecea169f7b5e87163ea1e3d335bd8551808a75a"
+    },
+    {
+      "path": "qa/export-M11-M11Q06-before.png",
+      "bytes": 900054,
+      "sha256": "9f2aab2cb090768c436471bb1a7bbd6824a301ab7ebc812e2647bcfa1c29bd08"
+    },
+    {
+      "path": "qa/export-M11-M11Q06-protect.png",
+      "bytes": 897325,
+      "sha256": "c8d071893423e4867fa0a959c0e7ff310be8157dbc549b2ce0e3b17a7c68b712"
+    },
+    {
+      "path": "qa/export-M11-M11Q07-impact.png",
+      "bytes": 902029,
+      "sha256": "ac63d55e3b09fb2916f14fe9110a89840216107b3b7fbdbead2bf48e50ba0dd3"
+    },
+    {
+      "path": "qa/final-notation-processes.json",
+      "bytes": 276,
+      "sha256": "071de8ad1be8e6f8b1402cc30f2fec3b996b52381a77c1f28f977b236f1eebfc"
+    },
+    {
+      "path": "qa/fluid-initial-water-diagnostic.json",
+      "bytes": 4076,
+      "sha256": "db5a94444c0c94d242013a5bb0d0aa934df9ad8888dfd21c030ef551083c858c"
+    },
+    {
+      "path": "qa/font-fix-results.json",
+      "bytes": 933,
+      "sha256": "237f790b37638faf346dfb3dfaa4675252565d5d480db7c22d74e9834be2d3cf"
+    },
+    {
+      "path": "qa/forecastle-deck-connection.json",
+      "bytes": 53661,
+      "sha256": "f2c6f1e351d048509160d184fd21f7b5ef1e87bc9e2ab0fb052ff3910231eaf4"
+    },
+    {
+      "path": "qa/forecastle-fluid-cache-reuse.json",
+      "bytes": 637,
+      "sha256": "d4ad09262beb4ac9ace9c6805ce4ca2421ade822c438c1307d25b2ffb7e0ab0a"
+    },
+    {
+      "path": "qa/forecastle-model-ready.json",
+      "bytes": 100,
+      "sha256": "8c7a34a1c1ea386b42dc6abbe94081391d1c6583bed7921942ecbd1c84210294"
+    },
+    {
+      "path": "qa/forecastle-ocean-validation.json",
+      "bytes": 266,
+      "sha256": "28d6039cfe11eba099be5e2928ef0d15b9ec7a3089c8cb4841f95215b9d66b01"
+    },
+    {
+      "path": "qa/forecastle-repair-error.txt",
+      "bytes": 409,
+      "sha256": "afd28c2619dfe4058c19e56a63bc8d37c17b519ead97a1d1884e33e041583393"
+    },
+    {
+      "path": "qa/formal-data-checks.json",
+      "bytes": 371655,
+      "sha256": "20f71f9aa00ed7ebee8e23b93b6f7ef3546ae8cdc273f3f1e5b73c86f3b9f0fa"
+    },
+    {
+      "path": "qa/formal-runtime-minimum.json",
+      "bytes": 1758354,
+      "sha256": "8e3b4b22076dc62de0aac3a19a338f08de3ad6a05354f88733fc607795ead771"
+    },
+    {
+      "path": "qa/formal-runtime-normal.json",
+      "bytes": 1766251,
+      "sha256": "cc741595acb167e4805dfe4e42eb1637ca00bfbbf13c18dfb95e42b4574cbeae"
+    },
+    {
+      "path": "qa/formal-sample.json",
+      "bytes": 485,
+      "sha256": "bc892b90dc77d93f0fdeef056681f4da5a611f8984a29ddb5d42cc88dbc469e3"
+    },
+    {
+      "path": "qa/formula-tab.json",
+      "bytes": 949,
+      "sha256": "84e54e00e5e1db76325f3c4543262d9cd20d71f4b99f4f0df43ffffb9df80956"
+    },
+    {
+      "path": "qa/freeboard-asset-checks.json",
+      "bytes": 2293,
+      "sha256": "9e85b2ec021090d7c8abce4ee6599262a9cbc92777a3f5585e12e778e922c3af"
+    },
+    {
+      "path": "qa/freeboard-blender-build.json",
+      "bytes": 640,
+      "sha256": "9be8206132b304002dc82541c609ebf43078dc4bf2a10193825352c9a561e1aa"
+    },
+    {
+      "path": "qa/freeboard-blender-inspect.json",
+      "bytes": 3386,
+      "sha256": "2c233312be5e39ff92c9cda4323cf7c1e76a7c34df3d03c9f902396ef34cea0b"
+    },
+    {
+      "path": "qa/fuel-mesh-geometry.json",
+      "bytes": 2955,
+      "sha256": "89dfacd065e83501fa7e0b72b157679c9080d8962edff3ad598982cf6d4066ab"
+    },
+    {
+      "path": "qa/fuel-minimum.json",
+      "bytes": 10425,
+      "sha256": "20a5dc18975edb2a054f0f54a7571ed9cc1daca9e21689dfbc47ec7e38a954ee"
+    },
+    {
+      "path": "qa/fuel-normal.json",
+      "bytes": 11256,
+      "sha256": "4016968eedd6be1a44b73399dc9965ad447e129dce27bf29018c68f6c7e376eb"
+    },
+    {
+      "path": "qa/home-font.json",
+      "bytes": 793,
+      "sha256": "7ec050d55fcd1f2b8d2a97df3409aad888f30a7e37b28accacb5387fa49ddf2c"
+    },
+    {
+      "path": "qa/hull-repair-export.json",
+      "bytes": 4496,
+      "sha256": "affcffe33d8b149a81dd6a153c5ffbc8ad5c12f9ccc705ae6df764d8b3584c76"
+    },
+    {
+      "path": "qa/hull-repair-source-fairness.json",
+      "bytes": 2736,
+      "sha256": "b7b0a063c2fbc1ab9b521d7984628622838b0dcfdff2a13e85341105b39d75ad"
+    },
+    {
+      "path": "qa/individual-lookup-coverage.json",
+      "bytes": 328,
+      "sha256": "feaab8a67a5b2f29a8f2c5228e939d2684e44473d7e4c99a253f3a57f65b10b4"
+    },
+    {
+      "path": "qa/inspection-blender-pid.txt",
+      "bytes": 7,
+      "sha256": "0b59dfbd7cfe60a943d3559c851c94aac8f2cf850d00ddb938de3658eddebcd5"
+    },
+    {
+      "path": "qa/inspection-geometry.json",
+      "bytes": 861,
+      "sha256": "346f3b578f81a2fddd395726d03fec06a763171b16e710cdb7662614e43345a5"
+    },
+    {
+      "path": "qa/inspection-launcher.json",
+      "bytes": 98,
+      "sha256": "c83c1857cbce0fd28e37e9a1ca05c8826988e6e411c81b237f13ab4c49bb784c"
+    },
+    {
+      "path": "qa/inspection-model-build.json",
+      "bytes": 184,
+      "sha256": "d3130d472b73fd340d30f4fde0f8fe3d3fc2ab6f08c919a0a49ad0437b5816aa"
+    },
+    {
+      "path": "qa/latex-build.json",
+      "bytes": 144,
+      "sha256": "54e60b601e987b229a0761eafc577560056ea7827385be770750d35688354202"
+    },
+    {
+      "path": "qa/latex-verification.json",
+      "bytes": 498,
+      "sha256": "5756d2475f614e89634033b13f6d48c43b59dd648882db364e749ad39ad6805a"
+    },
+    {
+      "path": "qa/launcher-process.json",
+      "bytes": 101,
+      "sha256": "1718cee947d2014267b0605ad355ffe745c8a6c4c3b31ce41c1b33a07c009887"
+    },
+    {
+      "path": "qa/lean-export-manifest.json",
+      "bytes": 1680157,
+      "sha256": "962125c9b6d867d931209a71827de186d6ecf196d0859c869d64fcd175d6d5a6"
+    },
+    {
+      "path": "qa/lookup-review.json",
+      "bytes": 106279,
+      "sha256": "169cacd5d0ebe7d093256fb5a292fe344f25af07d614a9d6f7ffe33c846261b8"
+    },
+    {
+      "path": "qa/merge-checks.json",
+      "bytes": 52842,
+      "sha256": "5f214294f20a01f56d4dbd539f8d02b88e658f6a7e5eee07b9eb097f9b93dcd2"
+    },
+    {
+      "path": "qa/missing-individual-words.json",
+      "bytes": 1453,
+      "sha256": "78f2dc42c46f9b92b3bf71a2b9029d408e651e79193f3a5d2fda67a77cb263b5"
+    },
+    {
+      "path": "qa/module11-blender.json",
+      "bytes": 943,
+      "sha256": "44bfd5d28fbc2d2e37cc87af60971d0489d7a60bfc8ea8535357b9d0471dc6ac"
+    },
+    {
+      "path": "qa/module11-delivery.json",
+      "bytes": 1267,
+      "sha256": "ced1219bcae29d433d148c16c9c17495b189c1be5b64d6db9b27672b44db4f79"
+    },
+    {
+      "path": "qa/new-answer-focus-20261028/review.json",
+      "bytes": 89470,
+      "sha256": "43747840a8fd25d5d2a11eea4827bb7e9a4744acfd9f646796fe07a4289efcff"
+    },
+    {
+      "path": "qa/new-answer-focus-20261028/review.md",
+      "bytes": 48101,
+      "sha256": "0040b354c5c9be47c64e46e7baf3e3ce192e34bc60aa560132bbc24e700467cb"
+    },
+    {
+      "path": "qa/new-answer-focus-20261028/verification.json",
+      "bytes": 15346,
+      "sha256": "7732f3c1419e908b40e6af08f11c31534aba63c646587f325e104c6aa8cfac78"
+    },
+    {
+      "path": "qa/notation-bubble.json",
+      "bytes": 522,
+      "sha256": "ffa99187cbc6c72c9412292cdbd91b0f3c412cc285612842baf86333bb55a44a"
+    },
+    {
+      "path": "qa/notation-checks.json",
+      "bytes": 1021792,
+      "sha256": "f8451a5f5c5e436323bfae2e4beb0f499a1c1632e7526eff301cd2fcc030afe9"
+    },
+    {
+      "path": "qa/notation-sources/2p-Женя.txt",
+      "bytes": 16997,
+      "sha256": "05fe89d50306df0cd79b9e1df8878c3a5cabe9fac8701fac453841976b2cd2be"
+    },
+    {
+      "path": "qa/notation-sources/5. Нагрузка-2024.txt",
+      "bytes": 82748,
+      "sha256": "047278b58d5e207ed31fc7430aa6f12f4f3944d2bc41d8792c36c3d61b4668ee"
+    },
+    {
+      "path": "qa/notation-sources/current-formulas.txt",
+      "bytes": 20976,
+      "sha256": "8a062fb2d720c3a3bc861724c62bf7635f6669ff7a9bd032cbe0a350c51c123e"
+    },
+    {
+      "path": "qa/notation-sources/Modul_1.txt",
+      "bytes": 23747,
+      "sha256": "d44ba1f526e2de48724587f2038f19ea53051b262440610f40ae894360af9018"
+    },
+    {
+      "path": "qa/notation-sources/Modul_2.txt",
+      "bytes": 20207,
+      "sha256": "ea35527f12e03d2fc0943bc9c0afe5e87c434dedd1ffe1051c77c46551190153"
+    },
+    {
+      "path": "qa/notation-sources/Modul_3.txt",
+      "bytes": 16527,
+      "sha256": "efe27af1530b65366af94d7ffccf3293c67e67608f28df45df0bef6ae1c053bd"
+    },
+    {
+      "path": "qa/notation-sources/Modul_4.txt",
+      "bytes": 29036,
+      "sha256": "16801dee76ff4d6fb0213aae465a442ab2b987a9fdac3d7937b4a6688226c7e1"
+    },
+    {
+      "path": "qa/notation-sources/sources.json",
+      "bytes": 651856,
+      "sha256": "5afdc4871ddaa82c0763738d43b41f417f1ecd6c3307bf288184aae6f737d470"
+    },
+    {
+      "path": "qa/notation-sources/Вариант 5 Расчёт нагрузки.txt",
+      "bytes": 4185,
+      "sha256": "4921a980d374ec5ae7037974382f71d7afffb9f726d087fdc292415229ae97eb"
+    },
+    {
+      "path": "qa/notation-sources/Задачи.txt",
+      "bytes": 23909,
+      "sha256": "1633d9c306513f2dfd4671bfbdf35f11951bff7ea41dfcad271cd0904c761c82"
+    },
+    {
+      "path": "qa/notation-sources/КП-ПС-1 приближение.txt",
+      "bytes": 18664,
+      "sha256": "85bed6212e0f23f3a98e6f2df9767642789f7ff938d7ce4317817eb52e3aa362"
+    },
+    {
+      "path": "qa/notation-sources/ПС-КР-1. Введение.txt",
+      "bytes": 3888,
+      "sha256": "c1c69dfd97794a15da7fea6f50f3a016f749420f0b2bca93edec8bee9bb5ebdf"
+    },
+    {
+      "path": "qa/notation-sources/ПС-КР-2. Первое приближение.txt",
+      "bytes": 6780,
+      "sha256": "94375139a164b523314a2ad5616b7cbd6f95e7db38f845d9cfa26656b41e3ce8"
+    },
+    {
+      "path": "qa/ocean-depth-results.json",
+      "bytes": 697,
+      "sha256": "d75ae2a4a0cd5d38abcb078c431281c6e83cb312d5f5728e27268ced9cc1fb49"
+    },
+    {
+      "path": "qa/ocean-medium-diagnostic.json",
+      "bytes": 293,
+      "sha256": "ae2d6da8c09c79ae7832e20ac8fee62753c6bb4b7f66590115c0b9f4d3009e4a"
+    },
+    {
+      "path": "qa/ocean-results.json",
+      "bytes": 703,
+      "sha256": "5831b442636d3262e77e86f55b4615e646aa1fb8edbbebaf16f352e792ec58d8"
+    },
+    {
+      "path": "qa/optimization-record-debug.json",
+      "bytes": 3239,
+      "sha256": "513243c3554227548ad6014ed0593bee845b82aaac8c69f5ae908700585afc6f"
+    },
+    {
+      "path": "qa/optimization-results.json",
+      "bytes": 2515,
+      "sha256": "57b68db02910867db79fe3390ab083b15e8019b2c1fbd6187f78ec8e2059e080"
+    },
+    {
+      "path": "qa/pair-minimum.json",
+      "bytes": 13295,
+      "sha256": "30ccdad7ce511d5c62f504aa684aaf6ba236782095ab62701b6ed4b7cb0403fa"
+    },
+    {
+      "path": "qa/performance-after.json",
+      "bytes": 10611,
+      "sha256": "e36cba0151260698d0b4d12e95fd371bfdc68c4d29496ea9553a9225cebb86c5"
+    },
+    {
+      "path": "qa/performance-before.json",
+      "bytes": 8618,
+      "sha256": "6cf56d506261fdeaba2a3f249a25d4b76d0bc3da8324e5b4d447c6874451c2da"
+    },
+    {
+      "path": "qa/performance-launcher.json",
+      "bytes": 199,
+      "sha256": "561dd4c3d60101a27377a0c733341f3168fab51377c1057ff7e8b5daacc09fd7"
+    },
+    {
+      "path": "qa/performance-math-results.json",
+      "bytes": 130,
+      "sha256": "4b7c78c4579f924de51da12ef0ff34508799f2476e14dd874c1cfcb5cf6cbbe4"
+    },
+    {
+      "path": "qa/performance-stress.json",
+      "bytes": 4977,
+      "sha256": "02fb37468bfc421e9ccc8339b33a22f34efba6029f212d7aea9f06c37074ac01"
+    },
+    {
+      "path": "qa/processes.json",
+      "bytes": 138,
+      "sha256": "21be491c59d8d6687d576069e7fe6a214fc9a110305e17c3f07914ad1528fe68"
+    },
+    {
+      "path": "qa/progress-minimum.json",
+      "bytes": 38713,
+      "sha256": "06ee853e1e9456a62e80ed88fc756563ff1a786cd7163c9c801b180ab31927d7"
+    },
+    {
+      "path": "qa/q12-drawings.json",
+      "bytes": 3183,
+      "sha256": "950cdeaee48b58fa79a092ba972ff8fb47fffb462e43f214fe27bb7a96e02dae"
+    },
+    {
+      "path": "qa/Q12双层底图纸讲解-2026-10-21.md",
+      "bytes": 3029,
+      "sha256": "e4005c992897001e4e0631185f58218c84d3ec8f22276ea11aa111f591ab9f54"
+    },
+    {
+      "path": "qa/q19-deduplicated.json",
+      "bytes": 1117,
+      "sha256": "ba496e709ee6aae5455def1abdee4e022708245af4c2ebd2e19e0eae8b44742d"
+    },
+    {
+      "path": "qa/reading-sidebar.json",
+      "bytes": 1114,
+      "sha256": "7f6932da285feaad0ec3ab64aa6172e6884975504c89150f6b954abb04be6095"
+    },
+    {
+      "path": "qa/reading-words-results.json",
+      "bytes": 3259,
+      "sha256": "4fde5ff8dc1ea87facf9df671e358e1a536bfcc240ae92c9e346cf8da2503239"
+    },
+    {
+      "path": "qa/reasoned-lexical-draft.json",
+      "bytes": 38987,
+      "sha256": "ae41d404daa7e90a352480ce5a1dae8e4a2beb6e6489727d3bfdd91ba7512b69"
+    },
+    {
+      "path": "qa/reasoned-lexical-results.json",
+      "bytes": 77255,
+      "sha256": "f5091ea6a8596ff3ce3acfa29ff36de213f4cf70c39072d8b3b4f169d4613b88"
+    },
+    {
+      "path": "qa/reasoned-missing-stress.json",
+      "bytes": 16212,
+      "sha256": "ffc27abb136862d78316d5f3c8c17fdaa4b95a8d3b1d2562fcff0a9cfaafd41b"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/approximation_calculated.json",
+      "bytes": 2957,
+      "sha256": "2ec7c700ce481fa919016949382659d97c576cfeffa8846b5f423f14b5b12a41"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/approximation_glossary.json",
+      "bytes": 9999,
+      "sha256": "bcdce2e9c25449ac0dad8331f6311837f9f9e763c04aaeaf0f4a0b85125154c0"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/approximation_sources.json",
+      "bytes": 2519,
+      "sha256": "8e8f9e6ac1bfc0685c7c415be60b12de75ed9cd1cf7c0e698db8ee0abc1ad18f"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/authoring/legacy_courses.json",
+      "bytes": 321762,
+      "sha256": "b06f9d899cdaf4e3b9f4767f465530efb279b99cbfe47b55f02345435aadeab5"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/authoring/legacy_latex_source.json",
+      "bytes": 127215,
+      "sha256": "2433dd9ff9adabde51c8016fbb6f1ef53d49bf0bd13191161616387522c53ba1"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/bulkhead_symbol_registry.json",
+      "bytes": 20217,
+      "sha256": "ec31cf9c76f46f17bab215e4b3114699aca386c20758816be7c31e784a7cde4b"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/bulkheads.json",
+      "bytes": 84848,
+      "sha256": "fc4fd936200433e6b849d31812b44523c6a23b25e9a071c99dda272e6df13d6f"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/bulkheads_latex.json",
+      "bytes": 39686,
+      "sha256": "da5f3e6bc8b2db4dd770a66ffeb72414a496b5ca4d09f740383f582959360fef"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/confirmed/calculated.json",
+      "bytes": 29893,
+      "sha256": "01bbb0969118273df7965a184b967ab37da575b53ec20b8e47b21787a8caaf74"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/confirmed/inputs.json",
+      "bytes": 27351,
+      "sha256": "ea66713ff2baa33e8c7dd98e95f7caf5610a646a06cc41607904760a060d9dab"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/confirmed/sources.json",
+      "bytes": 4352,
+      "sha256": "0551a47a4a0276a4eeb8e0ebf2ebd9bdda150bd155ded0d6565a20beeb552854"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/confirmed/steps.json",
+      "bytes": 69657,
+      "sha256": "a913ccbe0de707faefb8c028e777a6a406bef9ccbc5958e3821149259803637a"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/courses.json",
+      "bytes": 453660,
+      "sha256": "999a470d8852185697e5c1e47c74b7fad6fea1eb3b9c2230be23049b93ebf1d2"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/curriculum_source_styles.json",
+      "bytes": 2151,
+      "sha256": "b5f6ab4e6340b0a82a8c20a0c42942a09e48692627ca07460fc50725d7716ac2"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/english_notation_terms.json",
+      "bytes": 4198,
+      "sha256": "c7f62e6be27b7388b1d8ca8697fb12aea097cfea72d3eb38ec414aee0714fa4e"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/knowledge_map.json",
+      "bytes": 5609,
+      "sha256": "ef441cb16186333243ecf4db2a5b245924eb6854ec485b3da4618862cbd98e4d"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/latex_assets.json",
+      "bytes": 14310371,
+      "sha256": "a7e766a108a47ca8782fb806c4897b1b895cfdd689577f8ceceaedbbd515537e"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/latex_source.json",
+      "bytes": 251160,
+      "sha256": "75c37f975ea04ff59659d07c1fcd623269c76284ccd96373d6fc4b7a499334f7"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/manifest.json",
+      "bytes": 540,
+      "sha256": "f26080839bf8bac39904142a12a358fec31dbf0e5185b0cf8098e906fbadacf0"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/notation_audit.json",
+      "bytes": 170981,
+      "sha256": "00c5b078210d63b8a7ae9fb1c95b7c7da2946abdf42b324c052214d49bfcefe2"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/notation_terms.json",
+      "bytes": 9287,
+      "sha256": "aeeedef0189dc9da3c53425628b259c1000a6081d32fb15cca82b2426171acc0"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/reference_results.json",
+      "bytes": 4825,
+      "sha256": "779189c8fdf23dc381401cf6832a7215a61061b4f2f847a825e62aa665b3af21"
+    },
+    {
+      "path": "qa/repair-20261023/before/content/舱壁布置-来源与口径.md",
+      "bytes": 2999,
+      "sha256": "ce124b7f49ec0c92a6a5ab0a6189f853e8986813fa306dfbea2d35390ec3203b"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/approximation_final.gd",
+      "bytes": 205,
+      "sha256": "dd5a696f9913c6d53dad7ada2674d395c88c13c6514cb6e83ddeaae68ca941ea"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/asset_loader.gd",
+      "bytes": 736,
+      "sha256": "4f972d323e479aefa73290524ec6df8565616b1a45569672c95af33521186fd2"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/bulkhead_math.gd",
+      "bytes": 2996,
+      "sha256": "98b2cbff4cb96d1b23e89b4c225a7e1d75d0decfe4803a6d8e7a7a0d76dc1346"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/domain.gd",
+      "bytes": 5384,
+      "sha256": "9b1ea135f141954d4fd301e33dd2aa149e61a1aa35a35b9bcf5f331c0fb27f1e"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/lesson_player.gd",
+      "bytes": 5854,
+      "sha256": "816433545432bcb507938767d54ebf75b519dcb77bad858e5616f6c40facc185"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/safe_store.gd",
+      "bytes": 2223,
+      "sha256": "40ec7fe8e897f72aa2426235c2a9e8221008effa41bd42966c4e65f6826df68b"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/scene_lifecycle.gd",
+      "bytes": 2590,
+      "sha256": "cea5202de3c46f4bd25f2a3151249879ceffa7add6db83c4006bda10cc5c5e7d"
+    },
+    {
+      "path": "qa/repair-20261023/before/core/state_math.gd",
+      "bytes": 1402,
+      "sha256": "545a044ca1b43f4756efbca937b764554618e1afcb348fa1ad98a21bcb41c695"
+    },
+    {
+      "path": "qa/repair-20261023/before/main.gd",
+      "bytes": 27939,
+      "sha256": "fd94bdf3a57c5bb7244277d7699f6a1b024abc527be8b3d871803926fa9aaeac"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/authoring/lessons_5p.json",
+      "bytes": 84827,
+      "sha256": "6ab7a166e9babd767e03e09347399d70dbe91803766c816b70f4bfd299456af9"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/authoring/question_bank_5p.json",
+      "bytes": 14349,
+      "sha256": "277fd557b071c18ab542596aec6a01a08183ec18a54c3ba318d277823924b177"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/authoring/reading_5p.json",
+      "bytes": 46485,
+      "sha256": "4f5fc696e2b29c1e955d240340f8686e3b0d462f7e17d4aabb91941ecc097d4e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/authoring/revision9p-original.json",
+      "bytes": 5278,
+      "sha256": "133254b8ba10a4573e6bfbba1279abc14535d0d6546facb1c3d029d6ae5a1e04"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/authoring/stability_course_5p.json",
+      "bytes": 43592,
+      "sha256": "e2f41205cfb9200042fef98717013aa13cb374a256511e034f3e80f803d8e6d2"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/camera_observations.json",
+      "bytes": 645,
+      "sha256": "36256425d92703af2a0c1d5d7ec5d5849d0927a871f7c5a29f6fac67e3fa7828"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/glossary.json",
+      "bytes": 171653,
+      "sha256": "7c4a3ea14ee4154e2635ba1935e03202a243df79c8b988c4563d95babb9d7032"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/glossary_review.json",
+      "bytes": 101997,
+      "sha256": "fc5c3f0596730bce750fe606fe133629dce50d655d381fd9d65339df19ba99d5"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/latex_assets.json",
+      "bytes": 2635362,
+      "sha256": "4bc3aeb79c04569c8f707ee6e9fb45953d7f31565cd788c02e84ceff164dca32"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/latex_source.json",
+      "bytes": 18376,
+      "sha256": "cc06fdd68b4d522f9f0dffdb8fef3ca78789ef116e71d4dd340ac36b781405cf"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/lessons.json",
+      "bytes": 78604,
+      "sha256": "503b15d43858d5ae0c50c5698968d0130ee7c29396fe5acc729206671efb9005"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/module11_geometry.json",
+      "bytes": 3165516,
+      "sha256": "48efdb40f116aca64a6e085462b57ed154b7703354b0c2671c78600a111164dd"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/module11_sources.json",
+      "bytes": 992,
+      "sha256": "ebbf2f3a6098c91c6cfb5eaad0fec9ac799e5b3a9ba4c451508c7fef953d9a56"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/notation_bases.json",
+      "bytes": 1941,
+      "sha256": "468a9d77a8082b1d850fd79c3155ff3474126c7de4a33b77d3d7b33dc207fd43"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/notation_terms.json",
+      "bytes": 5411,
+      "sha256": "e94d74713df4d54abd4755973e0a3e9630b7d5852ca4cd522151354b00dc53f2"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/oral_questions.json",
+      "bytes": 39719,
+      "sha256": "59d386b59f476518311bf670aa4e3a6a6562e83ab78bda353d0e1456fd41cd8b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/question_bank.json",
+      "bytes": 36908,
+      "sha256": "2e0137df8bdd2ae8b7681e9cabd7952cd855626324a8ca8ca2fd026b2b244a6f"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/questions_ru.json",
+      "bytes": 5391,
+      "sha256": "1dd6e86163ae8fe03eaa09ae52bb59a80dffc9fe665f27c5b71ef7dd94d6085c"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/reading.json",
+      "bytes": 71670,
+      "sha256": "f422a4797d20de7b89f39b55dd3fa73743db648cf18a7ecd6e165507ed778334"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/sample.json",
+      "bytes": 3312,
+      "sha256": "5ebbfd596f96c0e274105b8e3b3bdd7793f533cfc883a274bc05c37b6bb270a4"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/stability_hydro.json",
+      "bytes": 2647563,
+      "sha256": "183a3b4f7ebb4d03b58374ea2eb16885757f139147fdb00c2f743a0e9a224133"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/stability_latex.json",
+      "bytes": 7735,
+      "sha256": "2efeaa216aa6cdaca0c9e1bca4bdec3374c50b9951b618657afbbc0b1ea65c77"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/topics.json",
+      "bytes": 284967,
+      "sha256": "ad214dc331d60abcf127ecef6ff394c8418de91621dcd6a722c32c5bd9dbf223"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/topics_latex.json",
+      "bytes": 23267,
+      "sha256": "047930a66fa98956566bb785fdead7f03599c56008e4609d1047e1009646c7a5"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/yacht_geometry.json",
+      "bytes": 36687,
+      "sha256": "d258503dc3bba4c1b480e4a3c138fa861694808656acb831658d4fd656a6160e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/yacht_poses.json",
+      "bytes": 16749,
+      "sha256": "f2f5672c8827e2582253f8c2647dffe3a867591e2d8062e1d7050725549ca2e8"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/beat_observation.gd",
+      "bytes": 4368,
+      "sha256": "071ac3b36987da19e8e3c46d11141f9a155c9cd31f9e09b15c993d3aecdda60b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/glossary.gd",
+      "bytes": 2271,
+      "sha256": "d45eec5fcbc82484360d97bb674d0a6b935b7543131d521d06797de88d7d8e57"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/lesson_player.gd",
+      "bytes": 5869,
+      "sha256": "b9574076bde38667f0a22e4f5df276a0d0ee8db2520ec0bf58d8158a0f783b49"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/migration.gd",
+      "bytes": 1138,
+      "sha256": "97a7b03b4f35bbe57bbf5524469fb328d3eb5994426862d953b2b2551ad1424e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/module11_math.gd",
+      "bytes": 3131,
+      "sha256": "3ceaf8bbd11f6c8712830fb57e167875716b165e92131fb93b6b69f21e996931"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/notation.gd",
+      "bytes": 1339,
+      "sha256": "628fe73724ee3a4d1597920db2a54254453d17d411dc1eea4b4268ea6b92df07"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/reading_store.gd",
+      "bytes": 1609,
+      "sha256": "88f5ef989ae7a56c6cf986c8b13d97850a2408400b779546194a8827bc4a92ac"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/review_schedule.gd",
+      "bytes": 855,
+      "sha256": "c774c704248fd88e27beb9cd782158ba4f4816d67aefec36cd3e43c2fa387e91"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/safe_store.gd",
+      "bytes": 1446,
+      "sha256": "cc3ba09cfd984b204e6f82bef9d91d6bb397710959e82d79e087ce2331bc6d9b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/stability_evaluation.gd",
+      "bytes": 855,
+      "sha256": "5fd604bda91438c716555fcdc54115993c9ac85e2a7308f734a720353273eb4f"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/stability_math.gd",
+      "bytes": 4230,
+      "sha256": "309ca7e459fe586db54882f71b2ffd784ac382a192b09937b9ca7023492e6ac4"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/stability_store.gd",
+      "bytes": 1159,
+      "sha256": "e17f3f0a4722e2b0dd6c8a98db780e6aa3601484a1dbafb8712ca996a50d9741"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/state_math.gd",
+      "bytes": 1593,
+      "sha256": "6921d43fdce8f6c983ec0d592d8151a353619d2c4015cc1d69a2859427157f97"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/teaching_math.gd",
+      "bytes": 1121,
+      "sha256": "aa827fbd1472f83696fd0a1093a3b26226fc3101f71899521be8bf7e6583b6f3"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/topic_store.gd",
+      "bytes": 2044,
+      "sha256": "be0c8576e4c349109854f2a233451a7795fe631d26c0a0b6c34fa6503bc035b0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/core/yacht_math.gd",
+      "bytes": 1270,
+      "sha256": "338fc85c6e095256dfed4a073407627866a5d19cab0495af1de7f1361fc231af"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/check_reading_content.py",
+      "bytes": 4203,
+      "sha256": "83ff5d92c2f11c9a54351bd935e8054eb620298e6c5b0533cb471693545fc549"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/damage_cutaway_check.gd",
+      "bytes": 4391,
+      "sha256": "849db4f776e0ff139daf9fb8bd67105c0b0c5e19f5ae5683198d5dc4aa87a977"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/formula-values.json",
+      "bytes": 35,
+      "sha256": "e8407e8d4ebab999c771a8b45c4ee5c688e6ff34dfd4cee3b9d382d4e71b06af"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/freeboard_morph_check.gd",
+      "bytes": 2219,
+      "sha256": "5c79c058c5038d0fce3c2f82c3652eec489dc31dd9821e578d3864b3942eff29"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/freeboard_side_check.gd",
+      "bytes": 1458,
+      "sha256": "16ec4afa6b7f8f170ab0652b0b8d6eb61cb8be82e11d8d150b307c285b0cb1e0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/inspection_all_check.gd",
+      "bytes": 3823,
+      "sha256": "3bc51315ff9df7a3d54b0f19ce503023e40826e60b6c09b579af355612cf52cd"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/latex-build.json",
+      "bytes": 143,
+      "sha256": "bb91f2a77a1d7efbc9d262c9ebd19708a9993029db656ba7e5d1babd005b5801"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/coverage-after-review.json",
+      "bytes": 82438,
+      "sha256": "f422635f1af8dc6e60a406845af2dcb104bfda6466e9c0bf576ce43d00343b1c"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/review-verification.json",
+      "bytes": 562,
+      "sha256": "f1a03bb17428bb8637881ae68004e246ba9483d516400705862e2296b619b88a"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/module11_check.gd",
+      "bytes": 8001,
+      "sha256": "5e226bcc8c4191554e3660d499f7ac6350c5d5ee105e70ec63d079dd9d56919a"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/notation_check.gd",
+      "bytes": 2317,
+      "sha256": "96a243c5f2877062e207e498cb13f58ab67d9f3f4dd4082db5288918aef1dad1"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/sample_check.gd",
+      "bytes": 1414,
+      "sha256": "28732659faaa901618361d5de1d13d54a45dd3f4b575b882c9df27cd9967eb18"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/stability_check.gd",
+      "bytes": 8282,
+      "sha256": "5cf877bc926807e1da007748884ad74d9b4229014d7eb4004790d9be29452290"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/topic_hover_check.gd",
+      "bytes": 3126,
+      "sha256": "b1d834f3b0eb919fced811522ba76db96fd4b3a2b0965bbb84d179fd34e82089"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/topics-checks.json",
+      "bytes": 241656,
+      "sha256": "0a8121dbcc8120bb8ec3e35daffcea27f40e7e36000dc6ede0fb5f385b16e978"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/topics-content.json",
+      "bytes": 58047,
+      "sha256": "c94a45069b2009e4419199926559136449ffb94aaef1d45372439623b9161cf0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/topics-launcher.json",
+      "bytes": 1538,
+      "sha256": "a44bf09db0c3ac5efee14bbc1a207989a35b97aed8e55735351cef3c4d3345d4"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/topics_check.gd",
+      "bytes": 12400,
+      "sha256": "c0b84c841acfaa3b30f37b7e1c53c8ee2673e57ef83cfdbf14fcc8c89d0c4aec"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/add_bank_vocabulary.py",
+      "bytes": 7735,
+      "sha256": "ae7c71df6725220e32cb2756d513ed4ce349016845df9489bd4b132298e3fe07"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/add_complete_vocabulary.py",
+      "bytes": 2725,
+      "sha256": "0827b66c3cb068e9393efbb7f91378a6c87b96812b63901060196f245e0c879b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/add_design_vocabulary.py",
+      "bytes": 3882,
+      "sha256": "ed49156746f32e469cd0193c695d1e27c0f1264bc48d05a26c6b75083d26075b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/apply_glossary_review.py",
+      "bytes": 1141,
+      "sha256": "e3002f99d5c62a75827560326634c1a0f7c73739ee0276256be31b2e7419cf6e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/audit_lookup.py",
+      "bytes": 4852,
+      "sha256": "f3c5dcb891b40793a8c017213d49a96369dc23f05c1aae084636b319f495f556"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/build_content.py",
+      "bytes": 16532,
+      "sha256": "a91f88c44cda68366b6c1286b6b229ace62aa29be0709d3fd9aa018f0266e2c5"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/build_question_bank.py",
+      "bytes": 3117,
+      "sha256": "72a7b90bdc386f2c3e063060ac5483832e6c70ef11f0673445ae529fff624051"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/build_reading.py",
+      "bytes": 24183,
+      "sha256": "79c8490e54a4c2cca39d4b6546608ec5f68553f7518e8f0428a4b4052e2703d2"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/build_stability.py",
+      "bytes": 6648,
+      "sha256": "dde131cfb0dc7df57a21a830209a7934a2e81c2523f9c1ed06a8296fd3f1b5ed"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/build_topics.py",
+      "bytes": 40304,
+      "sha256": "4b551f0cf03114de1ff2ee3a337ee967ed5830aa8f67b77ebfd5b4b4690de784"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/complete_courses.py",
+      "bytes": 21921,
+      "sha256": "cfeb90faa452b86c621c1b22f084b4d673c7334eab91acb68743b6061545c243"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/module11.py",
+      "bytes": 21898,
+      "sha256": "f4f4326a69fca737c416f1ae210044d66a73ede4f3e8f53c3a6d07595dd7211c"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/q12_drawings.py",
+      "bytes": 4840,
+      "sha256": "3c010bb780fa2f70270b24a8d0676504252dfb5d85a3d032530d162c61cdf89f"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/review_lookup_candidates.py",
+      "bytes": 10805,
+      "sha256": "1f082fd3537f93e89578103013ec3ad69f57848ae81e257979dfa62987d50b7b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/revision9p.py",
+      "bytes": 22672,
+      "sha256": "b0b83104337c9140f360b689a47885a64be6a3db11ad3a26e54ed12af6b5feff"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/run_topics_qa.py",
+      "bytes": 2186,
+      "sha256": "678f7f51e1526ff33d82702944092e0a41063d42f4f43659645e34c168857063"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/stability_content.py",
+      "bytes": 24337,
+      "sha256": "ddf1ce38594cf644d17f896006dd0f7a0ad5a87336a7809f490e875b8e3c5505"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/stability_details.py",
+      "bytes": 3396,
+      "sha256": "5e9431b889da919f57441b2425fb9ebe88e37c5cab8a64ba923202ce23d05f80"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/topic_repairs.py",
+      "bytes": 8730,
+      "sha256": "730fefc03e05820e599aed0b2a20da8f188754359e8315605c7969942ec0ea9d"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/verify_glossary_review.py",
+      "bytes": 2214,
+      "sha256": "c1df8c8c66423e78d5a51561d8bd8aaad2b96116618d8bf6f621346b628e4ea7"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/verify_module11.py",
+      "bytes": 6873,
+      "sha256": "c8d48ebfc2dc1587700f2f7d9c7de282eb5215413553b2ad90e4cf0f50614328"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/verify_revision9p.py",
+      "bytes": 3660,
+      "sha256": "6f3e7a06c89a3e2cfe2c26bb9ff2b6a791884f2939c244b199793f9527d1efe0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/verify_stability.py",
+      "bytes": 4796,
+      "sha256": "94d25a307029c0b0efe089c31d5878ea07420ce193574401a1cf8afdd2b25280"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/verify_topics.py",
+      "bytes": 3788,
+      "sha256": "a2fc547c42a1e37bc3504ede71673e42549ec86b8ffb0244c0a0fbc2afaed863"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/tools/yacht_lessons.py",
+      "bytes": 6120,
+      "sha256": "56d74750926f47d0f0f806702e2bbf5baadea0e6aafe46976c114ea33d503700"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/bow_wave.gd",
+      "bytes": 4341,
+      "sha256": "6c3953179d4d63545c86d559a57ebe0a84639da48abd05de607ccba3cb67cefb"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/calculation_record.gd",
+      "bytes": 7632,
+      "sha256": "124cf2ed10c7a37d5eb62ac8fc196683c40b85ab3e285e9f15fc22708393dc9f"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/damage_cutaway.gd",
+      "bytes": 2978,
+      "sha256": "2cc8e09bf330e97659226408736b11c851797355787680cc56da972487ccde72"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/design_view.gd",
+      "bytes": 3745,
+      "sha256": "addf619d15e190560c83264ee673c0df79f40038da3010f95e4b93dea58d657e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/double_bottom_view.gd",
+      "bytes": 13069,
+      "sha256": "75b7ec0c2d88c43a94fb3a400332f988b1bb6cc5497a27310b86103e6a96136b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/drawn_term_lookup.gd",
+      "bytes": 1652,
+      "sha256": "576004147a2c8d19b223f492a3e6d768d54c4d7300fadd4502f005faa5bf1a1f"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/hold_view.gd",
+      "bytes": 15317,
+      "sha256": "0717d2c312b4df2a57571131ce9ad09d42be08e86953a32d747444bb8c218485"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/interior_view.gd",
+      "bytes": 1894,
+      "sha256": "e16a7189c89651244c4fd3a5ec6c25911d65a11623a0bc121df4a41fb3033f1a"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/latex_panel.gd",
+      "bytes": 7756,
+      "sha256": "7efcdd283ace1149877a9fcf67218fae8a6c7a302d778581933cae3501485d4a"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/lesson_progress.gd",
+      "bytes": 2289,
+      "sha256": "634cf92553af1ba8f2b52ee805798c37d8cdc8607bde14feacfc23d4d2f10433"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/module11_overlay.gd",
+      "bytes": 4627,
+      "sha256": "69a0d1a866a398028842eab51b01955eb7adf7b28e67ae5ab067930a03fc4ace"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/module11_ship.gd",
+      "bytes": 8674,
+      "sha256": "6892976cf2fa7115b19889e27dff5a4acdaef9c724c8717b8cce4eb7b6871dfe"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/notation_text.gd",
+      "bytes": 5223,
+      "sha256": "ff7d547a9d52a885d868ef09dd2cdd50950128c713d912e3eff0a72460b766cb"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/ocean_medium.gd",
+      "bytes": 3150,
+      "sha256": "1d560377fbc065a6f330d325919a157177400eca0b3eb14d672581a1e527b041"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/propulsion_overlay.gd",
+      "bytes": 3695,
+      "sha256": "e34f5f38843a2bdca33635c63680d8cacd2bfe061c7c4d3a1f5a09482c180c85"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/propulsion_yacht.gd",
+      "bytes": 9782,
+      "sha256": "dad041c682505384aec165ae6411a3a8f8b22573aff4b88923d9ef27b88e308b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/reading_words.gd",
+      "bytes": 7166,
+      "sha256": "1883a2ec806f250561a2b82811133e478d9a8f8ec0f6b9b984ce7980ab430a41"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/review_icons.gd",
+      "bytes": 807,
+      "sha256": "22accb367f224c205b73fe73d360f2b5a283fef4a4e17df76c42cb035832bf31"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/revision9p_overlay.gd",
+      "bytes": 4783,
+      "sha256": "0295be7c8ce7896481ac0b8bfb9bbbf783d29c389b7f9fe725cf6af8bb946a78"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/revision9p_ship.gd",
+      "bytes": 716,
+      "sha256": "ad7f47b32d1c8617791f0ad46998cf9d074d23d91f5f1164d7f5a262bb4ac986"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/selectable_text.gd",
+      "bytes": 1626,
+      "sha256": "4418e2eab959d714f587c89b3e1a270f47c334a41f44ba1ae2eed613bebcf44d"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/speech_bubble.gd",
+      "bytes": 7528,
+      "sha256": "2799d547c3dac0c05debb04e488c9592553b6fe92a9ddfa6846a9d3a3bb45e05"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/stability_course.gd",
+      "bytes": 21738,
+      "sha256": "713e7ef78cf3b19cba771a537c4af43373bf1b67c48c4bc7acea11b109e0c617"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/stability_overlay.gd",
+      "bytes": 7900,
+      "sha256": "12474dacd44be91de18a0b101faaf7a31c357ed67bd24f65f33235d2e5586436"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/stability_plot.gd",
+      "bytes": 4901,
+      "sha256": "70a07c675008ade7eb9ef088e62fbc937ffa5b732fd8794e0e463185eb9f68f0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/stability_ship.gd",
+      "bytes": 14589,
+      "sha256": "f42ccdac1fa8042416ca6ed16c42beb3209f84d965b32d6ec627aed65ff60121"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/technical_view.gd",
+      "bytes": 15261,
+      "sha256": "5577272b6fec2a305adabf7f75cea4f27708af3f9975c88e222e194589bdf49d"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/term_tooltip.gd",
+      "bytes": 3497,
+      "sha256": "b2f532c0dcf360dc93415b6702b8c2afb6f1ce4d4053d4f7fef0bb2600ec60c0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/topic_marine.gd",
+      "bytes": 12076,
+      "sha256": "5a868cfd44b25fb07189ea0a6553992d0a034c3d468bdd4249fe96be6df2b03e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/topic_marine_overlay.gd",
+      "bytes": 1940,
+      "sha256": "f08bdedabae2ca9a4bbf4475c59f39b801b25370b5b7a05e9b34732c9dbc9a4c"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/topic_view.gd",
+      "bytes": 3191,
+      "sha256": "c746c5af5a6c9d78acab8b502fac3605c67ef2d5867f219cd89704e7d5ec1a26"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/word_picker.gd",
+      "bytes": 2993,
+      "sha256": "86efdca8b9bbd52021f930287d2756d339a8ff9a4c30677c6e28e539e33890fb"
+    },
+    {
+      "path": "qa/repair-20261023/before/qa/bulkheads_check.gd",
+      "bytes": 7316,
+      "sha256": "22ab4c70453db7c121c6c6b36c73c8db3a95b25f1f6201db984bb1d451585766"
+    },
+    {
+      "path": "qa/repair-20261023/before/qa/formal_check.gd",
+      "bytes": 30258,
+      "sha256": "693992ab970097ce69aac15e83639485dd8394f41b7db231f66b27db0eb73bfd"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/adapt_ship.py",
+      "bytes": 4137,
+      "sha256": "b429144b16bfc00597ec2657b2013141d62abbe28a07641208fe130a9888c0f3"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/approximation_calculations.py",
+      "bytes": 5854,
+      "sha256": "55efd4c56f7e82148c143e5335d20830fb905cc3e279489398e89d66986541c6"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/audit_notation.py",
+      "bytes": 3099,
+      "sha256": "9e9732639b10d742f4ab45ab696d8905e2d3c710f0934bfd3b5fc6184dec2b0a"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/bake_bow_fluid_blender.py",
+      "bytes": 11706,
+      "sha256": "2b07962a5d3047c83e3682081176b8c0b1d8a11a89f865a60c8a7806c325d5d3"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_approximations.py",
+      "bytes": 35230,
+      "sha256": "54b9f1a2ac072874001e1de9b1cc8eb29ab946794ba08b284f6364d4c194762a"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_bulkhead_t2_blender.py",
+      "bytes": 2930,
+      "sha256": "e180e80d51057717df83f33811de6851bf7dc19b7cda0b02488a8246b187d0dc"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_bulkheads.py",
+      "bytes": 21463,
+      "sha256": "ed33e967623be83ad6b28b1e0172cfaf4135beddb861da2ee65cdd15e0d979a6"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_cargo.py",
+      "bytes": 2916,
+      "sha256": "56d3d66af8a72d4002d30891186f70337432fcebfb8461b1b69f5765a0df0b2b"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_content.py",
+      "bytes": 251,
+      "sha256": "15e558e327b2117e7cc87aba5692e8ac0579c4b31486d34db062cecd117cae35"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_damage_blender.py",
+      "bytes": 3403,
+      "sha256": "91ee11126a9feaca55c390b06d8d337f667c708c9a28f08cc8d683c1872330e3"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_formulas.py",
+      "bytes": 844,
+      "sha256": "15c4a0971a135e99d96941b6128e76744b49e235cfc1462a9f24006c697be7b8"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_freeboard_blender.py",
+      "bytes": 13636,
+      "sha256": "1710597e36c15a7e2e907d1c3f454c1ad6aca5b3c974191ff33a9f56f52de1c4"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_freight.py",
+      "bytes": 2467,
+      "sha256": "4f625ce95c2655ffcb0e1990e016528e7089b7ec4e599cd7dce8ce41e1ab1d8f"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_inspection_models.py",
+      "bytes": 4899,
+      "sha256": "16723fdbbd9180db8ef90bf986c4c6974e270368b317195cd7c21f82990d9b8c"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_learning_tanker.py",
+      "bytes": 29967,
+      "sha256": "cbd9c24f60d4f4ebb945c2bc451db74ae7113d6e6f4be4b0540c699d8ea7bb74"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_map.py",
+      "bytes": 210,
+      "sha256": "d218f755b32da5ac2bfc45a8f508a7a897768ea76042a90ba9f838db3088401b"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_module11_blender.py",
+      "bytes": 12036,
+      "sha256": "458c7cdf073afba56765dc68c3073ce1757f4c35f37158534b56af58ac4a97ac"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_ocean_blender.py",
+      "bytes": 4912,
+      "sha256": "30290035a4bf24ba1634ee4eff05fc0e0c8a0fb7db7ee1f2c64c22303e8ab452"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_planing_yacht_blender.py",
+      "bytes": 14331,
+      "sha256": "2fd65f74e531a40e7a13b7fb23b68c3b4ac915a44eb6fc46edad1ab9719c7d9f"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_tank_liquids.py",
+      "bytes": 9840,
+      "sha256": "2049fd9def86b5c8845ab705e54cb7cdd4bb87e0b8de9aaf18ca20718e24617e"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/build_yacht_poses.py",
+      "bytes": 1906,
+      "sha256": "c9993546f8e9c6d029fa8067205c321ec5ccf833878ac68c94a4079f24e3e28b"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/bulkhead_notation.py",
+      "bytes": 2671,
+      "sha256": "3b3f69ad32451a3c771f9f1f0462702dcd33ed98607034e6b10b771d81a4fc62"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/bulkhead_sources.py",
+      "bytes": 19498,
+      "sha256": "07024636b7ce9d9f2ee31d7d6a3422db135aceec0d4ccac87f4c321076565739"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/chapter_design.py",
+      "bytes": 2230,
+      "sha256": "0fcbe8403e4063791672b647efda3f21202a467d75abe7ef2916529adf25cc4e"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/check_hull_export_blender.py",
+      "bytes": 4783,
+      "sha256": "61c1ad1b4a3363bd369f4b0cd18637425f74ce824b07f81ec3a43a60bb05fa50"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/concise_content.py",
+      "bytes": 15024,
+      "sha256": "50732ada8a9440c7352a1bd2ff711997a1b5c0f399b05e05513ffd9b6ee35b5d"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/course_calculations.py",
+      "bytes": 7609,
+      "sha256": "38ebd350698105331dd5610723118b29cfa763aa853a481162bf41cc53f2f38c"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/course_notation.py",
+      "bytes": 10562,
+      "sha256": "b41d496026f33c75f33862cd2f874ab0cf33ad26404daf3c6ec048f0187df401"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/curriculum_repairs.py",
+      "bytes": 15479,
+      "sha256": "e06ba5b9c65de9c2c45cd6fc1f8cedbdd276ef4ad513555599b9b0d833bc5ec4"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/fair_ship_geometry.py",
+      "bytes": 5462,
+      "sha256": "f6f9552fb7296af9f263ee3550d8249e888a60c0549fd06ae6262be7ef100cd7"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/filter_bow_fluid_render_blender.py",
+      "bytes": 2257,
+      "sha256": "ceb655bd75e8e289d84da64867dbd187e9605f31289a89e96e82674bf736b914"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/forecastle_geometry.py",
+      "bytes": 2940,
+      "sha256": "8ec97ace606bad2a33318e343e21f3523ce7e67d289ce85839809475860b6f9a"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/formal_course.py",
+      "bytes": 49515,
+      "sha256": "f0e585198e1b582f376eecf64c9b532dc8e4c8b1a0a4edfbaf2c4bae7e7a1418"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/inspect_freeboard_blender.py",
+      "bytes": 693,
+      "sha256": "37a128cbb3946d4f9d0e4f67bbc4915a43477f7d2bf2e6939af9cd3b9649f562"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/inspect_text.gd",
+      "bytes": 227,
+      "sha256": "0738e44bd92605024d23a193b7556a538b46af54f79ea703ac91e0861b5b3528"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/latex/package-lock.json",
+      "bytes": 4198,
+      "sha256": "e2676b00a77e7f7b5fe3c95e86706600e348db17399ae9b75cd3046fd88c5a4d"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/latex/package.json",
+      "bytes": 88,
+      "sha256": "0c1b37983570471a1fac2007556ee3c4c5ca25075e82777671dd4ea197b82665"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/latex/prepare.py",
+      "bytes": 7651,
+      "sha256": "66368ed1a7ebd0aa28220d0728c0fa45b81699ff7fad05fd34c029069df630eb"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/latex/verify.py",
+      "bytes": 2926,
+      "sha256": "82e8ad0c1eebdfe4e6b2195d6c31cbd4b9e54001953657f5dbfbb26a9f1e67e9"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/repair_forecastle_blender.py",
+      "bytes": 3513,
+      "sha256": "efad1af135d31e00aa21ae12eaf7d6971b37b2199751f69a606b6b96a4e7c536"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/run_qa.py",
+      "bytes": 2862,
+      "sha256": "90306baf618d0f952721504b3d9e2cb6d4515f5c86be996787f697f3bf0c6d4e"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/spatial_lessons.py",
+      "bytes": 2709,
+      "sha256": "d51420f1b216e281a3e594a69da4e658c282c45c53194f99423be0f0666554ca"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/teaching_context.py",
+      "bytes": 26692,
+      "sha256": "dbeba25c4278d97fbfc46d983a832201bae0f6b0d9c1dc92f8edf556f855de82"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/teaching_flow.py",
+      "bytes": 11452,
+      "sha256": "ea2d54dfb3a7cb5d70d0f2aa398c93d2fc1b5335980e61f9493a02f0e06f9a76"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/validate_bow_fluid_blender.py",
+      "bytes": 2060,
+      "sha256": "5b8ef87124dd4ec0a5767906305e72623e65fcd16733727e11ac04a0529f0c60"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/verify_formal.py",
+      "bytes": 4722,
+      "sha256": "b0e84bc4c2d875285428d5d02e77c38a77e1c286b877007e29f4fb678a1f8527"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/verify_freeboard_asset.py",
+      "bytes": 2778,
+      "sha256": "c5f7c8df56c955485e68becab0d4fe71793dca09c0b2d68d4d2b0f658632b14a"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/verify_launcher.py",
+      "bytes": 1447,
+      "sha256": "6ceb026200bfa4d13fe81834f2ed5b932efa8c77b1ec3aa3eb2103fd5a4b201b"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/verify_notation.py",
+      "bytes": 5775,
+      "sha256": "f377321b7d63f36d93b407e2ef0411c8a24c58416911238f99fd8c472222373f"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/verify_yacht.py",
+      "bytes": 4482,
+      "sha256": "809a2809f93b608c41a9e63446bd191fc5465f211248fd5248d1f1aa81721a7b"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/write_engine_license.gd",
+      "bytes": 345,
+      "sha256": "31a173345095bd4aa2a1b9746922e69d3da03bd7dbd0caee0a4e55c0cab00f83"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/write_performance_report.py",
+      "bytes": 10046,
+      "sha256": "5f2eef955ea87856d8b559bce092b89b214b144afaa4537c72dc819203f6eab0"
+    },
+    {
+      "path": "qa/repair-20261023/before/tools/write_verification.py",
+      "bytes": 8832,
+      "sha256": "97282f34261e594a9fb6041625b755eb0eb406c5151c66ceeb91e490c9df1d2e"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/annotation_lines.gd",
+      "bytes": 688,
+      "sha256": "b9da022f833ad3373e446800bcd2ddbd1f71bc86c6081b99c3139a41b84bd965"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/approximation_diagrams.gd",
+      "bytes": 9978,
+      "sha256": "84b310e27866658271387458fcc34dee636e11fc15b3d059732ad41cfe4f8014"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/approximation_flow.gd",
+      "bytes": 1464,
+      "sha256": "70e9a3fec0948ddbaf9c514759de2ac54ce071c007547286fdea29f3d0c2a661"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/bulkhead_page.gd",
+      "bytes": 7711,
+      "sha256": "7712b52f22db71821b3a32b6b20767c56b0909dab41fd1de4d753bd7995bb72b"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/bulkhead_ship.gd",
+      "bytes": 23078,
+      "sha256": "0a281075b35c9c045b4a1db4fea515e7d80734c924cff865bdc53bb7d41f6636"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/calculation_record.gd",
+      "bytes": 6084,
+      "sha256": "90ebfd555da1753e4ac45a0a64b53307fabb82cdb3bcaf0b663fb7af45e81f69"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/camera_observability.gd",
+      "bytes": 1945,
+      "sha256": "e51da76d56f5c3a2d18f726e2d97df2f100bc58020f7616d4652b4da5122ae5c"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/cargo_loading.gd",
+      "bytes": 7982,
+      "sha256": "2ef5e5f993d9f9cd0b1947e44e2c55bd08f3b5beac7c17c3a7e914ccb4a03379"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/concept.gd",
+      "bytes": 19074,
+      "sha256": "9b15dd56688b4fab8f4bb8cc8221f8c270f11efd46cc1a1f428397bd98d6c80e"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/course_source_latex.gd",
+      "bytes": 2017,
+      "sha256": "df7e5e3908e3d6d63d0206d6f2b09186c26e5376a4f1e6602da16371aa01962b"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/diagram.gd",
+      "bytes": 3484,
+      "sha256": "b2e6edfaf4ba19315eab052c88b10850fd32621961ba6195486398d55bbe93db"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/focus_theme.gd",
+      "bytes": 794,
+      "sha256": "caa42cc80be1fa46a0307dfc2a2bce17de08bb2692de968d8d42a7afa768012d"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/formula.gd",
+      "bytes": 1002,
+      "sha256": "381c0f53755fe866102b393cb05b64dc7aa002ae043bb0bf8211222b12647196"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/fuel_locations.gd",
+      "bytes": 5196,
+      "sha256": "15b2cd6be929cfdfee0da2b9c98352dd402161fe39bcc77ee7f9218bc1b11724"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/fuel_pair.gd",
+      "bytes": 3739,
+      "sha256": "6882339573331767683ee782129677cc06a61ad123fc47e0abe9d3958adc418d"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/inspection_cut.gd",
+      "bytes": 4195,
+      "sha256": "559dd6c6daa6f6ca3d7d5ff4dffb8ea54cc5da9a8991ceeacfa87ca54964b00e"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/knowledge_canvas.gd",
+      "bytes": 1995,
+      "sha256": "e2a5825c0d9a862cce97957fc2ca4fbea30514cf6275ea714f75fd502c38318d"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/knowledge_map.gd",
+      "bytes": 6341,
+      "sha256": "ba25f5d4c5c2608bbb268b7a72c1a287f685763f18c9485dbf17c351edd69106"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/latex_panel.gd",
+      "bytes": 7674,
+      "sha256": "e97752ff515204763e84ef990430d9bbdb1f2cc9d39d22e987fdbbb90bcb9d8f"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/lesson_progress.gd",
+      "bytes": 2243,
+      "sha256": "18894c2169d4a459f08fa2fbbfab2efdf63afc72178f0b221761555935cacc35"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/lesson_spotlight.gd",
+      "bytes": 2656,
+      "sha256": "02c06a248383c8ff4bf34a36628232623d688c7a06c7668b55ce4cf205b84f02"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/map_pan_zoom.gd",
+      "bytes": 5149,
+      "sha256": "d36ddd28e0a4ab0513b40975ef8ed3cd8a63eb1a2f5772375881ce85e571f892"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/math_text.gd",
+      "bytes": 3140,
+      "sha256": "fe89096766a721db76838fcb9cc42595ec70a4ce5cbf4e9989a7139cd67ab523"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/ocean.gd",
+      "bytes": 1320,
+      "sha256": "b19f9b84072a85f31f04f88d6b42effe1643302f3106b8563b30ff401d379ac7"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/selectable_text.gd",
+      "bytes": 1594,
+      "sha256": "81b245ff470fefea435b5917b72b5dadd356b1e8d2efa2a902269a942f8c9f2f"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/ship_view.gd",
+      "bytes": 29700,
+      "sha256": "c53150a9cc077e5d60a12e207cbc342986ca0fcdbdb4bdbdd8fa94144e7acc1d"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/source_label.gd",
+      "bytes": 63,
+      "sha256": "b68e95f5aeb49956153c250e44217dcda192295e74fb5d3af64316ad6ed19056"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/source_latex.gd",
+      "bytes": 2032,
+      "sha256": "6223cc5406a8cfcd6f1803e0d23b6515d1c0042b7d0aa7a3e0ccfeac85bdc283"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/source_speech.gd",
+      "bytes": 1479,
+      "sha256": "77a84215f73590dc2ce63af1e311020ec45cffc2ec4341951cd7ff1a44524f5e"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/source_style.gd",
+      "bytes": 80,
+      "sha256": "f258edbff9196f532cc5a0487a24433ac54a018349d83eba795a12f7972ced25"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/speech_bubble.gd",
+      "bytes": 7513,
+      "sha256": "f862cebc51e5ae0240d51df8f6e8948d546231bff0bac88c2edd4f2758dcb512"
+    },
+    {
+      "path": "qa/repair-20261023/before/view/stage_progress.gd",
+      "bytes": 3036,
+      "sha256": "2b59bcc8c079d1feb890e20a6abee8a27c3974fafe519ea8eacdc4b2b4539716"
+    },
+    {
+      "path": "qa/repair-20261023/blender-complete.json",
+      "bytes": 436,
+      "sha256": "83857fa13fee349b4b02ea797c1391602fbb9eecc0e0746ea1d392d9b9ab28da"
+    },
+    {
+      "path": "qa/repair-20261023/blender-pid.txt",
+      "bytes": 7,
+      "sha256": "28488e622206f8ec3d7426a26e80bc571569f93d1c39addfd55227bd97f6343f"
+    },
+    {
+      "path": "qa/repair-20261023/interaction-minimum.json",
+      "bytes": 27964,
+      "sha256": "8794d5a6cdacb30f7d3ebf4cd43802ed33fdcfbf475356d0f332bcc1796d995d"
+    },
+    {
+      "path": "qa/repair-20261023/legacy-cleanup.json",
+      "bytes": 6501,
+      "sha256": "97eda8b727505e110b5fdf7daa3cd7d6d8d80680a1bd49ac3f66279905aa4ff9"
+    },
+    {
+      "path": "qa/repair-20261023/lookup-remaining.json",
+      "bytes": 22333,
+      "sha256": "22adff128b4ae20e48ebed34f719cbc4094c7584a1fb20f44cce769270935e97"
+    },
+    {
+      "path": "qa/repair-20261023/migration-tests.json",
+      "bytes": 375,
+      "sha256": "d7728410c7cf9d3ff18a11c429ae66e7ede42ec2c1f75fdb4572856407b8ec6c"
+    },
+    {
+      "path": "qa/repair-20261023/offline.json",
+      "bytes": 2191,
+      "sha256": "78173eb42b13c6f3bc9c56820414f50730bc4473ef38f24131c78dfe957ca5b3"
+    },
+    {
+      "path": "qa/repair-20261023/regression-first.json",
+      "bytes": 26449,
+      "sha256": "53584f4e853c9be7773685b7bf1fda974288211b45a12b2dfe02f4327915777e"
+    },
+    {
+      "path": "qa/repair-20261023/regression-second.json",
+      "bytes": 2911,
+      "sha256": "ec91425e98becd3b778a204dd985e6159cdfdca28f94bd5591d90d1acce445e0"
+    },
+    {
+      "path": "qa/repair-20261023/regression.json",
+      "bytes": 7326,
+      "sha256": "cf6756923de72cb7fbcc97104510e5d9852c8e498ed1cc6a4b2e92b6c1af1700"
+    },
+    {
+      "path": "qa/review-migration-hashes.json",
+      "bytes": 409,
+      "sha256": "34a89e760d084d4799b2f95a2523b0a5099f895b131eadab223263493bb86a80"
+    },
+    {
+      "path": "qa/review-migration.json",
+      "bytes": 208,
+      "sha256": "0657f5db742fb8d5655b43ddaf13cc2e899c3162b884f859276a4293a665bcec"
+    },
+    {
+      "path": "qa/revision9p-results-minimum.json",
+      "bytes": 37,
+      "sha256": "0ea45317aeec1d04387b88d5cf09887fd04c99c5b1c819e65bf7266ac4b1a2ed"
+    },
+    {
+      "path": "qa/revision9p-results.json",
+      "bytes": 37,
+      "sha256": "f9ea9a661a483306bc240aab4fe98f09aefd1fb62ef500ca515750ab004da9a3"
+    },
+    {
+      "path": "qa/scientific-review.json",
+      "bytes": 3572,
+      "sha256": "d719f59f79bddea1205dfa8f72bedc7ba50a8b8f192d370f8589b4ae3c1230e4"
+    },
+    {
+      "path": "qa/sea-layout-results.json",
+      "bytes": 3097,
+      "sha256": "9544e89d5e22cecdb5783ac938291a0d583675d61907abf1ca6fdb4e787901d9"
+    },
+    {
+      "path": "qa/source-check.json",
+      "bytes": 13701,
+      "sha256": "72b4002e844ed27a3b1a1c0defaac9b839b149138774aff2e480a087a7e4cb25"
+    },
+    {
+      "path": "qa/spacing-hints.json",
+      "bytes": 573,
+      "sha256": "39f4ec2229d3cae6369031e62d684f14781ff7477304225f136fd7de76332171"
+    },
+    {
+      "path": "qa/spatial-minimum.json",
+      "bytes": 1210,
+      "sha256": "97c8b576ae9705e517014517fbeda1c6105daf46176d1a2ab673e738e3b44926"
+    },
+    {
+      "path": "qa/spatial-normal.json",
+      "bytes": 1214,
+      "sha256": "8933279bd85ce5f073e2781d22b7e22f28d3168d48e7cdb1a3a0727f00a38195"
+    },
+    {
+      "path": "qa/spotlight-results.json",
+      "bytes": 929,
+      "sha256": "a7f1435fd130d2f16c3393d796ca4c67bed994f5165684b82b75ab641ab97563"
+    },
+    {
+      "path": "qa/stage-track.json",
+      "bytes": 322,
+      "sha256": "33cf0f3143c31779659468f14a25c59ef2283371856b2f2f3b3084c8bbdd2b4f"
+    },
+    {
+      "path": "qa/subscript-before-assets.json",
+      "bytes": 10234912,
+      "sha256": "c8d6f8bd1f9701a91d968f1dac6341d6031cd5e3b05f6aa17e08cacf7835d09c"
+    },
+    {
+      "path": "qa/subscript-processes.json",
+      "bytes": 304,
+      "sha256": "5612b8075792644aef64fc13188907470dbaf3d4b86331b2b68a24db0df399e7"
+    },
+    {
+      "path": "qa/T2舱壁布置与讲解去重-2026-10-20.md",
+      "bytes": 2869,
+      "sha256": "bcf64ac87e7feb7b3fa0754f465b784caad3c74c0e47b8ba40bb33101beeaa28"
+    },
+    {
+      "path": "qa/tanker-delivery.json",
+      "bytes": 1152,
+      "sha256": "cc9f870dcf917905f609b325d16d7b91f7cb1cd8a526e41a207b0b9634cf187c"
+    },
+    {
+      "path": "qa/tanker-geometry.json",
+      "bytes": 213,
+      "sha256": "9eb59f33a28eeb998cca8bc5db0f7c35183e62e3833fde82475cbd8c91c80205"
+    },
+    {
+      "path": "qa/tanker-minimum.json",
+      "bytes": 5462,
+      "sha256": "353e8cb522f9947d6ec2dc51ba01918c5a5aadc53bdb572b00ae6924b1fe93e3"
+    },
+    {
+      "path": "qa/tanker-processes.json",
+      "bytes": 439,
+      "sha256": "036f9d68624e7b30f95c7bf6d96391a238770ecd5eb397cf0fcfec9903f1602b"
+    },
+    {
+      "path": "qa/teaching-minimum.json",
+      "bytes": 10475,
+      "sha256": "d3b73452f5a3b279d7344ce3f2d9768e3e3746e961f9dc2247cd0c2266d33976"
+    },
+    {
+      "path": "qa/thursday-exam-content.json",
+      "bytes": 243,
+      "sha256": "b9da00552e2ebaa96afe0b4362c0962b38818631f44a6c018f5be78f770b22c7"
+    },
+    {
+      "path": "qa/thursday-exam-ui.json",
+      "bytes": 139,
+      "sha256": "36882925db9373f0a014d392a90456fbe89b344210c28f39a5fcbcccc537ce26"
+    },
+    {
+      "path": "qa/tooltip-blank-processes.json",
+      "bytes": 301,
+      "sha256": "2c629ae99647ed7f5f27bd6c9179e487334d5a090a7bf988664d0eb2096642a8"
+    },
+    {
+      "path": "qa/tooltip-processes.json",
+      "bytes": 274,
+      "sha256": "08ce0895cd7632b985406272f1bbb8ac03a2d1a4eb1ff5f8050e2017d95fcf26"
+    },
+    {
+      "path": "qa/tooltip-runtime-minimum.json",
+      "bytes": 7075,
+      "sha256": "e6e95eae0556743501fc910ce41a82587abdbcabc9a2a906861835478b5e2b48"
+    },
+    {
+      "path": "qa/tooltip-runtime-normal.json",
+      "bytes": 6759,
+      "sha256": "41c6c6ca584df1e5751033f55d25ac4b913cc83cb11682716927aee7bde725f7"
+    },
+    {
+      "path": "qa/trim-minimum.json",
+      "bytes": 2005,
+      "sha256": "a4727535835e70216f3229a6a7a2f5004075044eef12f82d5f76392281119252"
+    },
+    {
+      "path": "qa/trim-processes.json",
+      "bytes": 284,
+      "sha256": "1eb6d4bda6b79b1532e72b9134dc67c17d10404cbd57f7710de04adc9d6d0de2"
+    },
+    {
+      "path": "qa/vocabulary-levels.json",
+      "bytes": 16108,
+      "sha256": "6a91f64383006d778b40c19219776be54154c7ee3f233a588933ec15ecd11f64"
+    },
+    {
+      "path": "qa/wave-removal-20261029.json",
+      "bytes": 371,
+      "sha256": "bda7856eeeeaf5a6edb60b21c839613908de1df41ffea3a8fdd1f404c5f7fad2"
+    },
+    {
+      "path": "qa/word-picker-results.json",
+      "bytes": 36,
+      "sha256": "c410367ec4d18c9ec2e3e4b7e9e06a6610e0e3c9a1041c00dae473aee827bf67"
+    },
+    {
+      "path": "qa/yacht-blender.json",
+      "bytes": 501,
+      "sha256": "cbe042c7ab68f32f8561965db6320496b1122c863e8efddefccd41774efd4a22"
+    },
+    {
+      "path": "qa/yacht-geometry-results.json",
+      "bytes": 292,
+      "sha256": "a984e349641decc9b07c5d50d270b2cf170ee9122e5bcd67d83626f21fcd1fcc"
+    },
+    {
+      "path": "qa/yacht-lookup-results.json",
+      "bytes": 149,
+      "sha256": "929f8a6611dff9738ef76c4068c09b113114a4fef4d79447cb10a0c4c9584491"
+    },
+    {
+      "path": "qa/yacht-results-minimum.json",
+      "bytes": 37,
+      "sha256": "56e28e03405b9464bd05246c9ccac7653d22c82a7a21e313de0d34c3cdd746da"
+    },
+    {
+      "path": "qa/yacht-results.json",
+      "bytes": 37,
+      "sha256": "6b05d0652559aedf12f986c4f6f225ab1b6ef003da6ce75c66a95e0027dd42d5"
+    },
+    {
+      "path": "qa/yacht-validation.json",
+      "bytes": 3347,
+      "sha256": "d7757e424515048acbc15727148681cae4fb0937567f52e0bc95ab29db76a270"
+    },
+    {
+      "path": "qa/两舱重心空间表达修正.md",
+      "bytes": 2254,
+      "sha256": "724d079765a9031bf6b93d48640427a277c1719ceb3d225cbc15118f7087c708"
+    },
+    {
+      "path": "qa/五区域十项肋距计算-2026-10-21.md",
+      "bytes": 1355,
+      "sha256": "1328dead52e79ea85798175a77b676c2cb6ba2a45bcb45b6fb8ce39ceade515f"
+    },
+    {
+      "path": "qa/交付核验.json",
+      "bytes": 21575,
+      "sha256": "1e8481dc56152a829f661057ebfafed427f247f28006d63cd3091579955473db"
+    },
+    {
+      "path": "qa/仰视与精细分舱剖切验证.md",
+      "bytes": 2945,
+      "sha256": "f7b20d84a1531ddcd19de82d5b13d5dc53a9646f98af2399566441c6df4810ff"
+    },
+    {
+      "path": "qa/全课程精细船模剖切验证.md",
+      "bytes": 4122,
+      "sha256": "57933fbfa31fe0019fcb2fb51bd252a450cc36951682af30ac695f2752e22903"
+    },
+    {
+      "path": "qa/公式符号核对.md",
+      "bytes": 7500,
+      "sha256": "e2a78832a80f120d360b22c3788218e429637c9a3641e31e8ee6583e138d1ce0"
+    },
+    {
+      "path": "qa/基本平面指示修复.md",
+      "bytes": 1179,
+      "sha256": "d7701deba92a03d14af02c58fdf5bddde3cfd6232787001f97219554f5d1a51d"
+    },
+    {
+      "path": "qa/干舷船体变形验证.md",
+      "bytes": 1906,
+      "sha256": "13d84352dfb88e7194f347213bd5f04994a19012d275aad13ae687db59ae265f"
+    },
+    {
+      "path": "qa/性能优化验证-2026-10-20.md",
+      "bytes": 7503,
+      "sha256": "e8dcaff382cb2b0ddb73d378cc30cfe85cbb3bb6b1e3869fe0d2d2e3b311d805"
+    },
+    {
+      "path": "qa/正式课程验证.md",
+      "bytes": 5326,
+      "sha256": "41b9c8fd39db1585757850b5b2b3ade4d59e1563e022f141b5a11ad779c04b87"
+    },
+    {
+      "path": "qa/油舱剖开验证.md",
+      "bytes": 3237,
+      "sha256": "5d6b839bb87779110645076ea7230b08c4fbce5a3a2222f868f224b839cc04c4"
+    },
+    {
+      "path": "qa/油舱实体与液面验证.md",
+      "bytes": 3642,
+      "sha256": "b6526b540b04dec95edeeb9d3f3f5307350ee5e32f1573040c96aae5fc5b51f4"
+    },
+    {
+      "path": "qa/波浪碰撞烘焙交接.txt",
+      "bytes": 2277,
+      "sha256": "841f6258072828580252bdc0a9f802d5e8db42d1f6a99e7ddc1cbbac22b6529c"
+    },
+    {
+      "path": "qa/海洋显示验证.txt",
+      "bytes": 1016,
+      "sha256": "821781ee736fbc41e6ea0f91df333503be39f0cc356e257760e85dad6613b49a"
+    },
+    {
+      "path": "qa/海面底部空白修复-2026-10-22.md",
+      "bytes": 1842,
+      "sha256": "dc1a513ab273c0c76ddfe6f2e507700f01f6ffd1743fcc2030bba033fce61e19"
+    },
+    {
+      "path": "qa/液货船模型验证.md",
+      "bytes": 4389,
+      "sha256": "0f4e0b660dd7899753ee24852f61a116463f97715f6cf17d916f38a45fd647d2"
+    },
+    {
+      "path": "qa/空悬停框修复.md",
+      "bytes": 975,
+      "sha256": "5cfbc34e902e1aee140c137d28f8ae87b9dc99627964b02ff2ff8743db40c29c"
+    },
+    {
+      "path": "qa/章节目标与讲解改进.md",
+      "bytes": 4820,
+      "sha256": "7e9e1e6ee8a51a4c77d73f5a0219e62e5a45012544be82668a7c3977cedc1727"
+    },
+    {
+      "path": "qa/第二三次近似-交付与验证-2026-10-21.txt",
+      "bytes": 3920,
+      "sha256": "41e45c2cf08a2612e4753a2a078ff1e3fb9caa6e7cd2d924e2f7970fe7da424c"
+    },
+    {
+      "path": "qa/肋距符号核对.txt",
+      "bytes": 1157,
+      "sha256": "2aa0dbfb3bab277e76bdfad9828b9a2cac2fcb7db829c5a2eddf9b688f347d4b"
+    },
+    {
+      "path": "qa/舱壁布置-验证记录.md",
+      "bytes": 3405,
+      "sha256": "f93a81f3fa39981e1aa99b0a79ebecd79fb22e70b5c04f010ed5d6c0d7581e02"
+    },
+    {
+      "path": "qa/舱壁布置全章符号核对.txt",
+      "bytes": 10824,
+      "sha256": "8ffe92aafc17ee4e37a0663e3b6eab7bcb6b168042d514f12d738c0cdf0edd04"
+    },
+    {
+      "path": "qa/船艏修缮与烘焙交接-2026-10-22.txt",
+      "bytes": 2199,
+      "sha256": "e81cf21de8ed7d6fe1ae9523fd1111225b1e6deec8a64f56f0adc80efc7467a1"
+    },
+    {
+      "path": "qa/艏楼与海洋修正验证.md",
+      "bytes": 2101,
+      "sha256": "30c1e7b01141e858b30eae6ac4dcd21f06ec60bbe3042fc26898679783d56820"
+    },
+    {
+      "path": "qa/讲解改进核验.json",
+      "bytes": 3279,
+      "sha256": "c548b0b2ede6075d8945dc17e728fe2ba6d4050eda6a52a9b5a379a808f50064"
+    },
+    {
+      "path": "qa/课程修缮记录-2026-10-21.txt",
+      "bytes": 5367,
+      "sha256": "092b603537ff2cf40d670eb355f8ca6b679df3b46ccb1b8a37ebcdb946b50700"
+    },
+    {
+      "path": "qa/资料限制与公式样式-2026-10-21.md",
+      "bytes": 5511,
+      "sha256": "099cb6f9abd19cbce929d2cd19642782c1fe0853ce3ee5c9c2b87e1a509e71e3"
+    },
+    {
+      "path": "qa/进度条验证.md",
+      "bytes": 1838,
+      "sha256": "67f2fc16c594242632900929f29b911a218ca0a20065152e739a583782125aa5"
+    },
+    {
+      "path": "qa/题目整词导航说明.md",
+      "bytes": 1436,
+      "sha256": "cd7d54c34b276e702c4721cf98e8a1c88ac6ea3e3816cd234c1eb4b943d6c539"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10282,
+      "sha256": "836b9d295e18a2c1998cccfcc581f90eedf925c3aed7b622570ff69e82ed14c8"
+    },
+    {
+      "path": "框架适配说明.md",
+      "bytes": 2369,
+      "sha256": "06eee893f1135bb614c8c7410619cc33c422bac9e6d6bc1e70cc88463f5744e1"
+    }
+  ],
+  "duplicate_paths": [
+    {
+      "path": "modules/review/qa/module11-normal.json",
+      "same_as": "modules/review/qa/module11-minimum.json",
+      "sha256": "660d0adcb378e4d4cd5e415c3142487f5a80cfc2adf893548ce23dad7d72df10"
+    },
+    {
+      "path": "qa/approximations-normal.json",
+      "same_as": "qa/approximations-minimum.json",
+      "sha256": "9abd7e7c33004ceed82082be0e4f3c379ebdc7d6a9fff166af240804238a445c"
+    },
+    {
+      "path": "qa/audit-20261023/approximation-numerical.json",
+      "same_as": "qa/approximation-numerical.json",
+      "sha256": "54a4909fa84888891125b1efc654cc45770407541594ea4cfc2af86c5840ea4e"
+    },
+    {
+      "path": "qa/b02-normal.json",
+      "same_as": "qa/b02-minimum.json",
+      "sha256": "067d3b6587796d6c62e6adf9dba543bf5e640c2f055095f59bc6cd8603f8f655"
+    },
+    {
+      "path": "qa/baseline-normal.json",
+      "same_as": "qa/baseline-minimum.json",
+      "sha256": "f503d37d0032d0efef5b120b3b23c5af5419bb7b123edb0a1a0e91b407f64727"
+    },
+    {
+      "path": "qa/calculation-notation/P12_C04-solution.png",
+      "same_as": "qa/calculation-notation/P12_C04-part1.png",
+      "sha256": "2dd2ca6c5718cdb997bb3529b48ab30daa7fcc7a835821697e43476153773e2c"
+    },
+    {
+      "path": "qa/checks-normal.json",
+      "same_as": "qa/checks-minimum.json",
+      "sha256": "d7df81304c1e8afd49b4ddfc0fb6394fed89ed6a779024b7290b3528d5c7af85"
+    },
+    {
+      "path": "qa/exam-bank-fixture-target-12552.json",
+      "same_as": "qa/exam-bank-fixture-target-10152.json",
+      "sha256": "528f3152b560f500c8ed1e4d1dede25fb617526911f2c17691183a302e4e825f"
+    },
+    {
+      "path": "qa/formal-reopen.json",
+      "same_as": "qa/checks-launcher.json",
+      "sha256": "2499df51b010a7229da0db406f4b2fdfc3805a1566293efa8a772e3fc580c477"
+    },
+    {
+      "path": "qa/pair-normal.json",
+      "same_as": "qa/pair-minimum.json",
+      "sha256": "30ccdad7ce511d5c62f504aa684aaf6ba236782095ab62701b6ed4b7cb0403fa"
+    },
+    {
+      "path": "qa/progress-normal.json",
+      "same_as": "qa/progress-minimum.json",
+      "sha256": "06ee853e1e9456a62e80ed88fc756563ff1a786cd7163c9c801b180ab31927d7"
+    },
+    {
+      "path": "qa/repair-20261023/approximation-numerical.json",
+      "same_as": "qa/approximation-numerical.json",
+      "sha256": "54a4909fa84888891125b1efc654cc45770407541594ea4cfc2af86c5840ea4e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/content/stability_course.json",
+      "same_as": "qa/repair-20261023/before/modules/review/content/authoring/stability_course_5p.json",
+      "sha256": "e2f41205cfb9200042fef98717013aa13cb374a256511e034f3e80f803d8e6d2"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/2026-10-19-符号释义验证.md",
+      "same_as": "modules/review/qa/2026-10-19-符号释义验证.md",
+      "sha256": "f548dad4f76915c11ca0f27c275b355871b4c6d4b04c64f721ce54344441bf19"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/2026-10-20-稳性与横摇.md",
+      "same_as": "modules/review/qa/2026-10-20-稳性与横摇.md",
+      "sha256": "9a0132bae8021f4a8620d4bfa2534e9b6214d2fe1a49b5750e55ee378981d517"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/answer-vocabulary-audit.json",
+      "same_as": "modules/review/qa/answer-vocabulary-audit.json",
+      "sha256": "5e7e50248e0dde0b9eb8930d6714e21a87af6f97888689033f140b2758f57aae"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/bank-checks.json",
+      "same_as": "modules/review/qa/bank-checks.json",
+      "sha256": "db5f639c4066b6f5796831084a0ebb08e971ffa3645ae00f1bf0074ebed73f97"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/content-checks.json",
+      "same_as": "modules/review/qa/content-checks.json",
+      "sha256": "e97461787e722c28ce6fb440cc25c6619dc8256ad63d1b7f9e4b023ae58b885b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/courses-checks.json",
+      "same_as": "modules/review/qa/courses-checks.json",
+      "sha256": "1109feaaf4db85fa34ee8fb13021f81aa7b6099cee2f007648374dff7ed294cb"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/damage-cutaway-results.json",
+      "same_as": "modules/review/qa/damage-cutaway-results.json",
+      "sha256": "f2dd041e5008b8950849c74f4bce4d60d23a072f8e191ab40e251d78fec7854e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/design-checks.json",
+      "same_as": "modules/review/qa/design-checks.json",
+      "sha256": "6acc8691ddf42bbb711a6c63bea6cb0811e683415de5fcdf5b96212616dd273f"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/freeboard-morph-results.json",
+      "same_as": "modules/review/qa/freeboard-morph-results.json",
+      "sha256": "828e5db9ac6b70283801c68b37ec359f315ce38ffc1eb6c626dbef5ad3c44316"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/freeboard-side-results.json",
+      "same_as": "modules/review/qa/freeboard-side-results.json",
+      "sha256": "9b96b00aed9c77d1320175720e5a3dc065506473494bd00889a4efe09d2d3bc3"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/full-checks.json",
+      "same_as": "modules/review/qa/full-checks.json",
+      "sha256": "623275a2cc3a0935198a515d06e51482ec7bb17f94efa3cc9dcf9a525ae64fe3"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/inspection-all-results.json",
+      "same_as": "modules/review/qa/inspection-all-results.json",
+      "sha256": "f07a4fceeafd2ec5a5c8cd9459a13ca897e995041d62d97269c6da90f8f8ddbf"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/launcher-check.json",
+      "same_as": "modules/review/qa/launcher-check.json",
+      "sha256": "58946423c048c407bfb833a94a29d157f4967484e3ac7a23a914a3a1ed819a57"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/coverage.json",
+      "same_as": "modules/review/qa/lookup-audit/coverage.json",
+      "sha256": "354795ab6375a86e43f1a4f60560b9a2af7f704fa37c26076480a6b8b0f8ae9b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/editorial-decisions.json",
+      "same_as": "modules/review/qa/lookup-audit/editorial-decisions.json",
+      "sha256": "68f9366581962e9ec4385f00818a35f434f983e0b1e5706a5b48aa669b10c9ff"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/glossary-before-review.json",
+      "same_as": "modules/review/qa/lookup-audit/glossary-before-review.json",
+      "sha256": "8494d6952c82454b04900dd00e2b06c8f6ebdd1c9bd5b4b49e9fe138c39ae7ef"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-07c389c2c610e3214306.json",
+      "same_as": "modules/review/qa/lookup-audit/model-07c389c2c610e3214306.json",
+      "sha256": "11fc624c403d8729b9d61dc48467ae88e89e74a61e4beb92d25931dce7aac23b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-121daac7c525d09b17c9.json",
+      "same_as": "modules/review/qa/lookup-audit/model-121daac7c525d09b17c9.json",
+      "sha256": "759ca2c10fd8fb6eddbbdb04d2c646fd6a22728adf5540d62ed2467209934c5a"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-1b40f871ffd63746da30.json",
+      "same_as": "modules/review/qa/lookup-audit/model-1b40f871ffd63746da30.json",
+      "sha256": "96b83eb5e6893218bbe2082efdf2216818095095191a79658f72d0adc435c288"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-1ba3353957cb79c6adf0.json",
+      "same_as": "modules/review/qa/lookup-audit/model-1ba3353957cb79c6adf0.json",
+      "sha256": "97ebe82a7930795fe9ef8b6797dadc0764d3b9e5f35ee2a5dc9ff3f415b89705"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-23dfb8c27b321b722999.json",
+      "same_as": "modules/review/qa/lookup-audit/model-23dfb8c27b321b722999.json",
+      "sha256": "d3a83afd3b9f51b3627ae705c4539832fa75fb4750046d29ab6c39ad2b29823f"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-3c1f6a2fe734a73ea05e.json",
+      "same_as": "modules/review/qa/lookup-audit/model-3c1f6a2fe734a73ea05e.json",
+      "sha256": "6dbabf8e0468f7b4bdf8aac4650c175148f85111a904cac89078c1a56af48ca4"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-405d52aa47476c46b919.json",
+      "same_as": "modules/review/qa/lookup-audit/model-405d52aa47476c46b919.json",
+      "sha256": "7d2a1291965aef7fc35c475d8a0e54e88728213d9442bdfc0cfbeb0cffbf7a15"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-409b7555c4cc23423441.json",
+      "same_as": "modules/review/qa/lookup-audit/model-409b7555c4cc23423441.json",
+      "sha256": "b9f4cfb1e6ca11b938b6fc341ebd7ecd7e8a297326120e85a0dba82ab8afa563"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-538f82f5be634eb6c87c.json",
+      "same_as": "modules/review/qa/lookup-audit/model-538f82f5be634eb6c87c.json",
+      "sha256": "f7baa834736fc945b3521e66815986198c3a0515a8c94e162663c63e8881eef2"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-6e6ad4e51fd8cf315b07.json",
+      "same_as": "modules/review/qa/lookup-audit/model-6e6ad4e51fd8cf315b07.json",
+      "sha256": "3141d44205e3a401d6a1576bcd50aa02ff6f3054a8aed11fa081943b3c842c17"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-81c1468de985564e119e.json",
+      "same_as": "modules/review/qa/lookup-audit/model-81c1468de985564e119e.json",
+      "sha256": "ce9a1874cadf297719745f7b92a9671da69ca8983c9a0d07f1776b6a3f716a4a"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-d0fb7c53b540d2d2d197.json",
+      "same_as": "modules/review/qa/lookup-audit/model-d0fb7c53b540d2d2d197.json",
+      "sha256": "2f33fff16257e93471f3d9c90c54981e0ed30903e71210951bbb60de11a2a18d"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-d3a4b7c2a3804a4e256a.json",
+      "same_as": "modules/review/qa/lookup-audit/model-d3a4b7c2a3804a4e256a.json",
+      "sha256": "ff007330343d67564a281aea83efe796ee1b786df2964e622d89ed84b34828bc"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/model-dd0b97d96c3272219b27.json",
+      "same_as": "modules/review/qa/lookup-audit/model-dd0b97d96c3272219b27.json",
+      "sha256": "05a6c10a90a6af1224f417c9431d21f9265a1e3351b63bc5b386182fa695a15b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/proposals.json",
+      "same_as": "modules/review/qa/lookup-audit/proposals.json",
+      "sha256": "cf90a2aa0d7a93a5fc05697e469ca7cd3c1252e39f934f495b3a464d314f13d0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/review-items.json",
+      "same_as": "modules/review/qa/lookup-audit/review-items.json",
+      "sha256": "be1fcff848a0190960e0169a5e6ea6bed10951c1ee77a6af70fda88a12c1b14c"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/sample.json",
+      "same_as": "modules/review/qa/lookup-audit/sample.json",
+      "sha256": "4d54170f8c055c7751d9c19f038f72059d2b5381fc43304d5cfb03285fa58c2d"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/stress-corrections.json",
+      "same_as": "modules/review/qa/lookup-audit/stress-corrections.json",
+      "sha256": "9f292c9d2c8adfc5e78d8f5541f8533f1c87e8e8829d3981f3f8d22e27bfbd42"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/lookup-audit/summary.json",
+      "same_as": "modules/review/qa/lookup-audit/summary.json",
+      "sha256": "f479686d1ee37f1a0b1918f003c2ec145a665415b71458366446e827a2cb70ba"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/module11-minimum.json",
+      "same_as": "modules/review/qa/module11-minimum.json",
+      "sha256": "660d0adcb378e4d4cd5e415c3142487f5a80cfc2adf893548ce23dad7d72df10"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/module11-normal.json",
+      "same_as": "modules/review/qa/module11-minimum.json",
+      "sha256": "660d0adcb378e4d4cd5e415c3142487f5a80cfc2adf893548ce23dad7d72df10"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/module11-rebuild.json",
+      "same_as": "modules/review/qa/module11-rebuild.json",
+      "sha256": "da0b13f5d818d130c21d5bd0f324eb6632dc68e545af170885c080291141ab29"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/module11-source-geometry.json",
+      "same_as": "modules/review/qa/module11-source-geometry.json",
+      "sha256": "24b1458e3589fc37e912646a5e87b2b9c9140e6f94e73ceb86476c0aa902c2a5"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/notation-checks.json",
+      "same_as": "modules/review/qa/notation-checks.json",
+      "sha256": "fe8026c8b36e82ac3ccc0c0b41eca90dfecd49fcea92f57f062d93c7fc89f742"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/reading-checks.json",
+      "same_as": "modules/review/qa/reading-checks.json",
+      "sha256": "80786437b61fe636137fd1d5c39ff0b6132399556359709e18e0caa10942ed2b"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/reading-content-checks.json",
+      "same_as": "modules/review/qa/reading-content-checks.json",
+      "sha256": "7ad1125998445ab2eb7696551c4cbdaa1bdb095e8ecd2f41dd5780f0225a3182"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/reading-filter-checks.json",
+      "same_as": "modules/review/qa/reading-filter-checks.json",
+      "sha256": "0c88c49179aa6b355125431b9c58825cae08c8dd6257a843cf9a22e6e523e0be"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/reading-launcher-check.json",
+      "same_as": "modules/review/qa/reading-launcher-check.json",
+      "sha256": "9ea0656c7aae22dfa4b852241f70e595fc06e2e0bd43afc63827f0aac4af583a"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/reading-menu-checks.json",
+      "same_as": "modules/review/qa/reading-menu-checks.json",
+      "sha256": "e7c0ecf80db040e4064688cbb5b8b0aef1d77086e345dac43a0ca02ad9100790"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/reading-resume-checks.json",
+      "same_as": "modules/review/qa/reading-resume-checks.json",
+      "sha256": "6fee1a620ac7e9669c4c5ed0346f49885063b3577d3b90e7033dfae6628f47c0"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/revision9p-content.json",
+      "same_as": "modules/review/qa/revision9p-content.json",
+      "sha256": "a6bc4d413a8c747e020e02a4355356ff2af0a451d4c8b126a7898a1fc8f5a60e"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/short-answer-checks.json",
+      "same_as": "modules/review/qa/short-answer-checks.json",
+      "sha256": "ecbd619773969284ebefa3506cfd48449887a42be63bc0f5c72c498024ff7599"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/slow-server.json",
+      "same_as": "modules/review/qa/slow-server.json",
+      "sha256": "5c09efbce261d378be2f40ca9ebf1428a93f7936c17de64af8e38404b46cdb54"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/stability-checks.json",
+      "same_as": "modules/review/qa/stability-checks.json",
+      "sha256": "9c1fa4c3a378b24f6e7c2bce2c2c5a34dfae167270b9c8ede0a9ee02b24bb6a8"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/stability-launcher-check.json",
+      "same_as": "modules/review/qa/stability-launcher-check.json",
+      "sha256": "41df99b253e6ba62aa573b1c87d313aad18faa8d72ef59797673ba8d1a68c6f8"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/stability-physics.json",
+      "same_as": "modules/review/qa/stability-physics.json",
+      "sha256": "7828149433e9184f7fc96d1a7efb15d8ec0655e5733e552e35d07f074e650f07"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/topic-hover-results.json",
+      "same_as": "modules/review/qa/topic-hover-results.json",
+      "sha256": "0b52089d0d6fb70d1c1ccbda9d51129573cf5f2ffccc57c2cb720de7c91732c6"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/vocabulary-checks.json",
+      "same_as": "modules/review/qa/vocabulary-checks.json",
+      "sha256": "ec82a1952fe1ba046a1e19f806b478f18f700ae8a1030c810cd40a94687dc219"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/阅读复习验证.md",
+      "same_as": "modules/review/qa/阅读复习验证.md",
+      "sha256": "1200467600f208c05914f51f3ab471fd39da0974f3d0a91cf0a6968a266ae1e7"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/qa/验证记录.md",
+      "same_as": "modules/review/qa/验证记录.md",
+      "sha256": "3147d1de125848902522beb10244ca0e7fa67f5bca08bb6c187b45eb218141fe"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/reading_review.gd",
+      "same_as": "qa/desktop-mobile-ui-20261026/before/modules/review/view/reading_review.gd",
+      "sha256": "6b25af2c98034a4c1d6bd97505c2b30e98d4978ec34500d1a8b45cf5d8f31758"
+    },
+    {
+      "path": "qa/repair-20261023/before/modules/review/view/vocabulary.gd",
+      "same_as": "qa/desktop-mobile-ui-20261026/before/modules/review/view/vocabulary.gd",
+      "sha256": "2824e8c67e02b9c9fbef87481cafc9ac874c650e33ad6eb714137a2029f38da5"
+    },
+    {
+      "path": "qa/repair-20261023/interaction.json",
+      "same_as": "qa/repair-20261023/interaction-minimum.json",
+      "sha256": "8794d5a6cdacb30f7d3ebf4cd43802ed33fdcfbf475356d0f332bcc1796d995d"
+    },
+    {
+      "path": "qa/tanker-normal.json",
+      "same_as": "qa/tanker-minimum.json",
+      "sha256": "353e8cb522f9947d6ec2dc51ba01918c5a5aadc53bdb572b00ae6924b1fe93e3"
+    },
+    {
+      "path": "qa/teaching-normal.json",
+      "same_as": "qa/teaching-minimum.json",
+      "sha256": "d3b73452f5a3b279d7344ce3f2d9768e3e3746e961f9dc2247cd0c2266d33976"
+    },
+    {
+      "path": "qa/trim-normal.json",
+      "same_as": "qa/trim-minimum.json",
+      "sha256": "a4727535835e70216f3229a6a7a2f5004075044eef12f82d5f76392281119252"
+    }
+  ]
+}

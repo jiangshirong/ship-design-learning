@@ -1,0 +1,5 @@
+{
+  "source": "tools/build_freight.py",
+  "purpose": "B02 first and second port goods",
+  "boundary": "Crates are pictorial. No mass per crate is implied. Aggregate stowage envelopes use confirmed volume ratios; model dimensions are not assignment hold dimensions."
+}

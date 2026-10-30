@@ -1,0 +1,16 @@
+{
+  "test": "7a\\Modul_11-тест.docx",
+  "test_sha256": "6da47c0e344bbb16d978ee2b967e5553e233c1cacba04ae24c13cce282845f2f",
+  "lecture": "7a/Modul_11. ТЧ.docx",
+  "discrepancies": [
+    "Test title: Module 11; lecture heading: Module 12.",
+    "7a-2 says slow ships; lecture assigns straight/slightly concave bow waterlines to faster ships.",
+    "7a-8 is an open-ended conditional question; the answer supplies the condition."
+  ],
+  "boundary": "Hull variants are qualitative instructional geometry, not certified T2 lines or CFD results. Bulb waves are qualitative interference, not a resistance calculation.",
+  "bulb_supplement": {
+    "title": "US Naval Academy, EN400 Chapter 7, Resistance and Powering of Ships, §7.6.3",
+    "url": "https://www.usna.edu/NAOE/_files/documents/Courses/EN400/02.07_Chapter_7.pdf",
+    "use": "Supplementary conceptual explanation of bow-wave interference and operating-speed matching; not a teacher-supplied calculation rule."
+  }
+}

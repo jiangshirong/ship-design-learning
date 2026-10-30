@@ -1,0 +1,322 @@
+{
+  "ST:arm": {
+    "zh": [
+      {
+        "tex": "l_{\\text{ст}}=@st_arm@\\,\\mathrm{m}",
+        "linear": "l_{\\text{ст}}=@st_arm@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "l_{\\text{ст}}=@st_arm@\\,\\mathrm{m}",
+        "linear": "l_{\\text{ст}}=@st_arm@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "ST:restore": {
+    "zh": [
+      {
+        "tex": "M_{\\text{rest}}=m g\\,l_{\\text{ст}}",
+        "linear": "M_{\\text{rest}}=m g\\,l_{\\text{ст}}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "M_{\\text{rest}}=m g\\,l_{\\text{ст}}",
+        "linear": "M_{\\text{rest}}=m g\\,l_{\\text{ст}}"
+      }
+    ]
+  },
+  "ST:Mheight": {
+    "zh": [
+      {
+        "tex": "h=GM",
+        "linear": "h = GM"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h = @st_h@ m"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h=GM",
+        "linear": "h = GM"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h = @st_h@ m"
+      }
+    ]
+  },
+  "ST:waterplane": {
+    "zh": [
+      {
+        "tex": "r=\\frac{I_x}{\\nabla}",
+        "linear": "r=\\frac{I_x}{\\nabla}"
+      },
+      {
+        "tex": "I_x=\\int_{A_w}y^2\\,dA",
+        "linear": "I_x=\\int_{A_w}y^2\\,dA"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "r=\\frac{I_x}{\\nabla}",
+        "linear": "r=\\frac{I_x}{\\nabla}"
+      },
+      {
+        "tex": "I_x=\\int_{A_w}y^2\\,dA",
+        "linear": "I_x=\\int_{A_w}y^2\\,dA"
+      }
+    ]
+  },
+  "ST:width": {
+    "zh": [
+      {
+        "tex": "r=@st_r@\\,\\mathrm{m}",
+        "linear": "r=@st_r@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "r=@st_r@\\,\\mathrm{m}",
+        "linear": "r=@st_r@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "ST:Gup": {
+    "zh": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h=z_c+r-z_g"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "ST:limit": {
+    "zh": [
+      {
+        "tex": "h\\ge h_{\\min}",
+        "linear": "h\\ge h_{\\min}"
+      },
+      {
+        "tex": "z_g\\le z_c+r-h_{\\min}",
+        "linear": "z_g\\le z_c+r-h_{\\min}"
+      },
+      {
+        "tex": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}",
+        "linear": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h\\ge h_{\\min}",
+        "linear": "h\\ge h_{\\min}"
+      },
+      {
+        "tex": "z_g\\le z_c+r-h_{\\min}",
+        "linear": "z_g\\le z_c+r-h_{\\min}"
+      },
+      {
+        "tex": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}",
+        "linear": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "ST:require": {
+    "zh": [
+      {
+        "tex": "h_{\\min}=@st_required@\\,\\mathrm{m}",
+        "linear": "h_{\\min}=@st_required@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}",
+        "linear": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h_{\\min}=@st_required@\\,\\mathrm{m}",
+        "linear": "h_{\\min}=@st_required@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}",
+        "linear": "z_{g,\\max}=@st_allowed@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "ST:lower_G": {
+    "zh": [
+      {
+        "tex": "l_{\\mathrm{new}}=l_{\\mathrm{old}}-\\Delta z_g\\sin\\theta",
+        "linear": "l_{\\mathrm{new}}=l_{\\mathrm{old}}-\\Delta z_g\\sin\\theta"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "l_{\\mathrm{new}}=l_{\\mathrm{old}}-\\Delta z_g\\sin\\theta",
+        "linear": "l_{\\mathrm{new}}=l_{\\mathrm{old}}-\\Delta z_g\\sin\\theta"
+      }
+    ]
+  },
+  "ST:zero_shift": {
+    "zh": [
+      {
+        "tex": "\\theta_{\\text{зак}}=@st_zero@^\\circ",
+        "linear": "\\theta_{\\text{зак}}=@st_zero@^\\circ"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\theta_{\\text{зак}}=@st_zero@^\\circ",
+        "linear": "\\theta_{\\text{зак}}=@st_zero@^\\circ"
+      }
+    ]
+  },
+  "ST:peak": {
+    "zh": [
+      {
+        "tex": "l_{\\max}=@st_peak@\\,\\mathrm{m}",
+        "linear": "l_{\\max}=@st_peak@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "l_{\\max}=@st_peak@\\,\\mathrm{m}",
+        "linear": "l_{\\max}=@st_peak@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "ST:peak_lower": {
+    "zh": [
+      {
+        "tex": "l_{\\max}=@st_peak@\\,\\mathrm{m}",
+        "linear": "l_{\\max}=@st_peak@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "l_{\\max}=@st_peak@\\,\\mathrm{m}",
+        "linear": "l_{\\max}=@st_peak@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      }
+    ]
+  },
+  "ST:period_formula": {
+    "zh": [
+      {
+        "tex": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{g h}}",
+        "linear": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{g h}}"
+      },
+      {
+        "tex": "\\tau=@st_period@\\,\\mathrm{s}",
+        "linear": "\\tau=@st_period@\\,\\mathrm{s}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{g h}}",
+        "linear": "\\tau=\\frac{2\\pi k_{\\mathrm{eff}}}{\\sqrt{g h}}"
+      },
+      {
+        "tex": "\\tau=@st_period@\\,\\mathrm{s}",
+        "linear": "\\tau=@st_period@\\,\\mathrm{s}"
+      }
+    ]
+  },
+  "ST:roll_B": {
+    "zh": [
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\tau=@st_period@\\,\\mathrm{s}",
+        "linear": "\\tau=@st_period@\\,\\mathrm{s}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "h=@st_h@\\,\\mathrm{m}",
+        "linear": "h=@st_h@\\,\\mathrm{m}"
+      },
+      {
+        "tex": "\\tau=@st_period@\\,\\mathrm{s}",
+        "linear": "\\tau=@st_period@\\,\\mathrm{s}"
+      }
+    ]
+  },
+  "ST:acceleration": {
+    "zh": [
+      {
+        "tex": "\\ddot\\theta=-\\frac{g h}{k_{\\mathrm{eff}}^2}\\theta",
+        "linear": "\\ddot\\theta=-\\frac{g h}{k_{\\mathrm{eff}}^2}\\theta"
+      },
+      {
+        "tex": "|\\ddot\\theta|_{\\max}=@st_accel@\\,\\mathrm{rad/s^2}",
+        "linear": "|\\ddot\\theta|_{\\max}=@st_accel@\\,\\mathrm{rad/s^2}"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "\\ddot\\theta=-\\frac{g h}{k_{\\mathrm{eff}}^2}\\theta",
+        "linear": "\\ddot\\theta=-\\frac{g h}{k_{\\mathrm{eff}}^2}\\theta"
+      },
+      {
+        "tex": "|\\ddot\\theta|_{\\max}=@st_accel@\\,\\mathrm{rad/s^2}",
+        "linear": "|\\ddot\\theta|_{\\max}=@st_accel@\\,\\mathrm{rad/s^2}"
+      }
+    ]
+  },
+  "ST:radius": {
+    "zh": [
+      {
+        "tex": "r=CM",
+        "linear": "r = CM"
+      },
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h = z_c + r - z_g"
+      }
+    ],
+    "ru": [
+      {
+        "tex": "r=CM",
+        "linear": "r = CM"
+      },
+      {
+        "tex": "h=z_c+r-z_g",
+        "linear": "h = z_c + r - z_g"
+      }
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+[
+  {
+    "id": "approximation_lookup_0",
+    "ru": "приближе́ние",
+    "zh": "近似计算阶段",
+    "meaning": "近似计算阶段",
+    "aliases": [
+      "приближения",
+      "приближении",
+      "приближение"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_1",
+    "ru": "сопротивле́ние",
+    "zh": "阻力",
+    "meaning": "阻力",
+    "aliases": [
+      "сопротивление",
+      "сопротивления",
+      "сопротивлению"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_2",
+    "ru": "смо́ченная пове́рхность",
+    "zh": "湿表面积",
+    "meaning": "湿表面积",
+    "aliases": [
+      "смоченная поверхность",
+      "смоченной поверхности"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_3",
+    "ru": "тре́ние",
+    "zh": "摩擦",
+    "meaning": "摩擦",
+    "aliases": [
+      "трение",
+      "трения",
+      "трению"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_4",
+    "ru": "вя́зкость",
+    "zh": "黏性",
+    "meaning": "黏性",
+    "aliases": [
+      "вязкость",
+      "вязкости"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_5",
+    "ru": "шерохова́тость",
+    "zh": "粗糙度",
+    "meaning": "粗糙度",
+    "aliases": [
+      "шероховатость",
+      "шероховатости"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_6",
+    "ru": "буксиро́вочная мо́щность",
+    "zh": "拖曳功率",
+    "meaning": "拖曳功率",
+    "aliases": [
+      "буксировочная мощность",
+      "буксировочной мощности"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_7",
+    "ru": "дви́гатель",
+    "zh": "发动机、主机",
+    "meaning": "发动机、主机",
+    "aliases": [
+      "двигатель",
+      "двигателя",
+      "двигателем"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_8",
+    "ru": "стально́й ко́рпус",
+    "zh": "钢船体",
+    "meaning": "钢船体",
+    "aliases": [
+      "стальной корпус",
+      "стального корпуса"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_9",
+    "ru": "обору́дование",
+    "zh": "设备",
+    "meaning": "设备",
+    "aliases": [
+      "оборудование",
+      "оборудования",
+      "оборудованием"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_10",
+    "ru": "попра́вка",
+    "zh": "修正量、修正系数",
+    "meaning": "修正量、修正系数",
+    "aliases": [
+      "поправка",
+      "поправки",
+      "поправок",
+      "поправке"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_11",
+    "ru": "оста́точное сопротивле́ние",
+    "zh": "剩余阻力",
+    "meaning": "剩余阻力",
+    "aliases": [
+      "остаточное сопротивление",
+      "остаточного сопротивления"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_12",
+    "ru": "крива́я",
+    "zh": "曲线",
+    "meaning": "曲线",
+    "aliases": [
+      "кривая",
+      "кривой",
+      "кривую",
+      "кривые"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_13",
+    "ru": "диагра́мма",
+    "zh": "图表、曲线图",
+    "meaning": "图表、曲线图",
+    "aliases": [
+      "диаграмма",
+      "диаграммы",
+      "диаграмме"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_14",
+    "ru": "одновинтово́й",
+    "zh": "单桨的",
+    "meaning": "单桨的",
+    "aliases": [
+      "одновинтовой",
+      "одновинтового"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_15",
+    "ru": "надба́вка",
+    "zh": "附加量",
+    "meaning": "附加量",
+    "aliases": [
+      "надбавка",
+      "надбавку",
+      "надбавки"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_16",
+    "ru": "уточни́ть",
+    "zh": "修正、细化",
+    "meaning": "修正、细化",
+    "aliases": [
+      "уточнить",
+      "уточним",
+      "уточняем",
+      "уточняется"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_17",
+    "ru": "пересчита́ть",
+    "zh": "重新计算",
+    "meaning": "重新计算",
+    "aliases": [
+      "пересчитать",
+      "пересчитаем"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_18",
+    "ru": "вы́брать",
+    "zh": "选择",
+    "meaning": "选择",
+    "aliases": [
+      "выбрать",
+      "выбран",
+      "выбраны",
+      "выбранный",
+      "выбранные",
+      "выбираем"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_19",
+    "ru": "округле́ние",
+    "zh": "取整、舍入",
+    "meaning": "取整、舍入",
+    "aliases": [
+      "округление",
+      "округления",
+      "округленных"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_20",
+    "ru": "прираще́ние",
+    "zh": "增量",
+    "meaning": "增量",
+    "aliases": [
+      "приращение",
+      "приращения"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_21",
+    "ru": "отрица́тельный",
+    "zh": "负的",
+    "meaning": "负的",
+    "aliases": [
+      "отрицательный",
+      "отрицательно"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_22",
+    "ru": "фикси́ровать",
+    "zh": "固定",
+    "meaning": "固定",
+    "aliases": [
+      "фиксировать",
+      "фиксированы"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_23",
+    "ru": "ма́сштаб",
+    "zh": "比例、缩放比例",
+    "meaning": "比例、缩放比例",
+    "aliases": [
+      "масштаб",
+      "масштаба"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_24",
+    "ru": "потери",
+    "zh": "损失",
+    "meaning": "损失",
+    "aliases": [
+      "потери",
+      "потерь"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_lookup_25",
+    "ru": "запа́с водоизмеще́ния",
+    "zh": "排水量裕量",
+    "meaning": "排水量裕量",
+    "aliases": [
+      "запас водоизмещения",
+      "запаса водоизмещения",
+      "запасом водоизмещения"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_0",
+    "ru": "число́ Ре́йнольдса",
+    "zh": "雷诺数",
+    "meaning": "雷诺数",
+    "aliases": [
+      "число рейнольдса",
+      "числа рейнольдса"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_1",
+    "ru": "число́ Фру́да",
+    "zh": "弗劳德数",
+    "meaning": "弗劳德数",
+    "aliases": [
+      "число фруда",
+      "числа фруда"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_2",
+    "ru": "коэффицие́нт Но́рмана",
+    "zh": "诺曼系数",
+    "meaning": "诺曼系数",
+    "aliases": [
+      "коэффициент нормана",
+      "коэффициента нормана"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_3",
+    "ru": "выступа́ющие ча́сти",
+    "zh": "水下附体",
+    "meaning": "水下附体",
+    "aliases": [
+      "выступающие части",
+      "выступающих частей"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_4",
+    "ru": "смо́ченный",
+    "zh": "浸湿的、与水接触的",
+    "meaning": "浸湿的、与水接触的",
+    "aliases": [
+      "смоченный",
+      "смоченная",
+      "смоченной"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_5",
+    "ru": "пове́рхность",
+    "zh": "表面",
+    "meaning": "表面",
+    "aliases": [
+      "поверхность",
+      "поверхности"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_6",
+    "ru": "стально́й",
+    "zh": "钢制的",
+    "meaning": "钢制的",
+    "aliases": [
+      "стальной",
+      "стального",
+      "стальные",
+      "стальные"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_7",
+    "ru": "отде́льно",
+    "zh": "分别、单独",
+    "meaning": "分别、单独",
+    "aliases": [
+      "отдельно"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_8",
+    "ru": "достигну́ть",
+    "zh": "达到",
+    "meaning": "达到",
+    "aliases": [
+      "достигнуть",
+      "достичь"
+    ],
+    "study": false
+  },
+  {
+    "id": "approximation_extra_9",
+    "ru": "трубопрово́д",
+    "zh": "管路",
+    "meaning": "管路",
+    "aliases": [
+      "трубопровод",
+      "трубопроводы",
+      "трубопроводов"
+    ],
+    "study": false
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "id": "Q14",
+  "title": {
+    "zh": "14 · 货舱能装满吗？",
+    "ru": "14 · Мо́жно ли запо́лнить трюм?"
+  },
+  "summary": {
+    "params": {
+      "loaded": 16,
+      "height": 2
+    },
+    "phase": "limit"
+  },
+  "initial": {
+    "loaded": 0
+  },
+  "characters_per_second": 25,
+  "busy_policy": "finish",
+  "groups": [
+    {
+      "id": "Q14",
+      "title": {
+        "zh": "质量与舱容",
+        "ru": "Ма́сса и объём"
+      },
+      "beats": [
+        {
+          "id": "Q14:example",
+          "text": "例如：舱容32立方米，最多装16吨；每吨货占1立方米。",
+          "words": {
+            "zh": "例如：舱容32立方米，最多装16吨；每吨货占1立方米。",
+            "ru": "Приме́р: трюм — 32 кубоме́тра, преде́л — 16 тонн. То́нна гру́за занима́ет оди́н кубоме́тр."
+          },
+          "phase": "load",
+          "lines": [],
+          "action": {
+            "params": {
+              "loaded": 16
+            },
+            "duration": 5
+          }
+        },
+        {
+          "id": "Q14:reason",
+          "text": "16吨货只占16立方米。质量已到上限，舱里仍有空位。",
+          "words": {
+            "zh": "16吨货只占16立方米。质量已到上限，舱里仍有空位。",
+            "ru": "Уже́ 16 тонн, но за́нято то́лько 16 кубоме́тров. Ме́сто ещё есть."
+          },
+          "phase": "limit",
+          "lines": []
+        }
+      ]
+    }
+  ],
+  "question": {
+    "zh": "货物每吨占的空间，比船每吨允许载货量对应的舱容小。能把货舱装满吗？",
+    "ru": "Мо́жно ли запо́лнить трюм, е́сли уде́льная погру́зочная кубату́ра гру́за ме́ньше уде́льной грузовмести́мости су́дна?"
+  },
+  "answer": {
+    "zh": "不能，货物质量已达上限。",
+    "ru": "Нет. Ма́сса гру́за уже́ на преде́ле."
+  },
+  "condition": {
+    "zh": "原题条件：μгр < μс",
+    "ru": "Усло́вие: μгр < μс"
+  },
+  "question_speech": "Мо́жно ли по́лностью запо́лнить грузовы́е помеще́ния су́дна, е́сли уде́льная погру́зочная кубату́ра гру́за ме́ньше уде́льной грузовмести́мости су́дна?",
+  "source": {
+    "question": "5p/Вопросы для подготовки по первой недели обучения.docx #14",
+    "module": "5p/Modul_5. Виды вместимости.docx §4.2",
+    "example": "32 m³ capacity, 16 t cargo limit, 1 m³/t stowage factor are authored teaching values, not teacher-given numbers.",
+    "geometry": "8 × 2 × 2 m net stowage envelope; each 1 m³ stowage cell contains a rigid pallet/crate unit. Structure outside envelope. No hydrostatic or weight-design inference."
+  },
+  "question_original": "Можно ли при погрузке груза с μгр< μс  полностью заполнить грузовые помещения судна?"
+}
